@@ -15,7 +15,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('kanban'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: "Backlog", iconClassName: this.getIconClassName(), dataField: "new", maxItems: 6 },

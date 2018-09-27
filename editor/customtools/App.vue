@@ -13,7 +13,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('editor'),
+                getWidth: '90%',
                 tools: 'datetime | print | clear | backcolor | font | bold italic underline'
             }
         },

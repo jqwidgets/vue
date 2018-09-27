@@ -20,7 +20,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('treegrid'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source, {
                     beforeLoadComplete: (records) => {
                         let notes = ['Education includes a BA in psychology from Colorado State University in 1970.  She also completed \'The Art of the Cold Call.\'  Nancy is a member of Toastmasters International.',

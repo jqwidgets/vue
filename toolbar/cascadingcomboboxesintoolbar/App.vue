@@ -14,7 +14,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('toolbar'),
+                getWidth: '90%',
                 tools: 'combobox | combobox',
                 countries: ['Japan', 'UK', 'USA'],
                 JapaneseCities: ['Kobe', 'Kyoto', 'Tokyo'],

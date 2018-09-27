@@ -19,7 +19,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('treegrid'),
+                getWidth: '90%',
                 columns: [
                     { text: 'FirstName', columnGroup: 'Name', dataField: 'FirstName', width: 150 },
                     { text: 'LastName', columnGroup: 'Name', dataField: 'LastName', width: 150 },

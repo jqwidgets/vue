@@ -12,7 +12,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('barGauge'),
+                getWidth: '90%',
                 tooltip: {
                     visible: true,
                     formatFunction: (value) => {

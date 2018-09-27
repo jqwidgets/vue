@@ -20,7 +20,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('treegrid'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 localization: getLocalization('de'),
                 columns: [

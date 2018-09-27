@@ -15,7 +15,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('barGauge'),
+                getWidth: '90%',
                 values: [12, -35, -14.78, 29.5, 23.124, 41],
                 labels: {
                     formatFunction: (value) => {

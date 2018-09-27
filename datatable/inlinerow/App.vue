@@ -21,7 +21,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('dataTable'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'Order ID', editable: false, dataField: 'OrderID', width: 200 },

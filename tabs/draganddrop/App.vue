@@ -36,7 +36,7 @@
         },     
         data: function () {
             return {
-                getWidth: getWidth('tabs')
+                getWidth: '90%'
             }
         }
     }

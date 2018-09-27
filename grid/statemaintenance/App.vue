@@ -31,7 +31,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('grid'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'Ship Name', filtercondition: 'starts_with', datafield: 'ShipName', width: 250 },

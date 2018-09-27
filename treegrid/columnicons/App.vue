@@ -18,7 +18,7 @@
         },
         data: function () {
             return {
-                width: getWidth('treegrid'),
+                width: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source, {
                     beforeLoadComplete: (records) => {
                         for (let i = 0; i < records.length; i++) {

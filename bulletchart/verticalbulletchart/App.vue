@@ -14,7 +14,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('bulletChart'),
+                getWidth: '90%',
                 ranges: [
                     { startValue: 0, endValue: 200, color: '#000000', opacity: 0.5 },
                     { startValue: 200, endValue: 250, color: '#000000', opacity: 0.3 },

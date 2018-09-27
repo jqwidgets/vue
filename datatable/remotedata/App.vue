@@ -13,7 +13,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('dataTable'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source, {
                     formatData: (data) => {
                         data.featureClass = 'P';

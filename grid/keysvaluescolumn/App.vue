@@ -20,7 +20,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('grid'),
+                getWidth: '90%',
                 ordersAdapter: new jqx.dataAdapter(this.ordersSource),
                 columns: [
                     { text: 'Employee Name', datafield: 'EmployeeID', displayfield: 'EmployeeName', columntype: 'dropdownlist', width: 150 },

@@ -24,7 +24,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('toolbar'),
+                getWidth: '90%',
                 tools: 'input | input | dropdownlist | custom'
             }
         },

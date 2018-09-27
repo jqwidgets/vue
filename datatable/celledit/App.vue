@@ -22,7 +22,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('dataTable'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'Freight', dataField: 'Freight', cellsFormat: 'f', cellsAlign: 'right', align: 'right', width: 250 },

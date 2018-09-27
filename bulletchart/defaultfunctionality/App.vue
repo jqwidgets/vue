@@ -15,7 +15,7 @@
         data: function () {
             return {
 
-                getWidth: getWidth('bulletChart'),
+                getWidth: '90%',
                 title: 'Revenue 2014 YTD',
                 description: '(U.S. $ in thousands)',
                 ranges: [

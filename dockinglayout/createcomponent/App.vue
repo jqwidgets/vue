@@ -84,7 +84,7 @@
             JqxDockingLayout
         },
         mounted: function () {
-            this.$refs.myDockingLayout.createComponent({ width: getWidth('dockingLayout'), height: 600, layout: this.generateLayout() });
+            this.$refs.myDockingLayout.createComponent({ width: '90%', height: 600, layout: this.generateLayout() });
         },
         methods: {
             generateLayout: function () {

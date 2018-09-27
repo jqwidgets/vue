@@ -36,7 +36,7 @@
         },
         mounted: function () {
             const settings = {
-                width: getWidth('treegrid'),
+                width: '90%',
                 pageable: "true",
                 columnsResize: "true",
                 ready: this.ready,

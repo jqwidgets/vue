@@ -15,7 +15,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('dataTable'),
+                getWidth: '90%',
                 source: {
                     dataFields: [
                         { name: 'FirstName', type: 'string' },

@@ -46,7 +46,7 @@
             return {
                 dateSource: ['Short Date', 'Long Date', 'Long date, Short Time', 'Long date, Long Time', 'Month/Year', 'Month/Day', 'Custom'],
                 priceSource:  ['n', 'f1', 'f2', 'f3', 'c1', 'c2', 'c3', 'p', 'p2', 'p3'],
-                width: getWidth('treegrid'),
+                width: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),                
                 columns: [
                     { text: 'Order Name', dataField: "name", align: 'center', width: 200 },

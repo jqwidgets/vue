@@ -12,7 +12,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('grid'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'Date', datafield: 'Date', cellsformat: 'D', width: 250 },

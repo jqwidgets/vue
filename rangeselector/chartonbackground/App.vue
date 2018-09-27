@@ -34,7 +34,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('rangeselector'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source, {
                     async: false,
                     autoBind: true,

@@ -14,7 +14,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('barGauge'),
+                getWidth: '90%',
                 players: [25, 46, 6, 55, 14, 22, 57, 40, 87, 20],
                 title: { text: 'Ranking', subtitle: '(boundary - 33 points)' },
                 labels: {

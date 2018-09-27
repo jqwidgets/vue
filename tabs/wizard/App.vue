@@ -68,7 +68,7 @@
         data: function () {
             return {
                 source: this.getSource(),
-                getWidth: getWidth('tabs')
+                getWidth: '90%'
             }
         },
         mounted: function () {

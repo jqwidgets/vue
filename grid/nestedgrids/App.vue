@@ -15,7 +15,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('grid'),
+                getWidth: '90%',
                 employeesAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'Photo', width: 50, cellsrenderer: this.photoRenderer },

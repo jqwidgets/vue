@@ -25,7 +25,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('editor'),
+                getWidth: '90%',
                 tools: 'bold italic underline | font size | left center right | outdent indent'
             }
         },

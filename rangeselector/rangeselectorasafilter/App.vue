@@ -41,8 +41,8 @@
         },
         data: function () {
             return {
-                getWidthGrid: getWidth('grid'),
-                getWidthRange: getWidth('rangeselector'),
+                getWidthGrid: '90%',
+                getWidthRange: '90%',
                 min: new Date(1798, 12, 31),
                 max: new Date(1900, 1, 1),
                 range: { from: new Date(1800, 1, 1), to: new Date(1900, 1, 1) },

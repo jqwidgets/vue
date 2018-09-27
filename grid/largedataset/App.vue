@@ -14,7 +14,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('grid'),
+                getWidth: '90%',
                 source: {
                     localdata: generatedata(30000),
                     datafields:

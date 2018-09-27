@@ -58,7 +58,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('grid'),
+                getWidth: '90%',
                 dataAdapter: this.getAdapter(),
                 columns: [
                     { text: 'First Name', columntype: 'textbox', datafield: 'firstname', width: 120 },

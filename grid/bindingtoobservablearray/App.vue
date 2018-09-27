@@ -28,7 +28,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('grid'),
+                getWidth: '90%',
                 columns: [
                     { text: 'Name', datafield: 'firstname', width: 120 },
                     { text: 'Last Name', datafield: 'lastname', width: 120 },

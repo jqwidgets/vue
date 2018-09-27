@@ -23,7 +23,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('rangeselector'),
+                getWidth: '90%',
                 min: new Date(2014, 5, 1, 0, 0, 0),
                 max: new Date(2014, 5, 1, 24, 0, 0),
                 range: { from: new Date(2014, 5, 1, 4, 0, 0), to: new Date(2014, 5, 1, 12, 0, 0) },

@@ -25,7 +25,7 @@
         },
         data: function () {
             return {
-				getWidth: getWidth('scheduler'),
+				getWidth: '90%',
                 date: new jqx.date(2016, 11, 23),
                 appointmentDataFields: 
                 {

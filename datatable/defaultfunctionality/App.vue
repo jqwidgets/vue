@@ -131,7 +131,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('dataTable'),
+                getWidth: '90%',
                 columns: [
                     { text: 'First Name', dataField: 'First Name', width: 200 },
                     { text: 'Last Name', dataField: 'Last Name', width: 200 },

@@ -45,7 +45,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('barGauge'),
+                getWidth: '90%',
                 customColorScheme: {
                     name: 'rgb',
                     colors: ['#307DD7', '#89A54E', '#AA4643']

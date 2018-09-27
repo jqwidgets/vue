@@ -50,7 +50,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('dataTable')
+                getWidth: '90%'
             }
         },
         mounted: function () {

@@ -25,7 +25,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('editor'),
+                getWidth: '90%',
                 localization: {
                     'bold': 'Fett',
                     'italic': 'Kursiv',

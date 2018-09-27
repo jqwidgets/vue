@@ -15,7 +15,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('grid'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'Link', datafield: 'link', width: 550, cellsrenderer: this.linkrenderer },

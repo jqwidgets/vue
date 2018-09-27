@@ -14,7 +14,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('grid'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'Company Name', datafield: 'CompanyName', width: 250 },
@@ -40,7 +40,7 @@
                 root: 'entry',
                 record: 'content',
                 id: 'm\\:properties>d\\:CustomerID',
-                url: '../sampledata/customers.xml'
+                url: './customers.xml'
             };
         }
     }

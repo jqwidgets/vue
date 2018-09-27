@@ -89,7 +89,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('dockingLayout'),
+                getWidth: '90%',
                 layout: [
                     {
                         type: 'layoutGroup',

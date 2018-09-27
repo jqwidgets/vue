@@ -41,7 +41,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('docking')
+                getWidth: '90%'
             }
         },
         mounted: function () {

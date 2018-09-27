@@ -265,7 +265,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('ribbon')
+                getWidth: '90%'
             }
         },
         mounted: function () {

@@ -115,7 +115,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('dataTable'),
+                getWidth: '90%',
                 source: [
                     'JavaScript Certification - Welcome to our network',
                     'Business Challenges via Web take a part',

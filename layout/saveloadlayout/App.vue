@@ -53,7 +53,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('layout'),
+                getWidth: '90%',
                 layout: [{
                     type: 'layoutGroup',
                     orientation: 'horizontal',

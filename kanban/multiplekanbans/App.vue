@@ -32,7 +32,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('kanban'),
+                getWidth: '90%',
                 staff: [
                     { id: 0, name: 'No name', image: '../../../images/common.png', common: true },
                     { id: 1, name: 'Andrew Fuller', image: '../../../images/andrew.png' },

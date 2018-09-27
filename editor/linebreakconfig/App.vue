@@ -12,7 +12,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('editor')
+                getWidth: '90%'
             }
         }
     }

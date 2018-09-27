@@ -26,7 +26,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('toolbar'),
+                getWidth: '90%',
                 tools: 'toggleButton toggleButton toggleButton | toggleButton | dropdownlist combobox | input'
             }
         },

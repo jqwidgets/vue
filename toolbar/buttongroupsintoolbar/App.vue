@@ -14,7 +14,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('toolbar'),
+                getWidth: '90%',
                 tools: 'button button button | button button button | button button | button'
             }
         },

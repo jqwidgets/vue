@@ -19,7 +19,7 @@
         },
         data: function () {
             return {
-                width: getWidth('treegrid'),
+                width: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: "Name", align: "center", dataField: "name", width: 350 },

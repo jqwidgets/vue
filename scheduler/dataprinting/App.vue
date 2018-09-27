@@ -22,7 +22,7 @@
         },
         data: function () {
             return {
-				getWidth: getWidth('scheduler'),
+				getWidth: '90%',
                 exportSettings: {
                     fileName: null
                 },

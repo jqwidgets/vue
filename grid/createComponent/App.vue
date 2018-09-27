@@ -29,7 +29,7 @@
             const dataAdapter = new jqx.dataAdapter(source);
 
             const settings = {
-                width: getWidth('grid'),
+                width: '90%',
                 source: dataAdapter,
                 pageable: true,
                 autoheight: true,

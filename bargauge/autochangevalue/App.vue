@@ -14,7 +14,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('barGauge')
+                getWidth: '90%'
             }
         },
         methods: {

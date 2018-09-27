@@ -31,7 +31,7 @@
 
             this.settings =
                 {
-                    width: getWidth('dataTable'),
+                    width: '90%',
                     source: dataAdapter,
                     altRows: true,
                     sortable: true,

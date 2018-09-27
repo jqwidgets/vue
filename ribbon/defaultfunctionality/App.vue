@@ -333,7 +333,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('ribbon'),
+                getWidth: '90%',
                 gridData: this.manageGridData(),
                 fontSizeListSource: [8, 9, 10, 11, 12, 14, 18, 20, 22, 24],
                 changeCaseListSource: ['Sentence Case', 'lowercase', 'UPPERCASE', 'Capitalize Each Word'],

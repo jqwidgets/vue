@@ -14,7 +14,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('dataTable'),
+                getWidth: '90%',
                 source: {
                     dataType: 'xml',
                     dataFields: [

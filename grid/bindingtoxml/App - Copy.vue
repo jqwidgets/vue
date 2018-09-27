@@ -1,15 +1,16 @@
-<template>
-    <JqxDataTable :width="getWidth" :source="dataAdapter" :columns="columns"
-                  :columnsResize="true" :pageable="true" :pagerButtonsCount="10">
-    </JqxDataTable>
+﻿<template>
+    <div style="font-size: 13px; font-family: Verdana; float: left;">
+        <JqxGrid :width="getWidth" :source="dataAdapter" :columns="columns" :columnsresize="true">
+        </JqxGrid>
+    </div>
 </template>
 
 <script>
-    import JqxDataTable from "jqwidgets-scripts/jqwidgets-vue/vue_jqxdatatable.vue";
+    import JqxGrid from "jqwidgets-scripts/jqwidgets-vue/vue_jqxgrid.vue";
 
     export default {
         components: {
-            JqxDataTable
+            JqxGrid
         },
         data: function () {
             return {
@@ -17,8 +18,8 @@
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'Company Name', datafield: 'CompanyName', width: 250 },
-                    { text: 'Contact Name', datafield: 'ContactName', width: 250 },
-                    { text: 'Contact Title', datafield: 'ContactTitle', width: 250 },
+                    { text: 'Contact Name', datafield: 'ContactName', width: 150 },
+                    { text: 'Contact Title', datafield: 'ContactTitle', width: 180 },
                     { text: 'City', datafield: 'City', width: 120 },
                     { text: 'Postal Code', datafield: 'PostalCode', width: 90 },
                     { text: 'Country', datafield: 'Country', width: 100 }
@@ -42,7 +43,7 @@
                 url: '../sampledata/customers.xml'
             };
         }
-    };
+    }
 </script>
 
 <style>

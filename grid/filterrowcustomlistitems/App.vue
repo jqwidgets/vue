@@ -13,7 +13,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('grid'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'Name', filtertype: 'list', filteritems: this.items, datafield: 'name', width: 200 },

@@ -13,7 +13,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('dataTable'),
+                getWidth: '90%',
                 source: {
                     localData: generatedata(200, false),
                     dataType: 'array',

@@ -26,7 +26,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('tabs'),
+                getWidth: '90%',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 dataAdapter2: new jqx.dataAdapter(this.source2),
                 columns: [

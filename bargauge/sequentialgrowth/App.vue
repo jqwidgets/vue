@@ -16,7 +16,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('barGauge'),
+                getWidth: '90%',
                 arrayOfValues: [20, 0, 0, 0],
                 labels: { precision: 0, indent: 15, connectorWidth: 1 }
             }

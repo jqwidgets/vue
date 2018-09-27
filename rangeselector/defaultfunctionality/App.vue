@@ -31,7 +31,7 @@
         },
         data: function () {
             return {
-                getWidth: getWidth('rangeselector')
+                getWidth: '90%'
             }
         },
         methods: {
