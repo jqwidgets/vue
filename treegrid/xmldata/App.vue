@@ -36,7 +36,7 @@
             }
         },        
         beforeCreate: function () {
-            let url = "../sampledata/employees.xml";
+            let url = '../sampledata/employees.xml';
             this.source = {
                 dataType: "xml",
                 dataFields: [
