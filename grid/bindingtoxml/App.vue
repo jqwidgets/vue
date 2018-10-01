@@ -40,11 +40,8 @@
                 root: 'entry',
                 record: 'content',
                 id: 'm\\:properties>d\\:CustomerID',
-                url: './customers.xml'
+                url: 'customers.xml'
             };
         }
     }
 </script>
-
-<style>
-</style>
