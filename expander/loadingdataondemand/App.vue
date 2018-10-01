@@ -17,7 +17,7 @@
             JqxExpander
         },
         mounted: function () {
-            fetch('../sampledata/jqxexpanderxmldata.xml')
+            fetch('jqxexpanderxmldata.xml')
                 .then(response => response.text().then(data => this.populateExpader(data)));
         },
         methods: {

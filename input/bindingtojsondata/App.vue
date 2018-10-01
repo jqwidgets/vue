@@ -33,7 +33,7 @@
                     { name: 'CompanyName' },
                     { name: 'ContactName' }
                 ],
-                url: '../sampledata/customers.txt'
+                url: 'customers.txt'
             }
         },
         methods: {

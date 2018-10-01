@@ -38,7 +38,7 @@
                       { name: 'Population' },
                       { name: 'Rate' }
                   ],
-                  url: '../sampledata/homeprices.txt'
+                  url: 'homeprices.txt'
               };
             this.dataAdapter = new $.jqx.dataAdapter(source, { async: false, autoBind: true, loadError: function (xhr, status, error) { alert('Error loading "' + source.url + '" : ' + error); } });
             

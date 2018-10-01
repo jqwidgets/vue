@@ -114,7 +114,7 @@
                     { name: 'DebtPercent' },
                     { name: 'Debt' }
                 ],
-                url: '../sampledata/gdp_dept_2010.txt'
+                url: 'gdp_dept_2010.txt'
             };
         },
         methods: {

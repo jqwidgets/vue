@@ -34,7 +34,7 @@
                 record: 'Employee',
                 id: 'EmployeeID',
                 async: false,
-                url: '../sampledata/employees.xml'
+                url: 'employees.xml'
             };
 
             const employeesAdapter = new jqx.dataAdapter(employeesSource, {
@@ -71,7 +71,7 @@
                 root: 'entry',
                 record: 'content',
                 id: 'm\\:properties>d\\:OrderID',
-                url: '../sampledata/orders.xml',
+                url: 'orders.xml',
                 pager: (pagenum, pagesize, oldpagenum) => {
                     // callback called when a page or page size is changed.
                 }

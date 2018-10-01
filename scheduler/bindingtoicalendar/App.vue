@@ -40,7 +40,7 @@
             this.source =
                 {
                     dataType: 'ics',
-                    url: '../sampledata/icalendar.txt'
+                    url: 'icalendar.txt'
                 };
 
             this.dataAdapter = new jqx.dataAdapter(this.source);

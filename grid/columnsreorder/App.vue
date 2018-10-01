@@ -39,7 +39,7 @@
                     { name: 'protein' }
                 ],
                 id: 'id',
-                url: '../sampledata/beverages.txt'
+                url: 'beverages.txt'
             };
         },
         methods: {

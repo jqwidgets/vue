@@ -44,7 +44,7 @@
                     { name: 'ContactName' }
                 ],
                 id: 'id',
-                url: '../sampledata/customers.txt',
+                url: 'customers.txt',
                 async: false
             };
         },

@@ -38,7 +38,7 @@
                     { name: 'protein', type: 'string' }
                 ],
                 id: 'id',
-                url: '../sampledata/beverages.txt'
+                url: 'beverages.txt'
             };
         }
     }

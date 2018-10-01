@@ -74,7 +74,7 @@
                     { name: 'S&P 500' },
                     { name: 'NASDAQ' }
                 ],
-                url: '../sampledata/nasdaq_vs_sp500.txt'
+                url: 'nasdaq_vs_sp500.txt'
             };
         }
     }

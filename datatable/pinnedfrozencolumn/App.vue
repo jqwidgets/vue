@@ -28,7 +28,7 @@
                     root: 'entry',
                     record: 'content',
                     id: 'm\\:properties>d\\:OrderID',
-                    url: '../sampledata/orders.xml'
+                    url: 'orders.xml'
                 },
                 columns: [
                     { text: 'Ship Name', dataField: 'ShipName', pinned: true, width: 300 },

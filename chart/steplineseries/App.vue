@@ -69,7 +69,7 @@
                         { name: 'Volume' },
                         { name: 'AdjClose' }
                     ],
-                    url: '../sampledata/TSLA_stockprice.csv'
+                    url: 'TSLA_stockprice.csv'
                 };
 
             this.months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];

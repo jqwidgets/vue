@@ -28,7 +28,7 @@
                     record: 'Employee',
                     id: 'EmployeeID',
                     dataType: 'xml',
-                    url: '../sampledata/employees.xml'
+                    url: 'employees.xml'
                 },
                 columns: [
                     { text: 'First Name', dataField: 'FirstName', width: 250 },
@@ -54,7 +54,7 @@
                 root: 'Orders',
                 record: 'Order',
                 dataType: 'xml',
-                url: '../sampledata/orderdetails.xml'
+                url: 'orderdetails.xml'
             };
 
             this.ordersDataAdapter = new jqx.dataAdapter(ordersSource, { autoBind: true });

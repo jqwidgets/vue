@@ -40,7 +40,7 @@
                     root: 'Employees',
                     record: 'Employee',
                     id: 'EmployeeID',
-                    url: '../sampledata/employees.xml',
+                    url: 'employees.xml',
                     async: false
                 };
 
@@ -81,7 +81,7 @@
                     root: 'entry',
                     record: 'content',
                     id: 'm\\:properties>d\\:OrderID',
-                    url: '../sampledata/orders.xml',
+                    url: 'orders.xml',
                     pager: (pagenum, pagesize, oldpagenum) => {
                         // callback called when a page or page size is changed.
                     }

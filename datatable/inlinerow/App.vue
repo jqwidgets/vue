@@ -84,7 +84,7 @@
                 record: 'Order',
                 dataType: 'xml',
                 id: 'OrderID',
-                url: '../sampledata/orderdetails.xml'
+                url: 'orderdetails.xml'
             };
         },
         methods: {

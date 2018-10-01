@@ -91,7 +91,7 @@
                     { name: 'min' },
                     { name: 'max' },
                 ],
-                url: '../sampledata/weather_geneva.txt'
+                url: 'weather_geneva.txt'
             };
 
             this.recordsArray = [];

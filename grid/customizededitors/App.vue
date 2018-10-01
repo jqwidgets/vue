@@ -65,7 +65,7 @@
                 root: 'entry',
                 record: 'content',
                 id: 'm\\:properties>d\\:OrderID',
-                url: '../sampledata/orders.xml'
+                url: 'orders.xml'
             };
         }
     }

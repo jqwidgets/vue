@@ -85,7 +85,7 @@
                         { name: 'Population' },
                         { name: 'Rate' }
                     ],
-                    url: '../sampledata/homeprices.txt'
+                    url: 'homeprices.txt'
                 };
         }
     }

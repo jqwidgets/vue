@@ -40,7 +40,7 @@
                     { name: 'ProductName', type: 'string' },
                     { name: 'Address', type: 'string' }
                 ],
-                url: '../sampledata/orderdetailsextended.xml',
+                url: 'orderdetailsextended.xml',
                 root: 'DATA',
                 record: 'ROW'
             };

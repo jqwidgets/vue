@@ -68,7 +68,7 @@
                 root: 'entry',
                 record: 'content',
                 id: { name: 'OrderID', map: 'm\\:properties>d\\:OrderID' },
-                url: '../sampledata/orders.xml',
+                url: 'orders.xml',
                 sortcolumn: 'ShipName',
                 sortdirection: 'asc'
             };

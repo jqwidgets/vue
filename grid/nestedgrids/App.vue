@@ -43,7 +43,7 @@
                 record: 'Employee',
                 id: 'EmployeeID',
                 datatype: 'xml',
-                url: '../sampledata/employees.xml'
+                url: 'employees.xml'
             };
 
             const ordersSource = {
@@ -58,7 +58,7 @@
                     root: 'Orders',
                     record: 'Order',
                     datatype: 'xml',
-                    url: '../sampledata/orderdetails.xml'
+                    url: 'orderdetails.xml'
                 }
 
             this.ordersDataAdapter = new jqx.dataAdapter(ordersSource, { autoBind: true });

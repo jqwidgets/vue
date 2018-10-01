@@ -34,7 +34,7 @@
                     { name: 'Population', type: 'float' },
                     { name: 'Rate', type: 'float' }
                 ],
-                url: '../sampledata/homeprices.txt'
+                url: 'homeprices.txt'
             };
         }
     };

@@ -36,7 +36,7 @@
                 ],
                 root: 'channel',
                 record: 'item',
-                url: '../sampledata/feed.xml'
+                url: 'feed.xml'
             };
         },
         methods: {

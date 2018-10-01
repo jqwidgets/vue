@@ -48,7 +48,7 @@
                         { name: 'year', type: 'date' }
                     ],
                     id: 'id',
-                url: '../sampledata/discoveries.txt'
+                url: 'discoveries.txt'
                 };
         },
         methods: {

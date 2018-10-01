@@ -74,7 +74,7 @@
                     { name: 'Browser' },
                     { name: 'Share' }
                 ],
-                url: '../sampledata/desktop_browsers_share_dec2011.txt'
+                url: 'desktop_browsers_share_dec2011.txt'
             };
         }
     };

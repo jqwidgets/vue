@@ -31,7 +31,7 @@
                         parentDataField: { name: 'ParentEmployeeKey' }
                     },
                 id: 'EmployeeKey',
-                url: '../sampledata/employeesadv.csv'
+                url: 'employeesadv.csv'
             };
         },
         mounted: function () {

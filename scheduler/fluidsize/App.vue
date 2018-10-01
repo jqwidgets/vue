@@ -52,7 +52,7 @@
                         { name: 'end', type: 'date', format: 'yyyy-MM-dd HH:mm' }
                     ],
                     id: 'id',
-                    url: '../sampledata/appointments.txt'
+                    url: 'appointments.txt'
                 };
 
             this.dataAdapter = new jqx.dataAdapter(this.source);

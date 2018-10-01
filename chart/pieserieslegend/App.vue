@@ -54,7 +54,7 @@
                         { name: 'Browser' },
                         { name: 'Share' }
                     ],
-                    url: '../sampledata/mobile_browsers_share_dec2011.txt'
+                    url: 'mobile_browsers_share_dec2011.txt'
                 };
         }
     };

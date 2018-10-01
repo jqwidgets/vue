@@ -29,7 +29,7 @@
                     { name: 'S&P 500', type: 'float' },
                     { name: 'NASDAQ', type: 'float' }
                 ],
-                url: '../sampledata/nasdaq_vs_sp500.txt'
+                url: 'nasdaq_vs_sp500.txt'
             };
         }
     }

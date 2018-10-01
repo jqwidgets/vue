@@ -61,7 +61,7 @@
                         { name: 'Volume' },
                         { name: 'AdjClose' }
                     ],
-                    url: '../sampledata/TSLA_stockprice.csv'
+                    url: 'TSLA_stockprice.csv'
                 };
         },
         methods: {

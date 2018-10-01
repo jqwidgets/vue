@@ -159,7 +159,7 @@
                     { name: 'SPVolume' },
                     { name: 'SPAdjClose' }
                 ],
-                url: '../sampledata/nasdaq_vs_sp500_detailed.txt'
+                url: 'nasdaq_vs_sp500_detailed.txt'
             };
 
             this.source2 = {
@@ -169,7 +169,7 @@
                     { name: 'S&P 500' },
                     { name: 'NASDAQ' }
                 ],
-                url: '../sampledata/nasdaq_vs_sp500.txt'
+                url: 'nasdaq_vs_sp500.txt'
             };
         },
         methods: {

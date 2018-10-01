@@ -74,7 +74,7 @@
                         { name: 'Quarter' },
                         { name: 'Change' }
                     ],
-                    url: '../sampledata/us_gdp_2008-2013.csv'
+                    url: 'us_gdp_2008-2013.csv'
                 };
         }
     };

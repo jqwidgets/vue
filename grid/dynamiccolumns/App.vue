@@ -20,7 +20,7 @@
 
             const source = {
                 datatype: 'json',
-                url: '../sampledata/rows_and_columns.txt'
+                url: 'rows_and_columns.txt'
             };
 
             const dataAdapter = new jqx.dataAdapter(source, {

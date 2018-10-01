@@ -48,7 +48,7 @@
                     parentDataField: { name: 'ParentID' }
                 },
                 id: 'Id',
-                url: '../sampledata/locations.tsv'
+                url: 'locations.tsv'
             };                  
         },
         methods: {

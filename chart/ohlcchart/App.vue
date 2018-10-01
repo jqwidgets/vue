@@ -118,7 +118,7 @@
                         { name: 'NQVolume' },
                         { name: 'NQAdjClose' }
                     ],
-                    url: '../sampledata/nasdaq_vs_sp500_detailed.txt'
+                    url: 'nasdaq_vs_sp500_detailed.txt'
                 };
         },
         methods: {

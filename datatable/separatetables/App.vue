@@ -59,7 +59,7 @@
                     record: 'Employee',
                     id: 'EmployeeID',
                     dataType: 'xml',
-                    url: '../sampledata/employees.xml',
+                    url: 'employees.xml',
                     async: false
                 };
 
@@ -92,7 +92,7 @@
                         root: 'Orders',
                         record: 'Order',
                         dataType: 'xml',
-                        url: '../sampledata/orderdetails.xml',
+                        url: 'orderdetails.xml',
                         async: false
                     };
                 // create orders DataAdapter.

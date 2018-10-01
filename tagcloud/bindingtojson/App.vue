@@ -20,7 +20,7 @@
                         { name: 'calories' },
                         { name: 'name' }
                     ],
-                    url: '../sampledata/beverages.txt'
+                    url: 'beverages.txt'
                 };
 
             this.dataAdapter = new jqx.dataAdapter(source);

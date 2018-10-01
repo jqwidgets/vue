@@ -65,7 +65,7 @@
                     { name: 'West' },
                     { name: 'UnitedStates' }
                 ],
-                url: '../sampledata/us_homeownership_rate.csv'
+                url: 'us_homeownership_rate.csv'
             };
         },
         methods: {

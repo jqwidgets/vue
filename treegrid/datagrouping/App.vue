@@ -51,7 +51,7 @@
                 root: 'entry',
                 record: 'content',
                 id: { name: 'CustomerID', map: 'm\\:properties>d\\:CustomerID' },
-                url: '../sampledata/customers.xml'
+                url: 'customers.xml'
             };
         },
         methods: {

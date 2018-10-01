@@ -63,7 +63,7 @@
                     { name: 'SearchPaid' },
                     { name: 'SearchNonPaid' }
                 ],
-                url: '../sampledata/website_analytics.txt'
+                url: 'website_analytics.txt'
             };
         }
     };

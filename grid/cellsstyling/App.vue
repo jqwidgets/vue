@@ -43,7 +43,7 @@
                 root: 'Products',
                 record: 'Product',
                 id: 'ProductID',
-                url: '../sampledata/products.xml'
+                url: 'products.xml'
             };
         },
         methods: {

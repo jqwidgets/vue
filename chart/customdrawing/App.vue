@@ -31,7 +31,7 @@
                     { name: 'eu' }
                 ],
                 /* EU map definitions in JSON derived from  http://commons.wikimedia.org/wiki/File:116_000_map_of_Europe.svg */
-                url: '../sampledata/europe.txt'
+                url: 'europe.txt'
             };
         },
         methods: {

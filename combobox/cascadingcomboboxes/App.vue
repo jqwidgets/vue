@@ -47,7 +47,7 @@
                     { name: 'CompanyName' },
                     { name: 'CustomerID' }
                 ],
-                url: '../sampledata/customers.txt'
+                url: 'customers.txt'
             };
 
             this.ordersSource = {
@@ -61,7 +61,7 @@
                     { name: 'ShipCountry' },
                     { name: 'ShipAddress' }
                 ],
-                url: '../sampledata/orders.txt'
+                url: 'orders.txt'
             };
         },
         methods: {

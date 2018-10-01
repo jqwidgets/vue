@@ -38,7 +38,7 @@
                     { name: 'total', type: 'float' }
                 ],
                 id: 'id',
-                url: '../sampledata/data.php',
+                url: 'data.php',
                 root: 'data'
             };
         }

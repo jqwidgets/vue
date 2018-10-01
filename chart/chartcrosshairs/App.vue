@@ -60,7 +60,7 @@
                     { name: 'S&P 500' },
                     { name: 'NASDAQ' }
                 ],
-                url: '../sampledata/nasdaq_vs_sp500.txt'
+                url: 'nasdaq_vs_sp500.txt'
             };
 
             this.months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
