@@ -25,3 +25,7 @@
         }
     }
 </script>
+
+<style>
+  @import './jqx.base.css';
+</style>
