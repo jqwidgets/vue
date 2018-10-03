@@ -48,4 +48,5 @@
         width: 100%;
         height: 100%;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

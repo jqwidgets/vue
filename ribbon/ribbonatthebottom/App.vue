@@ -111,4 +111,5 @@
         border-collapse: separate;
         border-spacing: 15px 5px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

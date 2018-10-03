@@ -73,4 +73,5 @@
         height: 100px;
         background: url(../../../images/imageNature5.jpg) -100px -100px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

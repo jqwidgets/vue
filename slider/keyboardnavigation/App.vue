@@ -42,4 +42,5 @@
         margin-left: 20px;
         float: left;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

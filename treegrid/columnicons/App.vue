@@ -87,4 +87,5 @@
         height: 30px;
         line-height: 40px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

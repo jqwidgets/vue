@@ -79,4 +79,5 @@
         font-size: 17px;
         width: 70px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

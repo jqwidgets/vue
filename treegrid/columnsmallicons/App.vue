@@ -113,4 +113,5 @@
         width: 16px;
         height: 16px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

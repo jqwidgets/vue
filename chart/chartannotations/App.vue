@@ -146,4 +146,5 @@
         font-size: 11px;
         font-family: Verdana;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

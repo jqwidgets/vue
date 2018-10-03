@@ -47,4 +47,5 @@
         border-width: 3px;
         border-radius: 4px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

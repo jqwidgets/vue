@@ -159,4 +159,5 @@
         margin: 0px;
         padding: 0px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

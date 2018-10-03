@@ -195,4 +195,5 @@
         white-space: nowrap;
         height: 275px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

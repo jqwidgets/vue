@@ -102,4 +102,5 @@
     .jqx-rc-all {
         position: relative;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

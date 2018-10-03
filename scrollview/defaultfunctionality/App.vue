@@ -53,4 +53,5 @@
         display: inline-block;
         margin-right: 10px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

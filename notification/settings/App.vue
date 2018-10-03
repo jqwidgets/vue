@@ -158,4 +158,5 @@
     .jqx-button, .jqx-radiobutton, .jqx-checkbox {
         margin-bottom: 10px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

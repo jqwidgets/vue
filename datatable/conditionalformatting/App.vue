@@ -104,4 +104,5 @@
         color: black;
         background-color: #f8696b;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

@@ -214,4 +214,5 @@
         text-align: center;
         border: none;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

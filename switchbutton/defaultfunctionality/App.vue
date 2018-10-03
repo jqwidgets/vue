@@ -178,4 +178,5 @@
         margin-bottom: 20px;
     }
 
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

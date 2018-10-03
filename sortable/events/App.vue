@@ -88,4 +88,5 @@
     span {
         font-weight: bold;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

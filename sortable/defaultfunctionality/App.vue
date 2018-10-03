@@ -54,4 +54,5 @@
     .jqx-sortable div:hover {
         border: 1px solid #356AA0;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

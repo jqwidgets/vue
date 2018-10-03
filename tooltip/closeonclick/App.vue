@@ -37,4 +37,5 @@
         margin: 8px 8px 0 8px;
         float: left;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

@@ -68,4 +68,5 @@
     .jqx-grid-cell-pinned {
         border-right: 0;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

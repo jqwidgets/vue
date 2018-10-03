@@ -85,4 +85,5 @@
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

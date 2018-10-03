@@ -100,4 +100,5 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

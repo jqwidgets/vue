@@ -121,4 +121,5 @@
     .jqx-treemap-legend {
         width: 380px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

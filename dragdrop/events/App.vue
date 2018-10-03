@@ -120,4 +120,5 @@
         margin-top: 70px;
         z-index: 1;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

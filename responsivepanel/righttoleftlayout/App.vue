@@ -49,4 +49,5 @@
         padding: 5px;
         direction: rtl !important;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

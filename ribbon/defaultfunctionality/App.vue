@@ -858,4 +858,5 @@
         .icon.text_underline {
             background-position: -1200px 0;
         }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

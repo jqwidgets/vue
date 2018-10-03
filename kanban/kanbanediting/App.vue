@@ -224,4 +224,5 @@
         right: 3px;
         top: 12px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

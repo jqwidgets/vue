@@ -66,4 +66,5 @@
         margin: 0;
         overflow: hidden;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

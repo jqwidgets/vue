@@ -158,4 +158,5 @@
     .jqx-listbox {
         z-index: 999999 !important;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

@@ -187,4 +187,5 @@
         display: inline;
         margin-right: 5px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

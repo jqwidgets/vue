@@ -85,4 +85,5 @@
     .jqx-panel {
         border: none !important;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

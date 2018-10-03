@@ -101,4 +101,5 @@
     .jqx-checkbox {
         margin-top: 10px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

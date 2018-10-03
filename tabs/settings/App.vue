@@ -91,4 +91,5 @@
     .jqx-button:first-of-type {
         margin-top: 0px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

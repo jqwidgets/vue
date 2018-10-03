@@ -212,7 +212,8 @@
                             'border: 1px solid #DDD;\n' +
                             'vertical-align: top;\n' +
                             '}\n' +
-                            '</style>' +
+                            '  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+</style>' +
                             '</head>\n' +
                             '<body>\n' + appointmentContent + '\n</body>\n</html>';
                     try {

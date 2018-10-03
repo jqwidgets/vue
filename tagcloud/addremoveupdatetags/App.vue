@@ -64,4 +64,5 @@
         margin-left: 10px;
         user-select: none;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>

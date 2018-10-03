@@ -33,4 +33,5 @@
         width: 110px;   
         margin-left: 200px;
     }
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
 </style>
