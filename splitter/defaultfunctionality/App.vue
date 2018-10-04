@@ -79,6 +79,7 @@
     import JqxTree from 'jqwidgets-scripts/jqwidgets-vue/vue_jqxtree.vue';
     import JqxListBox from 'jqwidgets-scripts/jqwidgets-vue/vue_jqxlistbox.vue';
     import JqxPanel from 'jqwidgets-scripts/jqwidgets-vue/vue_jqxpanel.vue';
+    import axios from 'axios';
 
     export default {
         components: {
