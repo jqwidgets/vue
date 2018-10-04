@@ -112,7 +112,7 @@
                         {
                             type: 'layoutGroup',
                             orientation: 'vertical',
-                            width: 500,
+                            width: 420,
                             items: [{
                                 type: 'documentGroup',
                                 height: 400,

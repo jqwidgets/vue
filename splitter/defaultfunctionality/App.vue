@@ -93,7 +93,7 @@
                 config: {
                     feeds: { 'CNN.com': 'cnn', 'Geek.com': 'geek', 'ScienceDaily': 'sciencedaily' },
                     format: 'txt',
-                    dataDir: '../sampledata',
+                    dataDir: '',
                     feedTree: document.querySelectorAll('angularTree')[0],
                     feedItemHeader: document.querySelector('#feedItemHeader'),
                     feedUpperPanel: document.querySelector('#feedUpperPanel'),
@@ -123,7 +123,7 @@
             getFeed: function (feed) {
                 this.config['currentFeed'] = feed;
                 if (feed !== undefined) {
-                    feed = this.config['dataDir'] + '/' + feed + '.' + this.config['format'];
+                    feed = feed + '.' + this.config['format'];
                     this.loadFeed(feed);
                 }
             },

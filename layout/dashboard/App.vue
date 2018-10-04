@@ -85,7 +85,7 @@
                         type: 'layoutGroup',
                         orientation: 'vertical',
                         allowPin: false,
-                        width: 500,
+                        width: 420,
                         pinnedWidth: 80,
                         items: [{
                             type: 'tabbedGroup',
