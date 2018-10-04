@@ -1,11 +1,11 @@
 <template>
     <div>
-        <JqxGrid ref="myGrid" v-on:filter="gridOnFilter()"
+        <JqxGrid :theme="'material'" ref="myGrid" v-on:filter="gridOnFilter()"
                  :width="850" :height="230" :filterable="true"
                  :source="dataAdapter" :columns="columns" :showfilterrow="true">
         </JqxGrid>
 
-        <JqxChart ref="myChart" style="width: 850px; height: 500px; margin-top: 50px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px; margin-top: 50px"
                   :title="'Fitness & exercise weekly scorecard'"
                   :description="'Time spent in vigorous exercise'"
                   :showLegend="true" :enableAnimations="true" :padding="padding"

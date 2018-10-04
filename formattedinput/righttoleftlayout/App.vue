@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxFormattedInput style="float: left"
+    <JqxForm :theme="'material'"attedInput style="float: left"
                        :width="250" :height="25" :radix="'binary'" 
                        :value="10000" :dropDown="true" :rtl="true">
     </JqxFormattedInput>

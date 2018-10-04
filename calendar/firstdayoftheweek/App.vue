@@ -1,13 +1,13 @@
 <template>
     <div>
-        <JqxCalendar ref="myCalendar" style="margin-top: 3px"
+        <JqxCalendar :theme="'material'" ref="myCalendar" style="margin-top: 3px"
                      :width="220" :height="220" :enableTooltips="false">
         </JqxCalendar>
 
         <br /><br />
         <div>Choose the first day of the week</div>
         <br /><br />
-        <JqxDropDownList ref="myDropDownList" v-on:select="myDropDownListOnSelect($event)"
+        <JqxDropDownList :theme="'material'" ref="myDropDownList" v-on:select="myDropDownListOnSelect($event)"
                          :width="220" :height="25" :source="days"
                          :selectedIndex="6" :autoDropDownHeight="true">
         </JqxDropDownList>

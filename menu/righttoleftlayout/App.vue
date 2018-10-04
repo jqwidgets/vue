@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="height: 300px; float: right; margin-left: 5px;">
-        <JqxMenu :rtl="true"
+        <JqxMenu :theme="'material'" :rtl="true"
                  :width="600"
                  :height="30">
             <ul>

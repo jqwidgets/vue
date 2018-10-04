@@ -1,5 +1,5 @@
 <template>
-    <JqxBarGauge :width="'75%'" :height="'75%'"
+    <JqxBarGauge :theme="'material'" :width="'75%'" :height="'75%'"
                  :colorScheme="'scheme11'" :values="values">
     </JqxBarGauge>
 </template>

@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxInput :width="'30%'" :height="35" :source="countries"
+    <JqxInput :theme="'material'" :width="'30%'" :height="35" :source="countries"
               :placeHolder="'Enter a Country'">
     </JqxInput>
 </template>

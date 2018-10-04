@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxRibbon ref="myRibbon" style='float: left;'
+        <JqxRibbon :theme="'material'" ref="myRibbon" style='float: left;'
                    :width="450" :position="'top'"
                    :selectionMode="'click'" :animationType="'fade'">
             <ul>
@@ -138,13 +138,13 @@
             <div>
                 <b>Scroll Buttons Position:</b>
             </div>
-            <JqxRadioButton :width="100" :height="25" @checked="checkedNear($event)">
+            <JqxRadioButton :theme="'material'" :width="100" :height="25" @checked="checkedNear($event)">
                 Near
             </JqxRadioButton>
-            <JqxRadioButton :width="100" :height="25" @checked="checkedFar($event)">
+            <JqxRadioButton :theme="'material'" :width="100" :height="25" @checked="checkedFar($event)">
                 Far
             </JqxRadioButton>
-            <JqxRadioButton :width="500" :height="25" :checked='true' @checked="checkedBoth($event)">
+            <JqxRadioButton :theme="'material'" :width="500" :height="25" :checked='true' @checked="checkedBoth($event)">
                 Both
             </JqxRadioButton>
         </div>

@@ -1,28 +1,28 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :sortable="true" :altrows="true" :selectionmode="'multiplecellsadvanced'">
         </JqxGrid>
 
         <div style="margin-top: 20px">
             <div style="float: left">
-                <JqxButton @click="excelBtnOnClick()">Export to Excel</JqxButton>
+                <JqxButton :theme="'material'" @click="excelBtnOnClick()">Export to Excel</JqxButton>
                 <br /><br />
-                <JqxButton @click="xmlBtnOnClick()">Export to XML</JqxButton>
+                <JqxButton :theme="'material'" @click="xmlBtnOnClick()">Export to XML</JqxButton>
             </div>
             <div style="float: left; margin-left: 10px">
-                <JqxButton @click="csvBtnOnClick()">Export to CSV</JqxButton>
+                <JqxButton :theme="'material'" @click="csvBtnOnClick()">Export to CSV</JqxButton>
                 <br /><br />
-                <JqxButton @click="tsvBtnOnClick()">Export to TSV</JqxButton>
+                <JqxButton :theme="'material'" @click="tsvBtnOnClick()">Export to TSV</JqxButton>
             </div>
             <div style="float: left; margin-left: 10px">
-                <JqxButton @click="htmlBtnOnClick()">Export to HTML</JqxButton>
+                <JqxButton :theme="'material'" @click="htmlBtnOnClick()">Export to HTML</JqxButton>
                 <br /><br />
-                <JqxButton @click="jsonBtnOnClick()">Export to JSON</JqxButton>
+                <JqxButton :theme="'material'" @click="jsonBtnOnClick()">Export to JSON</JqxButton>
             </div>
             <div style="float: left; margin-left: 10px">
-                <JqxButton @click="pdfBtnOnClick()">Export to PDF</JqxButton>
+                <JqxButton :theme="'material'" @click="pdfBtnOnClick()">Export to PDF</JqxButton>
             </div>
         </div>
 

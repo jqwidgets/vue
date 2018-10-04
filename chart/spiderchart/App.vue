@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Website audience acquision by source'"
                   :description="'Month over month comparison'"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -14,7 +14,7 @@
                     <td style="padding-left: 50px">
                         <p style="font-family: Verdana; font-size: 12px">Move the slider to rotate:</p>
 
-                        <JqxSlider @change="sliderStartAngle($event)"
+                        <JqxSlider :theme="'material'" @change="sliderStartAngle($event)"
                                    :width="240" :min="0" :max="360" :step="1"
                                    :ticksFrequency="20" :mode="'fixed'">
                         </JqxSlider>
@@ -23,7 +23,7 @@
                     <td>
                         <p style="font-family: Verdana; font-size: 12px">Select the series type:</p>
 
-                        <JqxDropDownList @change="dropDownListSeries($event)"
+                        <JqxDropDownList :theme="'material'" @change="dropDownListSeries($event)"
                                          :width="200" :height="25" :source="seriesList"
                                          :selectedIndex="1" :dropDownHeight="100">
                         </JqxDropDownList>
@@ -34,7 +34,7 @@
                     <td style="padding-left: 50px">
                         <p style="font-family: Verdana; font-size: 12px">Move the slider to change the radius:</p>
 
-                        <JqxSlider @change="sliderRadius($event)"
+                        <JqxSlider :theme="'material'" @change="sliderRadius($event)"
                                    :width="240" :min="80" :max="140" :step="1"
                                    :ticksFrequency="20" :mode="'fixed'" :value="120">
                         </JqxSlider>
@@ -43,7 +43,7 @@
                     <td>
                         <p style="font-family: Verdana; font-size: 12px">Select color scheme:</p>
 
-                        <JqxDropDownList @change="dropDownListColor($event)"
+                        <JqxDropDownList :theme="'material'" @change="dropDownListColor($event)"
                                          :width="200" :height="25" :source="colorsSchemesList"
                                          :selectedIndex="2" :dropDownHeight="100">
                         </JqxDropDownList>
@@ -53,13 +53,13 @@
                 <tr style="height: 15px"></tr>
                 <tr>
                     <td style="padding-left: 50px">
-                        <JqxCheckBox @change="checkBoxAutoRotate($event)"
+                        <JqxCheckBox :theme="'material'" @change="checkBoxAutoRotate($event)"
                                      :width="220" :height="25">
                             Auto-rotate labels
                         </JqxCheckBox>
                     </td>
                     <td>
-                        <JqxCheckBox @change="checkBoxTicksBetween($event)"
+                        <JqxCheckBox :theme="'material'" @change="checkBoxTicksBetween($event)"
                                      :width="220" :height="25">
                             Ticks between values
                         </JqxCheckBox>

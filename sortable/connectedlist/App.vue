@@ -1,9 +1,9 @@
 <template>
     <div>
 
-        <JqxSortable ref="mySortable1" :autoCreate="false"></JqxSortable>
+        <JqxSortable :theme="'material'" ref="mySortable1" :autoCreate="false"></JqxSortable>
        
-        <JqxSortable ref="mySortable2" :autoCreate="false"></JqxSortable>
+        <JqxSortable :theme="'material'" ref="mySortable2" :autoCreate="false"></JqxSortable>
 
     </div>
 </template>

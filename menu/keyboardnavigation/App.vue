@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxMenu ref="jqxMenu"
+        <JqxMenu :theme="'material'" ref="jqxMenu"
                  @itemclick="itemclick($event)"
                  :showTopLevelArrows="true"
                  :keyboardNavigation="true"

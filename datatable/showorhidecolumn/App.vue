@@ -1,10 +1,10 @@
 <template>
     <div>
-        <JqxListBox style="float: left" @checkChange="listBoxOnCheckChange($event)"
+        <JqxListBox :theme="'material'" style="float: left" @checkChange="listBoxOnCheckChange($event)"
                     :width="150" :height="200" :source="listSource" :checkboxes="true">
         </JqxListBox>
 
-        <JqxDataTable ref="myDataTable" style="float: left; margin-left: 20px;"
+        <JqxDataTable :theme="'material'" ref="myDataTable" style="float: left; margin-left: 20px;"
                       :source="dataAdapter" :columns="columns" :pageable="true"
                       :columnsResize="true" :pagerButtonsCount="10">
         </JqxDataTable>

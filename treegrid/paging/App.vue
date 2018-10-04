@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxTreeGrid ref="treeGrid"
+    <JqxTree :theme="'material'"Grid ref="treeGrid"
                  :width="getWidth"
                  :source="dataAdapter"
                  :sortable="true"

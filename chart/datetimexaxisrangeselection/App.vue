@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 800px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 800px; height: 500px"
               @rangeSelectionChanging="chartChange($event)"
               :title="'Tesla Motors Stock Price'"
               :description="'(June 2010 - March 2014)'"

@@ -1,5 +1,5 @@
 <template>
-    <JqxSortable ref="mySortable"></JqxSortable>
+    <JqxSortable :theme="'material'" ref="mySortable"></JqxSortable>
 </template>
 
 <script>

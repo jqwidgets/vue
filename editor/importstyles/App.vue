@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxEditor :width="getWidth" :height="400" :stylesheets="['editor.css']" :createCommand="createCommand">
+    <JqxEditor :theme="'material'" :width="getWidth" :height="400" :stylesheets="['editor.css']" :createCommand="createCommand">
         &lt;b&gt;jqxEditor&lt;/b&gt; is a HTML text editor designed to simplify web content creation. You can use it as a replacement of your Textarea.
         &lt;br /&gt;
         &lt;br /&gt;

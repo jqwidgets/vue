@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxKnob ref="myKnob" style="position: relative" @change="myKnobOnChange($event)"
+        <JqxKnob :theme="'material'" ref="myKnob" style="position: relative" @change="myKnobOnChange($event)"
                  :width="400" :height="400"
                  :value="10" :min="0" :max="100" :startAngle="90"
                  :endAngle="450" :rotation="'clockwise'" :snapToStep="true"
@@ -8,7 +8,7 @@
                  :pointer="pointer" :pointerGrabAction="'progressBar'">
         </JqxKnob>
 
-        <JqxNumberInput ref="myNumberInput" @change="myNumberInputOnChange($event)"
+        <JqxNumberInput :theme="'material'" ref="myNumberInput" @change="myNumberInputOnChange($event)"
                         :width="180" :height="75" :decimal="0" :min="0" :max="100"
                         :decimalDigits="1" :textAlign="'center'" :symbol="'%'"
                         :symbolPosition="'right'" :inputMode="'simple'" :value="10">

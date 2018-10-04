@@ -2,7 +2,7 @@
     <div>
         <div>The value is: {{ item }}</div><br />
 
-        <JqxComboBox v-model="item" :width="200" :height="25" :source="source" :selectedIndex="0" />
+        <JqxComboBox :theme="'material'" v-model="item" :width="200" :height="25" :source="source" :selectedIndex="0" />
     </div>
 </template>
 

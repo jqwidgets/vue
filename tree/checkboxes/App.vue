@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTree ref="myTree" style="float: left"  
+        <JqxTree :theme="'material'" ref="myTree" style="float: left"  
             :width="300" :height="450" :hasThreeStates="true" :checkboxes="true">
             <ul>
                 <li id='home'>Home</li>
@@ -86,7 +86,7 @@
 
         <div style="margin-left: 60px; float: left">
             <div style="margin-top: 10px">
-                <JqxCheckBox @change="change($event)" :checked="true">Three Check States</JqxCheckBox>
+                <JqxCheckBox :theme="'material'" @change="change($event)" :checked="true">Three Check States</JqxCheckBox>
             </div>
         </div>
     </div>

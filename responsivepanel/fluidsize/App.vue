@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="height:100%; width:100%;">
 
-        <JqxResponsivePanel ref="myResponsivePanel"
+        <JqxResponsivePanel :theme="'material'" ref="myResponsivePanel"
                             @collapse="responsivePanelOnCollapse($event)"
                             :width="'30%'"
                             :height="'80%'"
@@ -9,7 +9,7 @@
                             :autoClose="false"
                             :animationType="'none'">
 
-            <JqxTree :width="'100%'" :height="'100%'">
+            <JqxTree :theme="'material'" :width="'100%'" :height="'100%'">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li>
@@ -80,7 +80,7 @@
             </JqxTree>
         </JqxResponsivePanel>
 
-        <JqxPanel ref="myPanel" :width="'65%'" :height="'80%'">
+        <JqxPanel :theme="'material'" ref="myPanel" :width="'65%'" :height="'80%'">
 
             <h4 style="text-align: center;">About Us</h4>
             <p style="line-height: 1.5;">

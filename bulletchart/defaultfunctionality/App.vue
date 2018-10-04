@@ -1,5 +1,5 @@
 <template>
-    <JqxBulletChart :width="getWidth" :height="80" :barSize="'40%'" :labelsFormat="'c'"
+    <JqxBulletChart :theme="'material'" :width="getWidth" :height="80" :barSize="'40%'" :labelsFormat="'c'"
                     :showToolTip="true" :title="title" :description="description"
                     :ranges="ranges" :pointer="pointer" :target="target" :ticks="ticks">
     </JqxBulletChart>

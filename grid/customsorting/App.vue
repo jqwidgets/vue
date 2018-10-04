@@ -1,6 +1,6 @@
 ﻿<template>
 
-    <JqxGrid ref="myGrid"
+    <JqxGrid :theme="'material'" ref="myGrid"
              :width="getWidth" :source="dataAdapter" :columns="columns"
              :pageable="true" :sortable="true" :autoheight="true" :ready="ready">
     </JqxGrid>

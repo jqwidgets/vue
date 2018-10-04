@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="height: 300px;">
-        <JqxMenu ref="myMenu" :width="670" :height="30">
+        <JqxMenu :theme="'material'" ref="myMenu" :width="670" :height="30">
             <ul>
                 <li><a href="#Home">Home</a></li>
                 <li>
@@ -90,31 +90,31 @@
                 Settings
             </div>
             <div style="margin-top: 20px; font-size: 14px; font-family: Verdana Arial; float: left;">
-                <JqxCheckBox @change="animationOnChange($event)"
+                <JqxCheckBox :theme="'material'" @change="animationOnChange($event)"
                              :width="150" :height="20" :checked="true">
                     Enable Animation
                 </JqxCheckBox>
                 <div style="margin-top: 20px;">
-                    <JqxCheckBox style="margin-top: 20px;" @change="disabledOnChange($event)"
+                    <JqxCheckBox :theme="'material'" style="margin-top: 20px;" @change="disabledOnChange($event)"
                                  :width="150" :height="20" :checked="false">
                         Disabled
                     </JqxCheckBox>
                 </div>
             </div>
             <div style="margin-top: 20px; margin-left: 60px; font-size: 14px; font-family: Verdana Arial; float: left;">
-                <JqxCheckBox @change="hoverOnChange($event)"
+                <JqxCheckBox :theme="'material'" @change="hoverOnChange($event)"
                              :width="150" :height="20" :checked="true">
                     Enable Hover
                 </JqxCheckBox>
                 <div style="margin-top: 20px;">
-                    <JqxCheckBox @change="openOnChange($event)"
+                    <JqxCheckBox :theme="'material'" @change="openOnChange($event)"
                                  :width="150" :height="20" :checked="true">
                         Auto Open
                     </JqxCheckBox>
                 </div>
             </div>
             <div style="margin-top: 20px; margin-left: 60px; font-size: 14px; font-family: Verdana Arial; float: left;">
-                <JqxCheckBox @change="topLevelArrowsOnChange($event)"
+                <JqxCheckBox :theme="'material'" @change="topLevelArrowsOnChange($event)"
                              :width="200" :height="20">
                     Show Top-Level Arrows
                 </JqxCheckBox>

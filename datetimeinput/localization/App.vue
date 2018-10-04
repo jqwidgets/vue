@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDateTimeInput ref="myDateTimeInput"
+        <JqxDateTimeInput :theme="'material'" ref="myDateTimeInput"
                           :width="250" :height="25">
         </JqxDateTimeInput>
 
@@ -11,7 +11,7 @@
             </div>
             <br />
 
-            <JqxDropDownList @select="listOnSelect($event)"
+            <JqxDropDownList :theme="'material'" @select="listOnSelect($event)"
                              :width="200" :height="25"
                              :source="availableCultures" :selectedIndex="3">
             </JqxDropDownList>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Weather in Geneva, Switzerland'" :description="'Climatological Information about Geneva'"
                   :showLegend="true" :enableAnimations="true" :enableCrosshairs="true" :padding="padding"
                   :titlePadding="titlePadding" :source="data" :xAxis="xAxis"
@@ -10,7 +10,7 @@
         <br />
         <br />
 
-        <JqxCheckBox ref="checkboxSwapAxis" v-on:change="checkboxSwapAxisOnChange($event)" style="margin-top: 5px">
+        <JqxCheckBox :theme="'material'" ref="checkboxSwapAxis" v-on:change="checkboxSwapAxisOnChange($event)" style="margin-top: 5px">
             Swap X and Y axes
         </JqxCheckBox>
     </div>

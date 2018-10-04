@@ -1,5 +1,5 @@
 <template>
-    <JqxTree :width="'50%'" :height="'50%'">
+    <JqxTree :theme="'material'" :width="'50%'" :height="'50%'">
         <ul>
             <li item-selected='true'>Home</li>
             <li item-expanded='true'>

@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxRangeSelector ref="rangeSelector"
+        <JqxRangeSelector :theme="'material'" ref="rangeSelector"
                           :width="500"
                           :height="100"
                           :min="min"
@@ -17,7 +17,7 @@
         </JqxRangeSelector>
         <br />
 
-        <JqxButton style="margin-left: 80px;" @click="onClickSubmit()" :width="120">
+        <JqxButton :theme="'material'" style="margin-left: 80px;" @click="onClickSubmit()" :width="120">
             Submit vacation
         </JqxButton>
 

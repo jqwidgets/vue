@@ -143,10 +143,10 @@
         </table>
 
         <div style="margin-top: 10px"></div>
-        <JqxButton @click="loadBtn()" :width="200">Load Vue Grid from Table</JqxButton>
+        <JqxButton :theme="'material'" @click="loadBtn()" :width="200">Load Vue Grid from Table</JqxButton>
 
         <div style="margin-top: 10px"></div>
-        <JqxGrid ref="myGrid" :autoCreate="false"></JqxGrid>
+        <JqxGrid :theme="'material'" ref="myGrid" :autoCreate="false"></JqxGrid>
     </div>
 </template>
 

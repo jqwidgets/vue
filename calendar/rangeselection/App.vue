@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxCalendar ref="myCalendar" @change="myCalendarOnChange($event)"
+        <JqxCalendar :theme="'material'" ref="myCalendar" @change="myCalendarOnChange($event)"
                      :width="220" :height="220"
                      :selectionMode="'range'" :value="value">
         </JqxCalendar>

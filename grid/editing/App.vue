@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid @cellbeginedit="cellBeginEditEvent($event)" @cellendedit="cellEndEditEvent($event)"
+        <JqxGrid :theme="'material'" @cellbeginedit="cellBeginEditEvent($event)" @cellendedit="cellEndEditEvent($event)"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :editable="true" :enabletooltips="true" :selectionmode="'multiplecellsadvanced'">
         </JqxGrid>

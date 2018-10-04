@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana;">
-        <JqxRating @change="change($event)"
+        <JqxRating :theme="'material'" @change="change($event)"
                    :width="350"
                    :height="35"></JqxRating>
         <div style="margin-top: 10px;">

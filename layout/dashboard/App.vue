@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxLayout :width="getWidth" :height="600" :layout="layout" :contextMenu="true">
+    <JqxLayout :theme="'material'" :width="getWidth" :height="600" :layout="layout" :contextMenu="true">
         <div data-container="TeamsPanel">
             <div id="teamsDataTable" class="no-border"></div>
         </div>

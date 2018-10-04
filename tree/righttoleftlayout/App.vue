@@ -1,5 +1,5 @@
 <template>
-    <JqxTree
+    <JqxTree :theme="'material'"
         :width="250" :height="350" :source="source" :rtl="true">
     </JqxTree>
 </template>

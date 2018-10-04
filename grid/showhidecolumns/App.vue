@@ -1,10 +1,10 @@
 ﻿<template>
     <div>
-        <JqxListBox style="float: left" @checkChange="myListBoxOnCheckChange($event)"
+        <JqxListBox :theme="'material'" style="float: left" @checkChange="myListBoxOnCheckChange($event)"
                     :width="200" :height="200" :source="listBoxSource" :checkboxes="true">
         </JqxListBox>
 
-        <JqxGrid ref="myGrid" style="float: left; margin-left: 20px"
+        <JqxGrid :theme="'material'" ref="myGrid" style="float: left; margin-left: 20px"
                  :width="600" :source="dataAdapter" :columns="columns" :columnsresize="true">
         </JqxGrid>
     </div>

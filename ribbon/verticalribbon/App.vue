@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxRibbon ref="myRibbon"
+        <JqxRibbon :theme="'material'" ref="myRibbon"
             :width="getWidth" :height="335" :position="'left'"
             :selectionMode="'hover'" :animationType="'fade'">
             <ul id="header" style="width: 115px;">
@@ -360,7 +360,7 @@
             </div>
         </JqxRibbon>
 
-        <JqxCheckBox style="margin-top: 50px;" @change="change($event)">
+        <JqxCheckBox :theme="'material'" style="margin-top: 50px;" @change="change($event)">
             Menu Mode
         </JqxCheckBox>
     </div>

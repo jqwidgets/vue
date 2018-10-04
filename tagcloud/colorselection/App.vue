@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTagCloud ref="myTagCloud"
+        <JqxTagCloud :theme="'material'" ref="myTagCloud"
             :width="600" :source="dataAdapter" :urlBase="'http://localhost/'"
             :displayMember="'country'" :valueMember="'rate'"
             :fontSizeUnit="'px'" :minFontSize="12" :maxFontSize="20"
@@ -10,11 +10,11 @@
         <div style="float: left; margin-right: 10px;">
             <label style="margin-left: 5px; font-size: 12px; font-family: Verdana">Select Min Color</label>
 
-            <JqxDropDownButton ref="myDropDownButton1"
+            <JqxDropDownButton :theme="'material'" ref="myDropDownButton1"
                                :width="150" :height="22">
                 <div style="padding: 3px">
 
-                    <JqxColorPicker @colorchange="myColorPickerOnColorChange($event)"
+                    <JqxColorPicker :theme="'material'" @colorchange="myColorPickerOnColorChange($event)"
                                     :width="220" :height="220" :color="'00AA99'" :colorMode="'hue'">
                     </JqxColorPicker>
 
@@ -25,11 +25,11 @@
         <div style="float: left;">
             <label style="margin-left: 5px; font-size: 12px; font-family: Verdana">Select Max Color</label>
 
-            <JqxDropDownButton ref="myDropDownButton2"
+            <JqxDropDownButton :theme="'material'" ref="myDropDownButton2"
                                :width="150" :height="22">
                 <div style="padding: 3px">
 
-                    <JqxColorPicker @colorchange="myColorPicker2OnColorChange($event)"
+                    <JqxColorPicker :theme="'material'" @colorchange="myColorPicker2OnColorChange($event)"
                                     :width="220" :height="220" :color="'FF0000'" :colorMode="'hue'">
                     </JqxColorPicker>
 

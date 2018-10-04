@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 800px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 800px; height: 500px"
                   :title="'Economic comparison'"
                   :description="'GDP and Debt in 2010'"
                   :showLegend="true" :enableAnimations="true" :padding="padding"
@@ -9,13 +9,13 @@
         </JqxChart>
 
         <div style="margin-top: 10px">
-            <JqxButton v-on:click="jpegButtonOnClick()">
+            <JqxButton :theme="'material'" v-on:click="jpegButtonOnClick()">
                 Save As JPEG
             </JqxButton>
-            <JqxButton v-on:click="pngButtonOnClick()">
+            <JqxButton :theme="'material'" v-on:click="pngButtonOnClick()">
                 Save As PNG
             </JqxButton>
-            <JqxButton v-on:click="pdfButtonOnClick()">
+            <JqxButton :theme="'material'" v-on:click="pdfButtonOnClick()">
                 Save As PDF
             </JqxButton>
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs 
+    <JqxTabs :theme="'material'" 
         @selected="selected($event)"
         :width="getWidth" :height="200">
         <ul>

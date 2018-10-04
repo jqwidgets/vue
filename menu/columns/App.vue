@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="height: 300px; margin-left: 20px;">
-        <JqxMenu :autoOpen="false"
+        <JqxMenu :theme="'material'" :autoOpen="false"
                  :autoCloseOnMouseLeave="false"
                  :showTopLevelArrows="true"
                  :width="650"

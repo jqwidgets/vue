@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
 
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :pageable="true" :sortable="true" :altrows="true" :filterable="true"
                  :columnsreorder="true" :autoloadstate="true" :autosavestate="true"
@@ -11,9 +11,9 @@
 
         <div style="margin-top: 30px; float: left">
 
-            <JqxButton @click="saveStatebtn()">Save State</JqxButton>
+            <JqxButton :theme="'material'" @click="saveStatebtn()">Save State</JqxButton>
 
-            <JqxButton @click="loadStateBtn()">Load State</JqxButton>
+            <JqxButton :theme="'material'" @click="loadStateBtn()">Load State</JqxButton>
 
         </div>
 

@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left;">
         <div style="margin-top: 3px;">
-            <JqxNumberInput ref="numericInput"
+            <JqxNumberInput :theme="'material'" ref="numericInput"
                             :spinButtons="true"
                             :symbol="'$'"
                             :min="0"
@@ -12,7 +12,7 @@
         <div>
             <div style="float: left;">
                 <div style="width: 170px; margin-top: 20px;">
-                    <JqxCheckBox @change="change($event)" :checked="true">
+                    <JqxCheckBox :theme="'material'" @change="change($event)" :checked="true">
                         Show Spin Buttons
                     </JqxCheckBox>
                 </div>
@@ -20,12 +20,12 @@
                     Symbol Position
                 </div>
                 <div style="margin-top: 5px;">
-                    <JqxRadioButton @checked="checkedLeftbutton($event)" :checked="true">
+                    <JqxRadioButton :theme="'material'" @checked="checkedLeftbutton($event)" :checked="true">
                         Left
                     </JqxRadioButton>
                 </div>
                 <div style="margin-top: 5px;">
-                    <JqxRadioButton @checked="checkedRightbutton($event)">
+                    <JqxRadioButton :theme="'material'" @checked="checkedRightbutton($event)">
                         Right
                     </JqxRadioButton>
 
@@ -35,7 +35,7 @@
                 <div style="margin-top: 20px; margin-bottom:10px;">
                     Symbol
                 </div>
-                <JqxDropDownList @select="symboltypeSelect($event)"
+                <JqxDropDownList :theme="'material'" @select="symboltypeSelect($event)"
                                  :source="symboltypes"
                                  :autoDropDownHeight="true"
                                  :selectedIndex="0"
@@ -45,7 +45,7 @@
                 <div style="margin-top: 10px; margin-bottom: 10px;">
                     Decimal Digits
                 </div>
-                <JqxDropDownList @select="decimaldigitsSelect($event)"
+                <JqxDropDownList :theme="'material'" @select="decimaldigitsSelect($event)"
                                  :source="decimaldigitsNumbers"
                                  :autoDropDownHeight="true"
                                  :selectedIndex="2"
@@ -55,7 +55,7 @@
                 <div style="margin-top: 10px; margin-bottom: 10px;">
                     Digits
                 </div>
-                <JqxDropDownList @select="digitsSelect($event)"
+                <JqxDropDownList :theme="'material'" @select="digitsSelect($event)"
                                  :source="digitsNumbers"
                                  :autoDropDownHeight="true"
                                  :selectedIndex="7"

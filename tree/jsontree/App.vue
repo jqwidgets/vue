@@ -1,5 +1,5 @@
 <template>
-    <JqxTree :width="300" :source="records"></JqxTree>
+    <JqxTree :theme="'material'" :width="300" :source="records"></JqxTree>
 </template>
 
 <script>

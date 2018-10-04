@@ -1,17 +1,17 @@
 <!-- axios used for HTTP queries -> https://github.com/axios/axios -->
 
 <template>
-    <JqxSplitter :width="850" :height="600"
+    <JqxSplitter :theme="'material'" :width="850" :height="600"
                  :panels="[{ size: 200, min: 100 },{ min: 200, size: 400 }]">
         <div>
-            <JqxExpander style="border: none;" ref="feedExpander"
+            <JqxExpander :theme="'material'" style="border: none;" ref="feedExpander"
                          :width="'100%'" :height="'100%'"
                          :toggleMode="'none'" :showArrow="false">
                 <div class="jqx-hideborder">
                     Feeds
                 </div>
                 <div class="jqx-hideborder jqx-hidescrollbars">
-                    <JqxTree ref="myTree" @select="onTreeSelect($event)"
+                    <JqxTree :theme="'material'" ref="myTree" @select="onTreeSelect($event)"
                              :width="'100%'" :height="'100%'">
                         <ul>
                             <li item-expanded="true" id="t1">
@@ -39,16 +39,16 @@
             </JqxExpander>
         </div>
         <div>
-            <JqxSplitter ref="horizontalSplitter"
+            <JqxSplitter :theme="'material'" ref="horizontalSplitter"
                          :width="'100%'" :height="'100%'" :orientation="'horizontal'"
                          :panels="[{ size: 400, min: 100, collapsible: false },{ min: 100, collapsible: true }]">
                 <div class="feed-item-list-container" id="feedUpperPanel">
-                    <JqxExpander class="jqx-hideborder" ref="feedListExpander"
+                    <JqxExpander :theme="'material'" class="jqx-hideborder" ref="feedListExpander"
                                  :width="'100%'" :height="'100%'"
                                  :toggleMode="'none'" :showArrow="false">
                         <div class="jqx-hideborder" id="feedHeader"></div>
                         <div class="jqx-hideborder jqx-hidescrollbars">
-                            <JqxListBox ref="myListBox" class="jqx-hideborder"
+                            <JqxListBox :theme="'material'" ref="myListBox" class="jqx-hideborder"
                                         @select="onListBoxSelect($event)"
                                         :width="'100%'" :height="'100%'" :source="['1']">
                             </JqxListBox>
@@ -56,12 +56,12 @@
                     </JqxExpander>
                 </div>
                 <div id="feedContentArea">
-                    <JqxExpander class="jqx-hideborder" ref="feedContentExpander"
+                    <JqxExpander :theme="'material'" class="jqx-hideborder" ref="feedContentExpander"
                                  :width="'100%'" :height="'100%'"
                                  :toggleMode="'none'" :showArrow="false">
                         <div class="jqx-hideborder" id="feedItemHeader"></div>
                         <div class="jqx-hideborder jqx-hidescrollbars">
-                            <JqxPanel ref="myPanel" class="jqx-hideborder"
+                            <JqxPanel :theme="'material'" ref="myPanel" class="jqx-hideborder"
                                       :width="'100%'" :height="'100%'">
                                 Select a news item to see it"s content
                             </JqxPanel>

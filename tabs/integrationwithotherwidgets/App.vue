@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs ref="myTabs"
+    <JqxTabs :theme="'material'" ref="myTabs"
         :width="getWidth" :height="560" :initTabContent="initWidgets">
         <ul>
             <li style="margin-left: 30px;">
@@ -24,7 +24,7 @@
             </li>
         </ul>
         <div style="overflow: hidden;">
-            <JqxGrid ref="myGrid" :autoCreate="false"></JqxGrid>
+            <JqxGrid :theme="'material'" ref="myGrid" :autoCreate="false"></JqxGrid>
             <div style="margin-top: 10px; height: 15%;">
                 The S&P 500 index finished 2011 less than a point away from where it ended 2010
                 -- 0.04 points down to be exact. That's the smallest annual change in history. At
@@ -34,7 +34,7 @@
             </div>
         </div>
         <div style="overflow: hidden;">
-            <JqxChart ref="myChart" :autoCreate="false" style="width: 100%; height: 100%"></JqxChart>
+            <JqxChart :theme="'material'" ref="myChart" :autoCreate="false" style="width: 100%; height: 100%"></JqxChart>
         </div>
     </JqxTabs>
 </template>

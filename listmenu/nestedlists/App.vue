@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxListMenu :enableScrolling="false"
+    <JqxListMenu :theme="'material'" :enableScrolling="false"
                  :showHeader="true"
                  :showBackButton="true"
                  :showFilter="false"

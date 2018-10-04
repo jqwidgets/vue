@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
 
-        <JqxGrid :width="getWidth" :source="dataAdapter" :pageable="true"
+        <JqxGrid :theme="'material'" :width="getWidth" :source="dataAdapter" :pageable="true"
                  :autoheight="true" :sortable="true" :altrows="true"
                  :enabletooltips="true" :editable="true"
                  :columns="columns" :selectionmode="'multiplecellsadvanced'">

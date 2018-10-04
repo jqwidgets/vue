@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxNavigationBar :width="400" :height="460">
+    <JqxNavigationBar :theme="'material'" :width="400" :height="460">
         <div>
             Early History of the Internet
         </div>

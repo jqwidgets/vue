@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'Range selector with regular x-axis'"
               :description="'In this example the range selector works with (non-date) axis'"
               :showLegend="false" :enableAnimations="true" :padding="padding"

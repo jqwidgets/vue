@@ -5,7 +5,7 @@
             <span>Inbox</span>
         </div>
 
-        <JqxRibbon        
+        <JqxRibbon :theme="'material'"        
             :width="getWidth" :initContent="initContent" :position="'top'"
             :selectionMode="'click'":animationType="'none'">
             <ul style="border-top-left-radius: 0; border-top-right-radius: 0;">

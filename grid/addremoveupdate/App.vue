@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxGrid :width="getWidth" :source="dataAdapter" :filterable="true"
+    <JqxGrid :theme="'material'" :width="getWidth" :source="dataAdapter" :filterable="true"
              :showeverpresentrow="true" :everpresentrowposition="'top'"
              :editable="true" :columns="columns"
              :everpresentrowactions="'add update remove reset'"

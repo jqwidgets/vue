@@ -5,7 +5,7 @@
         </div>
         <br />
 
-        <JqxDateTimeInput :width="250" :height="25"
+        <JqxDateTimeInput :theme="'material'" :width="250" :height="25"
             :min="min" :max="max">
         </JqxDateTimeInput>
     </div>

@@ -1,21 +1,21 @@
 <template>
     <div>
-        <JqxScheduler ref="myScheduler"
+        <JqxScheduler :theme="'material'" ref="myScheduler"
             :width="getWidth" :height="600" :source="dataAdapter" :date="date" :view="'weekView'" :resources="resources"
             :appointmentDataFields="appointmentDataFields" :views="views" :showLegend="true"
          />
 
         <div class="container">
             <div>
-                <JqxButton ref="excelExport" @click="excelExportClick()" :width="120">Export to Excel</JqxButton>
-                <JqxButton ref="xmlExport" @click="xmlExportClick()" :width="120">Export to XML</JqxButton>
-                <JqxButton ref="csvExport" @click="csvExportClick()" :width="120">Export to CSV</JqxButton>
-                <JqxButton ref="tsvExport" @click="tsvExportClick()" :width="120">Export to TSV</JqxButton>
+                <JqxButton :theme="'material'" ref="excelExport" @click="excelExportClick()" :width="120">Export to Excel</JqxButton>
+                <JqxButton :theme="'material'" ref="xmlExport" @click="xmlExportClick()" :width="120">Export to XML</JqxButton>
+                <JqxButton :theme="'material'" ref="csvExport" @click="csvExportClick()" :width="120">Export to CSV</JqxButton>
+                <JqxButton :theme="'material'" ref="tsvExport" @click="tsvExportClick()" :width="120">Export to TSV</JqxButton>
             </div>
             <div>
-                <JqxButton ref="htmlExport" @click="htmlExportClick()" :width="120">Export to HTML</JqxButton>
-                <JqxButton ref="jsonExport" @click="jsonExportClick()" :width="120">Export to JSON</JqxButton>
-                <JqxButton ref="pdfExport" @click="pdfExportClick()" :width="120">Export to PDF</JqxButton>
+                <JqxButton :theme="'material'" ref="htmlExport" @click="htmlExportClick()" :width="120">Export to HTML</JqxButton>
+                <JqxButton :theme="'material'" ref="jsonExport" @click="jsonExportClick()" :width="120">Export to JSON</JqxButton>
+                <JqxButton :theme="'material'" ref="pdfExport" @click="pdfExportClick()" :width="120">Export to PDF</JqxButton>
             </div>
         </div>
     </div>

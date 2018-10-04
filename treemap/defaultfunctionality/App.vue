@@ -1,5 +1,5 @@
 <template>
-    <JqxTreeMap :width="850" :height="600" :source="data"
+    <JqxTree :theme="'material'"Map :width="850" :height="600" :source="data"
         :colorRange="50" :renderCallbacks="renderCallbacks">
     </JqxTreeMap>
 </template>

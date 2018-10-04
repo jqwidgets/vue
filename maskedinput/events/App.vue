@@ -3,7 +3,7 @@
         <div style="font-size: 13px; font-family: verdana; margin-top: 10px;">
             Phone Number
         </div>
-        <JqxMaskedInput style="margin-top: 3px;" ref="numericInput"
+        <JqxMaskedInput :theme="'material'" style="margin-top: 3px;" ref="numericInput"
                         @change="change($event)"
                         :mask="'(###)###-####'"
                         :width="250"
@@ -14,7 +14,7 @@
                 <span>
                     Events:
                 </span>
-                <JqxPanel ref="events" :height="250" :width="300">
+                <JqxPanel :theme="'material'" ref="events" :height="250" :width="300">
                 </JqxPanel>
             </div>
         </div>

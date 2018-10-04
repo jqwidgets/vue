@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxTreeGrid ref="treeGrid"
+        <JqxTree :theme="'material'"Grid ref="treeGrid"
                      :width="getWidth"
                      :source="dataAdapter"
                      :sortable="true"
@@ -10,7 +10,7 @@
         </JqxTreeGrid>
         <div style="margin-top: 20px;">
             <div style="float: left; margin-left: 10px;">
-                <JqxButton :width="80" @click="printClick()">Print</JqxButton>
+                <JqxButton :theme="'material'" :width="80" @click="printClick()">Print</JqxButton>
             </div>
         </div>
         </div>

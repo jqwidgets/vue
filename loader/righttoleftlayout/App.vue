@@ -1,16 +1,16 @@
 ﻿<template>
     <div>
-        <JqxLoader ref="jqxLoader"
+        <JqxLoader :theme="'material'" ref="jqxLoader"
                    :rtl="true"
                    :imagePosition="'top'"
                    :width="100"
                    :height="60">
         </JqxLoader>
-        <JqxButton @click="openLoaderClick($event)"
+        <JqxButton :theme="'material'" @click="openLoaderClick($event)"
                    :width="150">
             Open Loader
         </JqxButton>
-        <JqxButton @click="closeLoaderClick($event)"
+        <JqxButton :theme="'material'" @click="closeLoaderClick($event)"
                    :width="100">
             Close
         </JqxButton>

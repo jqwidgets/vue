@@ -2,14 +2,14 @@
     <div style="font-size: 13px; font-family: Verdana; float: left">
         <h3>Customers</h3>
 
-        <JqxGrid ref="customersGrid" @rowselect="customersGridOnRowSelect($event)"
+        <JqxGrid :theme="'material'" ref="customersGrid" @rowselect="customersGridOnRowSelect($event)"
                  :width="getWidth" :height="250" :source="dataAdapter"
                  :keyboardnavigation="false" :columns="columns">
         </JqxGrid>
 
         <h3>Orders by Customer</h3>
 
-        <JqxGrid ref="ordersGrid"
+        <JqxGrid :theme="'material'" ref="ordersGrid"
                  :width="getWidth" :height="250"
                  :keyboardnavigation="false" :columns="columns2">
         </JqxGrid>

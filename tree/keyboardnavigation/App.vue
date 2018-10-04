@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTree style="float: left;" ref="myTree" 
+        <JqxTree :theme="'material'" style="float: left;" ref="myTree" 
             :width="250" :height="350" :source="source">
         </JqxTree>
 

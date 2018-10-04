@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTagCloud ref="myTagCloud"
+        <JqxTagCloud :theme="'material'" ref="myTagCloud"
                      :width="600" :source="dataAdapter" :fontSizeUnit="'px'"
                      :displayMember="'country'" :valueMember="'rate'"
                      :minFontSize="12" :maxFontSize="30" :urlBase="'http://localhost/'"
@@ -13,19 +13,19 @@
             <p>fontSizeUnit:</p>
         </div>
 
-        <JqxInput ref="myInput1"
+        <JqxInput :theme="'material'" ref="myInput1"
             :width="200" :height="25" :value="12">
         </JqxInput>
 
-        <JqxInput ref="myInput2"
+        <JqxInput :theme="'material'" ref="myInput2"
             :width="200" :height="25" :value="20">
         </JqxInput>
 
-        <JqxInput ref="myInput3"
+        <JqxInput :theme="'material'" ref="myInput3"
             :width="200" :height="25" :value="'px'" :minLength="1" :source="['em','px','%']">
         </JqxInput>
 
-        <JqxButton :width="100" @click="setFontSizeBtnOnClick()">Set Font</JqxButton>
+        <JqxButton :theme="'material'" :width="100" @click="setFontSizeBtnOnClick()">Set Font</JqxButton>
     </div>
 </template>
 

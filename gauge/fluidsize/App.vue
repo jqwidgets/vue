@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxGauge :width="'40%'" :ranges="ranges" :ticksMinor="ticksMinor"
+    <JqxGauge :theme="'material'" :width="'40%'" :ranges="ranges" :ticksMinor="ticksMinor"
               :ticksMajor="ticksMajor" :value="0" :colorScheme="'scheme05'" :animationDuration="1200">
     </JqxGauge>
 </template>

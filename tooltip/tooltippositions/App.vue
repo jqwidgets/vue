@@ -1,16 +1,16 @@
 <template>
     <div id="container">
-        <JqxTooltip 
+        <JqxTooltip :theme="'material'" 
             :position="'left'" :name="'movieTooltip'"
             :content="'The Amazing Spider-Man'">
             <img src='https://www.jqwidgets.com/vue/images/The_Amazng_Spider_Man.jpeg' />
         </JqxTooltip>
-        <JqxTooltip 
+        <JqxTooltip :theme="'material'" 
             :position="'right'" :name="'movieTooltip'"
             :content="'The Avengers'">
             <img src='https://www.jqwidgets.com/vue/images/The_Avengers.jpg' />
         </JqxTooltip>
-        <JqxTooltip 
+        <JqxTooltip :theme="'material'" 
             :position="'bottom'" :name="'movieTooltip'"
             :content="'The Dark Knight Rise'">
             <img src='https://www.jqwidgets.com/vue/images/The_Dark_Knight_Rises.jpg' />

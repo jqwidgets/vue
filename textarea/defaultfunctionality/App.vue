@@ -1,5 +1,5 @@
 <template>
-    <JqxTextArea 
+    <JqxTextArea :theme="'material'" 
         :width="300" :height="100" :source="generateSource" 
         :placeHolder="'Enter a Sentence'" :minLength="1" 
     />

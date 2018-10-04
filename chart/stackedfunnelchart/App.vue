@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'Stacked Funnel Chart'"
               :description="'This example demonstrates stacked funnel chart with positive and negative values'"
               :showLegend="true" :enableAnimations="false" :padding="padding"

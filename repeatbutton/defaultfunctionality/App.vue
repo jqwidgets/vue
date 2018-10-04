@@ -1,12 +1,12 @@
 ﻿<template>
     <div>
-        <JqxRepeatButton style="margin-left: 25px"
+        <JqxRepeatButton :theme="'material'" style="margin-left: 25px"
                          @click="repeatOnClick()"
                          :width="200" :delay="10">
             Click Me!
         </JqxRepeatButton>
 
-        <JqxProgressBar ref="myProgressBar" style="margin-top: 10px"
+        <JqxProgressBar :theme="'material'" ref="myProgressBar" style="margin-top: 10px"
                         :width="250" :height="25" :max="30">
         </JqxProgressBar>
     </div>

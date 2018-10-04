@@ -2,7 +2,7 @@
     <div>
         <div style="white-space: pre-line;">The value is: {{ value }}</div><br />
 
-        <JqxTextArea v-model="value" 
+        <JqxTextArea :theme="'material'" v-model="value" 
             :width="200" :height="100" :placeHolder="'Enter Something'" 
         />
     </div>

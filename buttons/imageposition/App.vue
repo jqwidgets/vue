@@ -8,13 +8,13 @@
         </tr>
         <tr>
           <td>
-            <JqxButton :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'top'"></JqxButton>
+            <JqxButton :theme="'material'" :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'top'"></JqxButton>
           </td>
           <td>
-            <JqxButton :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'topLeft'"></JqxButton>
+            <JqxButton :theme="'material'" :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'topLeft'"></JqxButton>
           </td>
           <td>
-            <JqxButton :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'topRight'"></JqxButton>
+            <JqxButton :theme="'material'" :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'topRight'"></JqxButton>
           </td>
         </tr>
     </table>
@@ -26,13 +26,13 @@
         </tr>
         <tr>
           <td>
-            <JqxButton :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'center'"></JqxButton>
+            <JqxButton :theme="'material'" :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'center'"></JqxButton>
           </td>
           <td>
-            <JqxButton :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'left'"></JqxButton>
+            <JqxButton :theme="'material'" :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'left'"></JqxButton>
           </td>
           <td>
-            <JqxButton :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'right'"></JqxButton>
+            <JqxButton :theme="'material'" :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'right'"></JqxButton>
           </td>
         </tr>
     </table>
@@ -44,13 +44,13 @@
         </tr>
         <tr>
           <td>
-            <JqxButton :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'bottom'"></JqxButton>
+            <JqxButton :theme="'material'" :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'bottom'"></JqxButton>
           </td>
           <td>
-            <JqxButton :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'bottomLeft'"></JqxButton>
+            <JqxButton :theme="'material'" :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'bottomLeft'"></JqxButton>
           </td>
           <td>
-            <JqxButton :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'bottomRight'"></JqxButton>
+            <JqxButton :theme="'material'" :width="120" :height="50" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'" :imgPosition="'bottomRight'"></JqxButton>
           </td>
         </tr>
     </table>

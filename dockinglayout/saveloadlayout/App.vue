@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDockingLayout ref="myDockingLayout" :width="getWidth" :height="600" :layout="layout">
+        <JqxDocking :theme="'material'"Layout ref="myDockingLayout" :width="getWidth" :height="600" :layout="layout">
             <!--The panel content divs can have a flat structure-->
             <!--autoHideGroup-->
             <div data-container="ToolboxPanel">
@@ -76,12 +76,12 @@
         </JqxDockingLayout>
 
         <div style="margin-top: 25px">
-            <JqxButton style="float: left; margin-right: 10px"
+            <JqxButton :theme="'material'" style="float: left; margin-right: 10px"
                        @click="saveBtnOnClick()" :width="90">
                 Save Layout
             </JqxButton>
 
-            <JqxButton ref="loadLayoutButton" style="float: left"
+            <JqxButton :theme="'material'" ref="loadLayoutButton" style="float: left"
                        @click="loadBtnOnClick()" :width="90" :disabled="true">
                 Load Layout
             </JqxButton>

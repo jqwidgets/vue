@@ -4,7 +4,7 @@
             Number
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput @change="change($event)"
+            <JqxNumberInput :theme="'material'" @change="change($event)"
                             :spinButtons="true"
                             :inputMode="'simple'"
                             :width="250"
@@ -16,7 +16,7 @@
                 <span>
                     Events:
                 </span>
-                <JqxPanel ref="events"
+                <JqxPanel :theme="'material'" ref="events"
                           :width="300"
                           :height="250">
                 </JqxPanel>

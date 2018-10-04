@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxListBox ref="myListBox"
+        <JqxListBox :theme="'material'" ref="myListBox"
                     :filterable="true"
                     :selectedIndex="0"
                     :source="shirts"
@@ -10,7 +10,7 @@
                     :height="300">
         </JqxListBox>
         <div style="margin-top: 10px;">
-            <JqxButton @click="click($event)" :width="120">
+            <JqxButton :theme="'material'" @click="click($event)" :width="120">
                 Clear Filter
             </JqxButton>
         </div>

@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
 
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :editable="true" :editmode="'click'" :selectionmode="'singlecell'">
         </JqxGrid>
@@ -11,7 +11,7 @@
             <div style="float: left; margin-top: 10px">
                 <span>Edit Mode:</span>
 
-                <JqxDropDownList ref="myDropDownList" @select="myDropDownListOnSelect($event)"
+                <JqxDropDownList :theme="'material'" ref="myDropDownList" @select="myDropDownListOnSelect($event)"
                                  :width="150" :height="25" :selectedIndex="0"
                                  :dropDownWidth="150" :autoDropDownHeight="true"
                                  :source="['Click','Double-Click','Selected Cell Click']">
@@ -23,15 +23,15 @@
                 <div>
                     <div style="float: left">
 
-                        <JqxCheckBox @change="firstnameOnChange($event)" :checked="true">First Name</JqxCheckBox>
-                        <JqxCheckBox @change="lastnameOnChange($event)" :checked="true">Last Name</JqxCheckBox>
-                        <JqxCheckBox @change="quantityOnChange($event)" :checked="true">Quantity</JqxCheckBox>
+                        <JqxCheckBox :theme="'material'" @change="firstnameOnChange($event)" :checked="true">First Name</JqxCheckBox>
+                        <JqxCheckBox :theme="'material'" @change="lastnameOnChange($event)" :checked="true">Last Name</JqxCheckBox>
+                        <JqxCheckBox :theme="'material'" @change="quantityOnChange($event)" :checked="true">Quantity</JqxCheckBox>
 
                     </div>
                     <div style="float: left; margin-left: 20px">
 
-                        <JqxCheckBox @change="productnameOnChange($event)" :checked="true">Product</JqxCheckBox>
-                        <JqxCheckBox @change="availableOnChange($event)" :checked="true">Available</JqxCheckBox>
+                        <JqxCheckBox :theme="'material'" @change="productnameOnChange($event)" :checked="true">Product</JqxCheckBox>
+                        <JqxCheckBox :theme="'material'" @change="availableOnChange($event)" :checked="true">Available</JqxCheckBox>
 
                     </div>
                 </div>

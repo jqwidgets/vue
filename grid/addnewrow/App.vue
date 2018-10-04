@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :filterable="true"
                  :showeverpresentrow="true" :everpresentrowposition="'top'"
                  :editable="true" :columns="columns"
@@ -9,9 +9,9 @@
 
         <br />
 
-        <JqxRadioButton @checked="btnTopOnChecked()" :checked="true">Add New Row to Top</JqxRadioButton>
+        <JqxRadioButton :theme="'material'" @checked="btnTopOnChecked()" :checked="true">Add New Row to Top</JqxRadioButton>
 
-        <JqxRadioButton @checked="btnBottomOnChecked()">Add New Row to Bottom</JqxRadioButton>
+        <JqxRadioButton :theme="'material'" @checked="btnBottomOnChecked()">Add New Row to Bottom</JqxRadioButton>
     </div>
 </template>
 

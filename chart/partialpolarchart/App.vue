@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Sales volume and revenue by city'"
                   :description="'(revenue in thousands)'"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -13,14 +13,14 @@
                 <tr>
                     <td style="padding-left: 50px">
                         <p style="font-family: Verdana; font-size: 12px">Move the slider to change start angle:</p>
-                        <JqxSlider @change="sliderStartAngle($event)"
+                        <JqxSlider :theme="'material'" @change="sliderStartAngle($event)"
                                    :width="240" :min="0" :max="360" :step="1"
                                    :ticksFrequency="20" :mode="'fixed'">
                         </JqxSlider>
                     </td>
                     <td>
                         <p style="font-family: Verdana; font-size: 12px">Move the slider to change end angle:</p>
-                        <JqxSlider @change="sliderEndAngle($event)"
+                        <JqxSlider :theme="'material'" @change="sliderEndAngle($event)"
                                    :width="240" :min="0" :max="360" :step="1"
                                    :ticksFrequency="20" :mode="'fixed'" :value="90">
                         </JqxSlider>
@@ -29,14 +29,14 @@
                 <tr>
                     <td style="padding-left: 50px">
                         <p style="font-family: Verdana; font-size: 12px">Move the slider to rotate:</p>
-                        <JqxSlider @change="sliderRotate($event)"
+                        <JqxSlider :theme="'material'" @change="sliderRotate($event)"
                                    :width="240" :min="0" :max="360" :step="1"
                                    :ticksFrequency="20" :mode="'fixed'">
                         </JqxSlider>
                     </td>
                     <td>
                         <p style="font-family: Verdana; font-size: 12px">Move the slider to change the radius:</p>
-                        <JqxSlider @change="sliderRadius($event)"
+                        <JqxSlider :theme="'material'" @change="sliderRadius($event)"
                                    :width="240" :min="80" :max="140" :step="1"
                                    :ticksFrequency="20" :mode="'fixed'" :value="120">
                         </JqxSlider>
@@ -45,13 +45,13 @@
                 <tr style="height: 15px"></tr>
                 <tr>
                     <td style="padding-left: 50px">
-                        <JqxCheckBox @change="checkBoxTicksBetween($event)"
+                        <JqxCheckBox :theme="'material'" @change="checkBoxTicksBetween($event)"
                                      :width="220" :height="25">
                             Tick marks between values
                         </JqxCheckBox>
                     </td>
                     <td>
-                        <JqxCheckBox @change="checkBoxAutoRotate($event)"
+                        <JqxCheckBox :theme="'material'" @change="checkBoxAutoRotate($event)"
                                      :width="220" :height="25" :checked="true">
                             Auto rotate axis text
                         </JqxCheckBox>

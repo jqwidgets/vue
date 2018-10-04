@@ -1,31 +1,31 @@
 ﻿<template>
     <div>
-        <JqxDropDownList :width="200" :height="30" :source="source" :selectedIndex="1">
+        <JqxDropDownList :theme="'material'" :width="200" :height="30" :source="source" :selectedIndex="1">
         </JqxDropDownList>
 
         <br />
 
-        <JqxDropDownList :width="200" :height="30" :source="source" :selectedIndex="1" :template="'primary'">
+        <JqxDropDownList :theme="'material'" :width="200" :height="30" :source="source" :selectedIndex="1" :template="'primary'">
         </JqxDropDownList>
 
         <br />
 
-        <JqxDropDownList :width="200" :height="30" :source="source" :selectedIndex="1" :template="'success'">
+        <JqxDropDownList :theme="'material'" :width="200" :height="30" :source="source" :selectedIndex="1" :template="'success'">
         </JqxDropDownList>
 
         <br />
 
-        <JqxDropDownList :width="200" :height="30" :source="source" :selectedIndex="1" :template="'info'">
+        <JqxDropDownList :theme="'material'" :width="200" :height="30" :source="source" :selectedIndex="1" :template="'info'">
         </JqxDropDownList>
 
         <br />
 
-        <JqxDropDownList :width="200" :height="30" :source="source" :selectedIndex="1" :template="'warning'">
+        <JqxDropDownList :theme="'material'" :width="200" :height="30" :source="source" :selectedIndex="1" :template="'warning'">
         </JqxDropDownList>
 
         <br />
 
-        <JqxDropDownList :width="200" :height="30" :source="source" :selectedIndex="1" :template="'danger'">
+        <JqxDropDownList :theme="'material'" :width="200" :height="30" :source="source" :selectedIndex="1" :template="'danger'">
         </JqxDropDownList>
     </div>
 </template>

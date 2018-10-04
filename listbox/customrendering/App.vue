@@ -1,10 +1,10 @@
 ﻿<template>
-    <JqxSplitter ref="splitter"
+    <JqxSplitter :theme="'material'" ref="splitter"
                  :panels="[{ size: '40%'}]"
                  :height="600"
                  :width="600">
         <div style="overflow: hidden;">
-            <JqxListBox ref="listbox"
+            <JqxListBox :theme="'material'" ref="listbox"
                         @select="select($event)"
                         :selectedIndex="0"
                         :source="dataAdapter"

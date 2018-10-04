@@ -1,5 +1,5 @@
 <template>
-    <JqxSortable>
+    <JqxSortable :theme="'material'">
         <div class="inner-div">1</div>
         <div class="inner-div">2</div>
         <div class="inner-div">3</div>

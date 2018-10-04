@@ -5,21 +5,21 @@
     <tr>
         <td>Image Left/Text Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'left'" value=''
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'left'" value=''
                 :textImageRelation="'imageBeforeText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Left/Text Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'center'" 
                 :textImageRelation="'imageBeforeText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Left/Text Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'right'" 
                 :textImageRelation="'imageBeforeText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
@@ -28,21 +28,21 @@
     <tr>
         <td>Image Center/Text Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'left'" 
                 :textImageRelation="'imageBeforeText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Center/Text Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'center'" 
                 :textImageRelation="'imageBeforeText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Center/Text Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'right'" 
                 :textImageRelation="'imageBeforeText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
@@ -51,21 +51,21 @@
     <tr>
         <td>Image Right/Text Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'left'" 
                 :textImageRelation="'imageBeforeText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Right/Text Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'center'" 
                 :textImageRelation="'imageBeforeText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Right/Text Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'right'" 
                 :textImageRelation="'imageBeforeText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
@@ -77,21 +77,21 @@
     <tr>
         <td>Text Left/Image Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'left'" 
                 :textImageRelation="'textBeforeImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Left/Image Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'left'" 
                 :textImageRelation="'textBeforeImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Left/Image Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'left'" 
                 :textImageRelation="'textBeforeImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
@@ -100,21 +100,21 @@
     <tr>
         <td>Text Center/Image Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'center'" 
                 :textImageRelation="'textBeforeImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Center/Image Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'center'" 
                 :textImageRelation="'textBeforeImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Center/Image Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'center'" 
                 :textImageRelation="'textBeforeImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
@@ -123,21 +123,21 @@
     <tr>
         <td>Text Right/Image Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'right'" 
                 :textImageRelation="'textBeforeImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Right/Image Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'right'" 
                 :textImageRelation="'textBeforeImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Right/Image Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'right'" 
                 :textImageRelation="'textBeforeImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
@@ -149,21 +149,21 @@
     <tr>
         <td>Image Left/Text Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'left'" 
                 :textImageRelation="'imageAboveText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Left/Text Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'left'" 
                 :textImageRelation="'imageAboveText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Left/Text Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'right'" 
                 :textImageRelation="'imageAboveText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
@@ -172,21 +172,21 @@
     <tr>
         <td>Image Center/Text Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'left'" 
                 :textImageRelation="'imageAboveText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Center/Text Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'center'" 
                 :textImageRelation="'imageAboveText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Center/Text Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'right'" 
                 :textImageRelation="'imageAboveText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
@@ -195,21 +195,21 @@
     <tr>
         <td>Image Right/Text Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'left'" 
                 :textImageRelation="'imageAboveText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Right/Text Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'center'" 
                 :textImageRelation="'imageAboveText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Right/Text Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'right'" 
                 :textImageRelation="'imageAboveText'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
@@ -221,21 +221,21 @@
     <tr>
         <td>Text Left/Image Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'top'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'top'" 
                 :textImageRelation="'textAboveImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Left/Image Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'left'" 
                 :textImageRelation="'textAboveImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Left/Image Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'left'" 
                 :textImageRelation="'textAboveImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
@@ -244,21 +244,21 @@
     <tr>
         <td>Text Center/Image Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'center'" 
                 :textImageRelation="'textAboveImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Center/Image Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'center'" 
                 :textImageRelation="'textAboveImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Center/Image Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'center'" 
                 :textImageRelation="'textAboveImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
@@ -267,21 +267,21 @@
     <tr>
         <td>Text Right/Image Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'right'" 
                 :textImageRelation="'textAboveImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Right/Image Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'right'" 
                 :textImageRelation="'textAboveImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
         </td>
         <td>Text Right/Image Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'right'" 
                 :textImageRelation="'textAboveImage'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'">
               Button
             </JqxButton>
@@ -293,21 +293,21 @@
     <tr>
         <td>Image Left/Text Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'left'" 
                 :textImageRelation="'overlay'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Left/Text Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'center'" 
                 :textImageRelation="'overlay'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Left/Text Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'left'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'left'" :textPosition="'right'" 
                 :textImageRelation="'overlay'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
@@ -316,21 +316,21 @@
     <tr>
         <td>Image Center/Text Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'left'" 
                 :textImageRelation="'overlay'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
             </td>
         <td>Image Center/Text Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'center'" 
                 :textImageRelation="'overlay'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Center/Text Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'center'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'center'" :textPosition="'right'" 
                 :textImageRelation="'overlay'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
@@ -339,21 +339,21 @@
     <tr>
         <td>Image Right/Text Left</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'left'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'left'" 
                 :textImageRelation="'overlay'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
             </td>
         <td>Image Right/Text Center</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'center'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'center'" 
                 :textImageRelation="'overlay'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>
         </td>
         <td>Image Right/Text Right</td>
         <td>
-            <JqxButton :width="120" :imgPosition="'right'" :textPosition="'right'" 
+            <JqxButton :theme="'material'" :width="120" :imgPosition="'right'" :textPosition="'right'" 
                 :textImageRelation="'overlay'" :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'">
               Button
             </JqxButton>

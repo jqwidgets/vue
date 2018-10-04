@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxGrid :width="getWidth" :source="dataAdapter" :groupable="true" :groups="['price']"
+    <JqxGrid :theme="'material'" :width="getWidth" :source="dataAdapter" :groupable="true" :groups="['price']"
              :showgroupaggregates="true" :showstatusbar="true" :statusbarheight="25"
              :showaggregates="true" :columns="columns" :selectionmode="'singlecell'">
     </JqxGrid>

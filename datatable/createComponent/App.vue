@@ -1,5 +1,5 @@
 <template>
-    <JqxDataTable ref="myDataTable" :autoCreate="false"></JqxDataTable>
+    <JqxDataTable :theme="'material'" ref="myDataTable" :autoCreate="false"></JqxDataTable>
 </template>
 
 <script>

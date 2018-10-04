@@ -1,5 +1,5 @@
 <template>
-    <JqxRibbon  
+    <JqxRibbon :theme="'material'"  
         :width="'100%'" :height="350" :selectedIndex="0"
         :position="'top'" :selectionMode="'click'" :animationType="'fade'">
         <ul>

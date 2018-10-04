@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'Logarithmic Spline Area Range'"
               :description="'logarithmic scale with base 2'"
               :enableAnimations="true" :padding="padding"

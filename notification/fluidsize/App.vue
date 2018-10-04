@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxNotification :blink="true"
+    <JqxNotification :theme="'material'" :blink="true"
                      :autoOpen="true"
                      :autoClose="false"
                      :animationOpenDelay="800"

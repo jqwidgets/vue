@@ -2,9 +2,9 @@
     <div>
         <div>The value is: {{ value }}</div><br />
 
-        <JqxRadioButton v-model="value" :width="250" :height="25">1 Radio</JqxRadioButton>
-        <JqxRadioButton v-model="value" :width="250" :height="25">2 Radio</JqxRadioButton>
-        <JqxRadioButton v-model="value" :width="250" :height="25">3 Radio</JqxRadioButton>
+        <JqxRadioButton :theme="'material'" v-model="value" :width="250" :height="25">1 Radio</JqxRadioButton>
+        <JqxRadioButton :theme="'material'" v-model="value" :width="250" :height="25">2 Radio</JqxRadioButton>
+        <JqxRadioButton :theme="'material'" v-model="value" :width="250" :height="25">3 Radio</JqxRadioButton>
     </div>
 </template>
 

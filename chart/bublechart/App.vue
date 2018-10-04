@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Sales by City in Q1 and Q2, and YoY sales growth'"
                   :description="'(the size of the circles represents relative YoY growth)'"
                   :enableAnimations="true" :showLegend="true" :padding="padding"
@@ -13,14 +13,14 @@
                 <tr>
                     <td>
                         <p>Select Serie 1 Symbol:</p>
-                        <JqxDropDownList ref="dropDownSerie1Symbol" v-on:change="dropDown1OnChange($event)"
+                        <JqxDropDownList :theme="'material'" ref="dropDownSerie1Symbol" v-on:change="dropDown1OnChange($event)"
                                          :width="200" :height="25" :selectedIndex="0"
                                          :dropDownHeight="100" :source="symbolsList">
                         </JqxDropDownList>
                     </td>
                     <td>
                         <p>Select Serie 2 Symbol:</p>
-                        <JqxDropDownList ref="dropDownSerie2Symbol" v-on:change="dropDown2OnChange($event)"
+                        <JqxDropDownList :theme="'material'" ref="dropDownSerie2Symbol" v-on:change="dropDown2OnChange($event)"
                                          :width="200" :height="25" :selectedIndex="0"
                                          :dropDownHeight="100" :source="symbolsList">
                         </JqxDropDownList>

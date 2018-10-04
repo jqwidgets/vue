@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxDropDownList style="float: left"
+        <JqxDropDownList :theme="'material'" style="float: left"
                          :width="200" :height="25" :source="source" :selectedIndex="4">
         </JqxDropDownList>
 

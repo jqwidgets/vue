@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxEditor :width="getWidth" :height="400" :rtl="true">
+    <JqxEditor :theme="'material'" :width="getWidth" :height="400" :rtl="true">
         &lt;b&gt;jqxEditor&lt;/b&gt; is a HTML text editor designed to simplify web content creation. You can use it as a replacement of your Textarea or you can create it from a DIV element.
         &lt;br /&gt;
         &lt;br /&gt;

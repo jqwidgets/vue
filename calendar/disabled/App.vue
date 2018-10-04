@@ -1,5 +1,5 @@
 <template>
-  <JqxCalendar :width="220" :height="220" :disabled="true"></JqxCalendar>
+  <JqxCalendar :theme="'material'" :width="220" :height="220" :disabled="true"></JqxCalendar>
 </template>
 
     <script>

@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :pageable="true" :sortable="true" :columnsresize="true"
                  :autoheight="true" :pagermode="'simple'" :selectionmode="'multiplerowsextended'">
@@ -8,7 +8,7 @@
         <div style="margin-top: 30px">
             <div style="float: left">
                 Pager Settings:
-                <JqxDropDownList @select="myListOnSelect($event)"
+                <JqxDropDownList :theme="'material'" @select="myListOnSelect($event)"
                                  :width="150" :height="25" :selectedIndex="1"
                                  :autoDropDownHeight="true" :source="['Default', 'Simple']">
                 </JqxDropDownList>

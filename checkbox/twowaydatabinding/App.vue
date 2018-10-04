@@ -6,7 +6,7 @@
 
         <br /><br />
 
-        <JqxCheckBox v-model="state" :width="120" :height="25" :checked="true" :hasThreeStates="true" />
+        <JqxCheckBox :theme="'material'" v-model="state" :width="120" :height="25" :checked="true" :hasThreeStates="true" />
     </div>
 </template>
 

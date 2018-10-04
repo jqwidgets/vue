@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxPasswordInput :placeHolder="'Enter password'"
+    <JqxPasswordInput :theme="'material'" :placeHolder="'Enter password'"
                       :showStrength="true"
                       :showStrengthPosition="'right'"
                       :passwordStrength="passwordStrength"

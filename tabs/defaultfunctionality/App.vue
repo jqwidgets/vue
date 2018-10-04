@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTabs ref="myTabs"
+        <JqxTabs :theme="'material'" ref="myTabs"
                  :width="getWidth" :height='200' :position="'top'"
                  :animationType="'none'" :selectionTracker='false'>
             <ul>
@@ -63,9 +63,9 @@
             </div>
         </JqxTabs>
   
-        <JqxCheckBox @change="onChangeAnimation($event)">Enable Select Animation</JqxCheckBox>
+        <JqxCheckBox :theme="'material'" @change="onChangeAnimation($event)">Enable Select Animation</JqxCheckBox>
 
-        <JqxCheckBox @change="onChangeContentAnimation($event)">Enable Content Animation</JqxCheckBox>
+        <JqxCheckBox :theme="'material'" @change="onChangeContentAnimation($event)">Enable Content Animation</JqxCheckBox>
     </div>
 </template>
 

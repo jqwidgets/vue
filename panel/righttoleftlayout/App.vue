@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxPanel style="font-size: 13px; font-family: Verdana;"
+    <JqxPanel :theme="'material'" style="font-size: 13px; font-family: Verdana;"
               :rtl="true"
               :width="400"
               :height="350">

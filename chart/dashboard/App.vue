@@ -2,7 +2,7 @@
     <table cellpadding="0" cellspacing="0">
         <tr>
             <td>
-                <JqxChart style="width: 400px; height: 180px"
+                <JqxChart :theme="'material'" style="width: 400px; height: 180px"
                           :title="'Cluster capacity'" :description="''"
                           :showLegend="false" :enableAnimations="true" :padding="padding"
                           :titlePadding="titlePadding" :source="data1" :showToolTips="true"
@@ -11,7 +11,7 @@
                 </JqxChart>
             </td>
             <td>
-                <JqxChart style="width: 400px; height: 180px"
+                <JqxChart :theme="'material'" style="width: 400px; height: 180px"
                           :title="'Avg. CPU %'" :description="''"
                           :showLegend="false" :enableAnimations="true" :padding="padding"
                           :titlePadding="titlePadding" :source="data2" :showToolTips="true"
@@ -22,7 +22,7 @@
         </tr>
         <tr>
             <td>
-                <JqxChart style="width: 400px; height: 180px"
+                <JqxChart :theme="'material'" style="width: 400px; height: 180px"
                           :title="'Storage capacity [TB]'" :description="''"
                           :showLegend="false" :enableAnimations="true" :padding="padding"
                           :titlePadding="titlePadding" :source="data3" :showToolTips="true"
@@ -31,7 +31,7 @@
                 </JqxChart>
             </td>
             <td>
-                <JqxChart style="width: 400px; height: 180px"
+                <JqxChart :theme="'material'" style="width: 400px; height: 180px"
                           :title="'Network utilization %'" :description="''"
                           :showLegend="false" :enableAnimations="true" :padding="padding"
                           :titlePadding="titlePadding" :source="data4" :showToolTips="true"
@@ -42,7 +42,7 @@
         </tr>
         <tr>
             <td colspan="2">
-                <JqxChart style="width: 800px; height: 300px"
+                <JqxChart :theme="'material'" style="width: 800px; height: 300px"
                           :title="'Get request per second & response latencies'" :description="''"
                           :showLegend="false" :enableAnimations="true" :padding="padding"
                           :titlePadding="titlePadding" :source="data5" :showToolTips="true"

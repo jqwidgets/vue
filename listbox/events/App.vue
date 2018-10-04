@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="float: left; width: 500px;">
-        <JqxListBox style="margin-left: 20px; margin-top: 10px; float: left;" 
+        <JqxListBox :theme="'material'" style="margin-left: 20px; margin-top: 10px; float: left;" 
                     ref="myListBox"
                     @select="select($event)"
                     @unselect="unselect($event)"
@@ -13,7 +13,7 @@
                 <span>
                     Events:
                 </span>
-                <JqxPanel ref="myPanel" :width="200" :height="250">
+                <JqxPanel :theme="'material'" ref="myPanel" :width="200" :height="250">
                 </JqxPanel>
             </div>
         </div>

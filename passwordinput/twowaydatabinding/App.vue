@@ -2,7 +2,7 @@
     <div>
         <div>The value is: {{ value }}</div><br />
 
-        <JqxPasswordInput v-model="value" :width="200" :height="25" :placeHolder="'Enter Something'" />
+        <JqxPasswordInput :theme="'material'" v-model="value" :width="200" :height="25" :placeHolder="'Enter Something'" />
     </div>
 </template>
 

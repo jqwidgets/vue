@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
 
-        <JqxGrid ref="myGrid" @cellselect="myGridOnCellSelect($event)" @cellunselect="myGridOnCellUnselect($event)"
+        <JqxGrid :theme="'material'" ref="myGrid" @cellselect="myGridOnCellSelect($event)" @cellunselect="myGridOnCellUnselect($event)"
                  :width="getWidth" :source="dataAdapter"
                  :columns="columns" :selectionmode="'singlecell'">
         </JqxGrid>
@@ -9,20 +9,20 @@
         <div style="margin-top: 20px">
             <div style="float: left">
                 <div>
-                    <JqxInput ref="myInput1" style="float: left; margin-right: 5px"
+                    <JqxInput :theme="'material'" ref="myInput1" style="float: left; margin-right: 5px"
                               :width="50" :height="20" :value="100">
                     </JqxInput>
 
-                    <JqxButton style="float: left" @click="scrollToBtnOnClick()">Scroll to Row</JqxButton>
+                    <JqxButton :theme="'material'" style="float: left" @click="scrollToBtnOnClick()">Scroll to Row</JqxButton>
                 </div>
                 <div style="clear: both"></div>
                 <div style="margin-top: 10px;">
                 </div>
-                <JqxCheckBox :checked="true" @change="myCheckBoxOnChange($event)">Enable Hover</JqxCheckBox>
+                <JqxCheckBox :theme="'material'" :checked="true" @change="myCheckBoxOnChange($event)">Enable Hover</JqxCheckBox>
                 <div style="margin-top: 10px">
                     <span>Selection Mode</span>
 
-                    <JqxDropDownList style="margin-top: 5px" @select="myDropDownListOnSelect($event)"
+                    <JqxDropDownList :theme="'material'" style="margin-top: 5px" @select="myDropDownListOnSelect($event)"
                                      :width="120" :height="25" :selectedIndex="1" :dropDownWidth="200"
                                      :autoDropDownHeight="true" :source="dropDownSource1">
                     </JqxDropDownList>
@@ -37,13 +37,13 @@
                                 <tr>
                                     <td align="right">Row</td>
                                     <td>
-                                        <JqxInput ref="myInput2" style="float: left" :width="50" :value="0"></JqxInput>
+                                        <JqxInput :theme="'material'" ref="myInput2" style="float: left" :width="50" :value="0"></JqxInput>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td align="right">Column:</td>
                                     <td>
-                                        <JqxDropDownList ref="myDropDownList"
+                                        <JqxDropDownList :theme="'material'" ref="myDropDownList"
                                                          :width="120" :height="25" :selectedIndex="1"
                                                          :autoDropDownHeight="true" :source="dropDownSource2">
                                         </JqxDropDownList>
@@ -51,10 +51,10 @@
                                 </tr>
                                 <tr>
                                     <td align="right">
-                                        <JqxButton style="float: left; margin-right: 5px" @click="clearBtnOnClick()">Clear Selection</JqxButton>
+                                        <JqxButton :theme="'material'" style="float: left; margin-right: 5px" @click="clearBtnOnClick()">Clear Selection</JqxButton>
                                     </td>
                                     <td>
-                                        <JqxButton style="float: left" @click="selectBtnOnClick()">Select Cell</JqxButton>
+                                        <JqxButton :theme="'material'" style="float: left" @click="selectBtnOnClick()">Select Cell</JqxButton>
                                     </td>
                                 </tr>
                             </tbody>

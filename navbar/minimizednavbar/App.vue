@@ -1,10 +1,10 @@
 ﻿<template>
-    <JqxNavBar :selection="false"
+    <JqxNavBar :theme="'material'" :selection="false"
                :height="'auto'">
         <ul>
             <li>
                 Minimized NavBar with Vertical Layout
-                <JqxNavBar :minimizedTitle="'NavBar 1'"
+                <JqxNavBar :theme="'material'" :minimizedTitle="'NavBar 1'"
                            :minimized="true"
                            :minimizedHeight="40"
                            :height="120"
@@ -19,7 +19,7 @@
             </li>
             <li>
                 Minimized NavBar with Horizontal Layout
-                <JqxNavBar :minimizedTitle="'NavBar 2'"
+                <JqxNavBar :theme="'material'" :minimizedTitle="'NavBar 2'"
                            :minimized="true"
                            :minimizedHeight="40"
                            :height="120"

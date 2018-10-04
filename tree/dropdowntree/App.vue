@@ -1,6 +1,6 @@
 <template>
-    <JqxDropDownButton ref="myDropDownButton" :width="150" :height="25">
-        <JqxTree ref="myTree" @select="select($event)"
+    <JqxDropDownButton :theme="'material'" ref="myDropDownButton" :width="150" :height="25">
+        <JqxTree :theme="'material'" ref="myTree" @select="select($event)"
             :width="200" :height="220">
             <ul>
                 <li item-selected='true'>Home</li>

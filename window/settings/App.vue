@@ -1,36 +1,36 @@
 <template>
     <div>
-        <JqxButton @click="showWindowButtonClick()"
+        <JqxButton :theme="'material'" @click="showWindowButtonClick()"
                    :width="80" style="float: left;">
             Open
         </JqxButton>
 
-        <JqxButton @click="hideWindowButtonClick()"
+        <JqxButton :theme="'material'" @click="hideWindowButtonClick()"
                    :width="100" style="float: left; margin-left: 3px;">
             Close
         </JqxButton>
 
-        <JqxButton @click="pinWindowButtonClick()"
+        <JqxButton :theme="'material'" @click="pinWindowButtonClick()"
                    :width="80" style="float: left; margin-left: 3px;">
             Pin
         </JqxButton>
 
-        <JqxButton @click="unpinWindowButtonClick()"
+        <JqxButton :theme="'material'" @click="unpinWindowButtonClick()"
                    :width="80" style="float: left; margin-left: 5px;">
             Unpin
         </JqxButton>
 
-        <JqxButton @click="collapseWindowButtonClick()"
+        <JqxButton :theme="'material'" @click="collapseWindowButtonClick()"
                    :width="80" style="float: left; margin-left: 3px;">
             Collapse
         </JqxButton>
 
-        <JqxButton @click="expandWindowButtonClick()"
+        <JqxButton :theme="'material'" @click="expandWindowButtonClick()"
                    :width="80" style="float: left; margin-left: 3px;">
             Expand
         </JqxButton>
 
-        <JqxWindow ref="customWindow"
+        <JqxWindow :theme="'material'" ref="customWindow"
                    :width="400" :height="115" :position="{ x: 50, y: 120 }"
                    :cancelButton="'#cancelButton'"
                    :initContent="init"

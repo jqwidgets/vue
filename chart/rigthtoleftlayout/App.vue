@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px" :rtl="true"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px" :rtl="true"
               :title="'Fitness & exercise weekly scorecard'"
               :description="'Time spent in vigorous exercise by activity'"
               :showLegend="true" :enableAnimations="false" :padding="padding"

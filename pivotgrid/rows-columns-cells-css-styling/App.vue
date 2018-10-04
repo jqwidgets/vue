@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxPivotGrid style="width: 800px; height: 400px;"
+        <JqxPivotGrid :theme="'material'" style="width: 800px; height: 400px;"
                       ref="pivotGrid"
                       :source="pivotDataSource"
                       :treeStyleRows="true"

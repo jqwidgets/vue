@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
 
-        <JqxGrid ref="myGrid" @rowselect="myGridOnRowSelect($event)" @rowunselect="myGridOnRowUnselect($event)"
+        <JqxGrid :theme="'material'" ref="myGrid" @rowselect="myGridOnRowSelect($event)" @rowunselect="myGridOnRowUnselect($event)"
                  :width="getWidth" :height="350" :source="dataAdapter" :columns="columns">
         </JqxGrid>
 
@@ -9,33 +9,33 @@
             <div style="float: left">
                 <div>
 
-                    <JqxInput ref="myInput1" style="float: left; margin-right: 5px"
+                    <JqxInput :theme="'material'" ref="myInput1" style="float: left; margin-right: 5px"
                               :width="50" :height="20" :value="100">
                     </JqxInput>
 
-                    <JqxButton style="float: left" @click="scrollToBtnOnClick()">Scroll to Row</JqxButton>
+                    <JqxButton :theme="'material'" style="float: left" @click="scrollToBtnOnClick()">Scroll to Row</JqxButton>
 
                 </div>
                 <div style="clear: both"></div>
                 <div style="margin-top: 10px;">
 
-                    <JqxInput ref="myInput2" style="float: left" :width="50" :value="0"></JqxInput>
+                    <JqxInput :theme="'material'" ref="myInput2" style="float: left" :width="50" :value="0"></JqxInput>
 
-                    <JqxButton ref="mySelectRowBtn" style="float: left; margin-left: 5px" @click="selectRowBtnOnClick()">Select Row</JqxButton>
+                    <JqxButton :theme="'material'" ref="mySelectRowBtn" style="float: left; margin-left: 5px" @click="selectRowBtnOnClick()">Select Row</JqxButton>
 
-                    <JqxButton style="float: left; margin-left: 5px" @click="clearSelectionBtnOnClick()">Clear Selection</JqxButton>
+                    <JqxButton :theme="'material'" style="float: left; margin-left: 5px" @click="clearSelectionBtnOnClick()">Clear Selection</JqxButton>
 
                 </div>
                 <div style="clear: both"></div>
 
                 <div style="margin-top: 10px;">
-                    <JqxCheckBox :checked="true" @change="enableHoverOnChange($event)">Enable Hover</JqxCheckBox>
+                    <JqxCheckBox :theme="'material'" :checked="true" @change="enableHoverOnChange($event)">Enable Hover</JqxCheckBox>
                 </div>
 
                 <div style="margin-top: 10px">
                     <span>Selection Mode:</span>
 
-                    <JqxDropDownList style="margin-top: 5px" @select="enableSelectionOnSelect($event)"
+                    <JqxDropDownList :theme="'material'" style="margin-top: 5px" @select="enableSelectionOnSelect($event)"
                                      :width="120" :height="25" :selectedIndex="1" :dropDownWidth="200"
                                      :autoDropDownHeight="true" :source="dropDownSource">
                     </JqxDropDownList>

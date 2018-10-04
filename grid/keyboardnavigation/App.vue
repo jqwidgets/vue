@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="670" :height="300" :source="dataAdapter" :columns="columns"
                  :editable="true" :selectionmode="'multiplecellsadvanced'" :ready="ready">
         </JqxGrid>

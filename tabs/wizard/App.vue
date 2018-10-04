@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs ref="myTabs"
+    <JqxTabs :theme="'material'" ref="myTabs"
         :width="getWidth" :height="230" :keyboardNavigation="false">
         <ul>
             <li style="margin-left: 30px;">Personal info</li>
@@ -21,23 +21,23 @@
                 <div id="hintSection" class="hint"></div>
             </div>
             <div id="checkBoxWrapper">
-                <JqxCheckBox ref="acceptCheckBox" :width="250" @change="acceptCheckBoxChange($event)">
+                <JqxCheckBox :theme="'material'" ref="acceptCheckBox" :width="250" @change="acceptCheckBoxChange($event)">
                     I accept the terms and conditions
                 </JqxCheckBox>
             </div>
             <div id="sectionButtonsWrapper">
-                <JqxButton :width="50" ref="nextButtonInfo" class="nextButton">Next</JqxButton>
+                <JqxButton :theme="'material'" :width="50" ref="nextButtonInfo" class="nextButton">Next</JqxButton>
             </div>
         </div>
         <div class="section">
-            <JqxListBox ref="products"
+            <JqxListBox :theme="'material'" ref="products"
                 @change="productsChange($event)" @unselect="productsUnselect($event)"
                 :width="'99%'" :height="'70%'" :multiple="true" :source="source">
             </JqxListBox>
             <div class="hint" id="hintBasket"></div>
             <div id="basketButtonsWrapper">
-                <JqxButton :width="50" ref="backButtonBasket" class="backButton">Back</JqxButton>
-                <JqxButton :width="50" ref="nextButtonBasket" class="nextButton">Next</JqxButton>
+                <JqxButton :theme="'material'" :width="50" ref="backButtonBasket" class="backButton">Back</JqxButton>
+                <JqxButton :theme="'material'" :width="50" ref="nextButtonBasket" class="nextButton">Next</JqxButton>
             </div>
         </div>
         <div class="section">
@@ -46,7 +46,7 @@
                 <div id="orderContainer" ref="orderContainer"></div>
             </div>
             <div id="selectedProductsButtonsWrapper">
-                <JqxButton :width="50" ref="backButtonReview" class="backButton">Back</JqxButton>
+                <JqxButton :theme="'material'" :width="50" ref="backButtonReview" class="backButton">Back</JqxButton>
             </div>
         </div>
     </JqxTabs>

@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxNavigationBar :height="'100%'"
+    <JqxNavigationBar :theme="'material'" :height="'100%'"
                       :width="'100%'">
         <div>
             <div style="margin-top: 2px;">

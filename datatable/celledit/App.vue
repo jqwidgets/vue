@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDataTable @cellBeginEdit="onCellBeginEdit($event)" @cellEndEdit="onCellEndEdit($event)"
+        <JqxDataTable :theme="'material'" @cellBeginEdit="onCellBeginEdit($event)" @cellEndEdit="onCellEndEdit($event)"
                       :width="getWidth" :source="dataAdapter" :columns="columns"
                       :altRows="true" :pageable="true" :editable="true"
                       :pagerButtonsCount="8" :editSettings="editSettings">

@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxProgressBar :rtl="true"
+    <JqxProgressBar :theme="'material'" :rtl="true"
                     :width="300"
                     :height="30"
                     :value="50">

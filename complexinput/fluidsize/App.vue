@@ -1,5 +1,5 @@
 <template>
-    <JqxComplexInput 
+    <JqxComplexInput :theme="'material'" 
         :width="'30%'" :height="25" :value="'1000 + 2i'" :spinButtons="true">
     </JqxComplexInput>
 </template>

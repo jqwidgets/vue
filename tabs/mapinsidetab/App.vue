@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs
+    <JqxTabs :theme="'material'"
         :width="getWidth" :height="400" :initTabContent="initTabContent">
         <ul style='margin-left: 20px;'>
             <li>Map</li>

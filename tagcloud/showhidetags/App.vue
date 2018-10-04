@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTagCloud ref="myTagCloud"
+        <JqxTagCloud :theme="'material'" ref="myTagCloud"
             :width="600" :source="dataAdapter"
             :displayMember="'countryName'" :valueMember="'technologyRating'">
         </JqxTagCloud>
@@ -8,8 +8,8 @@
         <br />
         <br />
 
-        <JqxButton :width="100" ref="hideItemBtn" @click="hideItemClickBtn()">Hide Item</JqxButton>
-        <JqxButton :width="100" ref="showItemBtn" @click="showItemClickBtn()">Show Item</JqxButton>
+        <JqxButton :theme="'material'" :width="100" ref="hideItemBtn" @click="hideItemClickBtn()">Hide Item</JqxButton>
+        <JqxButton :theme="'material'" :width="100" ref="showItemBtn" @click="showItemClickBtn()">Show Item</JqxButton>
     </div>
 </template>
 

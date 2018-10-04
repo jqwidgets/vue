@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDataTable ref="myDataTable" style="float: left"
+        <JqxDataTable :theme="'material'" ref="myDataTable" style="float: left"
                       @rowSelect="tableOnRowSelect($event)" @rowUnselect="tableOnRowUnselect($event)"
                       :width="650" :source="dataAdapter" :columns="columns" :altRows="true">
         </JqxDataTable>
@@ -9,19 +9,19 @@
             <div><strong>Settings</strong></div>
             Select Row:
 
-            <JqxInput ref="myInput"
+            <JqxInput :theme="'material'" ref="myInput"
                       :width="60" :height="30" :value="0">
             </JqxInput>
 
             <br />
             <br />
 
-            <JqxButton style="float: left; padding-bottom: 2px" @click="rowSelectBtnOnClick()"
+            <JqxButton :theme="'material'" style="float: left; padding-bottom: 2px" @click="rowSelectBtnOnClick()"
                        :width="100" :height="20">
                 Select
             </JqxButton>
 
-            <JqxButton style="float: left; margin-left: 5px; padding-bottom: 2px" @click="clearSelectionBtnOnClick()"
+            <JqxButton :theme="'material'" style="float: left; margin-left: 5px; padding-bottom: 2px" @click="clearSelectionBtnOnClick()"
                        :width="130" :height="20">
                 Clear Selection
             </JqxButton>
@@ -32,7 +32,7 @@
 
             <div>Selection Mode:</div>
 
-            <JqxDropDownList @change="dropDownOnChange($event)"
+            <JqxDropDownList :theme="'material'" @change="dropDownOnChange($event)"
                              :height="30" :source="['Single Row','Multiple Rows']"
                              :selectedIndex="1" :autoDropDownHeight="true">
             </JqxDropDownList>

@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxNavBar :rtl="true"
+    <JqxNavBar :theme="'material'" :rtl="true"
                :height="40"
                :selectedItem="0">
         <ul>

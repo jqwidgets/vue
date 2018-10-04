@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Columns spacing and padding'"
                   :description="'Example with two series groups and three series in each group'"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -19,13 +19,13 @@
             </tr>
             <tr>
                 <td>
-                    <JqxCheckBox ref="btnEnableSeriesGroup1" v-on:change="updateSeriesGroupsVisibility()"
+                    <JqxCheckBox :theme="'material'" ref="btnEnableSeriesGroup1" v-on:change="updateSeriesGroupsVisibility()"
                                  :width="120" :height="25" :checked="true">
                         Visible
                     </JqxCheckBox>
                 </td>
                 <td>
-                    <JqxCheckBox ref="btnEnableSeriesGroup2" v-on:change="updateSeriesGroupsVisibility()"
+                    <JqxCheckBox :theme="'material'" ref="btnEnableSeriesGroup2" v-on:change="updateSeriesGroupsVisibility()"
                                  :width="120" :height="25" :checked="false">
                         Visible
                     </JqxCheckBox>
@@ -33,13 +33,13 @@
             </tr>
             <tr>
                 <td>
-                    <JqxCheckBox ref="btnStackedSeriesGroup1" v-on:change="updateSeriesGroupsStacking()"
+                    <JqxCheckBox :theme="'material'" ref="btnStackedSeriesGroup1" v-on:change="updateSeriesGroupsStacking()"
                                  :width="120" :height="25" :checked="false">
                         Stacked
                     </JqxCheckBox>
                 </td>
                 <td>
-                    <JqxCheckBox ref="btnStackedSeriesGroup2" v-on:change="updateSeriesGroupsStacking()"
+                    <JqxCheckBox :theme="'material'" ref="btnStackedSeriesGroup2" v-on:change="updateSeriesGroupsStacking()"
                                  :width="120" :height="25" :checked="false">
                         Stacked
                     </JqxCheckBox>
@@ -48,14 +48,14 @@
             <tr>
                 <td>
                     Space between columns / padding:
-                    <JqxSlider v-on:change="sliderColumnsGapPercent($event, 0)"
+                    <JqxSlider :theme="'material'" v-on:change="sliderColumnsGapPercent($event, 0)"
                                :width="250" :min="0" :max="99" :value="25"
                                :ticksFrequency="5" :step="1" :mode="'fixed'">
                     </JqxSlider>
                 </td>
                 <td>
                     Space between columns / padding:
-                    <JqxSlider v-on:change="sliderColumnsGapPercent($event, 1)"
+                    <JqxSlider :theme="'material'" v-on:change="sliderColumnsGapPercent($event, 1)"
                                :width="250" :min="0" :max="99" :value="25"
                                :ticksFrequency="5" :step="1" :mode="'fixed'">
                     </JqxSlider>
@@ -64,14 +64,14 @@
             <tr>
                 <td>
                     Space between series:
-                    <JqxSlider v-on:change="sliderSeriesGap($event, 0)"
+                    <JqxSlider :theme="'material'" v-on:change="sliderSeriesGap($event, 0)"
                                :width="250" :min="0" :max="100" :value="10"
                                :ticksFrequency="5" :step="1" :mode="'fixed'">
                     </JqxSlider>
                 </td>
                 <td>
                     Space between series:
-                    <JqxSlider v-on:change="sliderSeriesGap($event, 1)"
+                    <JqxSlider :theme="'material'" v-on:change="sliderSeriesGap($event, 1)"
                                :width="250" :min="0" :max="100" :value="25"
                                :ticksFrequency="5" :step="1" :mode="'fixed'">
                     </JqxSlider>
@@ -80,14 +80,14 @@
             <tr>
                 <td>
                     Minimum column :width:
-                    <JqxSlider v-on:change="sliderMinWidth($event, 0)"
+                    <JqxSlider :theme="'material'" v-on:change="sliderMinWidth($event, 0)"
                                :width="250" :min=" 0" :max="50" :value="0"
                                :ticksFrequency="5" :step=" 1" :mode="'fixed'">
                     </JqxSlider>
                 </td>
                 <td>
                     Minimum column :width:
-                    <JqxSlider v-on:change="sliderMinWidth($event ,1)"
+                    <JqxSlider :theme="'material'" v-on:change="sliderMinWidth($event ,1)"
                                :width="250" :min=" 0" :max="50" :value="0"
                                :ticksFrequency="5" :step=" 1" :mode="'fixed'">
                     </JqxSlider>
@@ -96,14 +96,14 @@
             <tr>
                 <td>
                     Maximum column :width:
-                    <JqxSlider v-on:change="sliderMaxWidth($event, 0)"
+                    <JqxSlider :theme="'material'" v-on:change="sliderMaxWidth($event, 0)"
                                :width="250" :min=" 1" :max="120" :value="40"
                                :ticksFrequency="20" :step=" 1" :mode="'fixed'">
                     </JqxSlider>
                 </td>
                 <td>
                     Maximum column :width:
-                    <JqxSlider v-on:change="sliderMaxWidth($event, 1)"
+                    <JqxSlider :theme="'material'" v-on:change="sliderMaxWidth($event, 1)"
                                :width="250" :min=" 1" :max="120" :value="40"
                                :ticksFrequency="20" :step=" 1" :mode="'fixed'">
                     </JqxSlider>

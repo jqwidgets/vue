@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxNavBar :orientation="'vertical'"
+    <JqxNavBar :theme="'material'" :orientation="'vertical'"
                :height="120"
                :selectedItem="0">
         <ul>

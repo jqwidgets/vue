@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxSplitter 
+        <JqxSplitter :theme="'material'" 
             @resize="resize($event)"
             @expanded="expanded($event)"
             @collapsed="collapsed($event)"
@@ -15,7 +15,7 @@
             Events:
         </div>
 
-        <JqxPanel ref="myPanel"
+        <JqxPanel :theme="'material'" ref="myPanel"
             :height="250" :width="450">
         </JqxPanel>
     </div>

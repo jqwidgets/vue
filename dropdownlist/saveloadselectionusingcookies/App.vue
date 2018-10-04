@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxDropDownList @select="listOnSelect($event)"
+    <JqxDropDownList :theme="'material'" @select="listOnSelect($event)"
                      :width="200" :height="25" :source="dataAdapter" :selectedIndex="index"
                      :displayMember="'ContactName'" :valueMember="'CompanyName'">
     </JqxDropDownList>

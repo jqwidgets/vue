@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxPopover :offset="{ left: 0, top: 0 }"
+        <JqxPopover :theme="'material'" :offset="{ left: 0, top: 0 }"
                     :arrowOffsetValue="0"
                     :position="'top'"
                     :title="'Employees'"
@@ -10,7 +10,7 @@
         </JqxPopover>
         <div style="height: 60px; border-width: 0px; position: absolute; width: 100%; bottom: 0px; border-style: solid; padding-top:10px; padding-bottom: 10px; box-sizing: border-box;" id="header">
             <div class="jqx-widget-header" id="container">
-                <JqxButton style="float: left; margin-left: 50%; left: -75px; top: 0px; position: relative; padding: 5px 22px; border-radius: 6px;"
+                <JqxButton :theme="'material'" style="float: left; margin-left: 50%; left: -75px; top: 0px; position: relative; padding: 5px 22px; border-radius: 6px;"
                            :width="150" :height="22">View Employees</JqxButton>
             </div>
         </div>

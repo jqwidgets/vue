@@ -1,5 +1,5 @@
 <template>
-    <JqxBulletChart :width="getWidth" :height="500" :barSize="'35%'" :labelsFormat="'c'"
+    <JqxBulletChart :theme="'material'" :width="getWidth" :height="500" :barSize="'35%'" :labelsFormat="'c'"
                     :title="'Temperature in Boston, Mass.'" :description="'on 28 May'"
                     :showToolTip="true" :labelsFormatFunction="labelsFormatFunction"
                     :tooltipFormatFunction="tooltipFormatFunction" :ticks="ticks"

@@ -1,5 +1,5 @@
 <template>
-    <JqxBarGauge ref="myBarGauge" @drawEnd="onDrawEnd($event)"
+    <JqxBarGauge :theme="'material'" ref="myBarGauge" @drawEnd="onDrawEnd($event)"
                  :width="getWidth" :height="650" :values="arrayOfValues"
                  :barSpacing="14" :labels="labels" :animationDuration="300"
                  :startAngle="180" :endAngle="-180" :colorScheme="'scheme02'"

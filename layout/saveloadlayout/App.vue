@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxLayout ref="myLayout" :width="getWidth" :height="600" :layout="layout">
+        <JqxLayout :theme="'material'" ref="myLayout" :width="getWidth" :height="600" :layout="layout">
             <!--The panel content divs can have a flat structure-->
             <!--autoHideGroup-->
             <div data-container="ToolboxPanel">
@@ -34,9 +34,9 @@
 
         <div style="margin-top: 25px">
 
-            <JqxButton @click="saveLayoutBtnOnClick()">Save Layout</JqxButton>
+            <JqxButton :theme="'material'" @click="saveLayoutBtnOnClick()">Save Layout</JqxButton>
 
-            <JqxButton ref="myLoadLayoutBtn" @click="loadLayoutBtnOnClick()" :disabled="true">Load Layout</JqxButton>
+            <JqxButton :theme="'material'" ref="myLoadLayoutBtn" @click="loadLayoutBtnOnClick()" :disabled="true">Load Layout</JqxButton>
 
         </div>
     </div>

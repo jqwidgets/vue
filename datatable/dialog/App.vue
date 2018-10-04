@@ -1,12 +1,12 @@
 <template>
     <div>
-        <JqxDataTable ref="myDataTable" @rowDoubleClick="onRowDoubleClick($event)"
+        <JqxDataTable :theme="'material'" ref="myDataTable" @rowDoubleClick="onRowDoubleClick($event)"
                       :width="getWidth" :source="dataAdapter" :columns="columns"
                       :altRows="true" :sortable="true" :pageable="true"
                       :pagerButtonsCount="8">
         </JqxDataTable>
 
-        <JqxWindow ref=myWindow @close="myWindowOnClose()"
+        <JqxWindow :theme="'material'" ref=myWindow @close="myWindowOnClose()"
                    :width="270" :height="235" :resizable="false" :autoOpen="false" :position="{ left: 85, top: 43 }">
             <div>Edit Dialog</div>
             <div style="overflow: hidden">
@@ -17,7 +17,7 @@
                                 Order ID:
                             </td>
                             <td align='left'>
-                                <JqxInput ref="orderID" :width="150" :height="30" :disabled="true"></JqxInput>
+                                <JqxInput :theme="'material'" ref="orderID" :width="150" :height="30" :disabled="true"></JqxInput>
                             </td>
                         </tr>
                         <tr>
@@ -25,7 +25,7 @@
                                 Freight:
                             </td>
                             <td align='left'>
-                                <JqxNumberInput ref="freight"
+                                <JqxNumberInput :theme="'material'" ref="freight"
                                                 :width="156" :height="30" :spinButtons="true" :inputMode="'simple'">
                                 </JqxNumberInput>
                             </td>
@@ -35,7 +35,7 @@
                                 Ship Country:
                             </td>
                             <td align='left'>
-                                <JqxInput ref="shipCountry" :width="150" :height="30" :source="countries"></JqxInput>
+                                <JqxInput :theme="'material'" ref="shipCountry" :width="150" :height="30" :source="countries"></JqxInput>
                             </td>
                         </tr>
                         <tr>
@@ -43,7 +43,7 @@
                                 Shipped Date:
                             </td>
                             <td align='left'>
-                                <JqxDateTimeInput ref="shipDate"
+                                <JqxDateTimeInput :theme="'material'" ref="shipDate"
                                                   :width="156" :height="30">
                                 </JqxDateTimeInput>
                             </td>
@@ -51,11 +51,11 @@
                         <tr>
                             <td colSpan='2' align='right'>
                                 <br />
-                                <JqxButton @click="cancelBtnOnClick()" style="margin-left: 5px; float: right"
+                                <JqxButton :theme="'material'" @click="cancelBtnOnClick()" style="margin-left: 5px; float: right"
                                            :width="80" :height="30">
                                     Cancel
                                 </JqxButton>
-                                <JqxButton @click="saveBtnOnClick()" style="float: right"
+                                <JqxButton :theme="'material'" @click="saveBtnOnClick()" style="float: right"
                                            :width="80" :height="30">
                                     Save
                                 </JqxButton>

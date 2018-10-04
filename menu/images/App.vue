@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="height: 300px;">
-        <JqxMenu :mode="'vertical'"
+        <JqxMenu :theme="'material'" :mode="'vertical'"
                  :width="150"
                  :height="225">
             <ul>
@@ -65,17 +65,17 @@
                     <img style="float: left; margin-right: 5px;" src="https://www.jqwidgets.com/vue/images/settings.png" /><span>Settings</span>
                     <ul style="width: 230px;">
                         <li>
-                            <JqxCheckBox style="float: left; margin-right: 5px;" :checked="true">
+                            <JqxCheckBox :theme="'material'" style="float: left; margin-right: 5px;" :checked="true">
                             </JqxCheckBox>
                             Enable Auto-Save
                         </li>
                         <li>
-                            <JqxCheckBox style="float: left; margin-right: 5px;">
+                            <JqxCheckBox :theme="'material'" style="float: left; margin-right: 5px;">
                             </JqxCheckBox>
                             Send email as anonymous
                         </li>
                         <li>
-                            <JqxCheckBox style="float: left; margin-right: 5px;">
+                            <JqxCheckBox :theme="'material'" style="float: left; margin-right: 5px;">
                             </JqxCheckBox>
                             Save sent emails
                         </li>

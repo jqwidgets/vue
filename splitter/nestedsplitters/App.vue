@@ -1,13 +1,13 @@
 <template>
-    <JqxSplitter
+    <JqxSplitter :theme="'material'"
         :width="850" :height="850" :orientation="'horizontal'"
         :panels="[{ size: '50%' }, { size: '50%' }]">
         <div>
-            <JqxSplitter class="jqx-splitter-nested"
+            <JqxSplitter :theme="'material'" class="jqx-splitter-nested"
                 :width="'100%'" :height="'100%'" :orientation="'vertical'"
                 :panels="[{ size: 300, collapsible: false }]">
                 <div>
-                    <JqxSplitter class="jqx-splitter-nested"
+                    <JqxSplitter :theme="'material'" class="jqx-splitter-nested"
                         :width="'100%'" :height="'100%'" :orientation="'horizontal'"
                         :panels="[{ size: 150 }]">
                         <div>
@@ -24,7 +24,7 @@
             </JqxSplitter>
         </div>
         <div>
-            <JqxSplitter class="jqx-splitter-nested"
+            <JqxSplitter :theme="'material'" class="jqx-splitter-nested"
                 :width="'100%'" :height="'100%'" :orientation="'horizontal'"
                 :panels="[{ size: 150, collapsible: false }]">
                 <div>

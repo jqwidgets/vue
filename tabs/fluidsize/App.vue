@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs
+    <JqxTabs :theme="'material'"
         :width="'100%'" :hight="'100%'">
         <ul style='margin-left: 30px;'>
             <li>Node.js</li>

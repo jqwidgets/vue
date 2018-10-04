@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxLayout :width="getWidth" :height="600" :layout="layout" :contextMenu="true">
+    <JqxLayout :theme="'material'" :width="getWidth" :height="600" :layout="layout" :contextMenu="true">
         <div data-container="ToolboxPanel">List of tools</div>
         <div data-container="HelpPanel">Help topics</div>
 

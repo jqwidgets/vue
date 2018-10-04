@@ -1,28 +1,28 @@
 ﻿<template>
     <div>
-        <JqxComboBox ref="myComboBox" style="float: left; margin-top: 10px"
+        <JqxComboBox :theme="'material'" ref="myComboBox" style="float: left; margin-top: 10px"
                      :width="200" :height="25" :source="comboBoxSource" :selectedIndex="0">
         </JqxComboBox>
 
-        <JqxExpander style="float: left; margin-left: 100px; margin-top: 10px"
+        <JqxExpander :theme="'material'" style="float: left; margin-left: 100px; margin-top: 10px"
                      :width="220" :showArrow="false" :toggleMode="'none'">
             <div>Settings</div>
             <div style="padding: 10px;">
                 <span>Search Type:</span>
 
                 <div style="margin-top: 10px"></div>
-                <JqxDropDownList @select="dropDownListOnSelect($event)"
+                <JqxDropDownList :theme="'material'" @select="dropDownListOnSelect($event)"
                                  :width="200" :height="25" :source="dropDownListSource" :selectedIndex="0">
                 </JqxDropDownList>
 
                 <div style="margin-top: 10px;">
 
-                    <JqxButton style="float: left; margin-right: 0.5em" :width="80"
+                    <JqxButton :theme="'material'" style="float: left; margin-right: 0.5em" :width="80"
                                @click="btnOpenOnClick()">
                         Open
                     </JqxButton>
 
-                    <JqxButton style="float: left" :width="80"
+                    <JqxButton :theme="'material'" style="float: left" :width="80"
                                @click="btnCloseOnClick()">
                         Close
                     </JqxButton>
@@ -31,13 +31,13 @@
 
                 <div style="clear: both"></div>
                 <div style="clear: both; margin-top: 10px"></div>
-                <JqxCheckBox :width="120"
+                <JqxCheckBox :theme="'material'" :width="120"
                              @change="checkBoxAutoCompleteOnChange($event)">
                     Auto Complete
                 </JqxCheckBox>
 
                 <div style="margin-top: 10px"></div>
-                <JqxCheckBox :width="120" :checked="true"
+                <JqxCheckBox :theme="'material'" :width="120" :checked="true"
                              @change="checkBoxEnabledOnChange($event)">
                     Enabled
                 </JqxCheckBox>

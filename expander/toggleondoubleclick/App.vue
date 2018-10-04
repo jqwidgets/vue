@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxExpander :width="350" :toggleMode="'dblclick'">
+    <JqxExpander :theme="'material'" :width="350" :toggleMode="'dblclick'">
         <div>Early History of the Internet</div>
         <div>
             <ul style="direction: rtl">

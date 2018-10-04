@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Live updates demo'" :enableAxisTextAnimation="true"
                   :description="''" :animationDuration="1000"
                   :showLegend="true" :enableAnimations="true" :padding="padding"
@@ -12,14 +12,14 @@
                 <tr>
                     <td style="padding-left: 50px">
                         <p>Select the series type:</p>
-                        <JqxDropDownList v-on:change="seriesOnChange($event)"
+                        <JqxDropDownList :theme="'material'" v-on:change="seriesOnChange($event)"
                                          :width="200" :height="25" :selectedIndex="2"
                                          :dropDownHeight="100" :source="seriesList">
                         </JqxDropDownList>
                     </td>
                     <td>
                         <p>Select color scheme:</p>
-                        <JqxDropDownList v-on:change="colorsOnChange($event)"
+                        <JqxDropDownList :theme="'material'" v-on:change="colorsOnChange($event)"
                                          :width="200" :height="25" :selectedIndex="2"
                                          :dropDownHeight="100" :source="colorsSchemesList">
                         </JqxDropDownList>

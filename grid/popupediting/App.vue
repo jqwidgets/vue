@@ -1,11 +1,11 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid" class="grid"
+        <JqxGrid :theme="'material'" ref="myGrid" class="grid"
                  :width="getWidth" :source="dataAdapter" :pageable="true"
                  :autoheight="true" :columns="columns">
         </JqxGrid>
 
-        <JqxWindow ref="myWindow" :width="250" :height="230" :resizable="false" :isModal="false" :autoOpen="false">
+        <JqxWindow :theme="'material'" ref="myWindow" :width="250" :height="230" :resizable="false" :isModal="false" :autoOpen="false">
             <div>Edit</div>
             <div style="overflow: hidden;">
                 <table>
@@ -13,7 +13,7 @@
                         <td align="right">First Name:</td>
                         <td align="left">
 
-                            <JqxInput ref="firstname" :width="150" :height="23"></JqxInput>
+                            <JqxInput :theme="'material'" ref="firstname" :width="150" :height="23"></JqxInput>
 
                         </td>
                     </tr>
@@ -21,7 +21,7 @@
                         <td align="right">Last Name:</td>
                         <td align="left">
 
-                            <JqxInput ref="lastname" :width="150" :height="23"></JqxInput>
+                            <JqxInput :theme="'material'" ref="lastname" :width="150" :height="23"></JqxInput>
 
                         </td>
                     </tr>
@@ -29,7 +29,7 @@
                         <td align="right">Product:</td>
                         <td align="left">
 
-                            <JqxInput ref="product" :width="150" :height="23"></JqxInput>
+                            <JqxInput :theme="'material'" ref="product" :width="150" :height="23"></JqxInput>
 
                         </td>
                     </tr>
@@ -37,7 +37,7 @@
                         <td align="right">Quantity:</td>
                         <td align="left">
 
-                            <JqxNumberInput ref="quantity"
+                            <JqxNumberInput :theme="'material'" ref="quantity"
                                             :width="150" :height="23" :decimalDigits="0"
                                             :min="0" :spinButtons="true" :spinMode="'simple'">
                             </JqxNumberInput>
@@ -48,7 +48,7 @@
                         <td align="right">Price:</td>
                         <td align="left">
 
-                            <JqxNumberInput ref="price"
+                            <JqxNumberInput :theme="'material'" ref="price"
                                             :width="150" :height="23" :symbol="'$'"
                                             :min="0" :spinButtons="true" :spinMode="'simple'">
                             </JqxNumberInput>
@@ -57,12 +57,12 @@
                     </tr>
                     <tr style="text-align: center;">
                         <td style="padding-top: 10px;">
-                            <JqxButton @click="saveBtn()">
+                            <JqxButton :theme="'material'" @click="saveBtn()">
                                 Save
                             </JqxButton>
                         </td>
                         <td style="padding-top: 10px;">
-                            <JqxButton @click="cancelBtn()">
+                            <JqxButton :theme="'material'" @click="cancelBtn()">
                                 Cancel
                             </JqxButton>
                         </td>

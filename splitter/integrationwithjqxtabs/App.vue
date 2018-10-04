@@ -1,5 +1,5 @@
 <template>
-    <JqxSplitter 
+    <JqxSplitter :theme="'material'" 
         :panels="[{ size: '20%' }, { size: '80%' }]"
         :orientation="'horizontal'"
         :height="850" :width="850">
@@ -7,14 +7,14 @@
             Top Panel
         </div>
         <div>
-            <JqxSplitter
+            <JqxSplitter :theme="'material'"
                 :width="'100%'" :height="'100%'"
                 :panels="[{ size: 200 }, { size: 200}]">
                 <div>
                     Left Panel
                 </div>
                 <div>
-                    <JqxTabs class="jqx-hideborder jqx-hidescrollbars"
+                    <JqxTabs :theme="'material'" class="jqx-hideborder jqx-hidescrollbars"
                         :width="'100%'" :height="'100%'">
                         <ul>
                             <li style="margin-left: 30px;">Tab 1</li>

@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxFileUpload 
+    <JqxFileUpload :theme="'material'" 
                    :width="300" :uploadUrl="'upload.php'" :fileInputName="'fileToUpload'" :rtl="true">
     </JqxFileUpload>
 </template>

@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="float: left;">
-        <JqxMenu :source="source"
+        <JqxMenu :theme="'material'" :source="source"
                  :mode="'vertical'"
                  :width="180"
                  :height="180">

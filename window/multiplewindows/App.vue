@@ -1,17 +1,17 @@
 <template>
     <div style="width: 100%; height: 650px; border: 0px solid #ccc; margin-top: 15px;">
 
-        <JqxButton @click="showWindowButtonClick()"
+        <JqxButton :theme="'material'" @click="showWindowButtonClick()"
                    :width="120" style="float: left;">
             Show Windows
         </JqxButton>
-        <JqxButton @click="addWindowButtonClick()"
+        <JqxButton :theme="'material'" @click="addWindowButtonClick()"
                    :width="100" style="float: left; margin-left: 5px;">
             Add Windows
         </JqxButton>
 
         <div id="mainDemoContainer">
-            <JqxWindow :width="300" :height="'auto'" :position="{ x: 50, y: 120 }">
+            <JqxWindow :theme="'material'" :width="300" :height="'auto'" :position="{ x: 50, y: 120 }">
                 <div>RISC</div>
                 <div>
                     Some aspects attributed to the first RISC-labeled designs around 1975 include the
@@ -22,7 +22,7 @@
                 </div>
             </JqxWindow>
 
-            <JqxWindow :width="300" :height="'auto'" :position="{ x: 100, y: 170 }">
+            <JqxWindow :theme="'material'" :width="300" :height="'auto'" :position="{ x: 100, y: 170 }">
                 <div>CISC</div>
                 <div>
                     Before the RISC philosophy became prominent, many computer architects tried to bridge
@@ -34,7 +34,7 @@
                 </div>
             </JqxWindow>
 
-            <JqxWindow :width="300" :height="'auto'" :position="{ x: 150, y: 220 }">
+            <JqxWindow :theme="'material'" :width="300" :height="'auto'" :position="{ x: 150, y: 220 }">
                 <div>Database management system</div>
                 <div>
                     A database management system (DBMS) is a software package with computer programs

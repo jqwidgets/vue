@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid @columnresized="myGridOnColumnResized($event)"
+        <JqxGrid :theme="'material'" @columnresized="myGridOnColumnResized($event)"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :autoheight="true" :columnsresize="true">
         </JqxGrid>

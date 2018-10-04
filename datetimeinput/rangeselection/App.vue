@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDateTimeInput ref="myDateTimeInput" @change="dateOnChange()"
+        <JqxDateTimeInput :theme="'material'" ref="myDateTimeInput" @change="dateOnChange()"
                           :width="250" :height="25" :selectionMode="'range'">
         </JqxDateTimeInput>
 

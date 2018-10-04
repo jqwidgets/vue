@@ -1,17 +1,17 @@
 ﻿<template>
     <div>
-        <JqxFormattedInput ref="myFormattedInput"
+        <JqxForm :theme="'material'"attedInput ref="myFormattedInput"
                            :width="200" :height="25" :radix="'decimal'" :spinButtons="false"
                            :value="330000" :decimalNotation="'exponential'">
         </JqxFormattedInput>
 
         <div style="margin-top: 20px">
-            <JqxButton style="float: left" @click="getDecimal()" :width="185">Get Decimal Value</JqxButton>
-            <JqxButton style="margin-left: 5px; float: left" @click="getExponential()" :width="185">Get Exponential Notation</JqxButton>
+            <JqxButton :theme="'material'" style="float: left" @click="getDecimal()" :width="185">Get Decimal Value</JqxButton>
+            <JqxButton :theme="'material'" style="margin-left: 5px; float: left" @click="getExponential()" :width="185">Get Exponential Notation</JqxButton>
             <br />
             <br />
-            <JqxButton style="float: left" @click="getScientific()" :width="185">Get Scientific Notation</JqxButton>
-            <JqxButton style="margin-left: 5px; float: left" @click="getEngineering()" :width="185">Get Engineering Notation</JqxButton>
+            <JqxButton :theme="'material'" style="float: left" @click="getScientific()" :width="185">Get Scientific Notation</JqxButton>
+            <JqxButton :theme="'material'" style="margin-left: 5px; float: left" @click="getEngineering()" :width="185">Get Engineering Notation</JqxButton>
         </div>
     </div>
 </template>

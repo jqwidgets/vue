@@ -3,21 +3,21 @@
         <div style="float: left; font-size: 13px; font-family: Verdana">
             <h3>Animation Type</h3>
 
-            <JqxRadioButton @checked="noneAnimationBtnOnChacked()">
+            <JqxRadioButton :theme="'material'" @checked="noneAnimationBtnOnChacked()">
                 None
             </JqxRadioButton>
 
-            <JqxRadioButton style="margin-top: 10px" @checked="slideAnimationBtnOnChacked()">
+            <JqxRadioButton :theme="'material'" style="margin-top: 10px" @checked="slideAnimationBtnOnChacked()">
                 Slide
             </JqxRadioButton>
 
-            <JqxRadioButton style="margin-top: 10px" @checked="fadeAnimationBtnOnChacked()" :checked=true>
+            <JqxRadioButton :theme="'material'" style="margin-top: 10px" @checked="fadeAnimationBtnOnChacked()" :checked=true>
                 Fade
             </JqxRadioButton>
 
         </div>
 
-        <JqxDropDownList ref="myDropDownList" style="float: left; margin-top: 20px; margin-left: 100px"
+        <JqxDropDownList :theme="'material'" ref="myDropDownList" style="float: left; margin-top: 20px; margin-left: 100px"
                          :width="150" :height="25" :source="dataAdapter" :selectedIndex="0"
                          :animationType="'fade'" :dropDownHorizontalAlignment="'right'"
                          :dropDownWidth="200" :displayMember="'ContactName'" :valueMember="'CompanyName'">

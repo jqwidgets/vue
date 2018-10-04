@@ -1,10 +1,10 @@
 <template>
     <div>
-        <JqxPanel ref="myPanel" style="border-width: 0; margin-left: 30px"
+        <JqxPanel :theme="'material'" ref="myPanel" style="border-width: 0; margin-left: 30px"
                   :width="getWidth" :height="50">
         </JqxPanel>
 
-        <JqxDocking ref="myDocking" style="float: left;"
+        <JqxDocking :theme="'material'" ref="myDocking" style="float: left;"
                     @dragStart="myDockingOnDragStart($event)" @dragEnd="myDockingOnDragEnd($event)"
                     :width="getWidth" :orientation="'horizontal'" :mode="'default'">
             <div>

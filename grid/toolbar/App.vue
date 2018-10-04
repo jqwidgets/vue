@@ -1,23 +1,23 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :showtoolbar="true"
                  :rendertoolbar="createButtonsContainers" :columns="columns">
         </JqxGrid>
 
-        <JqxWindow ref="myWindow" :width="210" :height="180" :autoOpen="false" :resizable="false">
+        <JqxWindow :theme="'material'" ref="myWindow" :width="210" :height="180" :autoOpen="false" :resizable="false">
             <div>Find Record</div>
             <div style="overflow: hidden">
                 <div>Find what:</div>
                 <div style="margin-top: 5px">
 
-                    <JqxInput ref="myInput" :width="194" :height="23"></JqxInput>
+                    <JqxInput :theme="'material'" ref="myInput" :width="194" :height="23"></JqxInput>
 
                 </div>
                 <div style="margin-top: 7px; clear: both">Look in:</div>
                 <div style="margin-top: 5px">
 
-                    <JqxDropDownList ref="myDropDownList"
+                    <JqxDropDownList :theme="'material'" ref="myDropDownList"
                                      :width="200" :height="23" :selectedIndex="0"
                                      :source="dropDownSource" :autoDropDownHeight="true">
                     </JqxDropDownList>
@@ -25,12 +25,12 @@
                 </div>
                 <div>
 
-                    <JqxButton style="margin-top: 15px; margin-left: 50px; float: left"
+                    <JqxButton :theme="'material'" style="margin-top: 15px; margin-left: 50px; float: left"
                                @click="findBtnOnClick()" :width="70">
                         Find
                     </JqxButton>
 
-                    <JqxButton style="margin-left: 5px; margin-top: 15px; float: left"
+                    <JqxButton :theme="'material'" style="margin-left: 5px; margin-top: 15px; float: left"
                                @click="clearBtnOnClick()" :width="70">
                         Clear
                     </JqxButton>

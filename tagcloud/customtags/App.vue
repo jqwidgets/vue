@@ -1,5 +1,5 @@
 <template>
-    <JqxTagCloud ref="myTagCloud"
+    <JqxTagCloud :theme="'material'" ref="myTagCloud"
         :width="600" :source="dataAdapter" :tagRenderer="tagRenderer"
         :displayMember="'countryName'" :valueMember="'technologyRating'">
     </JqxTagCloud>

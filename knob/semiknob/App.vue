@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxKnob :value="-100" :min="-100" :max="100" :startAngle="200"
+    <JqxKnob :theme="'material'" :value="-100" :min="-100" :max="100" :startAngle="200"
              :endAngle="340" :rotation="'clockwise'" :snapToStep="true"
              :marks="marks" :labels="labels" :spinner="spinner" :progressBar="progressBar" 
              :pointer="pointer" :step="'0.5'" :dragStartAngle="120" :dragEndAngle="420">

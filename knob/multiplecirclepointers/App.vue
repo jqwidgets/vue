@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxKnob @change="myKnobOnChange($event)"
+        <JqxKnob :theme="'material'" @change="myKnobOnChange($event)"
                  :value="[60, 80]" :min="0" :max="100" :startAngle="150"
                  :endAngle="510" :rotation="'clockwise'" :snapToStep="true"
                  :styleProperty="{ fill: '#ebeced' }" :labels="labels" :changing="changing"

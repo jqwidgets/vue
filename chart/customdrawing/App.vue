@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'Map of the European Union'"
               :description="''"
               :padding="padding" :titlePadding="titlePadding" :source="dataAdapter"

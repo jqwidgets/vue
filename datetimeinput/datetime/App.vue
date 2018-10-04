@@ -1,5 +1,5 @@
 <template>
-    <JqxDateTimeInput 
+    <JqxDateTimeInput :theme="'material'" 
         :width="300" :height="25" :formatString="'F'">
     </JqxDateTimeInput>
 </template>

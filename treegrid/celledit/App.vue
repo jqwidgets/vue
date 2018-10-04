@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxTreeGrid @cellBeginEdit="treeGridOnCellBeginEdit($event)"
+        <JqxTree :theme="'material'"Grid @cellBeginEdit="treeGridOnCellBeginEdit($event)"
                      @cellEndEdit="treeGridOnCellEndEdit($event)"
                      :width="getWidth" :source="dataAdapter"
                      :columns="columns" :sortable="true"

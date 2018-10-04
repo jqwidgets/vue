@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxRibbon 
+        <JqxRibbon :theme="'material'" 
             @select="select($event)"
             @unselect="unselect($event)"
             :width="getWidth" :height="300" :position="'top'" 
@@ -154,7 +154,7 @@
         <div style="margin-top: 30px; font-weight: bold;">
             Events:
         </div>
-        <JqxPanel ref="myPanel" :width="200" :height="250"></JqxPanel>
+        <JqxPanel :theme="'material'" ref="myPanel" :width="200" :height="250"></JqxPanel>
     </div>
 </template>
 

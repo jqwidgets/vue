@@ -1,17 +1,17 @@
 <template>
     <div>
-        <JqxColorPicker ref="myColorPicker" @colorchange="colorChanged($event)"
+        <JqxColorPicker :theme="'material'" ref="myColorPicker" @colorchange="colorChanged($event)"
                         :width="250" :height="250">
         </JqxColorPicker>
 
         <div style="font-size: 13px; font-family: Verdana; margin-top: 10px">
             <div style="margin-bottom: 5px">Color Modes</div>
 
-            <JqxRadioButton :width="180" :height="25" :checked="true">
+            <JqxRadioButton :theme="'material'" :width="180" :height="25" :checked="true">
                 Saturation Color Mode
             </JqxRadioButton>
 
-            <JqxRadioButton @change="hueModeChanged($event)"
+            <JqxRadioButton :theme="'material'" @change="hueModeChanged($event)"
                             :width="180" :height="25">
                 Hue Color Mode
             </JqxRadioButton>

@@ -4,21 +4,21 @@
             <div style="float: left">
 
                 <span style="font-style: italic;">Red</span>
-                <JqxSlider ref="redSlider" @change="setColor()"
+                <JqxSlider :theme="'material'" ref="redSlider" @change="setColor()"
                     :height="60" :min="0" :max="255" :tickLabelFormatFunction="tickLabelFormatFunction"
                     :value="0" :step="25.5" :mode="'fixed'" :tooltipFormatFunction="tooltipFormatFunction"
                     :showTickLabels="true" :tooltip="true" :ticksFrequency="25.5">
                 </JqxSlider>
 
                 <span style="font-style: italic;">Green</span>
-                <JqxSlider ref="greenSlider" @change="setColor()"
+                <JqxSlider :theme="'material'" ref="greenSlider" @change="setColor()"
                     :height="60" :min="0" :max="255" :tickLabelFormatFunction="tickLabelFormatFunction"
                     :value="0" :step="25.5" :mode="'fixed'" :tooltipFormatFunction="tooltipFormatFunction"
                     :showTickLabels="true" :tooltip="true" :ticksFrequency="25.5">
                 </JqxSlider>
 
                 <span style="font-style: italic;">Blue</span>
-                <JqxSlider ref="blueSlider" @change="setColor()"
+                <JqxSlider :theme="'material'" ref="blueSlider" @change="setColor()"
                     :height="60" :min="0" :max="255" :tickLabelFormatFunction="tickLabelFormatFunction"
                     :value="255" :step="25.5" :mode="'fixed'" :tooltipFormatFunction="tooltipFormatFunction"
                     :showTickLabels="true" :tooltip="true" :ticksFrequency="25.5">
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <JqxCheckBox @change="checkBoxOnChange($event)" :width="200" :checked="false">
+        <JqxCheckBox :theme="'material'" @change="checkBoxOnChange($event)" :width="200" :checked="false">
             Smooth Thumb Drag
         </JqxCheckBox>
     </div>

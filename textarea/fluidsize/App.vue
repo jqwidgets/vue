@@ -1,5 +1,5 @@
 <template>
-    <JqxTextArea
+    <JqxTextArea :theme="'material'"
         :width="'30%'" :height="100" :source="dataAdapter" :placeHolder="'Contact Name:'"
         :displayMember="'ContactName'" :valueMember="'CompanyName'" 
     />

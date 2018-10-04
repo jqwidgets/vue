@@ -1,12 +1,12 @@
 <template>
     <div>
         <div style="margin-bottom: 10px;" ref="verticalLabel">Vertical</div>
-        <JqxScrollBar @valueChanged="onValueChangedVertical($event)"
+        <JqxScrollBar :theme="'material'" @valueChanged="onValueChangedVertical($event)"
             :width="18" :height="280" :min="0" :max="1000" :vertical="true"
         />
 
         <div style="margin: 10px 0;" ref="horizontalLabel">Horizontal</div>
-        <JqxScrollBar @valueChanged="onValueChangedHorizontal($event)"
+        <JqxScrollBar :theme="'material'" @valueChanged="onValueChangedHorizontal($event)"
             :width="280" :height="18" :min="0" :max="1000"
         />
     </div>

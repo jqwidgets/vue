@@ -2,13 +2,13 @@
     <div>
         <div style="font-size: 13px; font-family: Verdana; margin-bottom: 5px">Select countries</div>
 
-        <JqxComboBox ref="myComboBox" @change="comboBoxOnChange()"
+        <JqxComboBox :theme="'material'" ref="myComboBox" @change="comboBoxOnChange()"
                      :width="350" :source="countries" :multiSelect="true">
         </JqxComboBox>
 
         <div style="margin-top: 20px"></div>
 
-        <JqxButton @click="btnOnClick()" :width="200">
+        <JqxButton :theme="'material'" @click="btnOnClick()" :width="200">
             Hide DropDown Button
         </JqxButton>
 

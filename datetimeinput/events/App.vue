@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDateTimeInput style="float: left; margin-top: 3px"
+        <JqxDateTimeInput :theme="'material'" style="float: left; margin-top: 3px"
             @valueChanged="onValueChanged($event)" @open="onOpen()" @close="onClose()"
             :width="270" :height="25">
         </JqxDateTimeInput>
@@ -8,7 +8,7 @@
         <div style="margin-left: 20px; float: left">
             <div>
                 <span>Events:</span>
-                <JqxPanel ref="myPanel" :width="300" :height="250"></JqxPanel>
+                <JqxPanel :theme="'material'" ref="myPanel" :width="300" :height="250"></JqxPanel>
             </div>
         </div>
     </div>

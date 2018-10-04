@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxPivotGrid style="width: 800px; height: 400px;"
+        <JqxPivotGrid :theme="'material'" style="width: 800px; height: 400px;"
                       ref="pivotGrid"
                       :source="pivotDataSource"
                       :treeStyleRows="true"
@@ -28,12 +28,12 @@
                       @pivotcelldblclick="eventHandler3($event)">
         </JqxPivotGrid>
         <br />
-        <JqxTextArea ref="eventsLog"
+        <JqxTextArea :theme="'material'" ref="eventsLog"
                      :width="800"
                      :height="100">
         </JqxTextArea>
         <br />
-        <JqxButton :width="90" @click="onClearLog()">Clear Log</JqxButton>
+        <JqxButton :theme="'material'" :width="90" @click="onClearLog()">Clear Log</JqxButton>
     </div>
 </template>
 

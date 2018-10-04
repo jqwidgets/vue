@@ -11,7 +11,7 @@
             <div class="settings-section">
                 <div class="settings-label">New Mail</div>
                 <div class="settings-setter">
-                    <JqxSwitchButton 
+                    <JqxSwitchButton :theme="'material'" 
                         @checked="onChecked(1)" @unchecked="onUnchecked(1)"
                         :width="81" :height="27" :checked="true">
                     </JqxSwitchButton>
@@ -20,7 +20,7 @@
             <div class="settings-section">
                 <div class="settings-label">Sent Mail</div>
                 <div class="settings-setter">
-                    <JqxSwitchButton
+                    <JqxSwitchButton :theme="'material'"
                         @checked="onChecked(2)" @unchecked="onUnchecked(2)"
                         :width="81" :height="27" :checked="true">
                     </JqxSwitchButton>
@@ -29,7 +29,7 @@
             <div class="settings-section">
                 <div class="settings-label">Calendar Alerts</div>
                 <div class="settings-setter">
-                    <JqxSwitchButton 
+                    <JqxSwitchButton :theme="'material'" 
                         @checked="onChecked(3)" @unchecked="onUnchecked(3)"
                         :width="81" :height="27" :checked="true">
                     </JqxSwitchButton>
@@ -38,7 +38,7 @@
             <div class="settings-section">
                 <div class="settings-label">Lock Sounds</div>
                 <div class="settings-setter">
-                    <JqxSwitchButton 
+                    <JqxSwitchButton :theme="'material'" 
                         @checked="onChecked(4)" @unchecked="onUnchecked(4)"
                         :width="81" :height="27" :checked="true">
                     </JqxSwitchButton>
@@ -47,7 +47,7 @@
             <div class="sections-section-bottom settings-section">
                 <div class="settings-label">Keyboard Clicks</div>
                 <div class="settings-setter">
-                    <JqxSwitchButton 
+                    <JqxSwitchButton :theme="'material'" 
                         @checked="onChecked(5)" @unchecked="onUnchecked(5)"
                         :width="81" :height="27" :checked="false">
                     </JqxSwitchButton>

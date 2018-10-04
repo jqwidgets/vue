@@ -1,9 +1,9 @@
 <template>
-    <JqxSplitter 
+    <JqxSplitter :theme="'material'" 
         :width="850" :height="850" :orientation="'vertical'"
         :panels="[{ size: '50%' }, { size: '50%' }]">
         <div>
-            <JqxSplitter :width="'100%'" :height="'100%'" :orientation="'horizontal'"
+            <JqxSplitter :theme="'material'" :width="'100%'" :height="'100%'" :orientation="'horizontal'"
                          :panels="[{ size: '50%' }, { size: '50%' }]">
                 <div>
                     West - North
@@ -14,7 +14,7 @@
             </JqxSplitter>
         </div>
         <div>
-            <JqxSplitter 
+            <JqxSplitter :theme="'material'" 
                 :width="'100%'" :height="'100%'" :orientation="'horizontal'"
                 :panels="[{ size: '50%' }, { size: '50%' }]">
                 <div>

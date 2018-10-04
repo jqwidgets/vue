@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxForm ref="myForm" @formDataChange="formDataChange($event)"
+        <JqxForm :theme="'material'" ref="myForm" @formDataChange="formDataChange($event)"
                  style="width: 400px; height: auto;"
                  :template="template" :value="value">
         </JqxForm>

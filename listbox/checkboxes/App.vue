@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxListBox ref="myListBox"
+        <JqxListBox :theme="'material'" ref="myListBox"
                     @checkChange="checkChange($event)"
                     :source="source"
                     :checkboxes="true"

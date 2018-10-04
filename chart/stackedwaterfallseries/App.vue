@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'Stacked waterfall series with logarithmic axis'"
               :description="'Logarithmic base 2'" :padding="padding"
               :titlePadding="titlePadding" :source="sampleData" :xAxis="xAxis"

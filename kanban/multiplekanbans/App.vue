@@ -4,7 +4,7 @@
             <h2>Team 1</h2>
             <div id="kanbanBox1">
 
-                <JqxKanban :width="400" :height="400" :columns="kanbanColumns" :resources="staff"
+                <JqxKanban :theme="'material'" :width="400" :height="400" :columns="kanbanColumns" :resources="staff"
                            :source="kanbanSourceConnected1" :connectWith="'#kanbanBox2'">
                 </JqxKanban>
 
@@ -15,7 +15,7 @@
             <h2>Team 2</h2>
             <div id="kanbanBox2">
 
-                <JqxKanban :width="400" :height="400" :columns="kanbanColumns" :resources="staff"
+                <JqxKanban :theme="'material'" :width="400" :height="400" :columns="kanbanColumns" :resources="staff"
                            :source="kanbanSourceConnected2" :connectWith="'#kanbanBox1'">
                 </JqxKanban>
 

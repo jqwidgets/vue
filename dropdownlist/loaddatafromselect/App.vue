@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxDropDownList ref="myDropDownList" style="float: left"
+        <JqxDropDownList :theme="'material'" ref="myDropDownList" style="float: left"
                          @select="listOnSelect($event)"
                          :width="200" :height="25" :selectedIndex="0">
         </JqxDropDownList>

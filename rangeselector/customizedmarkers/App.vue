@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxRangeSelector :width="getWidth" :height="100" :min="0" :max="200"
+    <JqxRangeSelector :theme="'material'" :width="getWidth" :height="100" :min="0" :max="200"
                       :range="{from: 10, to: 50}" :labelsOnTicks="false"
                       :majorTicksInterval="20" :markersFormatFunction="markersFormatFunction">
     

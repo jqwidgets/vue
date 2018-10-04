@@ -5,7 +5,7 @@
             <input class="jqx-input" placeholder="Type a City name here" ref="searchField" @keyup="keyup($event)" type="text" style="height: 23px; float: left; width: 197px; margin-bottom: 10px;" />
         </div>
         <div style="clear: both;"></div>
-        <JqxListBox :source="dataAdapter"
+        <JqxListBox :theme="'material'" :source="dataAdapter"
                     :displayMember="'name'"
                     :valueMember="'countryName'"
                     :renderer="renderer"

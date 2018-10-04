@@ -5,7 +5,7 @@
             Number
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :min="0"
+            <JqxNumberInput :theme="'material'" :min="0"
                             :max="1000"
                             :width="250"
                             :height="25">
@@ -15,7 +15,7 @@
             Currency
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :min="0"
+            <JqxNumberInput :theme="'material'" :min="0"
                             :max="1000"
                             :symbol="'$'"
                             :width="250"
@@ -26,7 +26,7 @@
             Custom Validation Message
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :min="0"
+            <JqxNumberInput :theme="'material'" :min="0"
                             :max="1000"
                             :value="0"
                             :width="250"

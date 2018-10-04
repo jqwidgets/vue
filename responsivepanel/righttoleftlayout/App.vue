@@ -3,7 +3,7 @@
         <div id="header">
             <div id="toggleResponsivePanel"></div>
         </div>
-        <JqxResponsivePanel :width="250" :height="'auto'" 
+        <JqxResponsivePanel :theme="'material'" :width="250" :height="'auto'" 
                             :collapseBreakpoint="800" :autoClose="false"
                             :toggleButton="'#toggleResponsivePanel'" 
                             :animationDirection="'right'">

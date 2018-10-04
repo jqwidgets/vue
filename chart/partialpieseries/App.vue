@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart style="width: 400px; height: 250px; float: left"
+        <JqxChart :theme="'material'" style="width: 400px; height: 250px; float: left"
                   :title="''"
                   :description="charts[0].title"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -8,7 +8,7 @@
                   :seriesGroups="seriesGroups" :colorScheme="'scheme03'">
         </JqxChart>
 
-        <JqxChart style="width: 400px; height: 250px; float: left"
+        <JqxChart :theme="'material'" style="width: 400px; height: 250px; float: left"
                   :title="''"
                   :description="charts[1].title"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -16,7 +16,7 @@
                   :seriesGroups="seriesGroups" :colorScheme="'scheme03'">
         </JqxChart>
 
-        <JqxChart style="width: 400px; height: 250px; float: left"
+        <JqxChart :theme="'material'" style="width: 400px; height: 250px; float: left"
                   :title="''"
                   :description="charts[2].title"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -24,7 +24,7 @@
                   :seriesGroups="seriesGroups" :colorScheme="'scheme03'">
         </JqxChart>
 
-        <JqxChart style="width: 400px; height: 250px; float: left"
+        <JqxChart :theme="'material'" style="width: 400px; height: 250px; float: left"
                   :title="''"
                   :description="charts[3].title"
                   :showLegend="true" :enableAnimations="false" :padding="padding"

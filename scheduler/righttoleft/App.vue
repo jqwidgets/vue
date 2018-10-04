@@ -1,5 +1,5 @@
 <template>
-    <JqxScheduler ref="myScheduler"
+    <JqxScheduler :theme="'material'" ref="myScheduler"
         :width="getWidth" :height="600" :source="dataAdapter" :date="date" :view="'weekView'" :ready="ready"
         :appointmentDataFields="appointmentDataFields" :views="views" :showLegend="true" :rtl="true"
     /> 

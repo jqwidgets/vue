@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxPivotGrid style="width: 800px; height: 400px;"
+        <JqxPivotGrid :theme="'material'" style="width: 800px; height: 400px;"
                       ref="pivotGrid"         
                       @pivotcelldblclick="onPivotCellDblClick($event)"
                       :source="pivotDataSource"
@@ -8,7 +8,7 @@
                       :autoResize="false"
                       :multipleSelectionEnabled="true">
         </JqxPivotGrid>
-        <JqxWindow ref="drillThroughWindow"
+        <JqxWindow :theme="'material'" ref="drillThroughWindow"
                    :autoOpen="false"
                    :width="500"
                    :height="300"
@@ -21,7 +21,7 @@
                 Drillthrough records
             </div>
             <div style="overflow: hidden;">
-                <JqxDataTable ref="tableSrcRecords"
+                <JqxDataTable :theme="'material'" ref="tableSrcRecords"
                               :width="'100%'"
                               :height="'100%'"
                               :pageable="true"

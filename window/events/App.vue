@@ -1,13 +1,13 @@
 <template>
     <div>
-        <JqxButton @click="showWindowButtonClick()"
+        <JqxButton :theme="'material'" @click="showWindowButtonClick()"
                    :width="80">
             Show
         </JqxButton>
 
         <div style="margin-top: 10px;">Events Log:</div>
-        <JqxPanel ref="events" style="width: 300px; height: 200px; border-width: 0px;"></JqxPanel>
-        <JqxWindow ref="eventWindow"
+        <JqxPanel :theme="'material'" ref="events" style="width: 300px; height: 200px; border-width: 0px;"></JqxPanel>
+        <JqxWindow :theme="'material'" ref="eventWindow"
                    @close="onClose($event)"
                    @moved="onMoved($event)"
                    @open="onOpen($event)"
@@ -28,8 +28,8 @@
                     result will be displayed in the events log.
                 </div>
                 <div style="float: right; margin-top: 15px;">
-                    <JqxButton class="ok" style="display: inline-block; margin-right: 10px;" :width="80">OK</JqxButton>
-                    <JqxButton class="cancel" style="display: inline-block;" :width="80">Cancel</JqxButton>
+                    <JqxButton :theme="'material'" class="ok" style="display: inline-block; margin-right: 10px;" :width="80">OK</JqxButton>
+                    <JqxButton :theme="'material'" class="cancel" style="display: inline-block;" :width="80">Cancel</JqxButton>
                 </div>
             </div>
         </JqxWindow>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxComboBox ref="myComboBox" style="float:left"
+        <JqxComboBox :theme="'material'" ref="myComboBox" style="float:left"
                      @checkChange="myComboBoxOnCheckChange($event)"
                      :width="200" :height="25" :source="dataAdapter" :checkboxes="true"
                      :displayMember="'ContactName'" :valueMember="'CompanyName'">

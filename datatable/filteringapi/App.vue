@@ -3,29 +3,29 @@
         <div style="float: left">
             <div>Filter By:</div>
 
-            <JqxDropDownList ref="myDropDownList" @select="dropDownListOnSelect($event)"
+            <JqxDropDownList :theme="'material'" ref="myDropDownList" @select="dropDownListOnSelect($event)"
                              :width="160" :height="25" :source="dropDownListSource"
                              :selectedIndex="0" :autoDropDownHeight="true">
             </JqxDropDownList>
 
-            <JqxListBox ref="myListBox" style="margin-top: 10px"
+            <JqxListBox :theme="'material'" ref="myListBox" style="margin-top: 10px"
                         @checkChange="listBoxOnCheckChange($event)"
                         :width="160" :height="250" :checkboxes="true">
             </JqxListBox>
 
             <div style="margin-top: 10px; margin-right: 5px; float: left">
 
-                <JqxButton @click="applyFilterBtnOnClick()">
+                <JqxButton :theme="'material'" @click="applyFilterBtnOnClick()">
                     Apply Filter
                 </JqxButton>
 
-                <JqxButton @click="clearfilterBtnOnClick()">
+                <JqxButton :theme="'material'" @click="clearfilterBtnOnClick()">
                     Clear Filter
                 </JqxButton>
 
             </div>
         </div>
-        <JqxDataTable ref="myDataTable" style="float: left; margin-left: 20px"
+        <JqxDataTable :theme="'material'" ref="myDataTable" style="float: left; margin-left: 20px"
                       :width="650" :source="dataAdapter" :columns="columns"
                       :altRows="true" :pageable="true" :pagerButtonsCount="4">
         </JqxDataTable>

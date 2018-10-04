@@ -1,6 +1,6 @@
 ﻿<template>
         <div style="float: left;">
-            <JqxNavigationBar @collapsedItem="collapsedItem($event)"
+            <JqxNavigationBar :theme="'material'" @collapsedItem="collapsedItem($event)"
                               @expandedItem="expandedItem($event)"
                               :expandMode="'singleFitHeight'"
                               :height="430"
@@ -86,7 +86,7 @@
             <div style="margin-left: 20px; font-size: 12px; font-family: Verdana, Geneva, DejaVu Sans, sans-serif; margin-top: 50px; float: left;">
                 <div>
                     <span>Events:</span>
-                    <JqxPanel ref="events" :height="250" :width="420"></JqxPanel>
+                    <JqxPanel :theme="'material'" ref="events" :height="250" :width="420"></JqxPanel>
                 </div>
             </div>
         </div>

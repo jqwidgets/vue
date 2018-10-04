@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxKanban :width="getWidth" :source="dataAdapter" :columns="columns"
+    <JqxKanban :theme="'material'" :width="getWidth" :source="dataAdapter" :columns="columns"
                :resources="resourcesAdapterFunc()" :rtl="true">
     </JqxKanban>
 </template>

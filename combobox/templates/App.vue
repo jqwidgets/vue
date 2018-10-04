@@ -1,36 +1,36 @@
 <template>
     <div>
         <div>Default</div>
-        <JqxComboBox :width="200" :height="25" :source="source" :selectedIndex="1">
+        <JqxComboBox :theme="'material'" :width="200" :height="25" :source="source" :selectedIndex="1">
         </JqxComboBox>
         <br />
 
         <div>Primary</div>
-        <JqxComboBox :width="200" :height="25" :source="source"
+        <JqxComboBox :theme="'material'" :width="200" :height="25" :source="source"
                      :selectedIndex="1" :template="'primary'">
         </JqxComboBox>
         <br />
 
         <div>Success</div>
-        <JqxComboBox :width="200" :height="25" :source="source"
+        <JqxComboBox :theme="'material'" :width="200" :height="25" :source="source"
                      :selectedIndex="1" :template="'success'">
         </JqxComboBox>
         <br />
 
         <div>Info</div>
-        <JqxComboBox :width="200" :height="25" :source="source"
+        <JqxComboBox :theme="'material'" :width="200" :height="25" :source="source"
                      :selectedIndex="1" :template="'info'">
         </JqxComboBox>
         <br />
 
         <div>Warning</div>
-        <JqxComboBox :width="200" :height="25" :source="source"
+        <JqxComboBox :theme="'material'" :width="200" :height="25" :source="source"
                      :selectedIndex="1" :template="'warning'">
         </JqxComboBox>
         <br />
 
         <div>Danger</div>
-        <JqxComboBox :width="200" :height="25" :source="source"
+        <JqxComboBox :theme="'material'" :width="200" :height="25" :source="source"
                      :selectedIndex="1" :template="'danger'">
         </JqxComboBox>
     </div>

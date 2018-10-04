@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxNotification ref="jqxNotification"
+        <JqxNotification :theme="'material'" ref="jqxNotification"
                          @open="open($event)"
                          @close="close($event)"
                          @click="click($event)"
@@ -19,14 +19,14 @@
             </div>
         </JqxNotification>
 
-        <JqxButton @click="clickCheckMail()" :width="120">
+        <JqxButton :theme="'material'" @click="clickCheckMail()" :width="120">
             Check mail
         </JqxButton>
 
         <div style="margin-top: 15px;">
             Events log:
         </div>
-        <JqxPanel ref="eventsPanel" :width="150" :height="150">
+        <JqxPanel :theme="'material'" ref="eventsPanel" :width="150" :height="150">
         </JqxPanel>
         <div ref="messagePanel" style="width: 400px; display: none;">
             <p>

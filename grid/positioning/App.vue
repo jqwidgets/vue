@@ -1,15 +1,15 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :filterable="true" :showeverpresentrow="true" :editable="true"
                  :showfilterrow="true" :everpresentrowposition="'top'" 
                  :selectionmode="'multiplecellsadvanced'">
         </JqxGrid>
         <br />
-        <JqxRadioButton @checked="topBtnOnChecked()" :checked="true">Top Position</JqxRadioButton>
-        <JqxRadioButton @checked="topAboveFilterRowBtnOnChecked()">Top Position Above Filter Row</JqxRadioButton>
-        <JqxRadioButton @checked="bottomBtnOnChecked()">Bottom Position</JqxRadioButton>
+        <JqxRadioButton :theme="'material'" @checked="topBtnOnChecked()" :checked="true">Top Position</JqxRadioButton>
+        <JqxRadioButton :theme="'material'" @checked="topAboveFilterRowBtnOnChecked()">Top Position Above Filter Row</JqxRadioButton>
+        <JqxRadioButton :theme="'material'" @checked="bottomBtnOnChecked()">Bottom Position</JqxRadioButton>
     </div>
 </template>
 

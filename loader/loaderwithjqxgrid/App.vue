@@ -1,12 +1,12 @@
 ﻿<template>
     <div>
-        <JqxLoader ref="jqxLoader"
+        <JqxLoader :theme="'material'" ref="jqxLoader"
                    :autoOpen="true"
                    :imagePosition="'top'"
                    :width="100"
                    :height="60">
         </JqxLoader>
-        <JqxGrid :source="dataAdapter"
+        <JqxGrid :theme="'material'" :source="dataAdapter"
                  :columnsresize="true"
                  :showdefaultloadelement="false"
                  :autoshowloadelement="false"

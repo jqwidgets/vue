@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :sortable="true" :altrows="true" :autoheight="true"
                  :selectionmode="'multiplecellsadvanced'">
@@ -9,7 +9,7 @@
         <div style="margin-top: 20px">
             <div style="margin-left: 10px; float: left">
 
-                <JqxButton @click="btnOnClick()">Print</JqxButton>
+                <JqxButton :theme="'material'" @click="btnOnClick()">Print</JqxButton>
             </div>
         </div>
 

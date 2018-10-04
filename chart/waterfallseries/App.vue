@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'EU Population between 2003 and 2014'"
               :description="'data source: Eurostat'"
               :showLegend="false" :enableAnimations="true" :padding="padding"

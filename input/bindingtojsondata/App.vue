@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxInput ref="myInput" @select="myInputOnSelect($event)"
+        <JqxInput :theme="'material'" ref="myInput" @select="myInputOnSelect($event)"
                   :width="200" :height="25" :source="dataAdapter"
                   :placeHolder="'Contact Name:'" :valueMember="'CompanyName'"
                   :displayMember="'ContactName'">

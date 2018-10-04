@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs ref="myTabs"  @tabclick="tabClick($event)"
+    <JqxTabs :theme="'material'" ref="myTabs"  @tabclick="tabClick($event)"
         :width="getWidth" :height="250" :showCloseButtons="true">
         <ul style="margin-left: 30px;" ref="unorderedList">
             <li>Node.js</li>

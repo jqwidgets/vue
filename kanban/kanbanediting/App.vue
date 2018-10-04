@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxKanban ref="myKanban"
+    <JqxKanban :theme="'material'" ref="myKanban"
                @itemAttrClicked="myKanbanOnItemAttrClicked($event)" @columnAttrClicked="myKanbanonColumnAttrClicked($event)"
                :width="getWidth" :height="600" :template="template" :source="dataAdapter" :columns="columns"
                :resources="resourcesAdapterFunc()" :itemRenderer="itemRenderer">

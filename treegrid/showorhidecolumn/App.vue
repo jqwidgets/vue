@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxListBox style="float: left;"
+        <JqxListBox :theme="'material'" style="float: left;"
             @checkChange="checkChange($event)"
             :width="120"
             :height="200"
@@ -8,7 +8,7 @@
             :source="listSource">
         </JqxListBox>
 
-        <JqxTreeGrid ref="myTreeGrid" style="margin-left: 20px; float: left;"
+        <JqxTree :theme="'material'"Grid ref="myTreeGrid" style="margin-left: 20px; float: left;"
             :showHeader="true"
             :altRows="true"
             :ready="ready"

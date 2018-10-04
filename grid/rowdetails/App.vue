@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :height="250" :source="dataAdapter" :columns="columns"
                  :rowdetails="true" :initrowdetails="initrowdetails"
                  :rowdetailstemplate="rowdetailstemplate" :ready="ready">

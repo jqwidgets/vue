@@ -1,13 +1,13 @@
 ﻿<template>
     <div>
-        <JqxKnob ref="myKnob" @change="myKnobOnChange($event)"
+        <JqxKnob :theme="'material'" ref="myKnob" @change="myKnobOnChange($event)"
                  :width="400" :height="400"
                  :value="30" :min="0" :max="100" :rotation="'clockwise'"
                  :styleProperty="{ fill: '#fff' }" :progressBar="progressBar" :pointer="pointer"
                  :dial="dial" :startAngle="270" :endAngle="630">
         </JqxKnob>
 
-        <JqxInput ref="myInput" @change="myInputOnChange()" :value="30"></JqxInput>
+        <JqxInput :theme="'material'" ref="myInput" @change="myInputOnChange()" :value="30"></JqxInput>
     </div>
 </template>
 <script>

@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'EU Employment rate trends by gender'"
               :description="'data source: Eurostat'"
               :showLegend="true" :enableAnimations="true" :padding="padding"

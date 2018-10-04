@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Fitness & exercise weekly scorecard'" :description="'Time spent in vigorous exercise by activity'"
                   :enableAnimations="false" :enableAxisTextAnimation="true" :padding="padding"
                   :titlePadding="titlePadding" :source="sampleData" :xAxis="xAxis" :animationDuration="1000"
@@ -9,10 +9,10 @@
 
         <div style="margin-top: 10px">
             <div style="float: left">
-                <JqxCheckBox v-on:change="flipValueAxisOnChange($event)">
+                <JqxCheckBox :theme="'material'" v-on:change="flipValueAxisOnChange($event)">
                     Invert value axis
                 </JqxCheckBox>
-                <JqxCheckBox style="margin-top: 5px" v-on:change="flipXAxisOnChange($event)">
+                <JqxCheckBox :theme="'material'" style="margin-top: 5px" v-on:change="flipXAxisOnChange($event)">
                     Invert x-axis
                 </JqxCheckBox>
             </div>

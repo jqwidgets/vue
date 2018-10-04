@@ -1,5 +1,5 @@
 <template>
-    <JqxSplitter 
+    <JqxSplitter :theme="'material'" 
         :width="850" :height="850"
         :panels="[{ size: 400, collapsible: false }]">
         <div class="splitter-panel">

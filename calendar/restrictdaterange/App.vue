@@ -2,7 +2,7 @@
     <div>
         <div>The navigation is restricted from 01/01/2010 to 01/01/2020</div>
         <br />
-        <JqxCalendar :width="220" :height="220"
+        <JqxCalendar :theme="'material'" :width="220" :height="220"
                      :min="min" :max="max">
         </JqxCalendar>
     </div>

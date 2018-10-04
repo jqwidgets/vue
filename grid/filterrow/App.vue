@@ -1,13 +1,13 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :filterable="true" :selectionmode="'multiplecellsextended'" :showfilterrow="true">
         </JqxGrid>
 
         <br />
 
-        <JqxButton @click="clearFiltering()"
+        <JqxButton :theme="'material'" @click="clearFiltering()"
                    :width="120" :height="22">
             Remove Filter
         </JqxButton>

@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxExpander ref="myExpander" :width="350" :height="350">
+    <JqxExpander :theme="'material'" ref="myExpander" :width="350" :height="350">
         <div>
             Loading Header...
         </div>

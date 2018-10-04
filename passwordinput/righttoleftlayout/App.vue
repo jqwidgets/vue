@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxPasswordInput :rtl="true"
+    <JqxPasswordInput :theme="'material'" :rtl="true"
                       :placeHolder="'הזן את הסיסמה:'"
                       :showStrength="true"
                       :localization="localization"

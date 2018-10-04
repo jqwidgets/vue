@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Custom labels, grid lines and tick marks offsets'" :description="''"
                   :enableAnimations="false" :padding="padding"
                   :titlePadding="titlePadding" :source="sampleData" :xAxis="xAxis"
@@ -16,14 +16,14 @@
                 <tr>
                     <td>
                         <p>Label, tick marks & grid lines visibility:</p>
-                        <JqxDropDownList ref="dropDownLabelsVisibility_xAxis" v-on:change="dropDownLabelsVisibility_xAxisOnChange($event)"
+                        <JqxDropDownList :theme="'material'" ref="dropDownLabelsVisibility_xAxis" v-on:change="dropDownLabelsVisibility_xAxisOnChange($event)"
                                          :width="235" :height="25" :selectedIndex="0"
                                          :dropDownHeight="80" :source="visibilityOptions">
                         </JqxDropDownList>
                     </td>
                     <td>
                         <p>Label, tick marks & grid lines visibility:</p>
-                        <JqxDropDownList ref="dropDownLabelsVisibility_valueAxis" v-on:change="dropDownLabelsVisibility_valueAxisOnChange($event)"
+                        <JqxDropDownList :theme="'material'" ref="dropDownLabelsVisibility_valueAxis" v-on:change="dropDownLabelsVisibility_valueAxisOnChange($event)"
                                          :width="235" :height="25" :selectedIndex="0"
                                          :dropDownHeight="80" :source="visibilityOptions">
                         </JqxDropDownList>
@@ -32,19 +32,19 @@
                 <tr>
                     <td>
                         <p>Custom positions:</p>
-                        <JqxInput ref="inputCustomPosition_xAxis" :width="50" :height="22"></JqxInput>
-                        <JqxButton ref="btnAddCustomPosition_xAxis" v-on:click="btnAddCustomPosition_xAxisOnClick()">Add</JqxButton>
-                        <JqxButton ref="btnRemoveCustomPosition_xAxis" v-on:click="btnRemoveCustomPosition_xAxisOnClick()">Remove</JqxButton>
-                        <JqxListBox ref="listboxCustomPositions_xAxis" style="margin-top: 10px"
+                        <JqxInput :theme="'material'" ref="inputCustomPosition_xAxis" :width="50" :height="22"></JqxInput>
+                        <JqxButton :theme="'material'" ref="btnAddCustomPosition_xAxis" v-on:click="btnAddCustomPosition_xAxisOnClick()">Add</JqxButton>
+                        <JqxButton :theme="'material'" ref="btnRemoveCustomPosition_xAxis" v-on:click="btnRemoveCustomPosition_xAxisOnClick()">Remove</JqxButton>
+                        <JqxListBox :theme="'material'" ref="listboxCustomPositions_xAxis" style="margin-top: 10px"
                                     :width="235" :height="80" :source="[10, 20]">
                         </JqxListBox>
                     </td>
                     <td>
                         <p>Custom positions:</p>
-                        <JqxInput ref="inputCustomPosition_valueAxis" :width="50" :height="22"></JqxInput>
-                        <JqxButton ref="btnAddCustomPosition_valueAxis" v-on:click="btnAddCustomPosition_valueAxisOnClick()">Add</JqxButton>
-                        <JqxButton ref="btnRemoveCustomPosition_valueAxis" v-on:click="btnRemoveCustomPosition_valueAxisOnClick()">Remove</JqxButton>
-                        <JqxListBox ref="listboxCustomPositions_valueAxis" style="margin-top: 10px"
+                        <JqxInput :theme="'material'" ref="inputCustomPosition_valueAxis" :width="50" :height="22"></JqxInput>
+                        <JqxButton :theme="'material'" ref="btnAddCustomPosition_valueAxis" v-on:click="btnAddCustomPosition_valueAxisOnClick()">Add</JqxButton>
+                        <JqxButton :theme="'material'" ref="btnRemoveCustomPosition_valueAxis" v-on:click="btnRemoveCustomPosition_valueAxisOnClick()">Remove</JqxButton>
+                        <JqxListBox :theme="'material'" ref="listboxCustomPositions_valueAxis" style="margin-top: 10px"
                                     :width="235" :height="80" :source="[10, 20]">
                         </JqxListBox>
                     </td>

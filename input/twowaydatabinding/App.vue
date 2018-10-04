@@ -2,7 +2,7 @@
     <div>
         <div>The value is: {{ country }}</div><br />
 
-        <JqxInput v-model="country" :width="200" :height="25" :source="countries" />
+        <JqxInput :theme="'material'" v-model="country" :width="200" :height="25" :source="countries" />
     </div>
 </template>
 

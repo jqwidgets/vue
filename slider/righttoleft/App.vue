@@ -1,8 +1,8 @@
 <template>
     <div>
-        <JqxSlider @change="displayEvent($event)" :width="400" :mode="'fixed'" :rtl="true" />
+        <JqxSlider :theme="'material'" @change="displayEvent($event)" :width="400" :mode="'fixed'" :rtl="true" />
 
-        <JqxPanel ref="myPanel" :width="300" :height="400" />
+        <JqxPanel :theme="'material'" ref="myPanel" :width="300" :height="400" />
     </div>
 
 </template>

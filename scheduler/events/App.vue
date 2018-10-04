@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxScheduler ref="myScheduler"
+        <JqxScheduler :theme="'material'" ref="myScheduler"
                       @appointmentDelete="mySchedulerOnAppointmentDelete($event)"
                       @appointmentAdd="mySchedulerOnAppointmentAdd($event)"
                       @appointmentDoubleClick="mySchedulerOnAppointmentDoubleClick($event)"

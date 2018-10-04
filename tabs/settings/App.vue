@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTabs ref="myTabs" style="float: left;"
+        <JqxTabs :theme="'material'" ref="myTabs" style="float: left;"
             :width="getWidth" :hight="220">
             <ul style='margin-left: 30px;'>
                 <li>Node.js</li>
@@ -29,12 +29,12 @@
         </JqxTabs>
 
         <div style="margin-left: 20px; float: left;">
-            <JqxButton :width="100" ref="Add"        @click="Add()">Add</JqxButton>
-            <JqxButton :width="100" ref="Remove"     @click="Remove()">Remove</JqxButton>
-            <JqxButton :width="100" ref="Disable"    @click="Disable()">Disable</JqxButton>
-            <JqxButton :width="100" ref="Enable"     @click="Enable()">Enable</JqxButton>
-            <JqxButton :width="100" ref="EnableAll"  @click="EnableAll()">Enable All</JqxButton>
-            <JqxButton :width="100" ref="DisableAll" @click="DisableAll()">Disable All</JqxButton>
+            <JqxButton :theme="'material'" :width="100" ref="Add"        @click="Add()">Add</JqxButton>
+            <JqxButton :theme="'material'" :width="100" ref="Remove"     @click="Remove()">Remove</JqxButton>
+            <JqxButton :theme="'material'" :width="100" ref="Disable"    @click="Disable()">Disable</JqxButton>
+            <JqxButton :theme="'material'" :width="100" ref="Enable"     @click="Enable()">Enable</JqxButton>
+            <JqxButton :theme="'material'" :width="100" ref="EnableAll"  @click="EnableAll()">Enable All</JqxButton>
+            <JqxButton :theme="'material'" :width="100" ref="DisableAll" @click="DisableAll()">Disable All</JqxButton>
         </div>
     </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Line serie with missing points'"
                   :description="'Sample line serie with missing and invalid values'"
                   :showLegend="true" :padding="padding"
@@ -10,7 +10,7 @@
 
         <p style="font-family: Verdana; font-size: 12px">Select missing points display mode:</p>
 
-        <JqxDropDownList v-on:select="dropDownOnSelect($event)"
+        <JqxDropDownList :theme="'material'" v-on:select="dropDownOnSelect($event)"
                          :width="220" :height="25" :selectedIndex="0"
                          :dropDownHeight="77" :source="['skip','zero','connect']">
         </JqxDropDownList>

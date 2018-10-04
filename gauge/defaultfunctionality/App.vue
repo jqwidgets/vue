@@ -1,7 +1,7 @@
 ﻿<template>
     <div>
         <div style="float: left">
-            <JqxGauge ref="myGauge" @valueChanging="onValueChanging($event)"
+            <JqxGauge :theme="'material'" ref="myGauge" @valueChanging="onValueChanging($event)"
                       :ranges="ranges" :ticksMinor="ticksMinor" :ticksMajor="ticksMajor"
                       :value="0" :colorScheme="'scheme05'" :animationDuration="1200">
             </JqxGauge>
@@ -10,7 +10,7 @@
         </div>
 
 
-        <JqxLinearGauge ref="myLinearGauge" style="margin-left: 60px; float: left;"
+        <JqxLinearGauge :theme="'material'" ref="myLinearGauge" style="margin-left: 60px; float: left;"
                         :width="100" :height="350" :max="60" :orientation="'vertical'"
                         :ticksMajor="ticksMajorLinear" :ticksMinor="ticksMinorLinear"
                         :pointer="{ size: '5%' }" :colorScheme="'scheme05'" :labels="labels"

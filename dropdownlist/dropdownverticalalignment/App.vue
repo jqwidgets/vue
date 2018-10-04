@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxDropDownList ref="myDropDownList" style="float: left; margin-top: 270px"
+        <JqxDropDownList :theme="'material'" ref="myDropDownList" style="float: left; margin-top: 270px"
                          :width="150" :height="25" :source="dataAdapter" :selectedIndex="0"
                          :displayMember="'ContactName'" :valueMember="'notes'"
                          :dropDownVerticalAlignment="'top'" :dropDownWidth="200">
@@ -9,11 +9,11 @@
         <div style="float: left; font-size: 13px; font-family: Verdana; margin-left: 100px; margin-top: 270px">
             <h3>Alignment</h3>
 
-            <JqxRadioButton @checked="topAlignBtnOnChecked()" :checked="true">
+            <JqxRadioButton :theme="'material'" @checked="topAlignBtnOnChecked()" :checked="true">
                 Top
             </JqxRadioButton>
 
-            <JqxRadioButton @checked="bottomAlignBtnOnChecked()">
+            <JqxRadioButton :theme="'material'" @checked="bottomAlignBtnOnChecked()">
                 Bottom
             </JqxRadioButton>
 

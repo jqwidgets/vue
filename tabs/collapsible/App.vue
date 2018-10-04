@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs
+    <JqxTabs :theme="'material'"
         :width="getWidth" :position="'top'" :collapsible="true">
         <ul>
             <li style="margin-left: 30px;">Node.js</li>

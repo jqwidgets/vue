@@ -1,15 +1,15 @@
 ﻿<template>
     <div>
-        <JqxGrid :width="getWidth" height="150" :source="dataAdapter" :columns="columns" :columnsresize="true">
+        <JqxGrid :theme="'material'" :width="getWidth" height="150" :source="dataAdapter" :columns="columns" :columnsresize="true">
         </JqxGrid>
 
         <br />
         <br />
 
-        <JqxButton style="float: left; margin-right: 5px" @click="addItemBtnOnClick()">Add Item</JqxButton>
-        <JqxButton style="float: left; margin-right: 5px" @click="deleteItemBtnOnClick()">Delete Item</JqxButton>
-        <JqxButton style="float: left; margin-right: 5px" @click="updateItemBtnOnClick()">Update Item</JqxButton>
-        <JqxButton style="float: left" @click="updatePathBtnOnClick()">Update Path</JqxButton>
+        <JqxButton :theme="'material'" style="float: left; margin-right: 5px" @click="addItemBtnOnClick()">Add Item</JqxButton>
+        <JqxButton :theme="'material'" style="float: left; margin-right: 5px" @click="deleteItemBtnOnClick()">Delete Item</JqxButton>
+        <JqxButton :theme="'material'" style="float: left; margin-right: 5px" @click="updateItemBtnOnClick()">Update Item</JqxButton>
+        <JqxButton :theme="'material'" style="float: left" @click="updatePathBtnOnClick()">Update Path</JqxButton>
 
         <br />
 

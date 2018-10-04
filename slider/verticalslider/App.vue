@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="slider-demo-slider-container">
-                <JqxSlider ref="mySlider"
+                <JqxSlider :theme="'material'" ref="mySlider"
                     @change="change($event)"
                     :height="250" :width="36" :min="0" :max="3"
                     :orientation="'vertical'" :ticksFrequency="1"           

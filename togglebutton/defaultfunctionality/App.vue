@@ -1,12 +1,12 @@
 <template>
     <div class="container">
-        <JqxToggleButton ref="myToggleButton"
+        <JqxToggleButton :theme="'material'" ref="myToggleButton"
             @click="click()"
             :width="200" :toggled="true">
             Toggled On
         </JqxToggleButton>
 
-        <JqxToggleButton 
+        <JqxToggleButton :theme="'material'" 
             :width="200" :disabled="true">
             Disabled
         </JqxToggleButton>

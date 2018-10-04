@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxSlider ref="mySlider" :width="400" :mode="'fixed'" :min="0" :ticksFrequency="1" />
+        <JqxSlider :theme="'material'" ref="mySlider" :width="400" :mode="'fixed'" :min="0" :ticksFrequency="1" />
 
         <div class="legend">
             <ul>

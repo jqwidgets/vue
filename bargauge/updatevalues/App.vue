@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxBarGauge ref="myBarGauge" style="float: left"
+        <JqxBarGauge :theme="'material'" ref="myBarGauge" style="float: left"
                      :width="getWidth" :height="570" :relativeInnerRadius="0.5" :max="255"
                      :values="[187, 255, 170]" :startAngle="0" :endAngle="90"
                      :customColorScheme="customColorScheme" :colorScheme="'rgb'"
@@ -11,21 +11,21 @@
 
             <span style="font-style: italic;">Red</span>
 
-            <JqxSlider ref="redSlider" @change="updateValues()"
+            <JqxSlider :theme="'material'" ref="redSlider" @change="updateValues()"
                        :theme="'artic'" :mode="'fixed'" :min="0" :max="255"
                        :ticksFrequency="25.5" :value="170" :step="25.5">
             </JqxSlider>
 
             <span style="font-style: italic;">Green</span>
 
-            <JqxSlider ref="greenSlider" @change="updateValues()"
+            <JqxSlider :theme="'material'" ref="greenSlider" @change="updateValues()"
                        :theme="'artic'" :mode="'fixed'" :min="0" :max="255"
                        :ticksFrequency="25.5" :value="255" :step="25.5">
             </JqxSlider>
 
             <span style="font-style: italic;">Blue</span>
 
-            <JqxSlider ref="blueSlider" @change="updateValues()"
+            <JqxSlider :theme="'material'" ref="blueSlider" @change="updateValues()"
                        :theme="'artic'" :mode="'fixed'" :min="0" :max="255"
                        :ticksFrequency="25.5" :value="187" :step="25.5">
             </JqxSlider>

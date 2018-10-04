@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxListBox ref="myListBox"
+        <JqxListBox :theme="'material'" ref="myListBox"
                     @change="change($event)"
                     :source="source"
                     :selectedIndex="1"

@@ -1,12 +1,12 @@
 <template>
     <div>
-        <JqxComplexInput @change="complexInputOnChange($event)"
+        <JqxComplexInput :theme="'material'" @change="complexInputOnChange($event)"
                          :width="300" :height="25" :value="'15 + 7i'" :spinButtons="true">
         </JqxComplexInput>
 
         <div style="margin-top: 20px">Events log:</div>
 
-        <JqxPanel ref="myPanel"
+        <JqxPanel :theme="'material'" ref="myPanel"
                   :width="300" :height="150">
         </JqxPanel>
     </div>

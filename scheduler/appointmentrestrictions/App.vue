@@ -1,13 +1,13 @@
 <template>
     <div>
-        <JqxScheduler ref="myScheduler"
+        <JqxScheduler :theme="'material'" ref="myScheduler"
             :width="getWidth" :height="600" :source="dataAdapter" :date="date" :showLegend="true" :view="'monthView'"
             :appointmentDataFields="appointmentDataFields" :resources="resources" :views="views" 
         />
 
         <br />
 
-        <JqxButton @click="click()" :width="120">Show Hidden Appointments</JqxButton>
+        <JqxButton :theme="'material'" @click="click()" :width="120">Show Hidden Appointments</JqxButton>
     </div>
 </template>
 

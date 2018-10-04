@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
 
-        <JqxGrid :width="getWidth" height="450" :source="dataAdapter" :columns="columns"
+        <JqxGrid :theme="'material'" :width="getWidth" height="450" :source="dataAdapter" :columns="columns"
                  :filterable="true" :sortable="true" :altrows="true" :selectionmode="'checkbox'">
         </JqxGrid>
 

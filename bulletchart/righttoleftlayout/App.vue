@@ -1,7 +1,7 @@
 <template>
     <div style="margin-left: 1em">
 
-        <JqxBulletChart :width="getWidth" :height="80" :barSize="'40%'" :ranges="ranges" :rtl="true"
+        <JqxBulletChart :theme="'material'" :width="getWidth" :height="80" :barSize="'40%'" :ranges="ranges" :rtl="true"
                         :title="'Revenue 2014 YTD'" :description="'(U.S. $ in thousands)'" :ticks="ticks"
                         :pointer="pointer" :target="target" :showToolTip="true" :labelsFormat="'c'">
         </JqxBulletChart>

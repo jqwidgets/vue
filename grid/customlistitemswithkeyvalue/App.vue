@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid" @filter="myGridOnFilter()"
+        <JqxGrid :theme="'material'" ref="myGrid" @filter="myGridOnFilter()"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :filterable="true" :showfilterrow="true">
         </JqxGrid>

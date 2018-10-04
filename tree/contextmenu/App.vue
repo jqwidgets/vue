@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTree ref="myTree"
+        <JqxTree :theme="'material'" ref="myTree"
             :width="300" :height="400">
             <ul>
                 <li id="home">Home</li>
@@ -84,7 +84,7 @@
             </ul>
         </JqxTree>
 
-        <JqxMenu ref="myMenu" @itemclick="itemClick($event)"
+        <JqxMenu :theme="'material'" ref="myMenu" @itemclick="itemClick($event)"
                  :width="120" :height="56" :autoOpenPopup="false" :mode="'popup'">
             <ul>
                 <li>Add Item</li>

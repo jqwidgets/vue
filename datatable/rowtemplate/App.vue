@@ -13,7 +13,7 @@
         </div>
         <br />
 
-        <JqxDataTable :width="640" :source="dataAdapter" :columns="columns" :rendered="rendered"
+        <JqxDataTable :theme="'material'" :width="640" :source="dataAdapter" :columns="columns" :rendered="rendered"
                       :altRows="true" :pageable="true" :sortable="true" :enableHover="true"
                       :pagerButtonsCount="3" :selectionMode="'none'" :pageSize="2">
         </JqxDataTable>

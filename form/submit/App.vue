@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxForm ref='myForm'
+    <JqxForm :theme="'material'" ref='myForm'
         style='width: 500px; height: auto;'
         :template='template' :value='value'>
     </JqxForm>

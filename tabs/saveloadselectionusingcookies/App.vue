@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs ref="myTabs" @selected="selected($event)"
+    <JqxTabs :theme="'material'" ref="myTabs" @selected="selected($event)"
         :width="getWidth" :position="'top'">
         <ul style='margin-left: 30px;'>
             <li>Node.js</li>

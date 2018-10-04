@@ -1,12 +1,12 @@
 ﻿<template>
     <div>
-        <JqxButton @click="btnOnClick()" :width="120">Open Editor</JqxButton>
+        <JqxButton :theme="'material'" @click="btnOnClick()" :width="120">Open Editor</JqxButton>
 
-        <JqxWindow ref="myWindow"
+        <JqxWindow :theme="'material'" ref="myWindow"
                    :width="600" :height="400" :maxWidth="800"
                    :autoOpen="false" :resizable="false" :position="'top, left'">
             <div>jqxEditor</div>
-            <JqxEditor :width="'100%'" :height="'94%'"
+            <JqxEditor :theme="'material'" :width="'100%'" :height="'94%'"
                        :tools="'bold | italic | underline | font | size'">
             </JqxEditor>
         </JqxWindow>

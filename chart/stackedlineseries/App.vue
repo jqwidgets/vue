@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'Web Site Traffic Analysis'"
               :description="'Daily unique visitors (stacked)'"
               :showLegend="true" :enableAnimations="true" :padding="padding"

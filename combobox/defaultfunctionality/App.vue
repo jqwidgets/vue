@@ -1,5 +1,5 @@
 <template>
-    <JqxComboBox :width="250" :height="25"
+    <JqxComboBox :theme="'material'" :width="250" :height="25"
                  :source="source" :selectedIndex="0">
     </JqxComboBox>
 </template>

@@ -4,14 +4,14 @@
             <div style="margin-top: 10px;">
                 Numeric
             </div>
-            <JqxMaskedInput ref="numericInput"
+            <JqxMaskedInput :theme="'material'" ref="numericInput"
                             :width="250"
                             :height="25">
             </JqxMaskedInput>
             <div style='margin-top: 10px;'>
                 Zip Code
             </div>
-            <JqxMaskedInput ref="zipCodeInput"
+            <JqxMaskedInput :theme="'material'" ref="zipCodeInput"
                             :mask="'#####-####'"
                             :width="250"
                             :height="25">
@@ -19,7 +19,7 @@
             <div style='margin-top: 10px;'>
                 SSN
             </div>
-            <JqxMaskedInput ref="ssnInput"
+            <JqxMaskedInput :theme="'material'" ref="ssnInput"
                             :mask="'###-##-####'"
                             :width="250"
                             :height="25">
@@ -27,7 +27,7 @@
             <div style='margin-top: 10px;'>
                 Phone Number
             </div>
-            <JqxMaskedInput ref="phoneInput"
+            <JqxMaskedInput :theme="'material'" ref="phoneInput"
                             :mask="'(###)###-####'"
                             :width="250"
                             :height="25">
@@ -35,7 +35,7 @@
             <div style='margin-top: 10px;'>
                 IP Address (ex: 255.255.255.255)
             </div>
-            <JqxMaskedInput ref="regexInput"
+            <JqxMaskedInput :theme="'material'" ref="regexInput"
                             :mask="'[0-2][0-5][0-5].[0-2][0-5][0-5].[0-2][0-5][0-5].[0-2][0-5][0-5]'"
                             :width="250"
                             :height="25">
@@ -43,14 +43,14 @@
             <div style='margin-top: 10px;'>
                 Disabled
             </div>
-            <JqxMaskedInput ref="disabledInput"
+            <JqxMaskedInput :theme="'material'" ref="disabledInput"
                             :disabled="true"
                             :width="250"
                             :height="25">
             </JqxMaskedInput>
         </div>
         <br />
-        <JqxButton @click="clear()" :width="120">Clear Values</JqxButton>
+        <JqxButton :theme="'material'" @click="clear()" :width="120">Clear Values</JqxButton>
     </div>
 </template>
 <script>

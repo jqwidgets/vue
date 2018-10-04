@@ -1,7 +1,7 @@
 ﻿<template>
     <div id="container">
 
-        <JqxKnob ref="myKnob" @change="onChange($event)"
+        <JqxKnob :theme="'material'" ref="myKnob" @change="onChange($event)"
                  :value="60" :min="0" :max="100" :startAngle="120"
                  :endAngle="420" :snapToStep="true" :rotation="'clockwise'"
                  :marks="marks" :labels="labels" :progressBar="progressBar" :pointer="pointer">
@@ -9,7 +9,7 @@
 
         <div id="inputField">
 
-            <JqxNumberInput ref="myNumberInput"
+            <JqxNumberInput :theme="'material'" ref="myNumberInput"
                             @mousedown="onMouseDown($event)" @keyup="onKeyup()" @valueChanged="onValueChanged()"
                             :width="60" :height="40" :decimal="60" :min="0" :max="100"
                             :textAlign="'center'" :decimalDigits="1" :inputMode="'simple'">

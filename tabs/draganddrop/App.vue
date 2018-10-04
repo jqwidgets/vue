@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs :width="getWidth" :position="'top'" :reorder="true">
+    <JqxTabs :theme="'material'" :width="getWidth" :position="'top'" :reorder="true">
         <ul style='margin-left: 30px;'>
             <li>Node.js</li>
             <li>JavaServer Pages</li>

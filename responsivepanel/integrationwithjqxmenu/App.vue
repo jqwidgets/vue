@@ -5,7 +5,7 @@
                 <div ref="toggleResponsivePanel" id="toggleResponsivePanel"></div>
             </div>
             
-            <JqxResponsivePanel ref="myResponsivePanel"
+            <JqxResponsivePanel :theme="'material'" ref="myResponsivePanel"
                                 @open="responsivePanelEventsHandler($event)"
                                 @close="responsivePanelEventsHandler($event)"
                                 @expand="responsivePanelEventsHandler($event)"
@@ -15,7 +15,7 @@
                                 :autoClose="false"
                                 :toggleButton="'#toggleResponsivePanel'"
                                 :animationType="'none'">
-                <JqxMenu :width="'100%'" :height="'100%'" :mode="'vertical'">
+                <JqxMenu :theme="'material'" :width="'100%'" :height="'100%'" :mode="'vertical'">
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li>
@@ -86,7 +86,7 @@
                 </JqxMenu>
             </JqxResponsivePanel>
 
-            <JqxPanel ref="myPanel" :width="'65%'" :height="'100%'">
+            <JqxPanel :theme="'material'" ref="myPanel" :width="'65%'" :height="'100%'">
                 <h4 style="text-align: center;">About Us</h4>
                 <p style="line-height: 1.5;">
                     <span style="float: left; font-size: 3.26em; line-height: 0.5; margin-top: 0.2em;">S</span><strong>
@@ -118,9 +118,9 @@
 
         <div style="padding-top: 20px; clear: both"></div>
 
-        <JqxButton @click="resizeSmallBtnOnClick()" :width="180" :height="25">Resize Panel to 500px</JqxButton>
+        <JqxButton :theme="'material'" @click="resizeSmallBtnOnClick()" :width="180" :height="25">Resize Panel to 500px</JqxButton>
 
-        <JqxButton @click="resizeBigBtnOnClick()" :width="180" :height="25">Resize Panel to 800px</JqxButton>
+        <JqxButton :theme="'material'" @click="resizeBigBtnOnClick()" :width="180" :height="25">Resize Panel to 800px</JqxButton>
     </div>
 </template>
 

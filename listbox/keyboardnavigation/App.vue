@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxListBox ref="listBox"
+        <JqxListBox :theme="'material'" ref="listBox"
                     :multipleextended="true"
                     :selectedIndex="3"
                     :source="countries"

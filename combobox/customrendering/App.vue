@@ -1,5 +1,5 @@
 <template>
-    <JqxComboBox :width="270" :height="25" :source="dataAdapter"
+    <JqxComboBox :theme="'material'" :width="270" :height="25" :source="dataAdapter"
                  :selectedIndex="0" :renderer="renderer" :itemHeight="70"
                  :displayMember="'firstname'" :valueMember="'valueMember'">
     </JqxComboBox>

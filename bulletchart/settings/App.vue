@@ -1,64 +1,64 @@
 <template>
     <div>
-        <JqxBulletChart ref="myBulletChart" style="float: left; margin-left: 10px"
+        <JqxBulletChart :theme="'material'" ref="myBulletChart" style="float: left; margin-left: 10px"
                         :width="getWidth" :height="80" :barSize="'40%'" :ranges="ranges" :ticks="ticks"
                         :title="'Revenue 2014 YTD'" :description="'(U.S. $ in thousands)'" :animationDuration="0"
                         :pointer="pointer" :target="target" :labelsFormat="'c'" :showToolTip="true">
         </JqxBulletChart>
-        <JqxExpander style="float: left; margin-left: 60px"
+        <JqxExpander :theme="'material'" style="float: left; margin-left: 60px"
                      :width="210" :height="550" :toggleMode="'none'" :showArrow="false">
 
             <div>jqxBulletChart Settings</div>
             <div>
                 <div style="padding: 5px">
-                    <JqxCheckBox ref="showLabelsCheckbox" @change="showLabelsCheckboxChange($event)" :checked="true">Show Labels</JqxCheckBox>
+                    <JqxCheckBox :theme="'material'" ref="showLabelsCheckbox" @change="showLabelsCheckboxChange($event)" :checked="true">Show Labels</JqxCheckBox>
                     <ul style="list-style: none;padding: 0; margin-top: 10px; margin-left: 20px; font-family: Verdana; font-size: 12px">
                         <li>
-                            <JqxRadioButton ref="nearRadio" @checked="nearRadioChecked()" :checked="false" :groupName="'position'">Near</JqxRadioButton>
+                            <JqxRadioButton :theme="'material'" ref="nearRadio" @checked="nearRadioChecked()" :checked="false" :groupName="'position'">Near</JqxRadioButton>
                         </li>
                         <li>
-                            <JqxRadioButton ref="farRadio" @checked="farRadioChecked()" :checked="false" :groupName="'position'" style="margin-top: 5px">Far</JqxRadioButton>
+                            <JqxRadioButton :theme="'material'" ref="farRadio" @checked="farRadioChecked()" :checked="false" :groupName="'position'" style="margin-top: 5px">Far</JqxRadioButton>
                         </li>
                         <li>
-                            <JqxRadioButton ref="bothRadio" @checked="bothRadioChecked()" :checked="true" :groupName="'position'" style="margin-top: 5px">Both</JqxRadioButton>
+                            <JqxRadioButton :theme="'material'" ref="bothRadio" @checked="bothRadioChecked()" :checked="true" :groupName="'position'" style="margin-top: 5px">Both</JqxRadioButton>
                         </li>
                     </ul>
                     <br />
                     <div>Labels Format:</div>
                     <ul style="list-style: none; padding: 0; margin-top: 10px; margin-left: 20px; font-family: Verdana; font-size: 12px">
                         <li>
-                            <JqxRadioButton ref="currencyRadio" @checked="currencyRadioChecked()" :checked="true" :groupName="'format'">Currency</JqxRadioButton>
+                            <JqxRadioButton :theme="'material'" ref="currencyRadio" @checked="currencyRadioChecked()" :checked="true" :groupName="'format'">Currency</JqxRadioButton>
                         </li>
                         <li>
-                            <JqxRadioButton ref="percentRadio" @checked="percentRadioChecked()" :checked="false" :groupName="'format'" style="margin-top: 5px">Percent</JqxRadioButton>
+                            <JqxRadioButton :theme="'material'" ref="percentRadio" @checked="percentRadioChecked()" :checked="false" :groupName="'format'" style="margin-top: 5px">Percent</JqxRadioButton>
                         </li>
                         <li>
-                            <JqxRadioButton ref="noneRadio" @checked="noneRadioChecked()" :checked="false" :groupName="'format'" style="margin-top: 5px">None</JqxRadioButton>
+                            <JqxRadioButton :theme="'material'" ref="noneRadio" @checked="noneRadioChecked()" :checked="false" :groupName="'format'" style="margin-top: 5px">None</JqxRadioButton>
                         </li>
                     </ul>
                     <br />
-                    <JqxCheckBox ref="enableAnimationCheckbox" @change="enableAnimationCheckboxChange($event)" :checked="false">Enable Animation</JqxCheckBox>
+                    <JqxCheckBox :theme="'material'" ref="enableAnimationCheckbox" @change="enableAnimationCheckboxChange($event)" :checked="false">Enable Animation</JqxCheckBox>
                     <br />
                     <div>Pointer Value:</div>
-                    <JqxSlider ref="valueSlider" @change="valueSliderChange($event)" style="padding-left: 5px"
+                    <JqxSlider :theme="'material'" ref="valueSlider" @change="valueSliderChange($event)" style="padding-left: 5px"
                                :width="175" :min="0" :max="300" :step="10" :showTicks="false"
                                :mode="'fixed'" :showButtons="false" :value="270">
                     </JqxSlider>
                     <br />
                     <div>Pointer Color:</div>
-                    <JqxDropDownList ref="pointerDropDownList" @change="pointerDropDownListChange($event)"
+                    <JqxDropDownList :theme="'material'" ref="pointerDropDownList" @change="pointerDropDownListChange($event)"
                                      :width="'100%'" :height="25" :selectedIndex="4"
                                      :source="colorChoices" :autoDropDownHeight="true">
                     </JqxDropDownList>
                     <br />
                     <div>Target Color:</div>
-                    <JqxDropDownList ref="targetDropDownList" @change="targetDropDownListChange($event)"
+                    <JqxDropDownList :theme="'material'" ref="targetDropDownList" @change="targetDropDownListChange($event)"
                                      :width="'100%'" :height="25" :selectedIndex="4"
                                      :source="colorChoices" :autoDropDownHeight="true">
                     </JqxDropDownList>
                     <br />
-                    <JqxCheckBox ref="disabledCheckbox" @change="disabledCheckboxChange($event)" :checked="false" style="margin-bottom: 5px">Disabled</JqxCheckBox>
-                    <JqxCheckBox ref="rtlCheckbox" @change="rtlCheckboxChange($event)" :checked="false">Right-to-Left</JqxCheckBox>
+                    <JqxCheckBox :theme="'material'" ref="disabledCheckbox" @change="disabledCheckboxChange($event)" :checked="false" style="margin-bottom: 5px">Disabled</JqxCheckBox>
+                    <JqxCheckBox :theme="'material'" ref="rtlCheckbox" @change="rtlCheckboxChange($event)" :checked="false">Right-to-Left</JqxCheckBox>
                 </div>
             </div>
         </JqxExpander>

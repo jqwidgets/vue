@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxNotification ref="myNotification"
+        <JqxNotification :theme="'material'" ref="myNotification"
                          :icon="{ width: 25, height: 25, url: 'https://www.jqwidgets.com/vue/images/smiley.png', padding: 5}"
                          :template="null"
                          :opacity="0.9"
@@ -16,7 +16,7 @@
                     Name:
                 </td>
                 <td>
-                    <JqxInput ref="name" :width="150"></JqxInput>
+                    <JqxInput :theme="'material'" ref="name" :width="150"></JqxInput>
                 </td>
             </tr>
             <tr>
@@ -24,7 +24,7 @@
                     E-mail:
                 </td>
                 <td>
-                    <JqxInput ref="email" :width="150"></JqxInput>
+                    <JqxInput :theme="'material'" ref="email" :width="150"></JqxInput>
                 </td>
             </tr>
             <tr>
@@ -32,7 +32,7 @@
                     Comment:
                 </td>
                 <td>
-                    <JqxTextArea ref="comment" :width="155" :height="150"></JqxTextArea>
+                    <JqxTextArea :theme="'material'" ref="comment" :width="155" :height="150"></JqxTextArea>
                 </td>
             </tr>
             <tr>
@@ -40,7 +40,7 @@
             </tr>
             <tr>
                 <td colspan="2" style="text-align: center;">
-                    <JqxButton @click="click()">Submit comment</JqxButton>
+                    <JqxButton :theme="'material'" @click="click()">Submit comment</JqxButton>
                 </td>
             </tr>
         </table>

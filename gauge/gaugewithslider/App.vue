@@ -1,13 +1,13 @@
 ﻿<template>
     <div style="position: relative; height: 380px">
-        <JqxGauge ref="myGauge"
+        <JqxGauge :theme="'material'" ref="myGauge"
                   :animationDuration="1500"
                   :ranges="ranges" :cap="cap" :border="border"
                   :ticksMinor="ticksMinor" :ticksMajor="ticksMajor"
                   :labels="labels" :pointer="pointer">
         </JqxGauge>
 
-        <JqxSlider ref="mySlider" style="position: absolute; top: 250px; left: 93px"
+        <JqxSlider :theme="'material'" ref="mySlider" style="position: absolute; top: 250px; left: 93px"
                    @change="mySliderOnChange()"
                    :width="180" :value="120" :min="0" :max="220"
                    :ticksFrequency="20" :mode="'fixed'" :showButtons="false">

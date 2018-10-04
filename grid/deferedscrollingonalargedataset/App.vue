@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
 
-        <JqxGrid :width="getWidth" :source="dataAdapter" :columns="columns"
+        <JqxGrid :theme="'material'" :width="getWidth" :source="dataAdapter" :columns="columns"
                  :scrollmode="'deferred'" :deferreddatafields="['firstname', 'lastname', 'productname']">
         </JqxGrid>
     </div>

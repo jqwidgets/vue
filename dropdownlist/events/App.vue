@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxDropDownList ref="myDropDownList" style="float: left; margin-top: 10px"
+        <JqxDropDownList :theme="'material'" ref="myDropDownList" style="float: left; margin-top: 10px"
                          @select="listOnSelect($event)" @unselect="listOnUnselect($event)"
                          :width="200" :height="25" :source="source" :selectedIndex="0">
         </JqxDropDownList>
@@ -9,7 +9,7 @@
             <div>
                 <span>Events:</span>
 
-                <JqxPanel ref="myPanel" :width="200" :height="250"></JqxPanel>
+                <JqxPanel :theme="'material'" ref="myPanel" :width="200" :height="250"></JqxPanel>
 
             </div>
         </div>

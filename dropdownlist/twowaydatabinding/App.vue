@@ -2,7 +2,7 @@
     <div>
         <div>The value is: {{ item }}</div><br />
 
-        <JqxDropDownList v-model="item" :width="200" :height="25" :source="source" :selectedIndex="0" />
+        <JqxDropDownList :theme="'material'" v-model="item" :width="200" :height="25" :source="source" :selectedIndex="0" />
     </div>
 </template>
 

@@ -1,13 +1,13 @@
 <template>
     <div>
-        <JqxScheduler ref="myScheduler"
+        <JqxScheduler :theme="'material'" ref="myScheduler"
             :width="getWidth" :height="600" :source="dataAdapter" :date="date" :showLegend="true" :view="'weekView'"
             :appointmentDataFields="appointmentDataFields" :views="views" :resources="resources" :exportSettings="exportSettings"
          /> 
 
         <br />
 
-        <JqxButton ref="myButton" @click="printClick()" :width="120">Print</JqxButton>
+        <JqxButton :theme="'material'" ref="myButton" @click="printClick()" :width="120">Print</JqxButton>
     </div>
 </template>
 

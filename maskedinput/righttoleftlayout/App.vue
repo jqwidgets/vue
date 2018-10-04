@@ -3,14 +3,14 @@
         <div style='margin-top: 10px;'>
             Numeric
         </div>
-        <JqxMaskedInput :rtl="true"
+        <JqxMaskedInput :theme="'material'" :rtl="true"
                         :width="250"
                         :height="25">
         </JqxMaskedInput>
         <div style='margin-top: 10px;'>
             Zip Code
         </div>
-        <JqxMaskedInput :mask="'#####-####'"
+        <JqxMaskedInput :theme="'material'" :mask="'#####-####'"
                         :rtl="true"
                         :width="250"
                         :height="25">
@@ -18,7 +18,7 @@
         <div style='margin-top: 10px;'>
             SSN
         </div>
-        <JqxMaskedInput :mask="'###-##-####'"
+        <JqxMaskedInput :theme="'material'" :mask="'###-##-####'"
                         :rtl="true"
                         :width="250"
                         :height="25">
@@ -26,7 +26,7 @@
         <div style='margin-top: 10px;'>
             Date
         </div>
-        <JqxMaskedInput :mask="'##/##/####'"
+        <JqxMaskedInput :theme="'material'" :mask="'##/##/####'"
                         :rtl="true"
                         :width="250"
                         :height="25">

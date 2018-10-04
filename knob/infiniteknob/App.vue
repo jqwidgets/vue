@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxKnob ref="myKnob" @change="myKnobOnChange($event)"
+    <JqxKnob :theme="'material'" ref="myKnob" @change="myKnobOnChange($event)"
              :value="60" :min="0" :max="100" :startAngle="150"
              :endAngle="510" :snapToStep="true" :rotation="'clockwise'" :styleProperty="style"
              :marks="marks" :labels="labels" :progressBar="progressBar" :pointer="pointer"

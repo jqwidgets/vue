@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxListBox style="float: left;" ref="listBoxA"
+        <JqxListBox :theme="'material'" style="float: left;" ref="listBoxA"
                     @dragStart="dragStartA($event)"
                     @dragEnd="dragEndA($event)"
                     :allowDrop="true"
@@ -12,7 +12,7 @@
                     :height="250">
         </JqxListBox>
 
-        <JqxListBox style="margin-left: 20px; float: left;" ref="listBoxB"
+        <JqxListBox :theme="'material'" style="margin-left: 20px; float: left;" ref="listBoxB"
                     @dragStart="dragStartB($event)"
                     @dragEnd="dragEndB($event)"
                     :allowDrop="true"
@@ -24,7 +24,7 @@
                     :height="250">
         </JqxListBox>
         <div style="width: 200px; height: 200px; float: left; margin-left: 20px;">
-            <JqxTextArea ref="myTextArea" :width="200" :height="100"></JqxTextArea>
+            <JqxTextArea :theme="'material'" ref="myTextArea" :width="200" :height="100"></JqxTextArea>
         </div>
         <div style="font-size: 13px; font-family: Verdana; padding-top: 20px; clear: both;">
             <b>Events Log:</b>

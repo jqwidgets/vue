@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTree style="float: left;" ref="myTree"
+        <JqxTree :theme="'material'" style="float: left;" ref="myTree"
                  @select="select($event)" @expand="expand($event)" @collapse="collapse($event)"
                  :width="250" :source="source">
         </JqxTree>
@@ -9,7 +9,7 @@
             <div>
                 <span>Events:</span>
 
-                <JqxPanel ref="myPanel" :width="250" :height="200"></JqxPanel>
+                <JqxPanel :theme="'material'" ref="myPanel" :width="250" :height="200"></JqxPanel>
             </div>
         </div>
     </div>

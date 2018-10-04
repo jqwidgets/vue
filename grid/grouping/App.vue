@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid" @groupexpand="onGroupExpand($event)" @groupcollapse="onGroupCollapse($event)"
+        <JqxGrid :theme="'material'" ref="myGrid" @groupexpand="onGroupExpand($event)" @groupcollapse="onGroupCollapse($event)"
                  :width="getWidth" :groupable="true" :columns="columns"
                  :source="dataAdapter" :groups="['City']">
         </JqxGrid>
@@ -8,10 +8,10 @@
         <div style="margin-top: 20px;">
             <div style="float: left; margin-left: 20px;">
 
-                <JqxButton @click="onExpandGroup()" :width="150">Expand Group</JqxButton>
+                <JqxButton :theme="'material'" @click="onExpandGroup()" :width="150">Expand Group</JqxButton>
                 <br />
 
-                <JqxButton @click="onCollapseGroup()" :width="150">Collapse Group</JqxButton>
+                <JqxButton :theme="'material'" @click="onCollapseGroup()" :width="150">Collapse Group</JqxButton>
                 <br />
 
                 <span style="margin-top: 10px;">Group:</span>
@@ -19,10 +19,10 @@
             </div>
             <div style="float: left; margin-left: 20px;">
 
-                <JqxButton @click="onExpandAllGroup()" :width="150">Expand All Group</JqxButton>
+                <JqxButton :theme="'material'" @click="onExpandAllGroup()" :width="150">Expand All Group</JqxButton>
                 <br />
 
-                <JqxButton @click="onCollapseAllGroup()" :width="150">Collapse All Groups</JqxButton>
+                <JqxButton :theme="'material'" @click="onCollapseAllGroup()" :width="150">Collapse All Groups</JqxButton>
                 <br />
 
             </div>

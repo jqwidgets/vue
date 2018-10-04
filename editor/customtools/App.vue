@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxEditor ref="myEditor"
+    <JqxEditor :theme="'material'" ref="myEditor"
                :width="getWidth" :height="400" :tools="tools" :createCommand="createCommand">
     </JqxEditor>
 </template>

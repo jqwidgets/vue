@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxTreeGrid ref="myTreeGrid"
+        <JqxTree :theme="'material'"Grid ref="myTreeGrid"
                      @contextmenu="myTreeGridOnContextmenu()" 
                      @rowClick="myTreeGridOnRowClick($event)"
                      :width="getWidth" 
@@ -10,7 +10,7 @@
                      :ready="ready">
         </JqxTreeGrid>
 
-        <JqxMenu ref="myMenu" 
+        <JqxMenu :theme="'material'" ref="myMenu" 
                  @itemclick="myMenuOnItemClick($event)"
                  :width="200" 
                  :height="58" 

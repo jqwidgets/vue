@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDataTable ref="myDataTable" style="float: left"
+        <JqxDataTable :theme="'material'" ref="myDataTable" style="float: left"
                       @pageChanged="tableOnPageChanged($event)" @pageSizeChanged="tableOnPageSizeChanged($event)"
                       :width="650" :source="source" :columns="columns"
                       :pageable="true" :altRows="true" :pagerPosition="'both'">
@@ -11,26 +11,26 @@
             <div style="margin-top: 10px">
                 <div>Pager Mode:</div>
 
-                <JqxDropDownList style="margin-top: 5px" @select="pagerModeListOnSelect($event)"
+                <JqxDropDownList :theme="'material'" style="margin-top: 5px" @select="pagerModeListOnSelect($event)"
                                  :width="120" :height="25" :selectedIndex="0"
                                  :source="['default','advanced']" :autoDropDownHeight="true">
                 </JqxDropDownList>
 
                 <div style="margin-top: 10px">Pager Position:</div>
 
-                <JqxDropDownList style="margin-top: 5px" @select="pagerPositionListOnSelect($event)"
+                <JqxDropDownList :theme="'material'" style="margin-top: 5px" @select="pagerPositionListOnSelect($event)"
                                  :width="120" :height="25" :selectedIndex="2"
                                  :source="['top','bottom','both']" :autoDropDownHeight="true">
                 </JqxDropDownList>
 
                 <div style="margin-top: 10px">Go to Page:</div>
 
-                <JqxInput ref="myInput" style="margin-top: 5px; margin-right: 5px; float: left"
+                <JqxInput :theme="'material'" ref="myInput" style="margin-top: 5px; margin-right: 5px; float: left"
                           :width="120" :height="25" :value="1">
                 </JqxInput>
 
                 <div style="margin-top: 6px; float: left">
-                    <JqxButton @click="btnOnClick()" :height="18" :width="40">
+                    <JqxButton :theme="'material'" @click="btnOnClick()" :height="18" :width="40">
                         Apply
                     </JqxButton>
                 </div>
@@ -41,7 +41,7 @@
             <div style="margin-top: 10px;">
                 <div>Event Log:</div>
 
-                <JqxPanel ref="myPanel" style="margin-top: 5px"
+                <JqxPanel :theme="'material'" ref="myPanel" style="margin-top: 5px"
                           :width="150" :height="150">
                 </JqxPanel>
 

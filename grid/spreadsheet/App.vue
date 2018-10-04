@@ -1,11 +1,11 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :columnsresize="true" :editable="true" :selectionmode="'multiplecellsadvanced'">
         </JqxGrid>
         <div style="margin-top: 20px; float: left">
-            <JqxButton @click="myBtnOnClick()">Export to Excel</JqxButton>
+            <JqxButton :theme="'material'" @click="myBtnOnClick()">Export to Excel</JqxButton>
         </div>
     </div>
 </template>

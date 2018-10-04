@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Fitness & exercise weekly scorecard'"
                   :description="'Time spent in vigorous exercise'"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -11,7 +11,7 @@
         <br />
         Themes:
 
-        <JqxDropDownList ref="myList" :width="180" :height="28"
+        <JqxDropDownList :theme="'material'" ref="myList" :width="180" :height="28"
                          @change="myDropDownListOnChange()" :selectedIndex="0" :itemHeight="35"
                          :selectionRenderer="selectionTemplate" :renderer="itemTemplate"
                          :source="schemes" :displayMember="'name'">

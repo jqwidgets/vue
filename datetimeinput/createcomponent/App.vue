@@ -2,15 +2,15 @@
     <div>
         <label>Date Input</label>
 
-        <JqxDateTimeInput ref="myDateInput" :autoCreate="false"></JqxDateTimeInput><br />
+        <JqxDateTimeInput :theme="'material'" ref="myDateInput" :autoCreate="false"></JqxDateTimeInput><br />
 
         <label>Time Input</label>
 
-        <JqxDateTimeInput ref="myTimeInput" :autoCreate="false"></JqxDateTimeInput><br />
+        <JqxDateTimeInput :theme="'material'" ref="myTimeInput" :autoCreate="false"></JqxDateTimeInput><br />
 
         <label>Date Time Input</label>
 
-        <JqxDateTimeInput ref="myDateTimeInput" :autoCreate="false"></JqxDateTimeInput>
+        <JqxDateTimeInput :theme="'material'" ref="myDateTimeInput" :autoCreate="false"></JqxDateTimeInput>
     </div>
 </template>
 

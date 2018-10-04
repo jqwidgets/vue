@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="width: 110px;">
-        <JqxMenu :mode="'vertical'"
+        <JqxMenu :theme="'material'" :mode="'vertical'"
                  :width="120">
             <ul>
                 <li><a href="#">Home</a></li>

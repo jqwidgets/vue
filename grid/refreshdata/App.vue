@@ -1,12 +1,12 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :height="300" :source="dataAdapter" :columns="columns">
         </JqxGrid>
 
         <div style="margin-top: 10px">
-            <JqxButton @click="refreshBtnOnClick()">Refresh Data</JqxButton>
-            <JqxButton @click="clearBtnOnClick()">Clear</JqxButton>
+            <JqxButton :theme="'material'" @click="refreshBtnOnClick()">Refresh Data</JqxButton>
+            <JqxButton :theme="'material'" @click="clearBtnOnClick()">Clear</JqxButton>
         </div>
     </div>
 </template>

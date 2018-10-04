@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Sales by City in Q1 & Q2'"
                   :description="''"
                   :showLegend="true" :enableAnimations="true" :padding="padding"
@@ -14,7 +14,7 @@
                     <td>
                         <p>Select Serie 1 Symbol:</p>
 
-                        <JqxDropDownList @change="dropDownSerie1SymbolOnChange($event)"
+                        <JqxDropDownList :theme="'material'" @change="dropDownSerie1SymbolOnChange($event)"
                                          :width="200" :height="25" :selectedIndex="2"
                                          :dropDownHeight="100" :source="symbolsList">
                         </JqxDropDownList>
@@ -23,7 +23,7 @@
                     <td>
                         <p>Select Serie 2 Symbol:</p>
 
-                        <JqxDropDownList @change="dropDownSerie2SymbolOnChange($event)"
+                        <JqxDropDownList :theme="'material'" @change="dropDownSerie2SymbolOnChange($event)"
                                          :width="200" :height="25" :selectedIndex="1"
                                          :dropDownHeight="100" :source="symbolsList">
                         </JqxDropDownList>

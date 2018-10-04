@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxPivotGrid style="width: 800px; height: 400px;"
+        <JqxPivotGrid :theme="'material'" style="width: 800px; height: 400px;"
                       ref="pivotGrid"
                       :source="pivotDataSource"
                       :treeStyleRows="false"
@@ -8,7 +8,7 @@
                       :multipleSelectionEnabled="true">
         </JqxPivotGrid>
         <br />
-        <JqxButton ref="btnCheckRowsDisplayStyle"
+        <JqxButton :theme="'material'" ref="btnCheckRowsDisplayStyle"
                    @click="onChangeRowsDisplayStyle()"
                    :width="200">
             Change to Tree style display

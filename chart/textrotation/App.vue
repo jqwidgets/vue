@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'Axis text rotation example'"
               :description="''"
               :enableAnimations="true" :padding="padding" :showToolTips="true"

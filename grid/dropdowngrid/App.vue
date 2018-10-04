@@ -1,7 +1,7 @@
 ﻿<template>
-    <JqxDropDownButton ref="myDropDownButton" :width="150" :height="25">
+    <JqxDropDownButton :theme="'material'" ref="myDropDownButton" :width="150" :height="25">
 
-        <JqxGrid ref="myGrid" @rowselect="myGridOnRowSelect($event)"
+        <JqxGrid :theme="'material'" ref="myGrid" @rowselect="myGridOnRowSelect($event)"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :pageable="true" :columnsresize="true" :autoheight="true">
         </JqxGrid>

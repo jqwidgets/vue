@@ -11,7 +11,7 @@
                     <div style="float: right" id="priceMax"></div>
                 </div>
                 <br />
-                <JqxSlider filter="price" ref="priceSlider"
+                <JqxSlider :theme="'material'" filter="price" ref="priceSlider"
                     @change="priceSliderChange($event)"
                     :width="180" :height="30" 
                     :min="500" :max="4000" :step="350"
@@ -25,7 +25,7 @@
                     <div style="float: right" id="displayMax"></div>
                 </div>
                 <br />
-                <JqxSlider filter="display" ref="displaySlider"
+                <JqxSlider :theme="'material'" filter="display" ref="displaySlider"
                     @change="displaySliderChange($event)"
                     :width="180" :height="30" 
                     :min="9" :max="19" :step="1"
@@ -39,7 +39,7 @@
                     <div style="float: right" id="ramMax"></div>
                 </div>
                 <br />
-                <JqxSlider filter="ram" ref="ramSlider"
+                <JqxSlider :theme="'material'" filter="ram" ref="ramSlider"
                     @change="ramSliderChange($event)"
                     :width="180" :height="30" 
                     :min="2" :max="12" :step="1"
@@ -53,7 +53,7 @@
                     <div style="float: right" id="hddMax"></div>
                 </div>
                 <br />
-                <JqxSlider filter="hdd" ref="hddSlider"
+                <JqxSlider :theme="'material'" filter="hdd" ref="hddSlider"
                     @change="hddSliderChange($event)"
                     :width="180" :height="30" 
                     :min="150" :max="1500" :step="135"
@@ -61,7 +61,7 @@
                     :mode="'fixed'" :rangeSlider="true"
                     :ticksFrequency="135">                          
                 </JqxSlider>
-                <JqxButton ref="resetButton" @click="clickResetButton()" class="resetButton">Reset filters</JqxButton>
+                <JqxButton :theme="'material'" ref="resetButton" @click="clickResetButton()" class="resetButton">Reset filters</JqxButton>
             </div>
         </div>
         <div style="clear: both;"></div>

@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxDropDownList :width="280" :height="30" :source="shirts" :selectedIndex="0" :itemHeight="90"
+    <JqxDropDownList :theme="'material'" :width="280" :height="30" :source="shirts" :selectedIndex="0" :itemHeight="90"
                      :filterable="true" :renderer="renderer" :selectionRenderer="selectionRenderer">
     </JqxDropDownList>
 </template>

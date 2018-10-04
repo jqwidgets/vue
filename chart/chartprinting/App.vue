@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Economic comparison'"
                   :description="'GDP and Debt in 2010'"
                   :showLegend="true" :enableAnimations="true" :padding="padding"
@@ -11,7 +11,7 @@
         <br />
         <br />
 
-        <JqxButton v-on:click="btnOnClick()" width="80">Print</JqxButton>
+        <JqxButton :theme="'material'" v-on:click="btnOnClick()" width="80">Print</JqxButton>
     </div>
 </template>
 

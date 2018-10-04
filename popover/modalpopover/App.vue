@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxPopover :offset="{ left: 0, top: -125 }"
+        <JqxPopover :theme="'material'" :offset="{ left: 0, top: -125 }"
                     :isModal="true"
                     :arrowOffsetValue="-240"
                     :position="'right'"
@@ -11,7 +11,7 @@
         </JqxPopover>
         <div style="padding: 5px;">
             <div id="container" class="jqx-widget-header">
-                <JqxButton :width="100" :height="35">View Employees</JqxButton>
+                <JqxButton :theme="'material'" :width="100" :height="35">View Employees</JqxButton>
             </div>
         </div>
     </div>

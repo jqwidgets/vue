@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxPanel :width="350" :height="350">
+    <JqxPanel :theme="'material'" :width="350" :height="350">
         <div style="margin: 10px;">
             <h3>Early History of the Internet</h3>
         </div>

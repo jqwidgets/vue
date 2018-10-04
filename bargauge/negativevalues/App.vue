@@ -1,5 +1,5 @@
 <template>
-    <JqxBarGauge :width="getWidth" :height="600" :values="values"
+    <JqxBarGauge :theme="'material'" :width="getWidth" :height="600" :values="values"
                  :max="45" :min="-45" :baseValue="0" :labels="labels"
                  :startAngle="270" :endAngle="90" :animationDuration="0"
                  :relativeInnerRadius="0.2" :colorScheme="'scheme02'">

@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxLayout :width="'100%'" :height="'90%'" :layout="layout">
+    <JqxLayout :theme="'material'" :width="'100%'" :height="'90%'" :layout="layout">
         <div data-container="Document1Panel">Document 1 content</div>
         <div data-container="Document2Panel">Document 2 content</div>
 

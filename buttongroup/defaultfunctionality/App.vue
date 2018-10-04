@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxButtonGroup ref="myButtonGroup" @buttonclick="groupOnBtnClick($event)">
+        <JqxButton :theme="'material'"Group ref="myButtonGroup" @buttonclick="groupOnBtnClick($event)">
             <button style="padding: 4px 16px" id='Left' value='Left'></button>
             <button style="padding: 4px 16px" id='Center' value='Center'></button>
             <button style="padding: 4px 16px" id='Right' value='Right'></button>
@@ -8,9 +8,9 @@
 
         <div style="margin-top: 10px">
             <h4>Modes</h4>
-            <JqxRadioButton @checked="myDefaultModeButtonChecked()" :checked="true">Default</JqxRadioButton>
-            <JqxRadioButton @checked="myRadioModeButtonChecked()">RadioButtons</JqxRadioButton>
-            <JqxRadioButton @checked="myCheckBoxModeButtonChecked()">CheckBoxes</JqxRadioButton>
+            <JqxRadioButton :theme="'material'" @checked="myDefaultModeButtonChecked()" :checked="true">Default</JqxRadioButton>
+            <JqxRadioButton :theme="'material'" @checked="myRadioModeButtonChecked()">RadioButtons</JqxRadioButton>
+            <JqxRadioButton :theme="'material'" @checked="myCheckBoxModeButtonChecked()">CheckBoxes</JqxRadioButton>
         </div>
 
         <div ref="myLog" style="margin-top: 10px;"></div>

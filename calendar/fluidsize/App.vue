@@ -1,6 +1,6 @@
 <template>
 <div style="min-width: 200px; min-height: 200px; width: 30%; height: 30%">
-  <JqxCalendar :width="'100%'" :height="'100%'"></JqxCalendar>
+  <JqxCalendar :theme="'material'" :width="'100%'" :height="'100%'"></JqxCalendar>
 </div>
 </template>
 

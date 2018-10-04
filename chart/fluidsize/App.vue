@@ -1,5 +1,5 @@
 <template> 
-    <JqxChart style="width: 80%; height: 50%"
+    <JqxChart :theme="'material'" style="width: 80%; height: 50%"
         :title="'Economic comparison'" 
         :description="'GDP and Debt in 2010'"
         :showLegend="true" :enableAnimations="true" :padding="padding"

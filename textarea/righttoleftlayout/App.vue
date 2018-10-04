@@ -1,5 +1,5 @@
 <template>
-    <JqxTextArea ref="myTextArea"
+    <JqxTextArea :theme="'material'" ref="myTextArea"
         :width="300" :height="100" :rtl="true" 
     />
 </template>

@@ -1,15 +1,15 @@
 <template>
   <div>
     <b>Checkbox</b>
-    <JqxCheckBox style="margin-top: 10px" :width="'30%'">eLearning</JqxCheckBox>
-    <JqxCheckBox style="margin-top: 5px; margin-bottom: 10px" :width="'30%'">Mobile</JqxCheckBox>
+    <JqxCheckBox :theme="'material'" style="margin-top: 10px" :width="'30%'">eLearning</JqxCheckBox>
+    <JqxCheckBox :theme="'material'" style="margin-top: 5px; margin-bottom: 10px" :width="'30%'">Mobile</JqxCheckBox>
 
     <b>Radio Button</b>
-    <JqxRadioButton style="margin-top: 10px" :width="'30%'">On</JqxRadioButton>
-    <JqxRadioButton style="margin-top: 5px; margin-bottom: 10px" :width="'30%'">Off</JqxRadioButton>
+    <JqxRadioButton :theme="'material'" style="margin-top: 10px" :width="'30%'">On</JqxRadioButton>
+    <JqxRadioButton :theme="'material'" style="margin-top: 5px; margin-bottom: 10px" :width="'30%'">Off</JqxRadioButton>
 
     <b>DropDown Button</b>
-    <JqxDropDownButton ref="myDropDownButton" style="margin-top: 10px; margin-bottom: 10px" :width="'50%'" :height="25">
+    <JqxDropDownButton :theme="'material'" ref="myDropDownButton" style="margin-top: 10px; margin-bottom: 10px" :width="'50%'" :height="25">
       <div>
         <ul>
           <li>Education</li>
@@ -30,7 +30,7 @@
     </JqxDropDownButton>
 
     <b>Switch Button</b>
-    <JqxSwitchButton style="margin-top: 10px" :width="'20%'"></JqxSwitchButton>
+    <JqxSwitchButton :theme="'material'" style="margin-top: 10px" :width="'20%'"></JqxSwitchButton>
   </div>
 </template>
 

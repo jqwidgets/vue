@@ -2,7 +2,7 @@
     <div>
         <span style="margin-top: 6px; font-size: 12px; font-family: verdana; float: left">Customers:</span>
 
-        <JqxComboBox ref="customersComboBox" style="margin-left: 5px; float: left"
+        <JqxComboBox :theme="'material'" ref="customersComboBox" style="margin-left: 5px; float: left"
                      @select="customersOnSelect($event)"
                      :width="300" :height="25" :source="customersAdapter" :valueMember="'CustomerID'"
                      :placeHolder="'Select customer...'" :displayMember="'CompanyName'">
@@ -13,7 +13,7 @@
 
         <span style="margin-top: 6px; font-size: 12px; font-family: verdana; float: left">Orders:</span>
 
-        <JqxComboBox ref="ordersComboBox" style="margin-left: 5px; float: left"
+        <JqxComboBox :theme="'material'" ref="ordersComboBox" style="margin-left: 5px; float: left"
                      @select="ordersOnSelect($event)"
                      :width="300" :height="25" :source="ordersAdapter" :valueMember="'CustomerID'"
                      :placeHolder="'Select order...'" :displayMember="'OrderID'" :disabled="true">

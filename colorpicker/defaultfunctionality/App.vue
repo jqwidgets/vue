@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxScrollView :width="500" :height="350" :slideShow='true' :showButtons='false'>
+        <JqxScrollView :theme="'material'" :width="500" :height="350" :slideShow='true' :showButtons='false'>
             <div>
                 <div class="photo" style="background-image: url(https://www.jqwidgets.com/vue/images/imageNature1.jpg)"></div>
             </div>
@@ -24,11 +24,11 @@
         </label>
         <br />
 
-        <JqxDropDownButton ref="myDropDown" style="margin: 3px; float: left"
+        <JqxDropDownButton :theme="'material'" ref="myDropDown" style="margin: 3px; float: left"
                            :width="150" :height="22">
             <div style="padding: 3px;">
 
-                <JqxColorPicker @colorchange="colorPickerEvent($event)"
+                <JqxColorPicker :theme="'material'" @colorchange="colorPickerEvent($event)"
                                 :width="220" :height="220" :colorMode='"hue"'>
                 </JqxColorPicker>
 

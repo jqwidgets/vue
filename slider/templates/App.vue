@@ -1,22 +1,22 @@
 <template>
     <div>
         <div class="label">Default</div>
-        <JqxSlider :tooltip="true" :mode="'fixed'" />
+        <JqxSlider :theme="'material'" :tooltip="true" :mode="'fixed'" />
 
         <div class="label">Primary</div>
-        <JqxSlider :template="'primary'" :tooltip="true" :mode="'fixed'" />
+        <JqxSlider :theme="'material'" :template="'primary'" :tooltip="true" :mode="'fixed'" />
 
         <div class="label">Success</div>
-        <JqxSlider :template="'success'" :tooltip="true" :mode="'fixed'" />
+        <JqxSlider :theme="'material'" :template="'success'" :tooltip="true" :mode="'fixed'" />
 
         <div class="label">Info</div>
-        <JqxSlider :template="'info'" :tooltip="true" :mode="'fixed'" />
+        <JqxSlider :theme="'material'" :template="'info'" :tooltip="true" :mode="'fixed'" />
 
         <div class="label">Warning</div>
-        <JqxSlider :template="'warning'"  :tooltip="true" :mode="'fixed'" />
+        <JqxSlider :theme="'material'" :template="'warning'"  :tooltip="true" :mode="'fixed'" />
 
         <div class="label">Danger</div>
-        <JqxSlider :template="'danger'" :tooltip="true" :mode="'fixed'" />
+        <JqxSlider :theme="'material'" :template="'danger'" :tooltip="true" :mode="'fixed'" />
     </div>
 </template>
 

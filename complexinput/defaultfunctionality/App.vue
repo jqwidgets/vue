@@ -1,16 +1,16 @@
 <template>
     <div>
-        <JqxComplexInput ref="myComplexInput"
+        <JqxComplexInput :theme="'material'" ref="myComplexInput"
                          :width="250" :height="25" :value="'15 + 7.2i'">
         </JqxComplexInput>
 
         <div style="margin-top: 20px;">
 
-            <JqxButton @click="getRealPart()" :width="150">
+            <JqxButton :theme="'material'" @click="getRealPart()" :width="150">
                 Get real part
             </JqxButton>
 
-            <JqxButton @click="getImaginaryPart()" :width="150">
+            <JqxButton :theme="'material'" @click="getImaginaryPart()" :width="150">
                 Get imaginary part
             </JqxButton>
 

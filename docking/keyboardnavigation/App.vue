@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDocking ref="myDocking"
+        <JqxDocking :theme="'material'" ref="myDocking"
             :width="getWidth" :orientation="'horizontal'" :mode="'default'" :keyboardNavigation="true">
             <div>
                 <div id='window0' style="height: 150px">

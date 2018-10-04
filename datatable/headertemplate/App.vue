@@ -1,5 +1,5 @@
 <template>
-    <JqxDataTable ref="myDataTable"
+    <JqxDataTable :theme="'material'" ref="myDataTable"
                   @rowSelect="tableOnRowSelect()" @rowUnselect="tableOnRowUnselect()"
                   :width="getWidth" :source="dataAdapter" :columns="columns">
     </JqxDataTable>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Fitness & exercise weekly scorecard'"
                   :description="'Time spent in vigorous exercise by activity'"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -9,18 +9,18 @@
         </JqxChart>
         <div style="margin-top: 10px">
             <div style="float: left">
-                <JqxCheckBox :width="120" v-on:change="runningOnChange($event)">
+                <JqxCheckBox :theme="'material'" :width="120" v-on:change="runningOnChange($event)">
                     Running
                 </JqxCheckBox>
-                <JqxCheckBox :width="120" v-on:change="swimmingOnChange($event)">
+                <JqxCheckBox :theme="'material'" :width="120" v-on:change="swimmingOnChange($event)">
                     Swimming
                 </JqxCheckBox>
             </div>
             <div style="float: left">
-                <JqxCheckBox :width="120" :checked="true" v-on:change="cyclingOnChange($event)">
+                <JqxCheckBox :theme="'material'" :width="120" :checked="true" v-on:change="cyclingOnChange($event)">
                     Cycling
                 </JqxCheckBox>
-                <JqxCheckBox :width="120" v-on:change="goalOnChange($event)">
+                <JqxCheckBox :theme="'material'" :width="120" v-on:change="goalOnChange($event)">
                     Personal Goal
                 </JqxCheckBox>
             </div>

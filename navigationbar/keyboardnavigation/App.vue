@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="float: left;">
-        <JqxNavigationBar ref="myNavigationBar"
+        <JqxNavigationBar :theme="'material'" ref="myNavigationBar"
                           :expandedIndexes="[0]"
                           :expandMode="'multiple'"
                           :width="250">

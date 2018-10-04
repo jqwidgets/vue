@@ -1,22 +1,22 @@
 <template>
     <div>
-        <JqxButton ref="orientationButton" @click="orientationButtonClick()" :width="90">Orientation</JqxButton>
+        <JqxButton :theme="'material'" ref="orientationButton" @click="orientationButtonClick()" :width="90">Orientation</JqxButton>
 
-        <JqxButton ref="expandFirstButton" @click="expandFirstButtonClick()" :width="90">Expand first</JqxButton>
+        <JqxButton :theme="'material'" ref="expandFirstButton" @click="expandFirstButtonClick()" :width="90">Expand first</JqxButton>
 
-        <JqxButton ref="expandLastButton" @click="expandLastButtonClick()" :width="90">Expand last</JqxButton>
+        <JqxButton :theme="'material'" ref="expandLastButton" @click="expandLastButtonClick()" :width="90">Expand last</JqxButton>
 
-        <JqxButton ref="collapseFirstButton" @click="collapseFirstButtonClick()" :width="97">Collapse first</JqxButton>
+        <JqxButton :theme="'material'" ref="collapseFirstButton" @click="collapseFirstButtonClick()" :width="97">Collapse first</JqxButton>
 
-        <JqxButton ref="collapseLastButton" @click="collapseLastButtonClick()" :width="97">Collapse last</JqxButton>
+        <JqxButton :theme="'material'" ref="collapseLastButton" @click="collapseLastButtonClick()" :width="97">Collapse last</JqxButton>
 
-        <JqxButton ref="enableButton" @click="enableButtonClick()" :width="90">Enable</JqxButton>
+        <JqxButton :theme="'material'" ref="enableButton" @click="enableButtonClick()" :width="90">Enable</JqxButton>
 
-        <JqxButton ref="disableButton" @click="disableButtonClick()" :width="90">Disable</JqxButton>
+        <JqxButton :theme="'material'" ref="disableButton" @click="disableButtonClick()" :width="90">Disable</JqxButton>
 
         <br /><br />
 
-        <JqxSplitter ref="mySplitter" :height="600" :width="850" :panels="[{ size: 250 }]">
+        <JqxSplitter :theme="'material'" ref="mySplitter" :height="600" :width="850" :panels="[{ size: 250 }]">
             <div style="background-color:#F5FFF2;"></div>
             <div style="background-color:#EBF1FF;"></div>
         </JqxSplitter>

@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid1"
+        <JqxGrid :theme="'material'" ref="myGrid1"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :pageable="true" :autoheight="true" :sortable="true"
                  :rendered="rendered" :selectionmode="'singlecell'">
@@ -8,7 +8,7 @@
 
         <div style="margin-top: 20px"></div>
 
-        <JqxGrid ref="myGrid2"
+        <JqxGrid :theme="'material'" ref="myGrid2"
                  :width="getWidth" :source="source2" :columns="columns2"
                  :autoheight="true" :selectionmode="'singlecell'">
         </JqxGrid>

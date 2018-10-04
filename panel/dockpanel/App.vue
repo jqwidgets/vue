@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="width: 300px; height: 600px; font-size: 13px; font-family: Verdana;">
-        <JqxDockPanel ref="DockPanel"
+        <JqxDockPanel :theme="'material'" ref="DockPanel"
                       :width="300"
                       :height="210">
             <div ref="first" dock="left" style="background: #486974;">
@@ -23,7 +23,7 @@
         </div>
         <br />
         <div>Spiral:</div>
-        <JqxDockPanel ref="DockPanel2"
+        <JqxDockPanel :theme="'material'" ref="DockPanel2"
                       :width="300"
                       :height="210"
                       :lastchildfill="false">

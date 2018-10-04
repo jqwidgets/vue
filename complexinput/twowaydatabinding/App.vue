@@ -2,7 +2,7 @@
     <div>
         <div>The value is: {{ value }}</div><br />
 
-        <JqxComplexInput v-model="value" :width="200" :height="25" :spinButtons="true"/>
+        <JqxComplexInput :theme="'material'" v-model="value" :width="200" :height="25" :spinButtons="true"/>
     </div>
 </template>
 

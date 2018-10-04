@@ -1,15 +1,15 @@
 <template>
   <div>
     <b>Checkbox</b>
-    <JqxCheckBox style="margin-top: 10px" :width="85" :rtl="true">eLearning</JqxCheckBox>
-    <JqxCheckBox style="margin-top: 5px; margin-bottom: 10px" :width="85" :rtl="true">Mobile</JqxCheckBox>
+    <JqxCheckBox :theme="'material'" style="margin-top: 10px" :width="85" :rtl="true">eLearning</JqxCheckBox>
+    <JqxCheckBox :theme="'material'" style="margin-top: 5px; margin-bottom: 10px" :width="85" :rtl="true">Mobile</JqxCheckBox>
 
     <b>Radio Button</b>
-    <JqxRadioButton style="margin-top: 10px" :width="85" :rtl="true">On</JqxRadioButton>
-    <JqxRadioButton style="margin-top: 5px; margin-bottom: 10px" :width="85" :rtl="true">Off</JqxRadioButton>
+    <JqxRadioButton :theme="'material'" style="margin-top: 10px" :width="85" :rtl="true">On</JqxRadioButton>
+    <JqxRadioButton :theme="'material'" style="margin-top: 5px; margin-bottom: 10px" :width="85" :rtl="true">Off</JqxRadioButton>
 
     <b>DropDown Button</b>
-    <JqxDropDownButton ref="myDropDownButton" style="margin-top: 10px; margin-bottom: 10px" :width="180" :height="25" :rtl="true">
+    <JqxDropDownButton :theme="'material'" ref="myDropDownButton" style="margin-top: 10px; margin-bottom: 10px" :width="180" :height="25" :rtl="true">
       <div>
         <ul>
           <li>Education</li>
@@ -30,7 +30,7 @@
     </JqxDropDownButton>
 
     <b>Switch Button</b>
-    <JqxSwitchButton style="margin-top: 10px" :width="100"></JqxSwitchButton>
+    <JqxSwitchButton :theme="'material'" style="margin-top: 10px" :width="100"></JqxSwitchButton>
   </div>
 </template>
 

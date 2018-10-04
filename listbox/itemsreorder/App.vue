@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxListBox :allowDrop="true"
+    <JqxListBox :theme="'material'" :allowDrop="true"
                 :allowDrag="true"
                 :source="data"
                 :width="200"

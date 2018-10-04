@@ -1,5 +1,5 @@
 <template>
-    <JqxComboBox ref="myComboBox" :autoCreate="false">
+    <JqxComboBox :theme="'material'" ref="myComboBox" :autoCreate="false">
     </JqxComboBox>
 </template>
 

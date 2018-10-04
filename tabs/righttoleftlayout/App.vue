@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs :width="getWidth" :hight="250" :position="'top'" :rtl="true">
+    <JqxTabs :theme="'material'" :width="getWidth" :hight="250" :position="'top'" :rtl="true">
         <ul style="margin-left: 30px;">
             <li>Avatar</li>
             <li>End Game</li>

@@ -3,7 +3,7 @@
         <div style="font-size: 13px; font-family: verdana; margin-top: 10px;">
             Phone Number
         </div>
-        <JqxMaskedInput :mask="'(###)###-####'"
+        <JqxMaskedInput :theme="'material'" :mask="'(###)###-####'"
                         :width="'50%'"
                         :height="35">
         </JqxMaskedInput>

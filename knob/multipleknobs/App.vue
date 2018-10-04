@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxKnob ref="myKnobOne" style="position: relative" @change="myKnobOneOnChange($event)"
+        <JqxKnob :theme="'material'" ref="myKnobOne" style="position: relative" @change="myKnobOneOnChange($event)"
                  :value="60" :min="0" :max="100" :startAngle="180"
                  :endAngle="540" :rotation="'clockwise'" :snapToStep="true"
                  :styleProperty="{ fill: '#FFFFFF' }" :marks="marks" :progressBar="progressBar"

@@ -2,7 +2,7 @@
     <div>
         <div>{{ date.toString() }}</div><br />
 
-        <JqxCalendar :width="220" :height="220" v-model="date"/>
+        <JqxCalendar :theme="'material'" :width="220" :height="220" v-model="date"/>
     </div>
 </template>
 

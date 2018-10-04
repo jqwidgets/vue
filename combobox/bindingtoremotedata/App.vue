@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxComboBox @select="myComboBoxOnSelect($event)"
+        <JqxComboBox :theme="'material'" @select="myComboBoxOnSelect($event)"
                      :width="150" :height="25" :source="dataAdapter" :selectedIndex="0"
                      :displayMember="'countryName'" :valueMember="'name'">
         </JqxComboBox>

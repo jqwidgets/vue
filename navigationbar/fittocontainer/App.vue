@@ -2,7 +2,7 @@
     <div style="width: 680px; height: 450px; border: none;">
 
         <div id="leftPanel" style="width: 225px; height: 100%; float: left;">
-            <JqxNavigationBar :width="'100%'" :height="'100%'" :expandMode="'singleFitHeight'">
+            <JqxNavigationBar :theme="'material'" :width="'100%'" :height="'100%'" :expandMode="'singleFitHeight'">
                 <div>
                     Fantasy
                 </div>

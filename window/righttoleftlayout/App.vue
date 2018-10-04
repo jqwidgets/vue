@@ -1,11 +1,11 @@
 <template>
     <div id="jqxWidget">
-        <JqxButton @click="showWindowButtonClick()"
+        <JqxButton :theme="'material'" @click="showWindowButtonClick()"
                    :width="80">
             Show
         </JqxButton>
 
-        <JqxWindow ref="window"
+        <JqxWindow :theme="'material'" ref="window"
                    :width="500" :height="400"
                    :minHeight="300" :minWidth="300"
                    :resizable="true">

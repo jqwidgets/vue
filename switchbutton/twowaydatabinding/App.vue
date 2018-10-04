@@ -2,7 +2,7 @@
     <div>
         <div>The state is: {{ state }}</div><br />
 
-        <JqxSwitchButton v-model="state" :width="80" :height="30" />
+        <JqxSwitchButton :theme="'material'" v-model="state" :width="80" :height="30" />
     </div>
 </template>
 

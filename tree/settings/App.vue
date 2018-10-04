@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTree ref="myTree" style="float: left"
+        <JqxTree :theme="'material'" ref="myTree" style="float: left"
                  :width="300" :height="450">
             <ul>
                 <li id="home">Home</li>
@@ -86,43 +86,43 @@
 
         <div style="margin-left: 60px; float: left">
             <div style="margin-top: 10px">
-                <JqxButton @click="AddOnClick()" :width="125" :height="25">Add</JqxButton>
+                <JqxButton :theme="'material'" @click="AddOnClick()" :width="125" :height="25">Add</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="AddAfterOnClick()" :width="125" :height="25">Add After</JqxButton>
+                <JqxButton :theme="'material'" @click="AddAfterOnClick()" :width="125" :height="25">Add After</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="AddBeforeOnClick()" :width="125" :height="25">Add Before</JqxButton>
+                <JqxButton :theme="'material'" @click="AddBeforeOnClick()" :width="125" :height="25">Add Before</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="UpdateOnClick()" :width="125" :height="25">Update</JqxButton>
+                <JqxButton :theme="'material'" @click="UpdateOnClick()" :width="125" :height="25">Update</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="RemoveOnClick()" :width="125" :height="25">Remove</JqxButton>
+                <JqxButton :theme="'material'" @click="RemoveOnClick()" :width="125" :height="25">Remove</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="DisableOnClick()" :width="125" :height="25">Disable</JqxButton>
+                <JqxButton :theme="'material'" @click="DisableOnClick()" :width="125" :height="25">Disable</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="ExpandOnClick()" :width="125" :height="25">Expand</JqxButton>
+                <JqxButton :theme="'material'" @click="ExpandOnClick()" :width="125" :height="25">Expand</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="CollapseOnClick()" :width="125" :height="25">Collapse</JqxButton>
+                <JqxButton :theme="'material'" @click="CollapseOnClick()" :width="125" :height="25">Collapse</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="ExpandAllOnClick()" :width="125" :height="25">Expand All</JqxButton>
+                <JqxButton :theme="'material'" @click="ExpandAllOnClick()" :width="125" :height="25">Expand All</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="CollapseAllOnClick()" :width="125" :height="25">Collapse All</JqxButton>
+                <JqxButton :theme="'material'" @click="CollapseAllOnClick()" :width="125" :height="25">Collapse All</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="EnableAllOnClick()" :width="125" :height="25">Enable All</JqxButton>
+                <JqxButton :theme="'material'" @click="EnableAllOnClick()" :width="125" :height="25">Enable All</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="NextOnClick()" :width="125" :height="25">Next Item</JqxButton>
+                <JqxButton :theme="'material'" @click="NextOnClick()" :width="125" :height="25">Next Item</JqxButton>
             </div>
             <div style="margin-top: 10px">
-                <JqxButton @click="PreviousOnClick()" :width="125" :height="25">Previous Item</JqxButton>
+                <JqxButton :theme="'material'" @click="PreviousOnClick()" :width="125" :height="25">Previous Item</JqxButton>
             </div>
         </div>
     </div>

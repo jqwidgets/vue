@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDropDownList ref="myDropDownList" @select="listOnSelect($event)"
+        <JqxDropDownList :theme="'material'" ref="myDropDownList" @select="listOnSelect($event)"
                          :width="200" :height="25" :source="dataAdapter" :checkboxes="true"
                          :displayMember="'ContactName'" :valueMember="'companyName'">
         </JqxDropDownList>

@@ -1,13 +1,13 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left;">
 
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns">
         </JqxGrid>
 
         <div style="margin-top: 30px">
 
-            <JqxButton @click="btnOnClick()" :width="150">Auto Resize Columns</JqxButton>
+            <JqxButton :theme="'material'" @click="btnOnClick()" :width="150">Auto Resize Columns</JqxButton>
 
         </div>
 

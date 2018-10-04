@@ -2,11 +2,11 @@
     <div id="jqxWidget">
         <div style="float: left;">
             <div>
-                <JqxButton ref="showWindowButton" :width="75" :height="'auto'"
+                <JqxButton :theme="'material'" ref="showWindowButton" :width="75" :height="'auto'"
                            @click="showWindowButtonClicked()">
                     Open
                 </JqxButton>
-                <JqxButton ref="hideWindowButton" :width="65" :height="'auto'"
+                <JqxButton :theme="'material'" ref="hideWindowButton" :width="65" :height="'auto'"
                            @click="hideWindowButtonClicked()">
                     Close
                 </JqxButton>
@@ -20,7 +20,7 @@
             </div>
         </div>
 
-        <JqxWindow ref="window"
+        <JqxWindow :theme="'material'" ref="window"
                    :width="500" :height="300"
                    :showCollapseButton="true"
                    :initContent="init"
@@ -31,7 +31,7 @@
                 </span>
             </div>
             <div>
-                <JqxTabs ref="tab" :autoCreate="false">
+                <JqxTabs :theme="'material'" ref="tab" :autoCreate="false">
                     <ul style="margin-left: 30px;">
                         <li>Avatar</li>
                         <li>End Game</li>

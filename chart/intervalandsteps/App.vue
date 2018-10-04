@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Chart unit interval and steps example'"
                   :description="''"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -18,7 +18,7 @@
                                 <tr>
                                     <td>Labels step</td>
                                     <td>
-                                        <JqxNumberInput v-on:valueChanged="inputxAxisLabelsStepOnValueChange($event)"
+                                        <JqxNumberInput :theme="'material'" v-on:valueChanged="inputxAxisLabelsStepOnValueChange($event)"
                                                         :width="50" :height="25" :min="1" :max="10"
                                                         :inputMode="'simple'" :decimalDigits="0"
                                                         :digits="2" :spinButtons="true" :value="2">
@@ -28,7 +28,7 @@
                                 <tr>
                                     <td>Grid lines step</td>
                                     <td>
-                                        <JqxNumberInput v-on:valueChanged="inputxAxisGridLinesStepOnValueChange($event)"
+                                        <JqxNumberInput :theme="'material'" v-on:valueChanged="inputxAxisGridLinesStepOnValueChange($event)"
                                                         :width="50" :height="25" :min="1" :max="10"
                                                         :inputMode="'simple'" :decimalDigits="0"
                                                         :digits="2" :spinButtons="true" :value="1">
@@ -38,7 +38,7 @@
                                 <tr>
                                     <td>Tick marks step</td>
                                     <td>
-                                        <JqxNumberInput v-on:valueChanged="inputxAxisTickMarksStepOnValueChange($event)"
+                                        <JqxNumberInput :theme="'material'" v-on:valueChanged="inputxAxisTickMarksStepOnValueChange($event)"
                                                         :width="50" :height="25" :min="1" :max="10"
                                                         :inputMode="'simple'" :decimalDigits="0"
                                                         :digits="2" :spinButtons="true" :value="1">
@@ -48,7 +48,7 @@
                                 <tr>
                                     <td>Unit interval</td>
                                     <td>
-                                        <JqxNumberInput v-on:valueChanged="inputxAxisUnitIntervalOnValueChange($event)"
+                                        <JqxNumberInput :theme="'material'" v-on:valueChanged="inputxAxisUnitIntervalOnValueChange($event)"
                                                         :width="50" :height="25" :min="1" :max="10"
                                                         :inputMode="'simple'" :decimalDigits="0"
                                                         :digits="2" :spinButtons="true" :value="1">
@@ -57,7 +57,7 @@
                                 </tr>
                                 <tr style="height: 40px">
                                     <td colspan='2'>
-                                        <JqxCheckBox :width="200" :height="25" v-on:change="btnValuesBetweenTicksOnChange($event)">
+                                        <JqxCheckBox :theme="'material'" :width="200" :height="25" v-on:change="btnValuesBetweenTicksOnChange($event)">
                                             Value's between ticks
                                         </JqxCheckBox>
                                     </td>
@@ -72,7 +72,7 @@
                                 <tr>
                                     <td>Labels step</td>
                                     <td>
-                                        <JqxNumberInput v-on:valueChanged="inputvalueAxisLabelsStepOnValueChange($event)"
+                                        <JqxNumberInput :theme="'material'" v-on:valueChanged="inputvalueAxisLabelsStepOnValueChange($event)"
                                                         :width="50" :height="25" :min="1" :max="10"
                                                         :inputMode="'simple'" :decimalDigits="0"
                                                         :digits="2" :spinButtons="true" :value="1">
@@ -82,7 +82,7 @@
                                 <tr>
                                     <td>Grid lines step</td>
                                     <td>
-                                        <JqxNumberInput v-on:valueChanged="inputvalueAxisGridLinesStepOnValueChange($event)"
+                                        <JqxNumberInput :theme="'material'" v-on:valueChanged="inputvalueAxisGridLinesStepOnValueChange($event)"
                                                         :width="50" :height="25" :min="1" :max="10"
                                                         :inputMode="'simple'" :decimalDigits="0"
                                                         :digits="2" :spinButtons="true" :value="1">
@@ -92,7 +92,7 @@
                                 <tr>
                                     <td>Tick marks step</td>
                                     <td>
-                                        <JqxNumberInput v-on:valueChanged="inputvalueAxisTickMarksStepOnValueChange($event)"
+                                        <JqxNumberInput :theme="'material'" v-on:valueChanged="inputvalueAxisTickMarksStepOnValueChange($event)"
                                                         :width="50" :height="25" :min="1" :max="10"
                                                         :inputMode="'simple'" :decimalDigits="0"
                                                         :digits="2" :spinButtons="true" :value="1">
@@ -102,7 +102,7 @@
                                 <tr>
                                     <td>Unit interval</td>
                                     <td>
-                                        <JqxNumberInput v-on:valueChanged="inputvalueAxisUnitIntervalOnValueChange($event)"
+                                        <JqxNumberInput :theme="'material'" v-on:valueChanged="inputvalueAxisUnitIntervalOnValueChange($event)"
                                                         :width="50" :height="25" :min="1" :max="10"
                                                         :inputMode="'simple'" :decimalDigits="0"
                                                         :digits="2" :spinButtons="true" :value="5">
@@ -111,7 +111,7 @@
                                 </tr>
                                 <tr style="height: 40px">
                                     <td colspan='2'>
-                                        <JqxCheckBox :width="200" :height="25" v-on:change="btnvalueAxisValuesBetweenTicksOnChange($event)">
+                                        <JqxCheckBox :theme="'material'" :width="200" :height="25" v-on:change="btnvalueAxisValuesBetweenTicksOnChange($event)">
                                             Value's between ticks
                                         </JqxCheckBox>
                                     </td>

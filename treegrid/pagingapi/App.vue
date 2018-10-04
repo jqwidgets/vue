@@ -1,7 +1,7 @@
 ﻿<template>
     <div>
         <div style="float: left">
-            <JqxTreeGrid ref="myTreeGrid"
+            <JqxTree :theme="'material'"Grid ref="myTreeGrid"
                          @pageChanged="myTreeGridOnPageChanged($event)"
                          @pageSizeChanged="myTreeGridOnPageSizeChanged($event)"
                          :width="560" :source="dataAdapter" :columns="columns"
@@ -15,7 +15,7 @@
             <div style="margin-top: 10px">
                 <div>Pager Mode:</div>
 
-                <JqxDropDownList style="margin-top: 5px"
+                <JqxDropDownList :theme="'material'" style="margin-top: 5px"
                                  @select="pagerModeDropDownListOnSelect($event)"
                                  :width="120" :height="25" :selectedIndex="1"
                                  :source="['default','advanced']" :autoDropDownHeight="true">
@@ -23,7 +23,7 @@
 
                 <div style="margin-top: 10px">Pager Position:</div>
 
-                <JqxDropDownList style="margin-top: 5px"
+                <JqxDropDownList :theme="'material'" style="margin-top: 5px"
                                  @select="pagerPositionDropDownListOnSelect($event)"
                                  :width="120" :height="25" :selectedIndex="2"
                                  :source="['top','bottom','both']" :autoDropDownHeight="true">
@@ -32,13 +32,13 @@
 
                 <div style="margin-top: 10px">Go to Page:</div>
 
-                <JqxInput ref="myInput" style="margin-top: 5px; float: left" :width="120" :height="25" :value="1"></JqxInput>
-                <JqxButton @click="btnOnClick()" style="margin: 7px 0 0 5px; float: left">Apply</JqxButton>
+                <JqxInput :theme="'material'" ref="myInput" style="margin-top: 5px; float: left" :width="120" :height="25" :value="1"></JqxInput>
+                <JqxButton :theme="'material'" @click="btnOnClick()" style="margin: 7px 0 0 5px; float: left">Apply</JqxButton>
 
             </div>
             <div style="margin-top: 10px; display: inline-block">
                 <div>Event Log:</div>
-                <JqxPanel ref="myPanel" style="margin-top: 5px" :width="150" :height="150"></JqxPanel>
+                <JqxPanel :theme="'material'" ref="myPanel" style="margin-top: 5px" :width="150" :height="150"></JqxPanel>
             </div>
         </div>
 

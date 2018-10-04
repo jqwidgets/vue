@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDataTable ref="myDataTable" @bindingComplete="tableOnBindingComplete()"
+        <JqxDataTable :theme="'material'" ref="myDataTable" @bindingComplete="tableOnBindingComplete()"
                       :width="getWidth" :source="dataAdapter" :columns="columns"
                       :pageable="true" :editable="true">
         </JqxDataTable>

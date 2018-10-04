@@ -1,24 +1,24 @@
 ﻿<template>
-    <JqxSplitter :width="700" :height="600" :panels="mainSplitterPanels">
+    <JqxSplitter :theme="'material'" :width="700" :height="600" :panels="mainSplitterPanels">
         <div id="kanban1">
-            <JqxKanban ref="myKanbanOne"
+            <JqxKanban :theme="'material'" ref="myKanbanOne"
                        :width="'100%'" :height="'100%'" :source="dataAdapter"
                        :columns="kanbanOneColumns" :connectWith="'#kanban2, #kanban3'"
                        :resources="resourcesAdapterFunc()">
             </JqxKanban>
         </div>
         <div>
-            <JqxSplitter :width="'100%'" :height="'100%'"
+            <JqxSplitter :theme="'material'" :width="'100%'" :height="'100%'"
                          :orientation="'horizontal'" :panels="rightSplitterPanels">
                 <div id="kanban2">
-                    <JqxKanban ref="myKanbanTwo"
+                    <JqxKanban :theme="'material'" ref="myKanbanTwo"
                                :width="'100%'" :height="'100%'" :source="dataAdapter2"
                                :columns="kanbanTwoColumns" :connectWith="'#kanban1, #kanban3'"
                                :resources="resourcesAdapterFunc()">
                     </JqxKanban>
                 </div>
                 <div id="kanban3">
-                    <JqxKanban ref="myKanbanThree"
+                    <JqxKanban :theme="'material'" ref="myKanbanThree"
                                :width="'100%'" :height="'100%'" :source="dataAdapter3"
                                :columns="kanbanThreeColumns" :connectWith="'#kanban2, #kanban1'"
                                :resources="resourcesAdapterFunc()">

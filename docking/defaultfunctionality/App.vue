@@ -1,12 +1,12 @@
  <template>
-    <JqxDocking :orientation='"horizontal"' :width="getWidth" :mode='"docked"'>
+    <JqxDocking :theme="'material'" :orientation='"horizontal"' :width="getWidth" :mode='"docked"'>
         <div>
             <div id="window1" style="height: 220px;">
                 <div>
                     Date and Time
                 </div>
                 <div style="overflow: hidden;">
-                    <JqxCalendar :width="180" :height="180" style="float: left; margin-right: 10px;">
+                    <JqxCalendar :theme="'material'" :width="180" :height="180" style="float: left; margin-right: 10px;">
                     </JqxCalendar>
                     <h3 style="text-align: center; color: #787878;">Sunny</h3>
                     <div style="float: left; margin-left: 30px; text-align: center;">
@@ -24,7 +24,7 @@
                     News
                 </div>
                 <div style="overflow: hidden;">
-                    <JqxTabs :width="400" :height="181" :selectedItem='1'>
+                    <JqxTabs :theme="'material'" :width="400" :height="181" :selectedItem='1'>
                         <ul style="margin-left: 30px">
                             <li>World</li>
                             <li>Local</li>
@@ -69,7 +69,7 @@
                     Zodiac
                 </div>
                 <div style="overflow: hidden;">
-                    <JqxPanel :width="400" :height="180">
+                    <JqxPanel :theme="'material'" :width="400" :height="180">
                         <div style="padding-right: 20px;">
                             <div style="padding: 3px; width: 150px; height: 110px; float: left; margin: 10px;">
                                 <img src="https://www.jqwidgets.com/vue/images/leo.jpg" alt="Leo" title="Leo" />
@@ -90,7 +90,7 @@
                     E-mail
                 </div>
                 <div style="overflow: hidden;">
-                    <JqxListBox :width="400" :height="181" :source="source">
+                    <JqxListBox :theme="'material'" :width="400" :height="181" :source="source">
                     </JqxListBox>
                 </div>
             </div>

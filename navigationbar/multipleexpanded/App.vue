@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="width: 300px;">
-        <JqxNavigationBar :expandedIndexes="[2, 3]"
+        <JqxNavigationBar :theme="'material'" :expandedIndexes="[2, 3]"
                           :expandMode="'multiple'"
                           :width="300">
             <div>

@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs :width="750" :height="560">
+    <JqxTabs :theme="'material'" :width="750" :height="560">
         <ul>
             <li style="margin-left: 30px">
                 <div style="height: 20px; margin-top: 5px">
@@ -17,7 +17,7 @@
             </li>
         </ul>
         <div style="overflow: hidden">
-            <JqxChart style="width: 100%; height: 100%"
+            <JqxChart :theme="'material'" style="width: 100%; height: 100%"
                       :title="'S&P 500 Candlestick Chart'"
                       :description="'(January 2014 - November 2014)'"
                       :enableAnimations="true" :animationDuration="1500" :enableCrosshairs="true" :padding="padding"
@@ -26,7 +26,7 @@
             </JqxChart>
         </div>
         <div style="overflow: hidden">
-            <JqxChart style="width: 100%; height: 100%"
+            <JqxChart :theme="'material'" style="width: 100%; height: 100%"
                       :title="'U.S. Stock Market Index Performance (2014)'"
                       :description="'(NASDAQ Composite compared to S&P 500)'"
                       :showLegend="true" :enableAnimations="true" :padding="padding"

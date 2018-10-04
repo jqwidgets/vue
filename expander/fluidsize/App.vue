@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxExpander :width="'50%'" :height="'50%'">
+    <JqxExpander :theme="'material'" :width="'50%'" :height="'50%'">
         <div>
             Early History of the Internet
         </div>

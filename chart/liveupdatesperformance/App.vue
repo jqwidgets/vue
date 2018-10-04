@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'Live updates performance'" :enableAxisTextAnimation="true"
                   :description="'Data changes every 100 milliseconds'"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -13,13 +13,13 @@
                     <td style="padding-left: 50px">
                         <p>Pause / Resume updates:</p>
 
-                        <JqxButton ref="myBtn" @click="btnOnClick($event)" :width="160">
+                        <JqxButton :theme="'material'" ref="myBtn" @click="btnOnClick($event)" :width="160">
                             Pause
                         </JqxButton>
                     </td>
                     <td>
                         <p>Select color scheme:</p>
-                        <JqxDropDownList @change="colorsOnChange($event)"
+                        <JqxDropDownList :theme="'material'" @change="colorsOnChange($event)"
                                          :width="200" :height="25" :selectedIndex="2"
                                          :dropDownHeight="100" :source="colorsSchemesList">
                         </JqxDropDownList>

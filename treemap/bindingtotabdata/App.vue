@@ -3,7 +3,7 @@
         <div>
             <h3>U.S. Historical Home Prices (1950-2011)</h3>
         </div>
-        <JqxTreeMap 
+        <JqxTree :theme="'material'"Map 
             :width="850" 
             :height="500"
             :displayMember="'Year'"

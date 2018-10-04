@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxGrid :width="600" :source="dataAdapter" :columns="columns" :rowsheight="90">
+    <JqxGrid :theme="'material'" :width="600" :source="dataAdapter" :columns="columns" :rowsheight="90">
     </JqxGrid>
 </template>
 

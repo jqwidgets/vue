@@ -1,10 +1,10 @@
 <template>
-    <JqxSplitter
+    <JqxSplitter :theme="'material'"
         @expanded="expanded($event)"
         :height="400" :width="850"
         :panels="[{ min: 150, size: 330 }, { min: 250 }]">
         <div>
-            <JqxGrid ref="myGrid"
+            <JqxGrid :theme="'material'" ref="myGrid"
                 @rowselect="rowselect($event)"
                 :height="'100%'" :width="'100%'"
                 :source="dataAdapter"
@@ -17,28 +17,28 @@
                 <table style="margin-top: 20px; width: 100%;">
                     <tr>
                         <td style="text-align: right;">Company Name:</td>
-                        <td style="text-align: left;"><JqxInput ref="CompanyName" :height="23"></JqxInput></td>
+                        <td style="text-align: left;"><JqxInput :theme="'material'" ref="CompanyName" :height="23"></JqxInput></td>
                     </tr>
                     <tr>
                         <td style="text-align: right;">Contact Name:</td>
-                        <td style="text-align: left;"><JqxInput  ref="ContactName" :height="23"></JqxInput> </td>
+                        <td style="text-align: left;"><JqxInput :theme="'material'"  ref="ContactName" :height="23"></JqxInput> </td>
                     </tr>
                     <tr>
                         <td style="text-align: right;">Contact Title:</td>
-                        <td style="text-align: left;"><JqxInput ref="ContactTitle" :height="23"></JqxInput></td>
+                        <td style="text-align: left;"><JqxInput :theme="'material'" ref="ContactTitle" :height="23"></JqxInput></td>
                     </tr>
                     <tr>
                         <td style="text-align: right;">City:</td>
-                        <td style="text-align: left;"><JqxInput ref="City" :height="23"></JqxInput></td>
+                        <td style="text-align: left;"><JqxInput :theme="'material'" ref="City" :height="23"></JqxInput></td>
                     </tr>
                     <tr>
                         <td style="text-align: right;">Country:</td>
-                        <td style="text-align: left;"><JqxInput ref="Country" :height="23"></JqxInput></td>
+                        <td style="text-align: left;"><JqxInput :theme="'material'" ref="Country" :height="23"></JqxInput></td>
                     </tr>
                     <tr>
                         <td></td>
                         <td style="padding-left: 35px; text-align: left;">
-                            <JqxButton ref="Save" @click="saveClick()" :width="70" :height="23">Save</JqxButton>
+                            <JqxButton :theme="'material'" ref="Save" @click="saveClick()" :width="70" :height="23">Save</JqxButton>
                         </td>
                     </tr>
                 </table>

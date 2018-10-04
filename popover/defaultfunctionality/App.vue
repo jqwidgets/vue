@@ -1,12 +1,12 @@
 ﻿<template>
     <div>
-        <JqxPopover :showCloseButton="true" :selector="'.my-button'" :title="'Employees'"
+        <JqxPopover :theme="'material'" :showCloseButton="true" :selector="'.my-button'" :title="'Employees'"
                     :arrowOffsetValue="50" :offset="{ left: left, top: top }">
             <div ref="employees"></div>
         </JqxPopover>
 
         <div style="height: 33px; border-width: 1px; border-style: solid; padding: 10px;" class="jqx-widget-header">
-            <JqxButton ref="myButton"
+            <JqxButton :theme="'material'" ref="myButton"
                        style="float: right" class="my-button" @click="updatePopoverPosition()"
                        :width="150" :height="22" :template="'inverse'">
                 View Employees

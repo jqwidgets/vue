@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxTreeGrid ref="myTreeGrid"
+        <JqxTree :theme="'material'"Grid ref="myTreeGrid"
             :width="width"
             :sortable="true"
             :columns="columns"
@@ -9,7 +9,7 @@
         <div style="font-size: 13px; font-family: Verdana; width: 600px; margin-top: 10px;">
             <div style="float: left; width: 300px;">
                 <h4>Column Alignment</h4>
-                <JqxDropDownList
+                <JqxDropDownList :theme="'material'"
                     @change="columnAlignmentChange($event)"
                     :autoDropDownHeight="true"
                     :source="['Left', 'Center' , 'Right' ]"
@@ -19,7 +19,7 @@
             </div>
             <div style="float: left; width: 300px;">
                 <h4>Cells Alignment</h4>
-                <JqxDropDownList
+                <JqxDropDownList :theme="'material'"
                     @change="cellsAlignmentChange($event)"
                     :autoDropDownHeight="true"
                     :source="['Left', 'Center' , 'Right' ]"

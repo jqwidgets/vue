@@ -2,7 +2,7 @@
     <div>
         <div>The value is: {{ value }}</div><br />
 
-        <JqxSlider v-model="value" :width="200" :height="25" />
+        <JqxSlider :theme="'material'" v-model="value" :width="200" :height="25" />
     </div>
 </template>
 

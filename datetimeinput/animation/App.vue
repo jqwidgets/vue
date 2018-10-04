@@ -3,23 +3,23 @@
         <div style="float: left">
             <h3>Animation Type</h3>
 
-            <JqxRadioButton @checked="noneAnimationBtn()" :checked="false">
+            <JqxRadioButton :theme="'material'" @checked="noneAnimationBtn()" :checked="false">
                 None
             </JqxRadioButton>
 
             <div style="margin-top: 10px"></div>
-            <JqxRadioButton @checked="slideAnimationBtn()" :checked="false">
+            <JqxRadioButton :theme="'material'" @checked="slideAnimationBtn()" :checked="false">
                 Slide
             </JqxRadioButton>
 
             <div style="margin-top: 10px"></div>
-            <JqxRadioButton @checked="fadeAnimationBtn()" :checked="true">
+            <JqxRadioButton :theme="'material'" @checked="fadeAnimationBtn()" :checked="true">
                 Fade
             </JqxRadioButton>
 
         </div>
 
-        <JqxDateTimeInput ref="myDateTimeInput" style="float: left; margin-top: 40px; margin-left: 100px"
+        <JqxDateTimeInput :theme="'material'" ref="myDateTimeInput" style="float: left; margin-top: 40px; margin-left: 100px"
                           :width="150" :height="25" :animationType="'fade'"
                           :dropDownHorizontalAlignment="'right'">
         </JqxDateTimeInput>

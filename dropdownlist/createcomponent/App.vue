@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxDropDownList ref="myDropDownList" :autoCreate="false">
+    <JqxDropDownList :theme="'material'" ref="myDropDownList" :autoCreate="false">
     </JqxDropDownList>
 </template>
 

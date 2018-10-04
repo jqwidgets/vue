@@ -1,9 +1,9 @@
 <template>
-    <JqxSplitter 
+    <JqxSplitter :theme="'material'" 
         :width="850" :height="600" :orientation="'horizontal'"
         :panels="[{ size: '50%', collapsible: false }, { size: '50%' }]">
         <div>
-            <JqxTabs ref="myTabs1" class="jqx-hideborder jqx-hidescrollbars"
+            <JqxTabs :theme="'material'" ref="myTabs1" class="jqx-hideborder jqx-hidescrollbars"
                 :width="'100%'" :height="'100%'">
                 <ul>
                     <li style="margin-left: 30px;">Tab 1</li>
@@ -18,11 +18,11 @@
             </JqxTabs>
         </div>
         <div>
-            <JqxSplitter 
+            <JqxSplitter :theme="'material'" 
                 :width="'100%'" :height="300"
                 :panels="[{ size: '50%' }]">
                 <div>
-                    <JqxTabs ref="myTabs2" class="jqx-hideborder jqx-hidescrollbars" 
+                    <JqxTabs :theme="'material'" ref="myTabs2" class="jqx-hideborder jqx-hidescrollbars" 
                         :width="'100%'" :height="'100%'">
                         <ul>
                             <li style="margin-left: 30px;">Tab 1</li>
@@ -37,7 +37,7 @@
                     </JqxTabs>
                 </div>
                 <div>
-                    <JqxTabs ref="myTabs3" class="jqx-hideborder jqx-hidescrollbars"
+                    <JqxTabs :theme="'material'" ref="myTabs3" class="jqx-hideborder jqx-hidescrollbars"
                         :width="'100%'" :height="'100%'">
                         <ul>
                             <li style="margin-left: 30px;">Tab 1</li>

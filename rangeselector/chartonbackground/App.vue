@@ -6,13 +6,13 @@
 
         <label style="margin-left: 250px; font-size: 14px; font-weight: bold;">Climatological Information about Geneva</label>
 
-        <JqxRangeSelector :width="getWidth" :height="200" :min="0" :max="12"
+        <JqxRangeSelector :theme="'material'" :width="getWidth" :height="200" :min="0" :max="12"
                           :range="{ from: 3, to: 9 }" :majorTicksInterval="1"
                           :minorTicksInterval="1" :labelsOnTicks="false"
                           :labelsFormatFunction="labelsFormatFunction"
                           :markersFormatFunction="markersFormatFunction">
 
-            <JqxChart style="width: 750px; height: 200px" 
+            <JqxChart :theme="'material'" style="width: 750px; height: 200px" 
                       :title="''" :description="''" :showBorderLine="false"
                       :showLegend="false" :enableAnimations="true" :padding="padding"
                       :titlePadding="titlePadding" :source="dataAdapter" :xAxis="xAxis"

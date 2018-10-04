@@ -1,5 +1,5 @@
 ﻿<template>
-        <JqxListBox :source="source"
+        <JqxListBox :theme="'material'" :source="source"
                     :height="300"
                     :width="350">
         </JqxListBox>

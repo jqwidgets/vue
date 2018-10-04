@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <JqxComboBox ref="myComboBox" style="float: left; margin-top: 270px;"
+        <JqxComboBox :theme="'material'" ref="myComboBox" style="float: left; margin-top: 270px;"
                      :width="150" :height="25" :source="dataAdapter" :selectedIndex="0"
                      :dropDownVerticalAlignment="'top'" :dropDownWidth="200"
                      :displayMember="'ContactName'" :valueMember="'CompanyName'">
@@ -10,11 +10,11 @@
         <div style="float: left; font-size: 13px; font-family: Verdana; margin-left: 100px; margin-top:270px;">
             <h3>Alignment</h3>
 
-            <JqxRadioButton @checked="topBtnOnChecked()" :checked="true">
+            <JqxRadioButton :theme="'material'" @checked="topBtnOnChecked()" :checked="true">
                 Top
             </JqxRadioButton>
 
-            <JqxRadioButton style="margin-top: 10px" @checked="bottomBtnOnChecked()">
+            <JqxRadioButton :theme="'material'" style="margin-top: 10px" @checked="bottomBtnOnChecked()">
                 Bottom
             </JqxRadioButton>
 

@@ -3,17 +3,17 @@
         <div style="float: left; font-size: 13px; font-family: Verdana">
             <h3>Alignment</h3>
 
-            <JqxRadioButton @checked="leftAlignBtnOnChecked()">
+            <JqxRadioButton :theme="'material'" @checked="leftAlignBtnOnChecked()">
                 Left
             </JqxRadioButton>
 
-            <JqxRadioButton :checked="true" @checked="rightAlignBtnOnChecked()">
+            <JqxRadioButton :theme="'material'" :checked="true" @checked="rightAlignBtnOnChecked()">
                 Right
             </JqxRadioButton>
 
         </div>
 
-        <JqxDropDownList ref="myDropDownList" style="float: left; margin-top: 20px; margin-left: 100px"
+        <JqxDropDownList :theme="'material'" ref="myDropDownList" style="float: left; margin-top: 20px; margin-left: 100px"
                          :width="150" :height="25" :source="dataAdapter" :selectedIndex="0"
                          :displayMember="'ContactName'" :valueMember="'notes'"
                          :dropDownHorizontalAlignment="'right'" :dropDownWidth="200">

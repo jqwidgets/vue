@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'Pyramid series'"
               :description="'This example demonstrates pyramid chart series'"
               :showLegend="true" :enableAnimations="false" :padding="padding"

@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxExpander ref="createAccount"
+    <JqxExpander :theme="'material'" ref="createAccount"
                  :showArrow="false"
                  :toggleMode="'none'"
                  :width="350">
@@ -7,7 +7,7 @@
             Create a new account
         </div>
         <div style="font-family: Verdana; font-size: 13px;">
-            <JqxValidator ref="myValidator" @validationSuccess="validationSuccess($event)" :rules="rules" :hintType="'label'">
+            <JqxValidator :theme="'material'" ref="myValidator" @validationSuccess="validationSuccess($event)" :rules="rules" :hintType="'label'">
                 <form id="form" style="overflow: hidden; margin: 10px;" action="./">
                     <table>
                         <tr>
@@ -17,7 +17,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <JqxInput ref="firstName" class="firstName" :width="300" :height="21"></JqxInput>
+                                <JqxInput :theme="'material'" ref="firstName" class="firstName" :width="300" :height="21"></JqxInput>
                             </td>
                         </tr>
                         <tr>
@@ -27,7 +27,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <JqxInput ref="lastName" class="lastName" :width="300" :height="21"></JqxInput>
+                                <JqxInput :theme="'material'" ref="lastName" class="lastName" :width="300" :height="21"></JqxInput>
                             </td>
                         </tr>
                         <tr>
@@ -37,7 +37,7 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <JqxInput ref="userName" class="userName" :width="300" :height="21"></JqxInput>
+                                <JqxInput :theme="'material'" ref="userName" class="userName" :width="300" :height="21"></JqxInput>
                             </td>
                         </tr>
                         <tr>
@@ -47,7 +47,7 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <JqxPasswordInput ref="password" class="password" :width="300" :height="21"></JqxPasswordInput>
+                                <JqxPasswordInput :theme="'material'" ref="password" class="password" :width="300" :height="21"></JqxPasswordInput>
                             </td>
                         </tr>
                         <tr>
@@ -57,7 +57,7 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <JqxPasswordInput ref="passwordConfirm" class="passwordConfirm" :width="300" :height="21"></JqxPasswordInput>
+                                <JqxPasswordInput :theme="'material'" ref="passwordConfirm" class="passwordConfirm" :width="300" :height="21"></JqxPasswordInput>
                             </td>
                         </tr>
                         <tr>
@@ -67,7 +67,7 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <JqxDateTimeInput :width="300"
+                                <JqxDateTimeInput :theme="'material'" :width="300"
                                                   :height="21">
                                 </JqxDateTimeInput>
                             </td>
@@ -79,7 +79,7 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <JqxDropDownList ref="gender" class="gender"
+                                <JqxDropDownList :theme="'material'" ref="gender" class="gender"
                                                  :source="genders"
                                                  :selectedIndex="-1"
                                                  :placeHolder="'I am...'"
@@ -91,7 +91,7 @@
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <JqxButton :width="150" @click="buttonClicked()">Create account</JqxButton>
+                                <JqxButton :theme="'material'" :width="150" @click="buttonClicked()">Create account</JqxButton>
                             </td>
                         </tr>
                     </table>

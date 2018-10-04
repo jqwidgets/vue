@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxRangeSelector ref="myRangeSelector"
+        <JqxRangeSelector :theme="'material'" ref="myRangeSelector"
                           :width="'80%'" :height="100"
                           :min="0" :max="100"
                           :range="{ from: 10, to: 50 }" 
@@ -10,10 +10,10 @@
         </JqxRangeSelector>
 
         <div style="margin-left:30px; margin-top: 50px;">
-            <JqxButton @click="onClickSet()">
+            <JqxButton :theme="'material'" @click="onClickSet()">
                 Set range
             </JqxButton>
-            <JqxButton @click="onClickGet()">
+            <JqxButton :theme="'material'" @click="onClickGet()">
                 Get range
             </JqxButton>
         </div>

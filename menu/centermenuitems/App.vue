@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxMenu ref="jqxMenu"
+    <JqxMenu :theme="'material'" ref="jqxMenu"
              :width="'90%'"
              :height="30">
         <ul>

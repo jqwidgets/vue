@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTabs ref="myTabs" :width="getWidth" style="float: left;">
+        <JqxTabs :theme="'material'" ref="myTabs" :width="getWidth" style="float: left;">
             <ul style="margin-left: 30px;">
                 <li>Node.js</li>
                 <li>JavaServer Pages</li>
@@ -130,13 +130,13 @@
             <div style='margin-top: 10px; margin-bottom: 10px;'>
                 <b>Scroll Buttons Position:</b>
             </div>
-            <JqxRadioButton @checked="checkedLeft($event)" :height="25" :width="100" ref="leftButton">
+            <JqxRadioButton :theme="'material'" @checked="checkedLeft($event)" :height="25" :width="100" ref="leftButton">
                 Left
             </JqxRadioButton>
-            <JqxRadioButton @checked="checkedRight($event)" :height="25" :width="100" :checked="true" ref="rightButton">
+            <JqxRadioButton :theme="'material'" @checked="checkedRight($event)" :height="25" :width="100" :checked="true" ref="rightButton">
                 Right
             </JqxRadioButton>
-            <JqxRadioButton @checked="checkedBoth($event)" :height="25" :width="100" ref="bothButton">
+            <JqxRadioButton :theme="'material'" @checked="checkedBoth($event)" :height="25" :width="100" ref="bothButton">
                 Both
             </JqxRadioButton>
         </div>

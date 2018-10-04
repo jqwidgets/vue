@@ -1,6 +1,6 @@
 <template>
 <div>
-  <JqxCalendar style="float: left" :width="220" :height="220"></JqxCalendar>
+  <JqxCalendar :theme="'material'" style="float: left" :width="220" :height="220"></JqxCalendar>
 
   <div style="font-family: Verdana; font-size: 12px; width: 400px; margin-left: 20px; float: left">
     <ul>

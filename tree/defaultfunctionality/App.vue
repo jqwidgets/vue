@@ -1,10 +1,10 @@
 <template>
     <div>
-        <JqxExpander 
+        <JqxExpander :theme="'material'" 
             :width="300" :height="370" :showArrow="false" :toggleMode="'none'">
             <div>Folders</div>
             <div style="overflow: hidden;">
-                <JqxTree ref="myTree"
+                <JqxTree :theme="'material'" ref="myTree"
                     :width="'100%'" :height="'100%'" :source="treeSource">
                 </JqxTree>
             </div>

@@ -1,5 +1,5 @@
 <template>
-        <JqxDocking ref="myDocking" style="float: left;"
+        <JqxDocking :theme="'material'" ref="myDocking" style="float: left;"
             :width="getWidth" :orientation="'horizontal'" :mode="'default'">
             <div>
                 <div id='window0' style="height: 200px">

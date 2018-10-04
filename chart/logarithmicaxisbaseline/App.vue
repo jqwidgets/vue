@@ -1,5 +1,5 @@
 <template>
-    <JqxChart ref="myChart" style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
               :title="'Logarithmic Scale Axis Example'"
               :description="'Sample logarithmic scale axis with base 2 and baseline 8'"
               :enableAnimations="false" :padding="padding"

@@ -1,5 +1,5 @@
 <template>
-    <JqxDockingLayout ref="myDockingLayout" :width="getWidth" :height="600" :layout="layout" :rtl="true">
+    <JqxDocking :theme="'material'"Layout ref="myDockingLayout" :width="getWidth" :height="600" :layout="layout" :rtl="true">
         <!--The panel content divs can have a flat structure-->
         <!--autoHideGroup-->
         <div data-container="ToolboxPanel">

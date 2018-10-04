@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxComboBox ref="myComboBox" style="float: left; margin-top: 100px;"
+        <JqxComboBox :theme="'material'" ref="myComboBox" style="float: left; margin-top: 100px;"
                      @select="onSelect($event)" @unselect="onUnselect($event)"
                      :width="200" :height="25" :source="source">
         </JqxComboBox>
@@ -8,7 +8,7 @@
         <div style="float: left; font-size: 12px; font-family: Verdana; margin-left: 20px; margin-top: 100px;">
             <span>Events:</span>
 
-            <JqxPanel ref="myPanel"
+            <JqxPanel :theme="'material'" ref="myPanel"
                       :width="200" :height="250">
             </JqxPanel>
         </div>

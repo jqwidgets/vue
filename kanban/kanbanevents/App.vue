@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxKanban @itemMoved="myKanbanOnItemMoved($event)"
+        <JqxKanban :theme="'material'" @itemMoved="myKanbanOnItemMoved($event)"
                    @columnCollapsed="myKanbanOnColumnCollapsed($event)"
                    @columnExpanded="myKanbanOnColumnExpanded($event)"
                    @itemAttrClicked="myKanbanOnItemAttrClicked($event)"

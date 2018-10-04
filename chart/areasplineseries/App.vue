@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                   :title="'U.S. History Home Prices (1950-2010)'" :description="'Source: http://www.econ.yale.edu/~shiller/data.htm'"
                   :showLegend="true" :enableAnimations="true" :padding="padding"
                   :titlePadding="titlePadding" :source="dataAdapter" :xAxis="xAxis"

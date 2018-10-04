@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid @columnreordered="myGridOnColumnReordered($event)"
+        <JqxGrid :theme="'material'" @columnreordered="myGridOnColumnReordered($event)"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :columnsresize="true" :columnsreorder="true">
         </JqxGrid>

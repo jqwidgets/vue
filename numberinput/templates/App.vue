@@ -4,7 +4,7 @@
             Default
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :spinButtons="true"
+            <JqxNumberInput :theme="'material'" :spinButtons="true"
                             :width="250"
                             :height="25">
             </JqxNumberInput>
@@ -13,7 +13,7 @@
             Primary
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :template="'primary'"
+            <JqxNumberInput :theme="'material'" :template="'primary'"
                             :spinButtons="true"
                             :width="250"
                             :height="25">
@@ -23,7 +23,7 @@
             Success
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :template="'success'"
+            <JqxNumberInput :theme="'material'" :template="'success'"
                             :spinButtons="true"
                             :width="250"
                             :height="25">
@@ -33,7 +33,7 @@
             Info
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :template="'info'"
+            <JqxNumberInput :theme="'material'" :template="'info'"
                             :spinButtons="true"
                             :width="250"
                             :height="25">
@@ -43,7 +43,7 @@
             Warning
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :template="'warning'"
+            <JqxNumberInput :theme="'material'" :template="'warning'"
                             :spinButtons="true"
                             :width="250"
                             :height="25">
@@ -53,7 +53,7 @@
             Danger
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :template="'danger'"
+            <JqxNumberInput :theme="'material'" :template="'danger'"
                             :spinButtons="true"
                             :width="250"
                             :height="25">

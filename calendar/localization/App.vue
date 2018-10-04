@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxCalendar ref="myCalendar" style="float: left; margin-right: 20px"
+        <JqxCalendar :theme="'material'" ref="myCalendar" style="float: left; margin-right: 20px"
                      :width="220" :height="220" :enableTooltips="false">
         </JqxCalendar>
 
@@ -10,7 +10,7 @@
             </div>
             <br /> <br />
 
-            <JqxDropDownList ref="myDropDownList" style="float: left" v-on:select="myDropDownListOnSelect($event)"
+            <JqxDropDownList :theme="'material'" ref="myDropDownList" style="float: left" v-on:select="myDropDownListOnSelect($event)"
                              :width="220" :height="25" :selectedIndex="3" :source="availableCultures">
             </JqxDropDownList>
         </div>

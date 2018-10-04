@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxListBox ref="myListBox"
+    <JqxListBox :theme="'material'" ref="myListBox"
                 :rtl="true"
                 :source="countries"
                 :checkboxes="true"

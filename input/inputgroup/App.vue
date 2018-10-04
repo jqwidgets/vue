@@ -1,12 +1,12 @@
 ﻿<template>
     <div>
-        <JqxInput ref="myInput" style="float: left"
+        <JqxInput :theme="'material'" ref="myInput" style="float: left"
                   :width="250" :height="23" :source="countries"
                   :minLength="1" :placeHolder="'Enter a Country:'">
         </JqxInput>
 
         <div style="float: left">
-            <JqxButton @click="myBtnOnClick()"
+            <JqxButton :theme="'material'" @click="myBtnOnClick()"
                        :width="28" :height="25" :imgSrc="'https://www.jqwidgets.com/vue/images/search_lg.png'">
             </JqxButton>
         </div>

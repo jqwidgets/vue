@@ -3,7 +3,7 @@
         <label style="font-size: 13px; font-family: Verdana">
             Hover over the pointer or target for more information.
         </label>
-        <JqxBulletChart :width="getWidth" :height="100" :barSize="'50%'" :ranges="ranges" :ticks="ticks"
+        <JqxBulletChart :theme="'material'" :width="getWidth" :height="100" :barSize="'50%'" :ranges="ranges" :ticks="ticks"
                         :title="'Student grade'" :description="'(in points)'" :pointer="pointer"
                         :target="target" :showToolTip="true" :tooltipFormatFunction="tooltipFormatFunction">
         </JqxBulletChart>

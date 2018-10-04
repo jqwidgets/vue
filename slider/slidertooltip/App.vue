@@ -1,5 +1,5 @@
 <template>
-    <JqxSlider :tooltip="true" :mode="'fixed'" />
+    <JqxSlider :theme="'material'" :tooltip="true" :mode="'fixed'" />
 </template>
 
 <script>

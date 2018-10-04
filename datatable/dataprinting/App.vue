@@ -1,13 +1,13 @@
 <template>
     <div>
-        <JqxDataTable ref="myDataTable"
+        <JqxDataTable :theme="'material'" ref="myDataTable"
                       :width="getWidth" :source="dataAdapter" :columns="columns"
                       :altRows="true" :sortable="true" :exportSettings="{ fileName: null }">
         </JqxDataTable>
 
         <div style="margin-top: 20px">
             <div style="margin-left: 10px; float: left">
-                <JqxButton @click="printBtnOnClick()" :width="80">Print</JqxButton>
+                <JqxButton :theme="'material'" @click="printBtnOnClick()" :width="80">Print</JqxButton>
             </div>
         </div>
     </div>

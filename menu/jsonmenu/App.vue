@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxMenu @itemclick="itemclick($event)"
+        <JqxMenu :theme="'material'" @itemclick="itemclick($event)"
                  :source="records"
                  :width="405"
                  :height="30">

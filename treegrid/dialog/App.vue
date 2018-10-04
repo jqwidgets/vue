@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxTreeGrid ref="myTreeGrid"
+        <JqxTree :theme="'material'"Grid ref="myTreeGrid"
             @rowDoubleClick="onRowDoubleClick($event)"
             :width="width"
             :sortable="true"
@@ -10,7 +10,7 @@
             :source="dataAdapter">
         </JqxTreeGrid>
 
-        <JqxWindow ref="dialog"
+        <JqxWindow :theme="'material'" ref="dialog"
             @close="onClose()"
             :resizable="false"
             :autoOpen="false"

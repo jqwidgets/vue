@@ -1,12 +1,12 @@
 <template>
     <div style="float: left">
-        <JqxCalendar ref="myCalendar" style="margin-top: 3px" v-on:change="myCalendarEvent($event)" v-on:viewChange="myCalendarEvent($event)"
+        <JqxCalendar :theme="'material'" ref="myCalendar" style="margin-top: 3px" v-on:change="myCalendarEvent($event)" v-on:viewChange="myCalendarEvent($event)"
                      :width="220" :height="220">
         </JqxCalendar>
         <div style="margin-left: 0; margin-top: 20px; float: left">
             <div>
                 <span>Events:</span>
-                <JqxPanel ref="myPanel" :width="600" :height="250"></JqxPanel>
+                <JqxPanel :theme="'material'" ref="myPanel" :width="600" :height="250"></JqxPanel>
             </div>
         </div>
     </div>

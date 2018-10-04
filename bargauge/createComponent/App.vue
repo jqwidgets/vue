@@ -1,5 +1,5 @@
 <template>
-    <JqxBarGauge ref="myBarGauge" :autoCreate="false"></JqxBarGauge>
+    <JqxBarGauge :theme="'material'" ref="myBarGauge" :autoCreate="false"></JqxBarGauge>
 </template>
 
 <script>

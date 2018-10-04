@@ -1,5 +1,5 @@
 <template>
-    <JqxDataTable :width="getWidth" :source="dataAdapter" :columns="columns"
+    <JqxDataTable :theme="'material'" :width="getWidth" :source="dataAdapter" :columns="columns"
                   :editable="true" :pageable="true" :sortable="true"
                   :pagerButtonsCount="10" :autoRowHeight="false">
     </JqxDataTable>

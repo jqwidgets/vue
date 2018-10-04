@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style="margin-bottom: 10px;" ref="horizontalLabel">Horizontal</div>
-        <JqxScrollBar @valueChanged="valueChanged($event)"
+        <JqxScrollBar :theme="'material'" @valueChanged="valueChanged($event)"
             :width="280" :height="18" :min="0" :max="1000" :rtl="true"
         />
     </div>

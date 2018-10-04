@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxMenu ref="myMenu"
+        <JqxMenu :theme="'material'" ref="myMenu"
                  :autoSizeMainItems="true"
                  :width="'100%'"
                  :height="32">
@@ -40,7 +40,7 @@
         </JqxMenu>
         <br />
         <br />
-        <JqxCheckBox ref="myCheckBox" @change="change($event)" :checked="true">Minimized</JqxCheckBox>
+        <JqxCheckBox :theme="'material'" ref="myCheckBox" @change="change($event)" :checked="true">Minimized</JqxCheckBox>
     </div>
 </template>
 <script>

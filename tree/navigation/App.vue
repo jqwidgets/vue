@@ -1,8 +1,8 @@
 <template>
-    <JqxSplitter ref="mySplitter"
+    <JqxSplitter :theme="'material'" ref="mySplitter"
         :width="650" :height="400" :panels="[{ size: 250 }]">
         <div>
-            <JqxTree ref="myTree" style="border: none;" 
+            <JqxTree :theme="'material'" ref="myTree" style="border: none;" 
                      @select="select($event)"
                      :width="'100%'" :height="'100%'">
                 <ul>

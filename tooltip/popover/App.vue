@@ -1,11 +1,11 @@
 <template>
     <div id="container">
-        <JqxButton @click="click()"
+        <JqxButton :theme="'material'" @click="click()"
             :width="100" :height="25">
             Toggle tooltip
         </JqxButton>
 
-        <JqxTooltip ref="myTooltip"
+        <JqxTooltip :theme="'material'" ref="myTooltip"
             :autoHide="false" :position="'bottom'" :name="'movieTooltip'"
             :closeOnClick="false" :trigger="'none'" :content="'The Amazing Spider-Man'">
             <img src='https://www.jqwidgets.com/vue/images/The_Amazng_Spider_Man.jpeg' />

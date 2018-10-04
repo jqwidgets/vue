@@ -1,5 +1,5 @@
 <template>
-    <JqxDraw style="width: 850px; height: 500px" 
+    <JqxDraw :theme="'material'" style="width: 850px; height: 500px" 
              ref="myDraw">
     </JqxDraw>
 </template>

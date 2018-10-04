@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left;">
         <div style="margin-top: 10px;">Primary</div>
-        <JqxProgressBar ref="jqxProgressBar2"
+        <JqxProgressBar :theme="'material'" ref="jqxProgressBar2"
                         :animationDuration="0"
                         :width="250"
                         :height="30"
@@ -11,7 +11,7 @@
                         :template="'primary'">
         </JqxProgressBar>
         <div style="margin-top: 10px;">Success</div>
-        <JqxProgressBar ref="jqxProgressBar3"
+        <JqxProgressBar :theme="'material'" ref="jqxProgressBar3"
                         :animationDuration="0"
                         :width="250"
                         :height="30"
@@ -21,7 +21,7 @@
                         :template="'success'">
         </JqxProgressBar>
         <div style="margin-top: 10px;">Info</div>
-        <JqxProgressBar ref="jqxProgressBar4"
+        <JqxProgressBar :theme="'material'" ref="jqxProgressBar4"
                         :animationDuration="0"
                         :width="250"
                         :height="30"
@@ -31,7 +31,7 @@
                         :template="'info'">
         </JqxProgressBar>
         <div style="margin-top: 10px;">Warning</div>
-        <JqxProgressBar ref="jqxProgressBar5"
+        <JqxProgressBar :theme="'material'" ref="jqxProgressBar5"
                         :animationDuration="0"
                         :width="250"
                         :height="30"
@@ -41,7 +41,7 @@
                         :template="'warning'">
         </JqxProgressBar>
         <div style="margin-top: 10px;">Danger</div>
-        <JqxProgressBar ref="jqxProgressBar6"
+        <JqxProgressBar :theme="'material'" ref="jqxProgressBar6"
                         :animationDuration="0"
                         :width="250"
                         :height="30"

@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 800px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 800px; height: 500px"
               :title="'Desktop browsers share'"
               :description="'(source: wikipedia.org)'"
               :showLegend="false" :enableAnimations="true" :padding="padding"

@@ -1,5 +1,5 @@
 <template>
-    <JqxCalendar :width="220" :height="220" :restrictedDates="restrictedDates">
+    <JqxCalendar :theme="'material'" :width="220" :height="220" :restrictedDates="restrictedDates">
     </JqxCalendar>
 </template>
 

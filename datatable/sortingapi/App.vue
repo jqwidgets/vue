@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDataTable ref="myDataTable" style="float: left"
+        <JqxDataTable :theme="'material'" ref="myDataTable" style="float: left"
                       :width="650" :source="dataAdapter" :columns="columns"
                       :altRows="true" :pageable="true" :sortable="true">
         </JqxDataTable>
@@ -18,7 +18,7 @@
                         <td align="right">Column:</td>
                         <td align="left">
 
-                            <JqxDropDownList ref="columnName"
+                            <JqxDropDownList :theme="'material'" ref="columnName"
                                              :width="100" :selectedIndex="0" :autoDropDownHeight="true"
                                              :source="['Name','Last Name','Product','Quantity','Unit Price','Total']">
                             </JqxDropDownList>
@@ -29,7 +29,7 @@
                         <td align="right">Sort Order:</td>
                         <td align="left">
 
-                            <JqxDropDownList ref="sortOrder"
+                            <JqxDropDownList :theme="'material'" ref="sortOrder"
                                              :width="100" :selectedIndex="0" :autoDropDownHeight="true"
                                              :source="['Ascending','Descending']">
                             </JqxDropDownList>
@@ -39,8 +39,8 @@
                     <tr>
                         <td align="right"></td>
                         <td align="left">
-                            <JqxButton style="float: left" @click="sortBtnOnClick()" :width="50">Sort</JqxButton>
-                            <JqxButton style="float: left; margin-left: 5px" @click="clearBtnOnClick()" :width="50">Clear</JqxButton>
+                            <JqxButton :theme="'material'" style="float: left" @click="sortBtnOnClick()" :width="50">Sort</JqxButton>
+                            <JqxButton :theme="'material'" style="float: left; margin-left: 5px" @click="clearBtnOnClick()" :width="50">Clear</JqxButton>
                         </td>
                     </tr>
                 </tbody>

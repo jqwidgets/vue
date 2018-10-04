@@ -2,7 +2,7 @@
     <div @contextmenu="contextmenuMenu($event)"
          @mousedown="mousedown($event)"
          style="vertical-align: middle; text-align: center; background: #eee; height: 400px; width: 400px;">
-        <JqxMenu ref="jqxMenu"
+        <JqxMenu :theme="'material'" ref="jqxMenu"
                  :mode="'popup'"
                  :autoOpenPopup="false"
                  :width="120"

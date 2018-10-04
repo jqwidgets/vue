@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxEditor :width="getWidth" :height="400" :lineBreak="'div'">
+    <JqxEditor :theme="'material'" :width="getWidth" :height="400" :lineBreak="'div'">
     </JqxEditor>
 </template>
 

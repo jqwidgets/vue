@@ -1,15 +1,15 @@
 ﻿<template>
     <div>
-        <JqxKanban ref="myKanban"
+        <JqxKanban :theme="'material'" ref="myKanban"
                    :width="getWidth" :height="500" :source="dataAdapter"
                    :columns="columns" :resources="resourcesAdapterFunc()">
         </JqxKanban>
 
         <br />
 
-        <JqxButton @click="addItemBtnOnClick()">Add Item</JqxButton>
-        <JqxButton ref="myRemoveItemBtn" @click="removeItemBtnOnClick()">Remove Item</JqxButton>
-        <JqxButton ref="myUpdateItemBtn" @click="updateItemBtnOnClick()">Update Item</JqxButton>
+        <JqxButton :theme="'material'" @click="addItemBtnOnClick()">Add Item</JqxButton>
+        <JqxButton :theme="'material'" ref="myRemoveItemBtn" @click="removeItemBtnOnClick()">Remove Item</JqxButton>
+        <JqxButton :theme="'material'" ref="myUpdateItemBtn" @click="updateItemBtnOnClick()">Update Item</JqxButton>
 
     </div>
 </template>

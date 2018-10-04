@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxGrid ref="myGrid" :autoCreate="false">
+    <JqxGrid :theme="'material'" ref="myGrid" :autoCreate="false">
     </JqxGrid>
 </template>
 

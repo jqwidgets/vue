@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs ref="myTabs"
+    <JqxTabs :theme="'material'" ref="myTabs"
         :width="getWidth" :selectionTracker="true" :animationType="'fade'">
         <ul style="margin-left: 40px;">
             <li>

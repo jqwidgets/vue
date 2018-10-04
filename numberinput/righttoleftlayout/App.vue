@@ -4,7 +4,7 @@
             Number
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :rtl="true"
+            <JqxNumberInput :theme="'material'" :rtl="true"
                             :spinButtons="true"
                             :inputMode="'simple'"
                             :width="250"
@@ -15,7 +15,7 @@
             Percentage
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :rtl="true"
+            <JqxNumberInput :theme="'material'" :rtl="true"
                             :spinButtons="true"
                             :digits="3"
                             :symbolPosition="'right'"
@@ -28,7 +28,7 @@
             Currency
         </div>
         <div style="margin-top: 3px;">
-            <JqxNumberInput :rtl="true"
+            <JqxNumberInput :theme="'material'" :rtl="true"
                             :spinButtons="true"
                             :symbol="'$'"
                             :width="250"

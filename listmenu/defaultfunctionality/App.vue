@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxListMenu :autoSeparators="true"
+    <JqxListMenu :theme="'material'" :autoSeparators="true"
                  :enableScrolling="false"
                  :showHeader="true"
                  :placeHolder="'Find contact...'"

@@ -1,15 +1,15 @@
 ﻿<template>
-    <JqxTabs :width="getWidth" :height="560">
+    <JqxTabs :theme="'material'" :width="getWidth" :height="560">
         <ul>
             <li style="margin-left: 30px">Grid 1</li>
             <li>Grid 2</li>
         </ul>
         <div style="overflow: hidden">
-            <JqxGrid :width="'100%'" :height="'100%'" :source="dataAdapter" :columns="columns">
+            <JqxGrid :theme="'material'" :width="'100%'" :height="'100%'" :source="dataAdapter" :columns="columns">
             </JqxGrid>
         </div>
         <div style="overflow: hidden">
-            <JqxGrid :width="'100%'" :height="'100%'" :source="dataAdapter2" :columns="columns2">
+            <JqxGrid :theme="'material'" :width="'100%'" :height="'100%'" :source="dataAdapter2" :columns="columns2">
             </JqxGrid>
         </div>
     </JqxTabs>

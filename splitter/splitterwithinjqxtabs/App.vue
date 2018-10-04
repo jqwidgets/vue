@@ -1,5 +1,5 @@
 <template>
-    <JqxTabs :height="850" :width="850" :initTabContent="initTabContent">
+    <JqxTabs :theme="'material'" :height="850" :width="850" :initTabContent="initTabContent">
         <ul>
             <li style="margin-left: 30px;">Tab 1</li>
             <li>Tab 2</li>

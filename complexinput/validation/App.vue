@@ -1,13 +1,13 @@
 <template>
     <div>
-        <JqxComplexInput ref="myComplexInput"
+        <JqxComplexInput :theme="'material'" ref="myComplexInput"
                          :width="250" :height="25" :value="'15 + 7.2i'" :spinButtons="true">
         </JqxComplexInput>
 
         <br />
         <div style="margin-top: 20px"></div>
 
-        <JqxButton @click="btnOnClick()" :width="200">
+        <JqxButton :theme="'material'" @click="btnOnClick()" :width="200">
             Set wrong value: "11- 2ii"
         </JqxButton>
     </div>

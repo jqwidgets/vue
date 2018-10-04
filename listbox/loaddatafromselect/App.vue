@@ -1,7 +1,7 @@
 ﻿<template>
     <div>
         <div style="float: left;">
-            <JqxListBox ref="myListBox"
+            <JqxListBox :theme="'material'" ref="myListBox"
                         @select="selectItem($event)"
                         :width="200"
                         :height="250">

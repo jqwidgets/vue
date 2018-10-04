@@ -1,5 +1,5 @@
 <template>
-    <JqxBarGauge ref="myBarGauge" @drawEnd="onDrawEnd()"
+    <JqxBarGauge :theme="'material'" ref="myBarGauge" @drawEnd="onDrawEnd()"
                  :width="getWidth" :height="600" :relativeInnerRadius="0.6"
                  :values="[25]" :formatFunction="formatFunction">
     </JqxBarGauge>

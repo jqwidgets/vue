@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDataTable :width="650" :source="dataAdapter" :columns="columns"
+        <JqxDataTable :theme="'material'" :width="650" :source="dataAdapter" :columns="columns"
                       :altRows="true" :pageable="true" :sortable="true"
                       :editable="true" :pagerButtonsCount="8">
         </JqxDataTable>

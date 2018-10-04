@@ -2,7 +2,7 @@
     <div class="main-container">
         <div id="draggable-parent">
 
-            <JqxDragDrop class="draggable"
+            <JqxDragDrop :theme="'material'" class="draggable"
                          @dragStart="onDragStart($event)" @dragEnd="onDragEnd($event)"
                          @dropTargetEnter="onDropTargetEnter($event)" @dropTargetLeave="onDropTargetLeave($event)"
                          :restricter="restricter" :dropTarget="'.drop-target'">
@@ -14,7 +14,7 @@
             </div>
         </div>
 
-        <JqxPanel ref="myPanel" class="events" :width="260" :height="330"></JqxPanel>
+        <JqxPanel :theme="'material'" ref="myPanel" class="events" :width="260" :height="330"></JqxPanel>
 
     </div>
 </template>

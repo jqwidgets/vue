@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
-        <JqxGrid :width="getWidth" :source="source" :columns="columns">
+        <JqxGrid :theme="'material'" :width="getWidth" :source="source" :columns="columns">
         </JqxGrid>
     </div>
 </template>

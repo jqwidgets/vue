@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTabs ref="myTabs"
+        <JqxTabs :theme="'material'" ref="myTabs"
             :width="getWidth" :hight="250" :position="'top'">
             <ul style="margin-left: 30px;">
                 <li>Avatar</li>

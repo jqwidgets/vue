@@ -1,19 +1,19 @@
 <template>
     <div>
         <label>Date Input</label>
-        <JqxDateTimeInput 
+        <JqxDateTimeInput :theme="'material'" 
             :width="300" :height="25">
         </JqxDateTimeInput>
         <br />
 
         <label>Time Input</label>
-        <JqxDateTimeInput 
+        <JqxDateTimeInput :theme="'material'" 
             :width="300" :height="25" :formatString="'T'" :showTimeButton="true" :showCalendarButton="false">
         </JqxDateTimeInput>
         <br />
 
         <label>Date Time Input</label>
-        <JqxDateTimeInput 
+        <JqxDateTimeInput :theme="'material'" 
             :width="300" :height="25" :formatString="'F'" :showTimeButton="true">
         </JqxDateTimeInput>
     </div>

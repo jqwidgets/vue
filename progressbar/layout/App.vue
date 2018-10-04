@@ -2,11 +2,11 @@
     <div>
         <div id="container" style="font-family: Verdana; font-size: 12px; float: left">
             <b>Default Layout</b>
-            <JqxProgressBar :width="300"
+            <JqxProgressBar :theme="'material'" :width="300"
                             :height="40"
                             :value="50">
             </JqxProgressBar><br />
-            <JqxProgressBar style="margin-top: 10px;"
+            <JqxProgressBar :theme="'material'" style="margin-top: 10px;"
                             :width="40"
                             :height="300"
                             :orientation="'vertical'"
@@ -16,12 +16,12 @@
         </div>
         <div style="float: right; font-family: Verdana; font-size: 12px;" id="rightContainer">
             <b>Reversed Layout</b>
-            <JqxProgressBar :width="300"
+            <JqxProgressBar :theme="'material'" :width="300"
                             :height="40"
                             :layout="'reverse'"
                             :value="50">
             </JqxProgressBar><br />
-            <JqxProgressBar style="float: right;"
+            <JqxProgressBar :theme="'material'" style="float: right;"
                             :width="40"
                             :height="300"
                             :orientation="'reverse'"

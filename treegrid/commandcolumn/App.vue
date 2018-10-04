@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxTreeGrid ref="myTreeGrid" @rowClick="rowClick($event)"
+    <JqxTree :theme="'material'"Grid ref="myTreeGrid" @rowClick="rowClick($event)"
                  :width="width" :altRows="true" :autoRowHeight="true"
                  :editSettings="editSettings" :ready="ready" :rendered="rendered"
                  :columns="columns" :source="dataAdapter">

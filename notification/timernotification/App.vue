@@ -1,7 +1,7 @@
 ﻿<template>
     <div>
         <!--Notifications-->
-        <JqxNotification ref="timerNotification"
+        <JqxNotification :theme="'material'" ref="timerNotification"
                          :position="position"
                          :animationCloseDelay="0"
                          :autoOpen="true"
@@ -12,14 +12,14 @@
                 Hurry, you have <span class="timer">30</span> seconds left!
             </div>
         </JqxNotification>
-        <JqxNotification :position="position"
+        <JqxNotification :theme="'material'" :position="position"
                          :autoOpen="false"
                          :autoClose="false"
                          :template="'time'"
                          :width="notificationWidth">
             <div>Time is up!</div>
         </JqxNotification>
-        <JqxNotification ref="correctNotification"
+        <JqxNotification :theme="'material'" ref="correctNotification"
                          :position="position"
                          :autoOpen="false"
                          :autoClose="true"
@@ -27,7 +27,7 @@
                          :width="notificationWidth">
             <div>Your answer is correct.</div>
         </JqxNotification>
-        <JqxNotification ref="wrongNotification"
+        <JqxNotification :theme="'material'" ref="wrongNotification"
                          :position="position"
                          :autoOpen="false"
                          :autoClose="true"
@@ -35,7 +35,7 @@
                          :width="notificationWidth">
             <div>Your answer is incorrect.</div>
         </JqxNotification>
-        <JqxNotification ref="errorTimeOutNotification"
+        <JqxNotification :theme="'material'" ref="errorTimeOutNotification"
                          :position="position"
                          :autoOpen="false"
                          :autoClose="true"
@@ -49,10 +49,10 @@
         </div>
         <div>
             20 - 3 × 4 =
-            <JqxInput ref="answerInput" :width="50" :height="25"></JqxInput>
+            <JqxInput :theme="'material'" ref="answerInput" :width="50" :height="25"></JqxInput>
         </div>
         <br />
-        <JqxButton @click="submitAnswerClick()">Submit answer</JqxButton>
+        <JqxButton :theme="'material'" @click="submitAnswerClick()">Submit answer</JqxButton>
     </div>
 </template>
 <script>

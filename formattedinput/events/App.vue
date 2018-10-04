@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxFormattedInput @open="onOpen($event)" @close="onClose($event)"
+        <JqxForm :theme="'material'"attedInput @open="onOpen($event)" @close="onClose($event)"
                            @change="onChange($event)" @radixChange="onRadixChange($event)"
                            :width="300" :height="25" :radix="'decimal'"
                            :value="190" :spinButtons="true" :dropDown="true">
@@ -10,7 +10,7 @@
             Events log:
         </div>
 
-        <JqxPanel ref="myPanel" :width="300" :height="150"></JqxPanel>
+        <JqxPanel :theme="'material'" ref="myPanel" :width="300" :height="150"></JqxPanel>
     </div>
 </template>
 

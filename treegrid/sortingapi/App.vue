@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxTreeGrid ref="treeGrid"
+        <JqxTree :theme="'material'"Grid ref="treeGrid"
                      style="float: left;"
                      :width="550"
                      :source="dataAdapter"
@@ -18,7 +18,7 @@
                 <tr>
                     <td align="right">Column:</td>
                     <td align="left">
-                        <JqxDropDownList ref="columnName"
+                        <JqxDropDownList :theme="'material'" ref="columnName"
                                          :width="100" :source="['First Name', 'Last Name' , 'City' , 'Country']"
                                          :selectedIndex="0" :autoDropDownHeight="true">
                         </JqxDropDownList>
@@ -27,7 +27,7 @@
                 <tr>
                     <td align="right">Sort Order:</td>
                     <td align="left">
-                        <JqxDropDownList ref="sortOrder"
+                        <JqxDropDownList :theme="'material'" ref="sortOrder"
                                          :width="100" :source="['Ascending', 'Descending']"
                                          :selectedIndex="0" :autoDropDownHeight="true">
                         </JqxDropDownList>
@@ -36,8 +36,8 @@
                 <tr>
                     <td align="right"></td>
                     <td align="left">
-                        <JqxButton style="float: left;" @click="clickSort()">Sort</JqxButton>
-                        <JqxButton style="float: left; margin-left: 5px;" @click="clickClear()">Clear</JqxButton>
+                        <JqxButton :theme="'material'" style="float: left;" @click="clickSort()">Sort</JqxButton>
+                        <JqxButton :theme="'material'" style="float: left; margin-left: 5px;" @click="clickClear()">Clear</JqxButton>
                     </td>
                 </tr>
             </table>

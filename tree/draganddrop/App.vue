@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <JqxTree ref="myTreeA" style="float: left;"
+            <JqxTree :theme="'material'" ref="myTreeA" style="float: left;"
                      @dragStart="dragStartTreeA($event)" @dragEnd="dragEndTreeA($event)"
                      :width="220" :height="330" :dragStart="dragStart" 
                      :allowDrop="true" :allowDrag="true">
@@ -18,7 +18,7 @@
                 </ul>
             </JqxTree>
 
-            <JqxTree ref="myTreeB" style="float: left; margin-left: 20px;"
+            <JqxTree :theme="'material'" ref="myTreeB" style="float: left; margin-left: 20px;"
                      @dragStart="dragStartTreeB($event)" @dragEnd="dragEndTreeB($event)"
                      :width="220" :height="330" :dragEnd="dragEnd"
                      :allowDrag="true" :allowDrop="true">

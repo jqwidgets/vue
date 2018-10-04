@@ -1,6 +1,6 @@
 ﻿<template>
     <div style="float: left;">
-        <JqxNavigationBar :disabled="true"
+        <JqxNavigationBar :theme="'material'" :disabled="true"
                           :expandMode="'singleFitHeight'"
                           :height="430"
                           :width="400">

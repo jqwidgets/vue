@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxLinearGauge ref="myLinearGauge" style="margin-left: 20px; float: left;"
+        <JqxLinearGauge :theme="'material'" ref="myLinearGauge" style="margin-left: 20px; float: left;"
                         :max="60" :value="-60" :pointer="pointer"
                         :colorScheme="'scheme05'" :orientation="'vertical'"
                         :labels="labels" :ticksMajor="ticksMajor"
@@ -8,10 +8,10 @@
         </JqxLinearGauge>
 
         <div style="margin-left: 330px">
-            <JqxExpander :width="280" :height="320" :toggleMode="'none'" :showArrow="false">
+            <JqxExpander :theme="'material'" :width="280" :height="320" :toggleMode="'none'" :showArrow="false">
                 <div>Options</div>
                 <div class="demo-options">
-                    <JqxCheckBox @change="isVerticalCheckboxOnChange($event)" :checked="true">Is Vertical</JqxCheckBox>
+                    <JqxCheckBox :theme="'material'" @change="isVerticalCheckboxOnChange($event)" :checked="true">Is Vertical</JqxCheckBox>
                     <br />
                     <div>
                         <table style="float: left; margin-left: 10px">
@@ -21,17 +21,17 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <JqxRadioButton @checked="labelsNearRadioOnChecked()" :groupName="'labels-position'">Near</JqxRadioButton>
+                                        <JqxRadioButton :theme="'material'" @checked="labelsNearRadioOnChecked()" :groupName="'labels-position'">Near</JqxRadioButton>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <JqxRadioButton @checked="labelsFarRadioOnChecked()" :groupName="'labels-position'">Far</JqxRadioButton>
+                                        <JqxRadioButton :theme="'material'" @checked="labelsFarRadioOnChecked()" :groupName="'labels-position'">Far</JqxRadioButton>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <JqxRadioButton @checked="labelsBothRadioOnChecked()" :groupName="'labels-position'" :checked="true">Both</JqxRadioButton>
+                                        <JqxRadioButton :theme="'material'" @checked="labelsBothRadioOnChecked()" :groupName="'labels-position'" :checked="true">Both</JqxRadioButton>
                                     </td>
                                 </tr>
                             </tbody>
@@ -43,17 +43,17 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <JqxRadioButton @checked="ticksNearRadioOnChecked()" :groupName="'ticks-position'">Near</JqxRadioButton>
+                                        <JqxRadioButton :theme="'material'" @checked="ticksNearRadioOnChecked()" :groupName="'ticks-position'">Near</JqxRadioButton>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <JqxRadioButton @checked="ticksFarRadioOnChecked()" :groupName="'ticks-position'">Far</JqxRadioButton>
+                                        <JqxRadioButton :theme="'material'" @checked="ticksFarRadioOnChecked()" :groupName="'ticks-position'">Far</JqxRadioButton>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <JqxRadioButton @checked="ticksBothRadioOnChecked()" :groupName="'ticks-position'" :checked="true">Both</JqxRadioButton>
+                                        <JqxRadioButton :theme="'material'" @checked="ticksBothRadioOnChecked()" :groupName="'ticks-position'" :checked="true">Both</JqxRadioButton>
                                     </td>
                                 </tr>
                             </tbody>
@@ -61,12 +61,12 @@
                         <div style="clear: both"></div>
                     </div>
                     <br />
-                    <JqxCheckBox @change="showTicksCheckboxOnChange($event)" :checked="true">Show Ticks</JqxCheckBox>
-                    <JqxCheckBox @change="showLabelsCheckboxOnChange($event)" :checked="true">Show Labels</JqxCheckBox>
-                    <JqxCheckBox @change="showRangesCheckboxOnChange($event)" :checked="true">Show Ranges</JqxCheckBox>
-                    <JqxCheckBox @change="showBackgroundCheckboxOnChange($event)" :checked="true">Show Background</JqxCheckBox>
+                    <JqxCheckBox :theme="'material'" @change="showTicksCheckboxOnChange($event)" :checked="true">Show Ticks</JqxCheckBox>
+                    <JqxCheckBox :theme="'material'" @change="showLabelsCheckboxOnChange($event)" :checked="true">Show Labels</JqxCheckBox>
+                    <JqxCheckBox :theme="'material'" @change="showRangesCheckboxOnChange($event)" :checked="true">Show Ranges</JqxCheckBox>
+                    <JqxCheckBox :theme="'material'" @change="showBackgroundCheckboxOnChange($event)" :checked="true">Show Background</JqxCheckBox>
                     <br />
-                    <JqxButton style="margin-left: 90px; text-align: center" @click="showAnimationButtonOnClick()" :width="100" :height="20">Reset Value</JqxButton>
+                    <JqxButton :theme="'material'" style="margin-left: 90px; text-align: center" @click="showAnimationButtonOnClick()" :width="100" :height="20">Reset Value</JqxButton>
                 </div>
             </JqxExpander>
         </div>

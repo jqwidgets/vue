@@ -1,34 +1,34 @@
 ﻿<template>
     <div style="width: 600px">
         <div style="float: left">
-            <JqxGauge ref="myGauge"
+            <JqxGauge :theme="'material'" ref="myGauge"
                       :value="0" :colorScheme="'scheme04'" :animationDuration="1500"
                       :ranges="ranges" :ticksMinor="ticksMinor" :ticksMajor="ticksMajor"
                       :labels="labels" :styleProperty="style" :caption="caption" :cap="'radius: 0.04'">
             </JqxGauge>
         </div>
 
-        <JqxExpander style="float: right"
+        <JqxExpander :theme="'material'" style="float: right"
                      :width="200" :showArrow="false" :toggleMode="'none'">
             <div>Options</div>
             <div>
                 <ul style="list-style: none; padding: 0px; margin: 10px">
                     <li style="padding: 3px; font-family: Verdana; font-size: 12px">
 
-                        <JqxCheckBox @change="showLabelsCheckboxOnChange($event)"
+                        <JqxCheckBox :theme="'material'" @change="showLabelsCheckboxOnChange($event)"
                                      :width="150" :checked="true">
                             Show Labels
                         </JqxCheckBox>
 
                         <ul style="list-style: none; padding: 0; margin-top: 10px; margin-left: 20px; font-family: Verdana; font-size: 12px">
                             <li>
-                                <JqxRadioButton @change="insideRadioOnChange($event)"
+                                <JqxRadioButton :theme="'material'" @change="insideRadioOnChange($event)"
                                                 :width="150" :checked="true">
                                     Inside the Gauge
                                 </JqxRadioButton>
                             </li>
                             <li>
-                                <JqxRadioButton style="margin-top: 5px" @change="outsideRadioOnChange($event)"
+                                <JqxRadioButton :theme="'material'" style="margin-top: 5px" @change="outsideRadioOnChange($event)"
                                                 :width="150">
                                     Outside the Gauge
                                 </JqxRadioButton>
@@ -37,7 +37,7 @@
                     </li>
                     <li style="padding: 3px; font-family: Verdana; font-size: 12px">
 
-                        <JqxCheckBox @change="showRangesCheckboxOnChange($event)"
+                        <JqxCheckBox :theme="'material'" @change="showRangesCheckboxOnChange($event)"
                                      :width="150" :checked="true">
                             Show Ranges
                         </JqxCheckBox>
@@ -45,7 +45,7 @@
                     </li>
                     <li style="padding: 3px; font-family: Verdana; font-size: 12px">
 
-                        <JqxCheckBox @change="showBorderCheckboxOnChange($event)"
+                        <JqxCheckBox :theme="'material'" @change="showBorderCheckboxOnChange($event)"
                                      :width="150" :checked="true">
                             Show Border
                         </JqxCheckBox>

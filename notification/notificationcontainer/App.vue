@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxNotification ref="myNotification"
+        <JqxNotification :theme="'material'" ref="myNotification"
                          :template="'info'"
                          :autoClose="true"
                          :appendContainer="'#container'"
@@ -11,7 +11,7 @@
             </div>
         </JqxNotification>
 
-        <JqxButton @click="click()" :width="120">Open notification</JqxButton>
+        <JqxButton :theme="'material'" @click="click()" :width="120">Open notification</JqxButton>
 
         <div id="container" style="width: 300px; height: 400px; margin-top: 15px; background-color: #F2F2F2;
         border: 1px dashed #AAAAAA; overflow: auto;">

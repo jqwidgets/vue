@@ -1,17 +1,17 @@
 <template>
     <div>
-        <JqxComplexInput ref="myComplexInput" style="float: left"
+        <JqxComplexInput :theme="'material'" ref="myComplexInput" style="float: left"
                          :width="250" :height="25" :value="'330000 - 200i'"
                          :spinButtons="true" :decimalNotation="'exponential'">
         </JqxComplexInput>
 
-        <JqxExpander style="float: left; margin-left: 50px"
+        <JqxExpander :theme="'material'" style="float: left; margin-left: 50px"
                      :width="415" :height="380" :toggleMode="'none'" :showArrow="false">
             <div>Vue ComplexInput Notation Settings</div>
             <div style="padding-left: 15px">
                 <h4>Choose notation:</h4>
 
-                <JqxDropDownList style="margin-top: 20px" @change="notationsListOnChange($event)"
+                <JqxDropDownList :theme="'material'" style="margin-top: 20px" @change="notationsListOnChange($event)"
                                  :width="200" :height="25" :source="source"
                                  :autoDropDownHeight="true" :selectedIndex="1">
                 </JqxDropDownList>
@@ -19,24 +19,24 @@
                 <div style="margin-top: 20px">
                     <h4>Real part</h4>
 
-                    <JqxButton style="display: inline-block" :width="180"
+                    <JqxButton :theme="'material'" style="display: inline-block" :width="180"
                                @click="getRealDecimalOnClick()">
                         Get Decimal Value
                     </JqxButton>
 
-                    <JqxButton style="margin-left: 5px; display: inline-block" :width="180"
+                    <JqxButton :theme="'material'" style="margin-left: 5px; display: inline-block" :width="180"
                                @click="getRealExponentialOnClick()">
                         Get Exponential Notation
                     </JqxButton>
 
                     <br /><br />
 
-                    <JqxButton style="display: inline-block" :width="180"
+                    <JqxButton :theme="'material'" style="display: inline-block" :width="180"
                                @click="getRealScientificOnClick()">
                         Get Scientific Notation
                     </JqxButton>
 
-                    <JqxButton style="margin-left: 5px; display: inline-block" :width="180"
+                    <JqxButton :theme="'material'" style="margin-left: 5px; display: inline-block" :width="180"
                                @click="getRealEngineeringOnClick()">
                         Get Engineering Notation
                     </JqxButton>
@@ -45,24 +45,24 @@
                 <div style="margin-top: 20px">
                     <h4>Imaginary part</h4>
 
-                    <JqxButton style="display: inline-block" :width="180"
+                    <JqxButton :theme="'material'" style="display: inline-block" :width="180"
                                @click="getImaginaryDecimalOnClick()">
                         Get Decimal Value
                     </JqxButton>
 
-                    <JqxButton style="margin-left: 5px; display: inline-block" :width="180"
+                    <JqxButton :theme="'material'" style="margin-left: 5px; display: inline-block" :width="180"
                                @click="getImaginaryExponentialOnClick()">
                         Get Exponential Notation
                     </JqxButton>
 
                     <br /><br />
 
-                    <JqxButton style="display: inline-block" :width="180"
+                    <JqxButton :theme="'material'" style="display: inline-block" :width="180"
                                @click="getImaginaryScientificOnClick()">
                         Get Scientific Notation
                     </JqxButton>
 
-                    <JqxButton style="margin-left: 5px; display: inline-block" :width="180"
+                    <JqxButton :theme="'material'" style="margin-left: 5px; display: inline-block" :width="180"
                                @click="getImaginaryEngineeringOnClick()">
                         Get Engineering Notation
                     </JqxButton>

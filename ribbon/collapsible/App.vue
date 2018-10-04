@@ -5,7 +5,7 @@
             <p class="cart">0 Products</p>
         </div>
 
-        <JqxRibbon ref="myRibbon"
+        <JqxRibbon :theme="'material'" ref="myRibbon"
                    :width="700" :height="31" :position="'top'" :mode="'popup'"
                    :selectedIndex="0" :selectionMode="'click'" :animationType="'fade'">
             <ul>
@@ -20,7 +20,7 @@
             </div>
         </JqxRibbon>
 
-        <JqxCheckBox ref="myCheckBox" @change="change($event)" :width="130" :checked="true">
+        <JqxCheckBox :theme="'material'" ref="myCheckBox" @change="change($event)" :width="130" :checked="true">
             Menu Mode
         </JqxCheckBox>
     </div>

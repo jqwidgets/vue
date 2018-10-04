@@ -1,9 +1,9 @@
 <template>
-    <JqxSplitter
+    <JqxSplitter :theme="'material'"
         :width="850" :height="400" :panels="[{ size: 250 }]">
         <div>
 
-            <JqxTree
+            <JqxTree :theme="'material'"
                 @select="select($event)"
                 :width="'100%'" :height="'100%'">
                 <ul>

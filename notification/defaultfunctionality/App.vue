@@ -1,24 +1,24 @@
 ﻿<template>
     <div>
         <!--Notifications-->
-        <JqxNotification ref="msgNotification"
+        <JqxNotification :theme="'material'" ref="msgNotification"
                          :width="250" :position="'top-right'" :opacity="0.9" :autoOpen="false"
                          :autoClose="true" :animationOpenDelay="800" :autoCloseDelay="3000" :template="'info'">
             <div>
                 Welcome to our website.
             </div>
         </JqxNotification>
-        <JqxNotification ref="timeNotification"
+        <JqxNotification :theme="'material'" ref="timeNotification"
                          :width="250" :position="'top-right'" :opacity="0.9" :autoOpen="false"
                          :autoClose="true" :animationOpenDelay="800" :autoCloseDelay="3000" :template="'time'">
             <div>Current time: <span id="currentTime" style="font-weight: bold;"></span>.</div>
         </JqxNotification>
         <!--Layout-->
-        <JqxButton :width="230" :height="22" @click="onClickOpenMessageNotification()">
+        <JqxButton :theme="'material'" :width="230" :height="22" @click="onClickOpenMessageNotification()">
             Open a message notification
         </JqxButton>
         <br /><br />
-        <JqxButton :width="230" :height="22" @click="onClickOpenTimeNotification()">
+        <JqxButton :theme="'material'" :width="230" :height="22" @click="onClickOpenTimeNotification()">
             Open a current time notification
         </JqxButton>
     </div>

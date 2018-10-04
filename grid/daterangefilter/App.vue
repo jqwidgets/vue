@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :showfilterrow="true" :filterable="true"
                  :selectionmode="'multiplecellsadvanced'">
@@ -9,7 +9,7 @@
         <div style="margin-top: 20px">
 
 
-            <JqxButton @click="btnOnClick()" :width="150">Remove Filter</JqxButton>
+            <JqxButton :theme="'material'" @click="btnOnClick()" :width="150">Remove Filter</JqxButton>
         </div>
 
 

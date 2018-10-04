@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxTreeGrid ref="myTreeGrid"
+        <JqxTree :theme="'material'"Grid ref="myTreeGrid"
             :width="width"
             :height="350"
             :sortable="true"
@@ -11,7 +11,7 @@
         <div style="font-size: 13px; font-family: Verdana; width: 600px; margin-top: 10px;">
             <div style="float: left; width: 300px;">
                 <h4>Shipped Date</h4>
-                <JqxDropDownList
+                <JqxDropDownList :theme="'material'"
                     @change="dateListOnChange($event)"
                     :autoDropDownHeight="true"
                     :source="dateSource"
@@ -21,7 +21,7 @@
             </div>
             <div style="float: left; width: 300px;">
                 <h4>Price</h4>
-                <JqxDropDownList
+                <JqxDropDownList :theme="'material'"
                     @change="priceListOnChange($event)"
                     :autoDropDownHeight="true"
                     :source="priceSource"

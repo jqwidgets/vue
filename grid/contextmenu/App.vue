@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid" @contextmenu="myGridOnContextMenu()" @rowclick="myGridOnRowClick($event)"
+        <JqxGrid :theme="'material'" ref="myGrid" @contextmenu="myGridOnContextMenu()" @rowclick="myGridOnRowClick($event)"
                  :width="getWidth" :source="dataAdapter" :pageable="true"
                  :autoheight="true" :columns="columns">
         </JqxGrid>
@@ -10,7 +10,7 @@
             <div style="margin-top: 10px" id="cellendeditevent"></div>
         </div>
 
-        <JqxWindow ref="myWindow"
+        <JqxWindow :theme="'material'" ref="myWindow"
                    :width="250" :height="230" :modalOpacity="'0.01'"
                    :resizable="false" :isModal="true" :autoOpen="false">
             <div>Edit</div>
@@ -19,20 +19,20 @@
                     <tbody>
                         <tr>
                             <td align="right">First Name:</td>
-                            <td align="left"><JqxInput ref="firstName" :width="150" :height="23"></JqxInput></td>
+                            <td align="left"><JqxInput :theme="'material'" ref="firstName" :width="150" :height="23"></JqxInput></td>
                         </tr>
                         <tr>
                             <td align="right">Last Name:</td>
-                            <td align="left"><JqxInput ref="lastName" :width="150" :height="23"></JqxInput></td>
+                            <td align="left"><JqxInput :theme="'material'" ref="lastName" :width="150" :height="23"></JqxInput></td>
                         </tr>
                         <tr>
                             <td align="right">Product:</td>
-                            <td align="left"><JqxInput ref="product" :width="150" :height="23"></JqxInput></td>
+                            <td align="left"><JqxInput :theme="'material'" ref="product" :width="150" :height="23"></JqxInput></td>
                         </tr>
                         <tr>
                             <td align="right">Quantity:</td>
                             <td align="left">
-                                <JqxNumberInput ref="quantity"
+                                <JqxNumberInput :theme="'material'" ref="quantity"
                                                 :width="150" :height="23" :decimalDigits="0" :spinButtons="true">
                                 </JqxNumberInput>
                             </td>
@@ -40,7 +40,7 @@
                         <tr>
                             <td align="right">Price:</td>
                             <td align="left">
-                                <JqxNumberInput ref="price"
+                                <JqxNumberInput :theme="'material'" ref="price"
                                                 :width="150" :height="23" :symbol="'$'" :spinButtons="true">
                                 </JqxNumberInput>
                             </td>
@@ -48,8 +48,8 @@
                         <tr>
                             <td align="right"></td>
                             <td style="padding-top: 10px" align="right">
-                                <JqxButton ref="SaveBtn" style="margin-right: 5px; float: left" @click="saveBtnOnClick()">Save</JqxButton>
-                                <JqxButton ref="CancelBtn" style="float: left" @click="cancelBtnOnClick()">Cancel</JqxButton>
+                                <JqxButton :theme="'material'" ref="SaveBtn" style="margin-right: 5px; float: left" @click="saveBtnOnClick()">Save</JqxButton>
+                                <JqxButton :theme="'material'" ref="CancelBtn" style="float: left" @click="cancelBtnOnClick()">Cancel</JqxButton>
                             </td>
                         </tr>
                     </tbody>
@@ -57,7 +57,7 @@
             </div>
         </JqxWindow>
 
-        <JqxMenu ref="myMenu" @itemclick="myMenuOnItemClick($event)"
+        <JqxMenu :theme="'material'" ref="myMenu" @itemclick="myMenuOnItemClick($event)"
                  :width="200" :height="58" :mode="'popup'" :autoOpenPopup="false">
             <ul>
                 <li>Edit Selected Row</li>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style="width: 850px; height: 500px" @mousemove="myChartOnMousemove($event)">
-            <JqxChart ref="myChart" style="width: 850px; height: 500px"
+            <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
                       @click="myChartOnClick($event)"
                       :title="'Custom labels, grid lines and tick marks offsets'"
                       :description="'This example demonstrates how to use labels, tick marks and grid lines at custom offsets'"

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxScrollView ref="myScrollView" :width="600" :height="450" :buttonsOffset="[0, 0]">
+        <JqxScrollView :theme="'material'" ref="myScrollView" :width="600" :height="450" :buttonsOffset="[0, 0]">
             <div><div class="photo" style="background-image: url(https://www.jqwidgets.com/vue/images/imageNature1.jpg)"></div></div>
             <div><div class="photo" style="background-image: url(https://www.jqwidgets.com/vue/images/imageNature2.jpg)"></div></div>
             <div><div class="photo" style="background-image: url(https://www.jqwidgets.com/vue/images/imageNature3.jpg)"></div></div>
@@ -10,11 +10,11 @@
 
         <div style="margin-top: 2em"></div>
 
-        <JqxButton @click="onStartClicked()" :width="120">
+        <JqxButton :theme="'material'" @click="onStartClicked()" :width="120">
             Start SlideShow
         </JqxButton>
 
-        <JqxButton @click="onStopClicked()" :width="120">
+        <JqxButton :theme="'material'" @click="onStopClicked()" :width="120">
             Stop SlideShow
         </JqxButton>
     </div>

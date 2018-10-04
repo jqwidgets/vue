@@ -1,15 +1,15 @@
 ﻿<template>
     <div>
-        <JqxLoader ref="jqxLoader"
+        <JqxLoader :theme="'material'" ref="jqxLoader"
                    :html="'<div class=\'jqx-loader-text\'>Show only text in loader...</div>'"
                    :width="100"
                    :height="35">
         </JqxLoader>
-        <JqxButton @click="openLoaderClick($event)"
+        <JqxButton :theme="'material'" @click="openLoaderClick($event)"
                    :width="150">
             Open Loader
         </JqxButton>
-        <JqxButton @click="closeLoaderClick($event)"
+        <JqxButton :theme="'material'" @click="closeLoaderClick($event)"
                    :width="100">
             Close
         </JqxButton>

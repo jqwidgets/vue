@@ -5,16 +5,16 @@
         <br /><br /><br /><br />
 
         <label>Date Input</label>
-        <JqxDateTimeInput :width="300" :height="25" :dropDownVerticalAlignment="'top'">
+        <JqxDateTimeInput :theme="'material'" :width="300" :height="25" :dropDownVerticalAlignment="'top'">
         </JqxDateTimeInput>
 
         <label>Time Input</label>
-        <JqxDateTimeInput :width="300" :height="25" :dropDownVerticalAlignment="'top'"
+        <JqxDateTimeInput :theme="'material'" :width="300" :height="25" :dropDownVerticalAlignment="'top'"
                           :showCalendarButton="false" :showTimeButton="true">
         </JqxDateTimeInput>
 
         <label>Date/Time Input</label>
-        <JqxDateTimeInput :width="300" :height="25" :dropDownVerticalAlignment="'top'"
+        <JqxDateTimeInput :theme="'material'" :width="300" :height="25" :dropDownVerticalAlignment="'top'"
                           :showCalendarButton="true" :showTimeButton="true">
         </JqxDateTimeInput>
 

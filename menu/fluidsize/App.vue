@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxMenu :width="'100%'"
+    <JqxMenu :theme="'material'" :width="'100%'"
              :height="'100%'">
         <ul>
             <li><a href="#Home">Home</a></li>

@@ -3,7 +3,7 @@
         <div style="float: left; margin-right: 20px;">
             <div>Filter By:</div>
 
-            <JqxDropDownList ref="myDropDownList" 
+            <JqxDropDownList :theme="'material'" ref="myDropDownList" 
                              @select="myDropDownListOnSelect($event)"
                              :width="100" 
                              :selectedIndex="0" 
@@ -13,7 +13,7 @@
 
             <div style="margin-top: 10px"></div>
 
-            <JqxListBox ref="myListBox" 
+            <JqxListBox :theme="'material'" ref="myListBox" 
                         @checkChange="myListBoxOnCheckChange($event)"
                         :width="160" 
                         :height="250" 
@@ -21,12 +21,12 @@
             </JqxListBox>
 
             <div style="margin-top: 10px">
-                <JqxButton @click="applyBtnOnClick()">Apply Filter</JqxButton>
-                <JqxButton @click="clearBtnOnClick()">Clear Filter</JqxButton>
+                <JqxButton :theme="'material'" @click="applyBtnOnClick()">Apply Filter</JqxButton>
+                <JqxButton :theme="'material'" @click="clearBtnOnClick()">Clear Filter</JqxButton>
             </div>
         </div>
 
-        <JqxTreeGrid ref="myTreeGrid"
+        <JqxTree :theme="'material'"Grid ref="myTreeGrid"
                      :width="600" 
                      :source="dataAdapter" 
                      :columns="columns"

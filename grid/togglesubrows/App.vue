@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  @groupexpand="myGridOnGroupExpand($event)" @groupcollapse="myGridOnGroupCollapse($event)"
                  :width="850" :source="dataAdapter" :columns="columns"
                  :groupable="true" :groups="['Country','City']">
@@ -9,28 +9,28 @@
         <div style="margin-top: 30px">
             <div style="float: left; margin-left: 20px">
 
-                <JqxButton @click="expandBtnOnClick()" :width="125" :height="20">Expand Group</JqxButton>
+                <JqxButton :theme="'material'" @click="expandBtnOnClick()" :width="125" :height="20">Expand Group</JqxButton>
                 <br />
 
                 <div style="margin-top: 10px; margin-bottom: 10px"></div>
-                <JqxButton @click="collapseBtnOnClick()" :width="125" :height="20">Collapse Group</JqxButton>
+                <JqxButton :theme="'material'" @click="collapseBtnOnClick()" :width="125" :height="20">Collapse Group</JqxButton>
                 <br />
 
                 <div style="margin-top: 10px;">
                     <span>Group:</span>
 
-                    <JqxInput ref="myInput" style="margin-left: 10px; margin-top: 10px" :width="20" :value="'0.0'"></JqxInput>
+                    <JqxInput :theme="'material'" ref="myInput" style="margin-left: 10px; margin-top: 10px" :width="20" :value="'0.0'"></JqxInput>
 
                 </div>
 
             </div>
             <div style="float: left; margin-left: 20px">
 
-                <JqxButton @click="expandAllBtnOnClick()" :width="125" :height="20">Expand All</JqxButton>
+                <JqxButton :theme="'material'" @click="expandAllBtnOnClick()" :width="125" :height="20">Expand All</JqxButton>
                 <br />
 
                 <div style="margin-top: 10px; margin-bottom: 10px"></div>
-                <JqxButton @click="collapseAllBtnOnClick()" :width="125" :height="20">Collapse All</JqxButton>
+                <JqxButton :theme="'material'" @click="collapseAllBtnOnClick()" :width="125" :height="20">Collapse All</JqxButton>
                 <br />
 
             </div>

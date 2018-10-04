@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxNumberInput :spinButtons="true"
+    <JqxNumberInput :theme="'material'" :spinButtons="true"
                     :width="'50%'"
                     :height="35">
     </JqxNumberInput>

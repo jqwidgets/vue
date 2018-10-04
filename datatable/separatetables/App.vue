@@ -2,14 +2,14 @@
     <div>
         <h3>Employees</h3>
 
-        <JqxDataTable ref="masterDataTable" @rowSelect="masterTableOnRowSelect($event)"
+        <JqxDataTable :theme="'material'" ref="masterDataTable" @rowSelect="masterTableOnRowSelect($event)"
                       :width="getWidth" :source="employeesData" :columns="masterColumns"
                       :pageable="true" :sortable="true" :pageSize="5">
         </JqxDataTable>
 
         <h3>Orders by Employee</h3>
 
-        <JqxDataTable ref="detailsDataTable"
+        <JqxDataTable :theme="'material'" ref="detailsDataTable"
                       :width="getWidth" :columns="detailsColumns"
                       :pageable="true" :pageSize="5">
         </JqxDataTable>

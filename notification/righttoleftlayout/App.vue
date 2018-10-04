@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxNotification :rtl="true"
+    <JqxNotification :theme="'material'" :rtl="true"
                      :position="'top-left'"
                      :opacity="0.9"
                      :animationOpenDelay="800"

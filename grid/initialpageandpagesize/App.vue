@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxGrid ref="myGrid"
+        <JqxGrid :theme="'material'" ref="myGrid"
                  @pagechanged="myGridOnPageChanged($event)" @pagesizechanged="myGridOnPageSizeChanged($event)"
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :sortable="true" :pageable="true" :autoheight="true"
@@ -10,7 +10,7 @@
         <div style="margin-top: 30px">
             <div style=" float: left">
                 Event Log:
-                <JqxPanel ref="myPanel" :width="300" :height="180"></JqxPanel>
+                <JqxPanel :theme="'material'" ref="myPanel" :width="300" :height="180"></JqxPanel>
             </div>
             <div style=" float: left">
                 Paging Details:

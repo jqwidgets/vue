@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxFileUpload style="float: left"
+        <JqxFileUpload :theme="'material'" style="float: left"
                        @select="onSelect($event)" @remove="onRemove($event)"
                        @uploadStart="onUploadStart($event)" @uploadEnd="onUploadEnd($event)"
                        :width="300" :uploadUrl="'upload.php'" :fileInputName="'fileToUpload'">
@@ -11,7 +11,7 @@
                 Events log:
             </div>
 
-            <JqxPanel ref="myPanel" :width="300" :height="150"></JqxPanel>
+            <JqxPanel :theme="'material'" ref="myPanel" :width="300" :height="150"></JqxPanel>
 
         </div>
     </div>

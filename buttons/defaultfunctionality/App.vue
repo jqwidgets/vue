@@ -1,34 +1,34 @@
 <template>
     <div>
         <div style='margin-top: 20px'>
-            <JqxButton ref="button" :width="120" :height="40" :textPosition="'center'" v-on:click="buttonClicked()">
+            <JqxButton :theme="'material'" ref="button" :width="120" :height="40" :textPosition="'center'" v-on:click="buttonClicked()">
                 Button
             </JqxButton>
         </div>
         <div style='margin-top: 20px'>
-            <JqxButton ref="submitButton" :width="120" :height="40" :textPosition="'center'" v-on:click="submitButtonClicked()">
+            <JqxButton :theme="'material'" ref="submitButton" :width="120" :height="40" :textPosition="'center'" v-on:click="submitButtonClicked()">
                 Submit
             </JqxButton>
         </div>
         <div style='margin-top: 20px'>
-            <JqxButton ref="imageButton" :width="120" :height="40" :textPosition="'center'"
+            <JqxButton :theme="'material'" ref="imageButton" :width="120" :height="40" :textPosition="'center'"
                        :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'" v-on:click="imageButtonClicked()">
             </JqxButton>
         </div>
         <div style='margin-top: 20px'>
-            <JqxButton ref="myTextImageButton" :width="120" :height="40"
+            <JqxButton :theme="'material'" ref="myTextImageButton" :width="120" :height="40"
                        :textImageRelation="'imageBeforeText'" :textPosition="'left'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'"
                        v-on:click="textImageButtonClicked()">
                 Button
             </JqxButton>
         </div>
         <div style='margin-top: 20px'>
-            <JqxButton ref="myHTMLButton" :width="120" :height="40" :textPosition="'center'" v-on:click="hTMLButtonClicked()">
+            <JqxButton :theme="'material'" ref="myHTMLButton" :width="120" :height="40" :textPosition="'center'" v-on:click="hTMLButtonClicked()">
                 <span style='font-weight: bold; '>HTML Button</span>
             </JqxButton>
         </div>
         <div style='margin-top: 20px'>
-            <JqxButton ref="disabledButton" :width="120" :height="40" :textPosition="'center'" :disabled="true">
+            <JqxButton :theme="'material'" ref="disabledButton" :width="120" :height="40" :textPosition="'center'" :disabled="true">
                 Disabled
             </JqxButton>
         </div>

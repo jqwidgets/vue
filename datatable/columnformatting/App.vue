@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxDataTable ref="myDataTable"
+        <JqxDataTable :theme="'material'" ref="myDataTable"
                       :width="getWidth" :source="dataAdapter" :columns="columns"
                       :sortable="true" :pageable="true" :columnsResize="true">
         </JqxDataTable>
@@ -9,7 +9,7 @@
             <div style="float: left; width: 300px">
                 <h4>Shipped Date</h4>
 
-                <JqxDropDownList @change="dateFormats($event)"
+                <JqxDropDownList :theme="'material'" @change="dateFormats($event)"
                                  :height="25" :autoDropDownHeight="true"
                                  :selectedIndex="1" :source="dateSource">
                 </JqxDropDownList>
@@ -18,7 +18,7 @@
             <div style="float: left; width: 300px">
                 <h4>Cells Alignment</h4>
 
-                <JqxDropDownList @change="numberFormats($event)"
+                <JqxDropDownList :theme="'material'" @change="numberFormats($event)"
                                  :height="25" :autoDropDownHeight="true"
                                  :selectedIndex="2" :source="numberSource">
                 </JqxDropDownList>

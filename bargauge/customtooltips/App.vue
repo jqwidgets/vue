@@ -1,5 +1,5 @@
 <template>
-    <JqxBarGauge :width="getWidth" :height="570" :max="90" :labels="labels"
+    <JqxBarGauge :theme="'material'" :width="getWidth" :height="570" :max="90" :labels="labels"
                  :values="players" :baseValue="33" :startAngle="180" :endAngle="-65"
                  :title="title" :colorScheme="'scheme04'" :tooltip="tooltip">
     </JqxBarGauge>

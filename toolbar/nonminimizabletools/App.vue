@@ -7,7 +7,7 @@
         </div>
 
         <div>Resize the window to minimize or restore tools.</div>
-        <JqxWindow :width="700" :height="250" :minWidth="250" :position="{ x: 5, y: 90 }">
+        <JqxWindow :theme="'material'" :width="700" :height="250" :minWidth="250" :position="{ x: 5, y: 90 }">
             <div>
                 Resizable jqxToolBar
             </div>

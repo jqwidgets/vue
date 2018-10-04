@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTabs ref="myTabs" 
+        <JqxTabs :theme="'material'" ref="myTabs" 
             @selected="displayEvent($event)" 
             @tabclick="displayEvent($event)" @unselected="displayEvent($event)"
             @dragStart="displayEvent($event)" @dragEnd="displayEvent($event)"
@@ -35,7 +35,7 @@
 
         <div style="font-family: Verdana; font-size: 13px">Events:</div>
 
-        <JqxPanel ref="myPanel" :width="450" :height="250"></JqxPanel>
+        <JqxPanel :theme="'material'" ref="myPanel" :width="450" :height="250"></JqxPanel>
     </div>
 </template>
 

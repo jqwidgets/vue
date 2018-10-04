@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxComboBox style="float: left"
+        <JqxComboBox :theme="'material'" style="float: left"
                      :width="200" :height="25" :source="countries" :selectedIndex="4">
         </JqxComboBox>
 

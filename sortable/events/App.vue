@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxSortable ref="mySortable"
+        <JqxSortable :theme="'material'" ref="mySortable"
              @activate="eventLog($event)"
              @beforeStop="eventLog($event)"
              @change="eventLog($event)"
@@ -17,7 +17,7 @@
         </JqxSortable>
 
         <span>Events:</span>
-        <JqxPanel ref="myPanel" :width="200" :height="330"></JqxPanel>
+        <JqxPanel :theme="'material'" ref="myPanel" :width="200" :height="330"></JqxPanel>
     </div>
 </template>
 

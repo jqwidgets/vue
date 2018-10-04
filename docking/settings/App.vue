@@ -1,7 +1,7 @@
 <template>
     <div>
         <div style="float: left">
-            <JqxDocking ref="myDocking"
+            <JqxDocking :theme="'material'" ref="myDocking"
                         :width="420" :orientation="'horizontal'" :mode="'default'"
                         :windowsMode="{ window0: 'floating' }">
                 <div id='panel0'>
@@ -32,38 +32,38 @@
             <table style="margin-left: 20px; margin-top: 20px; margin-bottom: 30px">
                 <tr>
                     <td>
-                        <JqxCheckBox ref="collapseButtonsCheckbox" @change="collapseButtonsCheckboxOnChange()"
+                        <JqxCheckBox :theme="'material'" ref="collapseButtonsCheckbox" @change="collapseButtonsCheckboxOnChange()"
                                      :width="200" :checked="true">
                             Collapse Buttons
                         </JqxCheckBox>
                     </td>
                     <td>
-                        <JqxButton @click="moveButtonOnClick()">Move VueDock4 To Left Zone</JqxButton>
+                        <JqxButton :theme="'material'" @click="moveButtonOnClick()">Move VueDock4 To Left Zone</JqxButton>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <JqxCheckBox ref="closeButtonsCheckbox" @change="closeButtonsCheckboxOnChange()"
+                        <JqxCheckBox :theme="'material'" ref="closeButtonsCheckbox" @change="closeButtonsCheckboxOnChange()"
                                      :width="200">
                             Close Buttons
                         </JqxCheckBox>
                     </td>
                     <td>
-                        <JqxButton @click="collapseButtonOnClick()">Collapse VueDock1</JqxButton>
+                        <JqxButton :theme="'material'" @click="collapseButtonOnClick()">Collapse VueDock1</JqxButton>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <JqxCheckBox @change="disabledCheckboxOnChange()" :width="200">Disabled</JqxCheckBox>
+                        <JqxCheckBox :theme="'material'" @change="disabledCheckboxOnChange()" :width="200">Disabled</JqxCheckBox>
                     </td>
                     <td>
-                        <JqxButton @click="expandButtonOnClick()">Expand VueDock1</JqxButton>
+                        <JqxButton :theme="'material'" @click="expandButtonOnClick()">Expand VueDock1</JqxButton>
                     </td>
                 </tr>
                 <tr>
                     <td style="width: 100px">
                         <span style="font-family: Verdana; font-size: 13px">Windows Margin</span>
-                        <JqxSlider @change="mySliderOnChange($event)"
+                        <JqxSlider :theme="'material'" @change="mySliderOnChange($event)"
                                    :width="200" :max="9" :value="5" :mode="'fixed'" :ticksFrequency="1">
                         </JqxSlider>
                     </td>

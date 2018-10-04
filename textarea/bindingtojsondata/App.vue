@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTextArea ref="myTextArea" @change="change($event)"
+        <JqxTextArea :theme="'material'" ref="myTextArea" @change="change($event)"
             :width="300" :height="100" :source="dataAdapter" :placeHolder="'Contact Name:'"
             :displayMember="'ContactName'" :valueMember="'CompanyName'" 
         />

@@ -1,13 +1,13 @@
 ﻿<template>
     <div>
-        <JqxFormattedInput ref="myFormattedInput"
+        <JqxForm :theme="'material'"attedInput ref="myFormattedInput"
                            :width="250" :height="25" :radix="'binary'" :value="100001">
         </JqxFormattedInput>
 
         <div style="margin-top: 20px">
-            <JqxButton style="float: left" @click="getOctal()" :width="175">Get Octal Value</JqxButton>
-            <JqxButton style="margin-left: 5px; float: left" @click="getDecimal()" :width="175">Get Decimal Value</JqxButton>
-            <JqxButton style="margin-left: 5px; float: left" @click="getHexadecimal()" :width="175">Get Hexadecimal Value</JqxButton>
+            <JqxButton :theme="'material'" style="float: left" @click="getOctal()" :width="175">Get Octal Value</JqxButton>
+            <JqxButton :theme="'material'" style="margin-left: 5px; float: left" @click="getDecimal()" :width="175">Get Decimal Value</JqxButton>
+            <JqxButton :theme="'material'" style="margin-left: 5px; float: left" @click="getHexadecimal()" :width="175">Get Hexadecimal Value</JqxButton>
         </div>
     </div>
 </template>

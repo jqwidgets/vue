@@ -1,7 +1,7 @@
 ﻿<template>
     <div style="font-size: 13px; font-family: Verdana; float: left">
 
-        <JqxGrid ref="myGrid" @sort="myGridOnSort($event)"
+        <JqxGrid :theme="'material'" ref="myGrid" @sort="myGridOnSort($event)"
                  :width="850" :height="450" :source="dataAdapter" :columns="columns"
                  :sortable="true" :altrows="true" :filterable="true"
                  :selectionmode="'multiplecellsadvanced'">
@@ -10,18 +10,18 @@
         <div style="margin-top: 30px">
             <div style="float: left; margin-right: 10px">
 
-                <JqxButton @click="removeSortBtnOnClick()" :height="20">Remove Sort</JqxButton>
+                <JqxButton :theme="'material'" @click="removeSortBtnOnClick()" :height="20">Remove Sort</JqxButton>
 
                 <div style="margin-top: 10px"></div>
 
-                <JqxCheckBox @change="sortBackGroundBtn($event)" :height="25" :checked="true">Sort Background</JqxCheckBox>
+                <JqxCheckBox :theme="'material'" @change="sortBackGroundBtn($event)" :height="25" :checked="true">Sort Background</JqxCheckBox>
 
             </div>
 
             <div style="margin-left: 100px; float: left">
                 Event Log:
 
-                <JqxPanel ref="myPanel" :width="300" :height="80"></JqxPanel>
+                <JqxPanel :theme="'material'" ref="myPanel" :width="300" :height="80"></JqxPanel>
 
             </div>
         </div>

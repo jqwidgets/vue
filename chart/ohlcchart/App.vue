@@ -1,5 +1,5 @@
 <template>
-    <JqxChart style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
               :title="'NASDAQ and S&P 500 - OHLC Example'"
               :description="'(June 2010 - November 2014)'"
               :enableCrosshairs="true" :enableAnimations="true" :padding="padding"

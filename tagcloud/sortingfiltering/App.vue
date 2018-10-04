@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTagCloud ref="myTagCloud"
+        <JqxTagCloud :theme="'material'" ref="myTagCloud"
             :width="600" :height="150" :source="dataAdapter"
             :displayMember="'country'" :valueMember="'rate'"
             fontSizeUnit="'px'" :minFontSize="12" :maxFontSize="20"
@@ -13,13 +13,13 @@
                 <p> Sort Direction:</p>
             </div>
             
-            <JqxDropDownList ref="sortByList"
+            <JqxDropDownList :theme="'material'" ref="sortByList"
                 @select="sortByListSelect($event)"
                 :selectedIndex="0" :width="200" :height="25"
                 :source="['none', 'label', 'value']" :autoDropDownHeight="true">
             </JqxDropDownList>
   
-            <JqxDropDownList ref="sortDirection"
+            <JqxDropDownList :theme="'material'" ref="sortDirection"
                 @select="sortDirectionListSelect($event)"
                 :selectedIndex="0" :width="200" :height="25"
                 :source="['ascending', 'descending']" :autoDropDownHeight="true">
@@ -32,13 +32,13 @@
                 <p>Max number of tags:</p>
             </div>
 
-            <JqxDropDownList ref="minValueList"
+            <JqxDropDownList :theme="'material'" ref="minValueList"
                 @select="minValueListSelect($event)"
                 :selectedIndex="0" :width="200" :height="25"
                 :source="['0', '5', '15', '25']" :autoDropDownHeight="true">
             </JqxDropDownList>
      
-            <JqxDropDownList ref="maxTagsList"
+            <JqxDropDownList :theme="'material'" ref="maxTagsList"
                 @select="maxTagsListSelect($event)"
                 :selectedIndex="0" :width="200" :height="25"
                 :source="['0', '10', '15', '20']" :autoDropDownHeight="true">
@@ -46,13 +46,13 @@
         </div>
 
 
-        <JqxCheckBox ref="displayTagValueCheckbox" style="margin-top: 5px"
+        <JqxCheckBox :theme="'material'" ref="displayTagValueCheckbox" style="margin-top: 5px"
             @change="displayTagValueCheckboxChange($event)"
             :width="200" :height="25">
             Display Tag Value
         </JqxCheckBox>
 
-        <JqxCheckBox ref="takeTopWeightedItems"
+        <JqxCheckBox :theme="'material'" ref="takeTopWeightedItems"
             @change="takeTopWeightedItemsChange($event)"
             :width="200" :height="25">
             takeTopWeightedItems

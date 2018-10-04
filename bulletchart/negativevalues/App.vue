@@ -1,5 +1,5 @@
 <template>
-    <JqxBulletChart 
+    <JqxBulletChart :theme="'material'" 
         :width="getWidth" :height="80" :barSize="'40%'" :ranges="ranges" 
         :title="'Profit'" :description="'(1000s)'" :ticks="ticks" 
         :pointer="pointer" :target="target" :showToolTip="true">

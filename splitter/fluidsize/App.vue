@@ -1,9 +1,9 @@
 <template>
-    <JqxSplitter 
+    <JqxSplitter :theme="'material'" 
         :height="'100%'" :width="'100%'" 
         :panels="[{ size: '50%', min: '10%', collapsible: false }, { size: '50%', min: '5%' }]">
         <div>
-            <JqxSplitter 
+            <JqxSplitter :theme="'material'" 
                 :height="'100%'" :width="'100%'" 
                 :panels="[{ size: 200}]">
                 <div>
@@ -16,7 +16,7 @@
         </div>
 
         <div>
-            <JqxSplitter 
+            <JqxSplitter :theme="'material'" 
                 :height="'100%'" :width="'100%'"
                 :panels="[{ size: '60%'}]"  :orientation="'horizontal'">
                 <div>

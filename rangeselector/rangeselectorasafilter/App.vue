@@ -3,7 +3,7 @@
         <label style="font-size: 13px; font-family: Verdana;">
             Major scientific discoveries in selected period:
         </label>
-        <JqxGrid ref="myGrid" style="margin-top: 10px;"
+        <JqxGrid :theme="'material'" ref="myGrid" style="margin-top: 10px;"
                  :width="getWidthGrid" :height="300"
                  :source="dataAdapter"
                  :filterable="true"
@@ -15,7 +15,7 @@
             Select period:
         </label>
         <br />
-        <JqxRangeSelector ref="myRangeSelector"
+        <JqxRangeSelector :theme="'material'" ref="myRangeSelector"
                           @change="change($event)"
                           :width="getWidthRange"
                           :height="80"

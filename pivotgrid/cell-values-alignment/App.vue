@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxPivotGrid :source="pivotDataSource"
+    <JqxPivotGrid :theme="'material'" :source="pivotDataSource"
                   :treeStyleRows="true"
                   :autoResize="true"
                   :multipleSelectionEnabled="true">

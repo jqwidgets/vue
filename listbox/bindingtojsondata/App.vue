@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxListBox @select="select($event)"
+        <JqxListBox :theme="'material'" @select="select($event)"
                     :source="dataAdapter"
                     :displayMember="'ContactName'"
                     :valueMember="'CompanyName'"

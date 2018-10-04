@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxRangeSelector 
+    <JqxRangeSelector :theme="'material'" 
                   :width="getWidth"
                   :height="90"
                   :min="0"

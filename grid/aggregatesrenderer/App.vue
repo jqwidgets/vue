@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxGrid :width="getWidth" :source="dataAdapter" :showstatusbar="true"
+    <JqxGrid :theme="'material'" :width="getWidth" :source="dataAdapter" :showstatusbar="true"
              :editable="true" :showaggregates="true" :statusbarheight="50"
              :columns="columns" :selectionmode="'singlecell'">
     </JqxGrid>

@@ -2,7 +2,7 @@
     <div>
         <div>The value is: {{ value }}</div><br />
 
-        <JqxMaskedInput v-model="value" :width="200" :height="25" :mask="'(###)###-####'" />
+        <JqxMaskedInput :theme="'material'" v-model="value" :width="200" :height="25" :mask="'(###)###-####'" />
     </div>
 </template>
 

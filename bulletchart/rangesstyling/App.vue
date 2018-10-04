@@ -1,5 +1,5 @@
 <template>
-    <JqxBulletChart 
+    <JqxBulletChart :theme="'material'" 
         :width="getWidth" :height="80" :barSize="'40%'" :ranges="ranges" 
         :title="'Revenue 2014 YTD'" :description="'(U.S. $ in thousands)'" :ticks="ticks" 
         :pointer="pointer" :target="target" :showToolTip="true" :labelsFormat="'c'">

@@ -2,7 +2,7 @@
     <div>
         <h3 style="font-size: 16px; font-family: Verdana">Data Source: 'http://services.odata.org'</h3>
 
-        <JqxDataTable :width="getWidth" :source="dataAdapter" :columns="columns"
+        <JqxDataTable :theme="'material'" :width="getWidth" :source="dataAdapter" :columns="columns"
                       :altRows="true" :pageable="true" :serverProcessing="true"
                       :groups="['ShipCountry']" :groupsRenderer="groupsRenderer"
                       :pagerButtonsCount="10">

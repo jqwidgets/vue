@@ -2,13 +2,13 @@
     <table>
         <tr>
             <td>
-                <JqxPivotDesigner style="width: 250px; height: 400px;"
+                <JqxPivotDesigner :theme="'material'" style="width: 250px; height: 400px;"
                                   ref="pivotDesigner" 
                                   :type="'pivotGrid'">
                 </JqxPivotDesigner>
             </td>
             <td>
-                <JqxPivotGrid style="width: 550px; height: 400px;"
+                <JqxPivotGrid :theme="'material'" style="width: 550px; height: 400px;"
                               ref="pivotGrid" 
                               :source="pivotDataSource"
                               :treeStyleRows="false"

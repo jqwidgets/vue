@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxLayout :width="getWidth" :height="600" :layout="layout">
+    <JqxLayout :theme="'material'" :width="getWidth" :height="600" :layout="layout">
         <!--The panel content divs can have a flat structure-->
         <!--autoHideGroup-->
         <div data-container="ToolboxPanel">

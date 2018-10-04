@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxNotification ref="myNotification"
+        <JqxNotification :theme="'material'" ref="myNotification"
                          :template="'info'"
                          :icon="{ width: 25, height: 25, url: 'https://www.jqwidgets.com/vue/images/smiley.png', padding: 5}"
                          :blink="false"
@@ -18,13 +18,13 @@
         </JqxNotification>
 
         <div style="float: left; margin-left: 25%;">
-            <JqxButton @click="openNotificationClick()" :width="160">Open notification</JqxButton>
-            <JqxButton @click="closeLastNotificationClick()" :width="160">Close last notification</JqxButton>
-            <JqxButton @click="closeNotificationsClick()" :width="160">Close all notifications</JqxButton>
+            <JqxButton :theme="'material'" @click="openNotificationClick()" :width="160">Open notification</JqxButton>
+            <JqxButton :theme="'material'" @click="closeLastNotificationClick()" :width="160">Close last notification</JqxButton>
+            <JqxButton :theme="'material'" @click="closeNotificationsClick()" :width="160">Close all notifications</JqxButton>
         </div>
 
         <div style="float: left; margin-left: 15px;">
-            <JqxExpander :toggleMode="'none'"
+            <JqxExpander :theme="'material'" :toggleMode="'none'"
                          :showArrow="false"
                          :height="385"
                          :width="200">
@@ -38,22 +38,22 @@
                     <ul style="list-style: none; padding: 0px; margin-top: 10px; margin-left: 20px; font-family: Verdana;
                 font-size: 12px;">
                         <li>
-                            <JqxRadioButton :checked="false" :groupName="'position'" @checked="topLeftChecked()">
+                            <JqxRadioButton :theme="'material'" :checked="false" :groupName="'position'" @checked="topLeftChecked()">
                                 Top-Left
                             </JqxRadioButton>
                         </li>
                         <li>
-                            <JqxRadioButton :checked="true" :groupName="'position'" @checked="topRightChecked()">
+                            <JqxRadioButton :theme="'material'" :checked="true" :groupName="'position'" @checked="topRightChecked()">
                                 Top-Right
                             </JqxRadioButton>
                         </li>
                         <li>
-                            <JqxRadioButton :checked="false" :groupName="'position'" @checked="bottomLeftChecked()">
+                            <JqxRadioButton :theme="'material'" :checked="false" :groupName="'position'" @checked="bottomLeftChecked()">
                                 Bottom-Left
                             </JqxRadioButton>
                         </li>
                         <li>
-                            <JqxRadioButton :checked="false" :groupName="'position'" @checked="bottomRightChecked()">
+                            <JqxRadioButton :theme="'material'" :checked="false" :groupName="'position'" @checked="bottomRightChecked()">
                                 Bottom-Right
                             </JqxRadioButton>
                         </li>
@@ -62,7 +62,7 @@
                     <div>
                         Template:
                     </div>
-                    <JqxDropDownList @change="change($event)"
+                    <JqxDropDownList :theme="'material'" @change="change($event)"
                                      :source="source"
                                      :width="'100%'"
                                      :height="25"
@@ -70,13 +70,13 @@
                                      :selectedIndex="0">
                     </JqxDropDownList>
                     <br />
-                    <JqxCheckBox :checked="true" @change="closeOnClickCheckboxChange($event)">
+                    <JqxCheckBox :theme="'material'" :checked="true" @change="closeOnClickCheckboxChange($event)">
                         Close on click
                     </JqxCheckBox>
-                    <JqxCheckBox :checked="true" @change="autoCloseCheckBoxChange($event)">
+                    <JqxCheckBox :theme="'material'" :checked="true" @change="autoCloseCheckBoxChange($event)">
                         Auto close
                     </JqxCheckBox>
-                    <JqxCheckBox :checked="false" @change="blinkCheckboxChange($event)">
+                    <JqxCheckBox :theme="'material'" :checked="false" @change="blinkCheckboxChange($event)">
                         Blink
                     </JqxCheckBox>
                 </div>

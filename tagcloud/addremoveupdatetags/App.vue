@@ -2,7 +2,7 @@
     <div>
         <p>This demo demonstrates how to add a tag in first position or update/remove the tag in first position.</p>
 
-        <JqxTagCloud ref="myTagCloud"
+        <JqxTagCloud :theme="'material'" ref="myTagCloud"
             :width="600" :source="dataAdapter" :urlBase="'http://localhost/'"
             :displayMember="'productname'" :valueMember="'price'"
             :fontSizeUnit="'px'" :minFontSize="12" :maxFontSize="20"
@@ -12,9 +12,9 @@
         <br />
         <br />
 
-        <JqxButton :width="120" @click="addItemBtnOnClick()">Add Item</JqxButton>
-        <JqxButton :width="120" @click="deleteItemBtnOnClick()">Delete First Item</JqxButton>
-        <JqxButton :width="120" @click="updateItemBtnOnClick()">Update First Item</JqxButton>
+        <JqxButton :theme="'material'" :width="120" @click="addItemBtnOnClick()">Add Item</JqxButton>
+        <JqxButton :theme="'material'" :width="120" @click="deleteItemBtnOnClick()">Delete First Item</JqxButton>
+        <JqxButton :theme="'material'" :width="120" @click="updateItemBtnOnClick()">Update First Item</JqxButton>
     </div>
 </template>
 

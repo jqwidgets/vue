@@ -2,14 +2,14 @@
     <div>
         <div style="margin-top: 10px">Horizontal</div>
 
-        <JqxProgressBar ref="myProgressBar"
+        <JqxProgressBar :theme="'material'" ref="myProgressBar"
                         :width="250" :height="30" :value="0" :showText="true" :orientation="'horizontal'"
                         :renderText="renderText" :colorRanges="horizontalColorRanges">
         </JqxProgressBar>
 
         <div style="margin-top: 10px">Vertical</div>
 
-        <JqxProgressBar ref="myVerticalProgressBar"
+        <JqxProgressBar :theme="'material'" ref="myVerticalProgressBar"
                         :width="30" :height="250" :value="0" :showText="true" :orientation="'vertical'"
                         :renderText="renderText" :colorRanges="verticalColorRanges">
         </JqxProgressBar>
