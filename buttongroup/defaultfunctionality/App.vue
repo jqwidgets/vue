@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxButton :theme="'material'"Group ref="myButtonGroup" @buttonclick="groupOnBtnClick($event)">
+        <JqxButtonGroup :theme="'material'" ref="myButtonGroup" @buttonclick="groupOnBtnClick($event)">
             <button style="padding: 4px 16px" id='Left' value='Left'></button>
             <button style="padding: 4px 16px" id='Center' value='Center'></button>
             <button style="padding: 4px 16px" id='Right' value='Right'></button>

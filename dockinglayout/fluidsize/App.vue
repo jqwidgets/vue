@@ -1,5 +1,5 @@
 <template>
-    <JqxDocking :theme="'material'"Layout :width="'100%'" :height="'90%'" :layout="layout">
+    <JqxDockingLayout :theme="'material'" :width="'100%'" :height="'90%'" :layout="layout">
         <!--The panel content divs can have a flat structure-->
         <!--documentGroup-->
         <div data-container="Document1Panel">

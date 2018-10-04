@@ -1,5 +1,5 @@
 ﻿<template>
-    <JqxTree :theme="'material'"Grid ref="myTreeGrid"              
+    <JqxTreeGrid :theme="'material'" ref="myTreeGrid"              
                  :width="getWidth" :source="dataAdapter" :columns="columns"
                  :sortable="true" :pageable="true" :pagerMode="'advanced'" 
                  :ready="ready" :pageSizeMode="'root'" :pageSizeOptions="['2', '3', '4']" 

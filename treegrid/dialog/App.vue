@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxTree :theme="'material'"Grid ref="myTreeGrid"
+        <JqxTreeGrid :theme="'material'" ref="myTreeGrid"
             @rowDoubleClick="onRowDoubleClick($event)"
             :width="width"
             :sortable="true"

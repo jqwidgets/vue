@@ -1,7 +1,7 @@
 ﻿<template>
     <div>
         <h3 style="font-size: 16px; font-family: Verdana;">Data Source: "http://services.odata.org"</h3>
-        <JqxTree :theme="'material'"Grid ref="treeGrid"
+        <JqxTreeGrid :theme="'material'" ref="treeGrid"
                      :width="getWidth"
                      :virtualModeCreateRecords="virtualModeCreateRecords"
                      :virtualModeRecordCreating="virtualModeRecordCreating"

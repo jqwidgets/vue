@@ -1,7 +1,7 @@
 ﻿<template>
     <div>
         <div style="float: left">
-            <JqxTree :theme="'material'"Grid ref="myTreeGrid"
+            <JqxTreeGrid :theme="'material'" ref="myTreeGrid"
                          @pageChanged="myTreeGridOnPageChanged($event)"
                          @pageSizeChanged="myTreeGridOnPageSizeChanged($event)"
                          :width="560" :source="dataAdapter" :columns="columns"

@@ -26,7 +26,7 @@
             </div>
         </div>
 
-        <JqxTree :theme="'material'"Grid ref="myTreeGrid"
+        <JqxTreeGrid :theme="'material'" ref="myTreeGrid"
                      :width="600" 
                      :source="dataAdapter" 
                      :columns="columns"

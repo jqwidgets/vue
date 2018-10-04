@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxTree :theme="'material'"Grid ref="myTreeGrid"
+        <JqxTreeGrid :theme="'material'" ref="myTreeGrid"
             :width="width"
             :height="350"
             :sortable="true"

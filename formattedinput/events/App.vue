@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxForm :theme="'material'"attedInput @open="onOpen($event)" @close="onClose($event)"
+        <JqxFormattedInput :theme="'material'" @open="onOpen($event)" @close="onClose($event)"
                            @change="onChange($event)" @radixChange="onRadixChange($event)"
                            :width="300" :height="25" :radix="'decimal'"
                            :value="190" :spinButtons="true" :dropDown="true">

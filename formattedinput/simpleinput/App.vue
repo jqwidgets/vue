@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxForm :theme="'material'"attedInput ref="myFormattedInput"
+        <JqxFormattedInput :theme="'material'" ref="myFormattedInput"
                            :width="250" :height="25" :radix="'binary'" :value="100001">
         </JqxFormattedInput>
 

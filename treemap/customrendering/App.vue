@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxTree :theme="'material'"Map 
+        <JqxTreeMap :theme="'material'" 
             :width="850" 
             :height="300"
             :colorRanges="colorRanges"

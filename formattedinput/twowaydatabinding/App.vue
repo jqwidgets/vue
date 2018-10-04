@@ -2,7 +2,7 @@
     <div>
         <div>The value is: {{ value }}</div><br />
 
-        <JqxForm :theme="'material'"attedInput v-model="value" :width="200" :height="25" :radix="'decimal'" :spinButtons="true" :dropDown="true" />
+        <JqxFormattedInput :theme="'material'" v-model="value" :width="200" :height="25" :radix="'decimal'" :spinButtons="true" :dropDown="true" />
     </div>
 </template>
 

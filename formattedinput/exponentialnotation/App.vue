@@ -1,6 +1,6 @@
 ﻿<template>
     <div>
-        <JqxForm :theme="'material'"attedInput ref="myFormattedInput"
+        <JqxFormattedInput :theme="'material'" ref="myFormattedInput"
                            :width="200" :height="25" :radix="'decimal'" :spinButtons="false"
                            :value="330000" :decimalNotation="'exponential'">
         </JqxFormattedInput>

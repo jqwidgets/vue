@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>Default</div>
-    <JqxButton :theme="'material'"Group :mode="'checkbox'">
+    <JqxButtonGroup :theme="'material'" :mode="'checkbox'">
       <button style="padding: 4px 16px" value='Left'></button>
       <button style="padding: 4px 16px" value='Center'></button>
       <button style="padding: 4px 16px" value='Right'></button>
@@ -9,7 +9,7 @@
     <br />
 
     <div>Primary</div>
-    <JqxButton :theme="'material'"Group :mode="'checkbox'" :template="'primary'">
+    <JqxButtonGroup :theme="'material'" :mode="'checkbox'" :template="'primary'">
       <button style="padding: 4px 16px" value='Left'></button>
       <button style="padding: 4px 16px" value='Center'></button>
       <button style="padding: 4px 16px" value='Right'></button>
@@ -17,7 +17,7 @@
     <br />
 
     <div>Success</div>
-    <JqxButton :theme="'material'"Group :mode="'checkbox'" :template="'success'">
+    <JqxButtonGroup :theme="'material'" :mode="'checkbox'" :template="'success'">
       <button style="padding: 4px 16px" value='Left'></button>
       <button style="padding: 4px 16px" value='Center'></button>
       <button style="padding: 4px 16px" value='Right'></button>
@@ -25,7 +25,7 @@
     <br />
 
     <div>Info</div>
-    <JqxButton :theme="'material'"Group :mode="'checkbox'" :template="'info'">
+    <JqxButtonGroup :theme="'material'" :mode="'checkbox'" :template="'info'">
       <button style="padding: 4px 16px" value='Left'></button>
       <button style="padding: 4px 16px" value='Center'></button>
       <button style="padding: 4px 16px" value='Right'></button>
@@ -33,7 +33,7 @@
     <br />
 
     <div>Warning</div>
-    <JqxButton :theme="'material'"Group :mode="'checkbox'" :template="'warning'">
+    <JqxButtonGroup :theme="'material'" :mode="'checkbox'" :template="'warning'">
       <button style="padding: 4px 16px" value='Left'></button>
       <button style="padding: 4px 16px" value='Center'></button>
       <button style="padding: 4px 16px" value='Right'></button>
@@ -41,7 +41,7 @@
     <br />
 
     <div>Danger</div>
-    <JqxButton :theme="'material'"Group :mode="'checkbox'" :template="'danger'">
+    <JqxButtonGroup :theme="'material'" :mode="'checkbox'" :template="'danger'">
       <button style="padding: 4px 16px" value='Left'></button>
       <button style="padding: 4px 16px" value='Center'></button>
       <button style="padding: 4px 16px" value='Right'></button>

@@ -8,7 +8,7 @@
             :source="listSource">
         </JqxListBox>
 
-        <JqxTree :theme="'material'"Grid ref="myTreeGrid" style="margin-left: 20px; float: left;"
+        <JqxTreeGrid :theme="'material'" ref="myTreeGrid" style="margin-left: 20px; float: left;"
             :showHeader="true"
             :altRows="true"
             :ready="ready"
