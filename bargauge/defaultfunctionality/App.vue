@@ -25,8 +25,3 @@
         }
     }
 </script>
-
-<style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
-  @import './jqx.base.css';
-</style>
