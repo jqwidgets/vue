@@ -29,7 +29,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     #header {
         box-sizing: border-box;
         margin-bottom: 2px;

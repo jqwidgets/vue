@@ -90,7 +90,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .text p {
         display: inline-block;
         width: 210px;

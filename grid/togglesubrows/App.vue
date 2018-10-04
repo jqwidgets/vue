@@ -122,7 +122,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .jqx-button{
         display: inline-block;
         margin-right: 0px;

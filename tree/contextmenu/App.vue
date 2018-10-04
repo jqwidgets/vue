@@ -144,6 +144,6 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
    
 </style>

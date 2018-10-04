@@ -107,7 +107,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     table {
         border-collapse: separate;
         border-spacing: 15px 5px;

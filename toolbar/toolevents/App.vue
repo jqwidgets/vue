@@ -89,7 +89,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .text {
         margin-top: 20px;
         margin-bottom: 50px;

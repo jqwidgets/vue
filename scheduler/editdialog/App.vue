@@ -201,7 +201,7 @@
                             '<meta charset="utf-8" />\n' +
                             '<title>jQWidgets Scheduler</title>\n' +
                             '<style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';\n' +
+  \n' +
                             '.printTable {\n' +
                             'border-color: #aaa;\n' +
                             '}\n' +

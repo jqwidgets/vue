@@ -49,7 +49,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .jqx-splitter-nested {
         border: none !important;
     }

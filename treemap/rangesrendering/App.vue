@@ -110,7 +110,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     html, body {
         width: 100%;
         height: 100%;

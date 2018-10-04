@@ -98,7 +98,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .colorBlock {
         border: 1px solid #aaa;
         width: 200px;

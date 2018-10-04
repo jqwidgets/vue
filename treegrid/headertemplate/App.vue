@@ -127,7 +127,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .jqx-tree-grid-icon, .jqx-tree-grid-icon-size {
         width: 16px;
         height: 16px;

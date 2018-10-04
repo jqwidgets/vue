@@ -251,7 +251,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .jqx-layout-group-auto-hide-content-vertical {
         width: 200px;
     }

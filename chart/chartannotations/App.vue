@@ -133,7 +133,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .redLabel {
         fill: #FF0000;
         color: #FF0000;

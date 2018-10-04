@@ -31,7 +31,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .label {
         margin: 10px 0px;
     }

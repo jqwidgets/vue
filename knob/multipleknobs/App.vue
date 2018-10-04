@@ -172,7 +172,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     #myKnobTwo {
         top: 75px !important;
     }

@@ -46,7 +46,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     #container {
         height: 800px;
         width: 140px;

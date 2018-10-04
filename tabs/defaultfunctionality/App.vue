@@ -98,7 +98,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .jqx-checkbox {
         margin-top: 10px;
     }

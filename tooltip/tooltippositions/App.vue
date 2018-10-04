@@ -29,7 +29,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     #container {
         width: 110px;   
         margin-left: 200px;

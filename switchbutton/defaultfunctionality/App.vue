@@ -92,7 +92,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     #settings-panel {
         background-color: #fff;
         padding: 20px;

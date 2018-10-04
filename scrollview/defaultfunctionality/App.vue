@@ -41,7 +41,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .photo {
         width: 600px;
         height: 450px;

@@ -217,7 +217,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .chart-inner-text {
         fill: #00BAFF;
         color: #00BAFF;

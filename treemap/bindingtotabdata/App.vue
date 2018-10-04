@@ -78,7 +78,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .jqx-treemap-legend {
         width: 350px;
         background: rgba(0, 0, 0, 0.4);

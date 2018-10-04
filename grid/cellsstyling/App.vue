@@ -61,7 +61,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .green {
         color: black\9;
         background-color: #b6ff00\9;

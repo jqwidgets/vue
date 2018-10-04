@@ -102,7 +102,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .buttonIcon {
         margin: -5px 0 0 -3px;
         width: 16px;

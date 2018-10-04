@@ -93,7 +93,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .jqx-chart-axis-text,
     .jqx-chart-label-text,
     .jqx-chart-tooltip-text,

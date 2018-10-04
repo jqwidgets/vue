@@ -150,7 +150,7 @@
 </script>
 
 <style>
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
     .text p {
         width: 210px;
         display: inline-block;
