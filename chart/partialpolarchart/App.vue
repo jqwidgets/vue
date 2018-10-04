@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 90%; height: 500px"
                   :title="'Sales volume and revenue by city'"
                   :description="'(revenue in thousands)'"
                   :showLegend="true" :enableAnimations="false" :padding="padding"
@@ -8,7 +8,7 @@
                   :valueAxis="valueAxis" :seriesGroups="seriesGroups" :colorScheme="'scheme01'">
         </JqxChart>
 
-        <table style="width: 850px">
+        <table style="width: 90%">
             <tbody>
                 <tr>
                     <td style="padding-left: 50px">

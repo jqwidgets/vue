@@ -1,5 +1,5 @@
 <template>
-    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 90%; height: 500px"
               :title="'US Homeownership rate & recessions (1965-2014)'"
               :description="'(sources: US Census bureau, Wikipedia)'"
               :showLegend="true" :enableAnimations="true" :padding="padding"

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 90%; height: 500px"
                   @click="dumpEventInfo($event)" @toggle="dumpEventInfo($event)"
                   @rangeSelectionChanging="dumpEventInfo($event)" @rangeSelectionChanged="dumpEventInfo($event)"
                   @refreshBegin="dumpEventInfo($event)" @refreshEnd="dumpEventInfo($event)"

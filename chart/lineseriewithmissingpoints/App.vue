@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 90%; height: 500px"
                   :title="'Line serie with missing points'"
                   :description="'Sample line serie with missing and invalid values'"
                   :showLegend="true" :padding="padding"

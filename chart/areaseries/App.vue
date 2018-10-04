@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 90%; height: 500px"
                   :title="'U.S. Stock Market Index Performance'" :description="'NASDAQ Composite compared to S&P 500'"
                   :showLegend="true" :enableAnimations="true" :enableCrosshairs="true" :padding="padding"
                   :titlePadding="titlePadding" :source="dataAdapter" :xAxis="xAxis"

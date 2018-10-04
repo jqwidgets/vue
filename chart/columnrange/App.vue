@@ -1,5 +1,5 @@
 <template>
-    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 90%; height: 500px"
               :title="'Weather in Geneva, Switzerland'"
               :description="'Climatological Information about Geneva'"
               :showLegend="true" :enableAnimations="true" :padding="padding" :enableCrosshairs="true"

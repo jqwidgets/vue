@@ -1,5 +1,5 @@
 <template>
-    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 90%; height: 500px"
               :title="'CPI inflation comparison by country'"
               :description="'Years: 2011 vs 2012'"
               :showLegend="true" :enableAnimations="true" :padding="padding"

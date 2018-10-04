@@ -1,5 +1,5 @@
 <template>
-    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 90%; height: 500px"
               :title="'Top 5 most populated countries'" :description="'Statistics for 2011'"
               :enableAnimations="true" :showLegend="true" :padding="padding"
               :titlePadding="titlePadding" :source="sampleData" :xAxis="xAxis"

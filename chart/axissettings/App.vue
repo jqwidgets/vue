@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 90%; height: 500px"
                   :title="'Electricity prices in Europe between 2004 and 2014'" :description="'Source: Eurostat'"
                   :enableAnimations="true" :showLegend="true" :padding="padding"
                   :titlePadding="titlePadding" :source="data" :xAxis="xAxis"

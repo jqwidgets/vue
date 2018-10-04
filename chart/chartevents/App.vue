@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div style="width: 850px; height: 500px" @mouseleave="chartEvent($event)" @mouseenter="chartEvent($event)">
-            <JqxChart :theme="'material'" style="width: 850px; height: 500px"
+        <div style="width: 90%; height: 500px" @mouseleave="chartEvent($event)" @mouseenter="chartEvent($event)">
+            <JqxChart :theme="'material'" style="width: 90%; height: 500px"
                       @click="chartEvent($event)" @toggle="chartEvent($event)"
                       :title="'Fitness & exercise weekly scorecard'"
                       :description="'Time spent in vigorous exercise'"

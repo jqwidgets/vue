@@ -5,7 +5,7 @@
                  :source="dataAdapter" :columns="columns" :showfilterrow="true">
         </JqxGrid>
 
-        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px; margin-top: 50px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 90%; height: 500px; margin-top: 50px"
                   :title="'Fitness & exercise weekly scorecard'"
                   :description="'Time spent in vigorous exercise'"
                   :showLegend="true" :enableAnimations="true" :padding="padding"

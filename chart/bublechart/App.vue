@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 90%; height: 500px"
                   :title="'Sales by City in Q1 and Q2, and YoY sales growth'"
                   :description="'(the size of the circles represents relative YoY growth)'"
                   :enableAnimations="true" :showLegend="true" :padding="padding"

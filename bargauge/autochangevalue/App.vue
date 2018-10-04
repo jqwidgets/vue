@@ -40,7 +40,9 @@
             onDrawEnd: function () {
                 let values = [this.getRandomInt(1, 99)];
                 setTimeout(() => {
-                    this.$refs.myBarGauge.val(values);
+                    if (this.$refs.myBarGauge) {
+                        this.$refs.myBarGauge.val(values);
+                    }
                 }, 1000);
             },
             getRandomInt: function (min, max) {

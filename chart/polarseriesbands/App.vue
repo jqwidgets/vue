@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 90%; height: 500px"
                   :title="'U.S. Real Home Price vs Building Cost Indeces (1950-2010)'"
                   :description="'Source: http://www.econ.yale.edu/~shiller/data.htm'"
                   :showLegend="true" :enableAnimations="true" :padding="padding"
@@ -8,7 +8,7 @@
                   :seriesGroups="seriesGroups" :colorScheme="'scheme01'">
         </JqxChart>
 
-        <table style="width: 850px">
+        <table style="width: 90%">
             <tbody>
                 <tr>
                     <td style="padding-left: 50px">

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" style="width: 90%; height: 500px"
                   :title="'S&P 500 Candlestick Chart'"
                   :description="'(June 2010 - November 2014)'"
                   :enableAnimations="true" :enableCrosshairs="true" :animationDuration="1500"

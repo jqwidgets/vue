@@ -1,5 +1,5 @@
 <template>
-    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 90%; height: 500px"
               :title="'U.S. GDP Percentage Change'"
               :description="'(source: Bureau of Economic Analysis)'"
               :showLegend="false" :enableAnimations="true" :padding="padding" :borderLineWidth="1"

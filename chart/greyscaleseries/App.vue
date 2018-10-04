@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 90%; height: 500px"
                   :title="'Fitness & exercise weekly scorecard'"
                   :description="'Time spent in vigorous exercise by activity'"
                   :showLegend="true" :enableAnimations="false" :padding="padding"

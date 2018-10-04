@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" ref="myChart" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" ref="myChart" style="width: 90%; height: 500px"
                   :title="'Live updates demo'" :enableAxisTextAnimation="true"
                   :description="''" :animationDuration="1000"
                   :showLegend="true" :enableAnimations="true" :padding="padding"

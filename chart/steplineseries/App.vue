@@ -1,5 +1,5 @@
 <template>
-    <JqxChart :theme="'material'" style="width: 850px; height: 500px"
+    <JqxChart :theme="'material'" style="width: 90%; height: 500px"
               :title="'Tesla Motors Stock Price'"
               :description="'Closing price (June 2013 - March 2014)'"
               :showLegend="true" :enableAnimations="true" :padding="padding" :enableCrosshairs="true"

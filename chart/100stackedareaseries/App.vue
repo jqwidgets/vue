@@ -1,6 +1,6 @@
 <template>
     <div>
-        <JqxChart :theme="'material'" style="width: 850px; height: 500px"
+        <JqxChart :theme="'material'" style="width: 90%; height: 500px"
                   :title="'Web Traffic Analysis'" :description="'Unique monthly site visitors (percentage stacked)'"
                   :titlePadding="titlePadding" :source="dataAdapter" :xAxis="xAxis"
                   :valueAxis="valueAxis" :colorScheme="'scheme06'" :seriesGroups="seriesGroups">

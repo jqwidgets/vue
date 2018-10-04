@@ -1,19 +1,18 @@
 <template>
     <div>
         <JqxBarGauge :theme="'material'" ref="myBarGauge" style="float: left"
-                     :width="getWidth" :height="600" :relativeInnerRadius="0.2" :max="500"
+                     :width="getWidth" :height="450" :relativeInnerRadius="0.2" :max="500"
                      :values="[450, 15, 330]" :baseValue="50" :startAngle="0" :endAngle="360"
                      :title="'Nutritional Values'" :colorScheme="'scheme05'" :tooltip="tooltip"
                      :barSpacing="9" :animationDuration="0" :labels="labels">
         </JqxBarGauge>
 
-        <div style="margin-left: 50px; margin-top: 150px; float: left;">
+        <div style="margin-left: 50px;">
             <JqxListBox :theme="'material'" ref="myListBox" @checkChange="onCheckChange()"
                         :width="230" :source="dataAdapter" :displayMember="'name'"
                         :valueMember="'calories'" :checkboxes="true">
             </JqxListBox>
 
-            <br />
             <br />
             <div ref='log'>
                 <strong>Summary calories: 970</strong>

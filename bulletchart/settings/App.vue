@@ -5,8 +5,8 @@
                         :title="'Revenue 2014 YTD'" :description="'(U.S. $ in thousands)'" :animationDuration="0"
                         :pointer="pointer" :target="target" :labelsFormat="'c'" :showToolTip="true">
         </JqxBulletChart>
-        <JqxExpander :theme="'material'" style="float: left; margin-left: 60px"
-                     :width="210" :height="550" :toggleMode="'none'" :showArrow="false">
+        <JqxExpander :theme="'material'" style="float: left; margin-top: 60px"
+                     :width="210" :height="570" :toggleMode="'none'" :showArrow="false">
 
             <div>jqxBulletChart Settings</div>
             <div>
@@ -197,6 +197,4 @@
 </script>
 
 <style>
-  
-  
 </style>
