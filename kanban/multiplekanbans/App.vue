@@ -34,10 +34,10 @@
             return {
                 getWidth: '90%',
                 staff: [
-                    { id: 0, name: 'No name', image: '../../../images/common.png', common: true },
-                    { id: 1, name: 'Andrew Fuller', image: '../../../images/andrew.png' },
-                    { id: 2, name: 'Janet Leverling', image: '../../../images/janet.png' },
-                    { id: 3, name: 'Steven Buchanan', image: '../../../images/steven.png' }
+                    { id: 0, name: 'No name', image: 'https://www.jqwidgets.com/vue/images/common.png', common: true },
+                    { id: 1, name: 'Andrew Fuller', image: 'https://www.jqwidgets.com/vue/images/andrew.png' },
+                    { id: 2, name: 'Janet Leverling', image: 'https://www.jqwidgets.com/vue/images/janet.png' },
+                    { id: 3, name: 'Steven Buchanan', image: 'https://www.jqwidgets.com/vue/images/steven.png' }
                 ],
                 kanbanColumns: [
                     { text: 'Backlog', dataField: 'new', access: 'none', maxItems: 5 },

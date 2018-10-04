@@ -8,7 +8,7 @@
         <JqxTooltip ref="myTooltip"
             :autoHide="false" :position="'bottom'" :name="'movieTooltip'"
             :closeOnClick="false" :trigger="'none'" :content="'The Amazing Spider-Man'">
-            <img src='../../../images/The_Amazng_Spider_Man.jpeg' />
+            <img src='https://www.jqwidgets.com/vue/images/The_Amazng_Spider_Man.jpeg' />
         </JqxTooltip>
     </div>
 </template>

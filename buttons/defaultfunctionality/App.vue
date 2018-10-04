@@ -12,12 +12,12 @@
         </div>
         <div style='margin-top: 20px'>
             <JqxButton ref="imageButton" :width="120" :height="40" :textPosition="'center'"
-                       :imgSrc="'../images/facebook.png'" v-on:click="imageButtonClicked()">
+                       :imgSrc="'https://www.jqwidgets.com/vue/images/facebook.png'" v-on:click="imageButtonClicked()">
             </JqxButton>
         </div>
         <div style='margin-top: 20px'>
             <JqxButton ref="myTextImageButton" :width="120" :height="40"
-                       :textImageRelation="'imageBeforeText'" :textPosition="'left'" :imgSrc="'../images/twitter.png'"
+                       :textImageRelation="'imageBeforeText'" :textPosition="'left'" :imgSrc="'https://www.jqwidgets.com/vue/images/twitter.png'"
                        v-on:click="textImageButtonClicked()">
                 Button
             </JqxButton>

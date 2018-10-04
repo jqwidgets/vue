@@ -42,7 +42,7 @@
 
                 const img = document.createElement('img');
                 img.setAttribute('style', 'width: 20px; height: 20px; margin-right: 10px; margin-left: 3px;');
-                img.src = '../../../images/cut-26.png';
+                img.src = 'https://www.jqwidgets.com/vue/images/cut-26.png';
 
                 img.addEventListener('click', (event) => {
                     const liElements = this.$refs.myTagCloud.$el.querySelectorAll('li');

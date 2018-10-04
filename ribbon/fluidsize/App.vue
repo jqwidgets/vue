@@ -130,7 +130,7 @@
                         </td>
                         <td rowspan="3" style="width: 125px;"></td>
                         <td rowspan="3">
-                            <img src="../../../images/bookshop.png" />
+                            <img src="https://www.jqwidgets.com/vue/images/bookshop.png" />
                         </td>
                     </tr>
                     <tr>

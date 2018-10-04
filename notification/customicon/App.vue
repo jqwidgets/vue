@@ -1,7 +1,7 @@
 ﻿<template>
     <div>
         <JqxNotification ref="myNotification"
-                         :icon="{ width: 25, height: 25, url: '../../../images/smiley.png', padding: 5}"
+                         :icon="{ width: 25, height: 25, url: 'https://www.jqwidgets.com/vue/images/smiley.png', padding: 5}"
                          :template="null"
                          :opacity="0.9"
                          :position="'top-left'"

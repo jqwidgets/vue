@@ -7,7 +7,7 @@
 
         <div style="float: left">
             <JqxButton @click="myBtnOnClick()"
-                       :width="28" :height="25" :imgSrc="'../images/search_lg.png'">
+                       :width="28" :height="25" :imgSrc="'https://www.jqwidgets.com/vue/images/search_lg.png'">
             </JqxButton>
         </div>
     </div>

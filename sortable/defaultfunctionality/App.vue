@@ -23,7 +23,7 @@
             loadInfo: function () { 
                 for (let i = 0; i < this.firstNames.length; i++) {
                     const element = document.createElement('div');
-                    const imgurl = '../../../images/' + this.firstNames[i].toLowerCase() + '.png';
+                    const imgurl = 'https://www.jqwidgets.com/vue/images/' + this.firstNames[i].toLowerCase() + '.png';
                     const img = '<img height="50" width="40" src="' + imgurl + '"/>';
                     element.innerHTML = '<table style="min-width: 130px;"><tr><td style="width: 40px;" rowspan="2">' + img + '</td><td>' + this.firstNames[i] + ' ' + this.lastNames[i] + '</td></tr><tr><td>' + this.titles[i] + '</td></tr></table>';
                     this.$refs.mySortable.$el.appendChild(element);

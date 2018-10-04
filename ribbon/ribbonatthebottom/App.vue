@@ -76,7 +76,7 @@
                     <tr>
                         <td><a href="#">Contact us</a></td>
                         <td rowspan="3" style="width: 125px;"></td>
-                        <td rowspan="3"> <img src="../../../images/bookshop.png" /></td>
+                        <td rowspan="3"> <img src="https://www.jqwidgets.com/vue/images/bookshop.png" /></td>
                     </tr>
                     <tr>
                         <td><a href="#">Jobs</a></td>

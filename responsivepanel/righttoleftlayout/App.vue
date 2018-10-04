@@ -7,7 +7,7 @@
                             :collapseBreakpoint="800" :autoClose="false"
                             :toggleButton="'#toggleResponsivePanel'" 
                             :animationDirection="'right'">
-            <img src="../../../images/leo.jpg" />
+            <img src="https://www.jqwidgets.com/vue/images/leo.jpg" />
             <br />
             <strong>Leo</strong> the Lion is one of the earliest recognized constellations.
             The Mesopotamians are known to have documented the 'lion' constellation. The Persians

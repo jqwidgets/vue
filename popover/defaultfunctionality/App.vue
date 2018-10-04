@@ -41,7 +41,7 @@
                 row['firstname'] = firstNames[i];
                 row['lastname'] = lastNames[i];
                 row['title'] = titles[i];
-                let imgurl = '../../../images/' + firstNames[i].toLowerCase() + '.png';
+                let imgurl = 'https://www.jqwidgets.com/vue/images/' + firstNames[i].toLowerCase() + '.png';
                 let img = '<img height="50" width="45" src="' + imgurl + '"/>';
                 let table = '<table style="min-width: 150px;"><tr><td style="width: 55px;" rowspan="2">' + img + '</td><td>' + firstNames[i] + " " + lastNames[i] + '</td></tr><tr><td>' + titles[i] + '</td></tr></table>';
                 this.$refs.employees.innerHTML += table;

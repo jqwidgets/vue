@@ -33,7 +33,7 @@
                             'Laura received a BA in psychology from the University of Washington.  She has also completed a course in business French.  She reads and writes French.',
                             'Anne has a BA degree in English from St. Lawrence College.  She is fluent in French and German.'];
                         for (let i = 0; i < records.length; i++) {
-                            let imgUrl = '../images/' + records[i].FirstName.toLowerCase() + '.png';
+                            let imgUrl = 'https://www.jqwidgets.com/vue/images/' + records[i].FirstName.toLowerCase() + '.png';
                             records[i].icon = imgUrl;
                             records[i].notes = notes[i];
                         }

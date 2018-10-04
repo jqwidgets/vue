@@ -1,11 +1,11 @@
 <template>
     <div>
         <JqxScrollView ref="myScrollView" :width="600" :height="450" :buttonsOffset="[0, 0]">
-            <div><div class="photo" style="background-image: url(../../../images/imageNature1.jpg)"></div></div>
-            <div><div class="photo" style="background-image: url(../../../images/imageNature2.jpg)"></div></div>
-            <div><div class="photo" style="background-image: url(../../../images/imageNature3.jpg)"></div></div>
-            <div><div class="photo" style="background-image: url(../../../images/imageNature4.jpg)"></div></div>
-            <div><div class="photo" style="background-image: url(../../../images/imageNature5.jpg)"></div></div>
+            <div><div class="photo" style="background-image: url(https://www.jqwidgets.com/vue/images/imageNature1.jpg)"></div></div>
+            <div><div class="photo" style="background-image: url(https://www.jqwidgets.com/vue/images/imageNature2.jpg)"></div></div>
+            <div><div class="photo" style="background-image: url(https://www.jqwidgets.com/vue/images/imageNature3.jpg)"></div></div>
+            <div><div class="photo" style="background-image: url(https://www.jqwidgets.com/vue/images/imageNature4.jpg)"></div></div>
+            <div><div class="photo" style="background-image: url(https://www.jqwidgets.com/vue/images/imageNature5.jpg)"></div></div>
         </JqxScrollView>
 
         <div style="margin-top: 2em"></div>

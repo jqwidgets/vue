@@ -46,7 +46,7 @@
         },
         methods: {
             imagerenderer : function (row, datafield, value) {
-                return '<img style="margin-left: 5px;" height="60" width="50" src="../../../images/' + value + '"/>';
+                return '<img style="margin-left: 5px;" height="60" width="50" src="https://www.jqwidgets.com/vue/images/' + value + '"/>';
             }
         }
     }

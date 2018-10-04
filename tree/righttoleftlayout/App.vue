@@ -16,27 +16,27 @@
                 source:
                 [
                     {
-                        icon: '../../../images/mailIcon.png', label: 'Mail', expanded: true,
+                        icon: 'https://www.jqwidgets.com/vue/images/mailIcon.png', label: 'Mail', expanded: true,
                         items:
                         [
-                            { icon: '../../../images/calendarIcon.png', label: 'Calendar' },
-                            { icon: '../../../images/contactsIcon.png', label: 'Contacts', selected: true }
+                            { icon: 'https://www.jqwidgets.com/vue/images/calendarIcon.png', label: 'Calendar' },
+                            { icon: 'https://www.jqwidgets.com/vue/images/contactsIcon.png', label: 'Contacts', selected: true }
                         ]
                     },
                     {
-                        icon: '../../../images/folder.png', label: 'Inbox', expanded: true,
+                        icon: 'https://www.jqwidgets.com/vue/images/folder.png', label: 'Inbox', expanded: true,
                         items:
                         [
-                            { icon: '../../../images/folder.png', label: 'Admin' },
-                            { icon: '../../../images/folder.png', label: 'Corporate' },
-                            { icon: '../../../images/folder.png', label: 'Finance' },
-                            { icon: '../../../images/folder.png', label: 'Other' },
+                            { icon: 'https://www.jqwidgets.com/vue/images/folder.png', label: 'Admin' },
+                            { icon: 'https://www.jqwidgets.com/vue/images/folder.png', label: 'Corporate' },
+                            { icon: 'https://www.jqwidgets.com/vue/images/folder.png', label: 'Finance' },
+                            { icon: 'https://www.jqwidgets.com/vue/images/folder.png', label: 'Other' },
                         ]
                     },
-                    { icon: '../../../images/recycle.png', label: 'Deleted Items' },
-                    { icon: '../../../images/notesIcon.png', label: 'Notes' },
-                    { icon: '../../../images/settings.png', label: 'Settings', iconsize: 14 },
-                    { icon: '../../../images/favorites.png', label: 'Favorites' },
+                    { icon: 'https://www.jqwidgets.com/vue/images/recycle.png', label: 'Deleted Items' },
+                    { icon: 'https://www.jqwidgets.com/vue/images/notesIcon.png', label: 'Notes' },
+                    { icon: 'https://www.jqwidgets.com/vue/images/settings.png', label: 'Settings', iconsize: 14 },
+                    { icon: 'https://www.jqwidgets.com/vue/images/favorites.png', label: 'Favorites' },
                 ]
             }
         }

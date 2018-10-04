@@ -25,7 +25,7 @@
                             container.style.border = 'none';
                             htmlElement.appendChild(container);
 
-                            const imgurl = '../../../images/' + value.toLowerCase() + '.png';
+                            const imgurl = 'https://www.jqwidgets.com/vue/images/' + value.toLowerCase() + '.png';
 
                             const options = {
                                 width: '100%', height: 90, template: 'success',
@@ -43,7 +43,7 @@
                             this.counter++;
                         },
                         initwidget: (row, column, value, htmlElement) => {
-                            const imgurl = '../../../images/' + value.toLowerCase() + '.png';
+                            const imgurl = 'https://www.jqwidgets.com/vue/images/' + value.toLowerCase() + '.png';
                             (htmlElement.children[1].children[0]).src = imgurl;
                             htmlElement.children[1].children[1].innerHTML = value;
                         }

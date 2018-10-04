@@ -133,7 +133,7 @@
             },
             renderer: function (index, label, value) {
                 let datarecord = this.getData()[index];
-                let imgurl = '../../../images/' + label.toLowerCase() + '.png';
+                let imgurl = 'https://www.jqwidgets.com/vue/images/' + label.toLowerCase() + '.png';
                 let img = '<img height="50" width="40" src="' + imgurl + '"/>';
                 let table = '<table style="min-width: 130px;"><tr><td style="width: 40px;" rowspan="2">' + img + '</td><td>' + datarecord.firstname + ' ' + datarecord.lastname + '</td></tr><tr><td>' + datarecord.title + '</td></tr></table>';
                 return table;

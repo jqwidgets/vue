@@ -7,7 +7,7 @@
             <div>
                 <div style="margin-top: 2px;">
                     <div style="float: left;">
-                        <img alt="Mail" src="../../../images/mailIcon.png" />
+                        <img alt="Mail" src="https://www.jqwidgets.com/vue/images/mailIcon.png" />
                     </div>
                     <div style="margin-left: 4px; float: left;">
                         Mail
@@ -24,7 +24,7 @@
             <div>
                 <div style="margin-top: 2px;">
                     <div style="float: left;">
-                        <img alt="Mail" src="../../../images/contactsIcon.png" />
+                        <img alt="Mail" src="https://www.jqwidgets.com/vue/images/contactsIcon.png" />
                     </div>
                     <div style="margin-left: 4px; float: left;">
                         Contacts
@@ -42,7 +42,7 @@
             <div>
                 <div style="margin-top: 2px;">
                     <div style="float: left;">
-                        <img alt="Mail" src="../../../images/tasksIcon.png" />
+                        <img alt="Mail" src="https://www.jqwidgets.com/vue/images/tasksIcon.png" />
                     </div>
                     <div style="margin-left: 4px; float: left;">
                         Tasks
@@ -60,7 +60,7 @@
             <div>
                 <div style="margin-top: 2px;">
                     <div style="float: left;">
-                        <img alt="Mail" src="../../../images/notesIcon.png" />
+                        <img alt="Mail" src="https://www.jqwidgets.com/vue/images/notesIcon.png" />
                     </div>
                     <div style="margin-left: 4px; float: left;">
                         Notes

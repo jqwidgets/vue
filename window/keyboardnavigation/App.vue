@@ -28,7 +28,7 @@
             </div>
             <div>
                 <div>
-                    <img src="../../../images/building_big.jpg" alt="" class="big-image" />
+                    <img src="https://www.jqwidgets.com/vue/images/building_big.jpg" alt="" class="big-image" />
                     <div>
                         <h3>30 St Mary Axe</h3>
                         <p class="important-text">

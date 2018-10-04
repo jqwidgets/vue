@@ -2,7 +2,7 @@
     <div>
         <JqxNotification ref="myNotification"
                          :template="'info'"
-                         :icon="{ width: 25, height: 25, url: '../../../images/smiley.png', padding: 5}"
+                         :icon="{ width: 25, height: 25, url: 'https://www.jqwidgets.com/vue/images/smiley.png', padding: 5}"
                          :blink="false"
                          :autoOpen="false"
                          :autoClose="true"

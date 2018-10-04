@@ -119,7 +119,7 @@
                 const position = this.$refs.myDropDownList.val();
                 const country = this.countries[Math.floor(Math.random() * this.countries.length)];
                 this.$refs.myToolbar.addTool('custom', position, false, (type, tool, menuToolIninitialization) => {
-                    tool.append('<img src="../../../images/' + country + '.png" style="float: left; clear: both;" />');
+                    tool.append('<img src="https://www.jqwidgets.com/vue/images/' + country + '.png" style="float: left; clear: both;" />');
                     if (menuToolIninitialization) {
                         tool.find('img').css('margin-right', '10px');
                         tool.find('img').css('margin-top', '4px');

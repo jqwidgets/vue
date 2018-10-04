@@ -281,19 +281,19 @@
                         <tr>
                             <td class="bigTd">
                                 <JqxButton class='button left' :theme="'demoTheme'" :width="36" :height="36">
-                                    <img class="img" src="../../../images/help-26.png" />
+                                    <img class="img" src="https://www.jqwidgets.com/vue/images/help-26.png" />
                                 </JqxButton>
                                 Help
                             </td>
                             <td class="bigTd">
                                 <JqxButton class='button left' :theme="'demoTheme'" :width="36" :height="36">
-                                    <img class="img" src="../../../images/about-26.png" />
+                                    <img class="img" src="https://www.jqwidgets.com/vue/images/about-26.png" />
                                 </JqxButton>
                                 About
                             </td>
                             <td class="bigTd">
                                 <JqxButton class="button left" :theme="'demoTheme'" :width="36" :height="36">
-                                    <img class="img" src="../../../images/downloading_updates-26.png" />
+                                    <img class="img" src="https://www.jqwidgets.com/vue/images/downloading_updates-26.png" />
                                 </JqxButton>
                                 Update
                             </td>
@@ -663,7 +663,7 @@
     }
 
     .icon {
-        background: url('../../../images/ribbon-icons.png') no-repeat top left;
+        background: url('https://www.jqwidgets.com/vue/images/ribbon-icons.png') no-repeat top left;
         width: 16px;
         height: 16px;
         display: inline-block;

@@ -3,17 +3,17 @@
         <JqxTooltip 
             :autoHide="false" :position="'bottom'" :name="'movieTooltip'"
             :content="'The Amazing Spider-Man'">
-            <img src='../../../images/The_Amazng_Spider_Man.jpeg' />
+            <img src='https://www.jqwidgets.com/vue/images/The_Amazng_Spider_Man.jpeg' />
         </JqxTooltip>
         <JqxTooltip 
             :autoHide="false" :position="'bottom'" :name="'movieTooltip'"
             :content="'The Avengers'">
-            <img src='../../../images/The_Avengers.jpg' />
+            <img src='https://www.jqwidgets.com/vue/images/The_Avengers.jpg' />
         </JqxTooltip>
         <JqxTooltip 
             :autoHide="false" :position="'bottom'" :name="'movieTooltip'"
             :content="'The Dark Knight Rise'">
-            <img src='../../../images/The_Dark_Knight_Rises.jpg' />
+            <img src='https://www.jqwidgets.com/vue/images/The_Dark_Knight_Rises.jpg' />
         </JqxTooltip>
     </div>
 </template>

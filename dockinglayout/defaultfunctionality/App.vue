@@ -147,43 +147,43 @@
                                     initContent: () => {
                                         // initialize a jqxTree inside the Solution Explorer Panel
                                         let source = [{
-                                            icon: '../../../images/earth.png',
+                                            icon: 'https://www.jqwidgets.com/vue/images/earth.png',
                                             label: 'Project',
                                             expanded: true,
                                             items: [
                                                 {
-                                                    icon: '../../../images/folder.png',
+                                                    icon: 'https://www.jqwidgets.com/vue/images/folder.png',
                                                     label: 'css',
                                                     expanded: true,
                                                     items: [{
-                                                        icon: '../../../images/nav1.png',
+                                                        icon: 'https://www.jqwidgets.com/vue/images/nav1.png',
                                                         label: 'jqx.base.css'
                                                     },
                                                     {
-                                                        icon: '../../../images/nav1.png',
+                                                        icon: 'https://www.jqwidgets.com/vue/images/nav1.png',
                                                         label: 'jqx.energyblue.css'
                                                     }, {
-                                                        icon: '../../../images/nav1.png',
+                                                        icon: 'https://www.jqwidgets.com/vue/images/nav1.png',
                                                         label: 'jqx.orange.css'
                                                     }]
                                                 },
                                                 {
-                                                    icon: '../../../images/folder.png',
+                                                    icon: 'https://www.jqwidgets.com/vue/images/folder.png',
                                                     label: 'scripts',
                                                     items: [{
-                                                        icon: '../../../images/nav1.png',
+                                                        icon: 'https://www.jqwidgets.com/vue/images/nav1.png',
                                                         label: 'jqxcore.js'
                                                     },
                                                     {
-                                                        icon: '../../../images/nav1.png',
+                                                        icon: 'https://www.jqwidgets.com/vue/images/nav1.png',
                                                         label: 'jqxdata.js'
                                                     }, {
-                                                        icon: '../../../images/nav1.png',
+                                                        icon: 'https://www.jqwidgets.com/vue/images/nav1.png',
                                                         label: 'jqxgrid.js'
                                                     }]
                                                 },
                                                 {
-                                                    icon: '../../../images/nav1.png',
+                                                    icon: 'https://www.jqwidgets.com/vue/images/nav1.png',
                                                     label: 'index.htm'
                                                 }]
                                         }];

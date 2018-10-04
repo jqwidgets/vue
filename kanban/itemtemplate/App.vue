@@ -61,16 +61,16 @@
                 let resourcesSource =
                     {
                         localData: [
-                            { id: 0, name: 'No name', image: '../../../images/common.png', common: true },
-                            { id: 1, name: 'Andrew Fuller', image: '../../../images/andrew.png' },
-                            { id: 2, name: 'Janet Leverling', image: '../../../images/janet.png' },
-                            { id: 3, name: 'Steven Buchanan', image: '../../../images/steven.png' },
-                            { id: 4, name: 'Nancy Davolio', image: '../../../images/nancy.png' },
-                            { id: 5, name: 'Michael Buchanan', image: '../../../images/Michael.png' },
-                            { id: 6, name: 'Margaret Buchanan', image: '../../../images/margaret.png' },
-                            { id: 7, name: 'Robert Buchanan', image: '../../../images/robert.png' },
-                            { id: 8, name: 'Laura Buchanan', image: '../../../images/Laura.png' },
-                            { id: 9, name: 'Laura Buchanan', image: '../../../images/Anne.png' }
+                            { id: 0, name: 'No name', image: 'https://www.jqwidgets.com/vue/images/common.png', common: true },
+                            { id: 1, name: 'Andrew Fuller', image: 'https://www.jqwidgets.com/vue/images/andrew.png' },
+                            { id: 2, name: 'Janet Leverling', image: 'https://www.jqwidgets.com/vue/images/janet.png' },
+                            { id: 3, name: 'Steven Buchanan', image: 'https://www.jqwidgets.com/vue/images/steven.png' },
+                            { id: 4, name: 'Nancy Davolio', image: 'https://www.jqwidgets.com/vue/images/nancy.png' },
+                            { id: 5, name: 'Michael Buchanan', image: 'https://www.jqwidgets.com/vue/images/Michael.png' },
+                            { id: 6, name: 'Margaret Buchanan', image: 'https://www.jqwidgets.com/vue/images/margaret.png' },
+                            { id: 7, name: 'Robert Buchanan', image: 'https://www.jqwidgets.com/vue/images/robert.png' },
+                            { id: 8, name: 'Laura Buchanan', image: 'https://www.jqwidgets.com/vue/images/Laura.png' },
+                            { id: 9, name: 'Laura Buchanan', image: 'https://www.jqwidgets.com/vue/images/Anne.png' }
                         ],
                         dataType: 'array',
                         dataFields: [

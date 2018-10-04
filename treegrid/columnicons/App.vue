@@ -22,7 +22,7 @@
                 dataAdapter: new jqx.dataAdapter(this.source, {
                     beforeLoadComplete: (records) => {
                         for (let i = 0; i < records.length; i++) {
-                            let imgUrl = '../../../images/' + records[i].FirstName.toLowerCase() + '.png';
+                            let imgUrl = 'https://www.jqwidgets.com/vue/images/' + records[i].FirstName.toLowerCase() + '.png';
                             records[i].icon = imgUrl;
                         }
                         return records;

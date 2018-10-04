@@ -9,18 +9,18 @@
             <div class="jqx-rc-all slider-demo-content-inner">
                 <div class="jqx-rc-all slider-demo-content-container">
                     <div id="navigationContainer" class="slider-demo-content-navigation">
-                        <img src="../../../images/previous.png" class="slider-demo-navigation-item" alt="Previous"
+                        <img src="https://www.jqwidgets.com/vue/images/previous.png" class="slider-demo-navigation-item" alt="Previous"
                              title="Previous" id="previousButton" />
-                        <img src="../../../images/play.png" class="slider-demo-navigation-item" alt="Play" title="Play"
+                        <img src="https://www.jqwidgets.com/vue/images/play.png" class="slider-demo-navigation-item" alt="Play" title="Play"
                              id="playButton" />
-                        <img src="../../../images/stop.png" class="slider-demo-navigation-item" alt="Stop" title="Stop"
+                        <img src="https://www.jqwidgets.com/vue/images/stop.png" class="slider-demo-navigation-item" alt="Stop" title="Stop"
                              id="stopButton" />
-                        <img src="../../../images/next.png" class="slider-demo-navigation-item" alt="Next" title="Next"
+                        <img src="https://www.jqwidgets.com/vue/images/next.png" class="slider-demo-navigation-item" alt="Next" title="Next"
                              style="margin-right: 3px" id="nextButton" />
                     </div>
                     <div id="slider-demo-content-0" style="display: block">
                         <div class="slider-demo-content-image-border">
-                            <img src="../../../images/mercedes.jpg" alt="Mercedes" />
+                            <img src="https://www.jqwidgets.com/vue/images/mercedes.jpg" alt="Mercedes" />
                         </div>
                         <div class="slider-demo-content-info">
                             <span class="slider-demo-info-header">Brabus Black Baron</span>
@@ -35,7 +35,7 @@
                     </div>
                     <div id="slider-demo-content-1" style="display: none">
                         <div class="slider-demo-content-image-border">
-                            <img src="../../../images/jaguar.jpg" alt="Jaguar" />
+                            <img src="https://www.jqwidgets.com/vue/images/jaguar.jpg" alt="Jaguar" />
                         </div>
                         <div class="slider-demo-content-info">
                             <span class="slider-demo-info-header">Jaguar XFR</span>
@@ -49,7 +49,7 @@
                     </div>
                     <div id="slider-demo-content-2" style="display: none">
                         <div class="slider-demo-content-image-border">
-                            <img src="../../../images/ferrari.jpg" alt="Ferrari" />
+                            <img src="https://www.jqwidgets.com/vue/images/ferrari.jpg" alt="Ferrari" />
                         </div>
                         <div class="slider-demo-content-info">
                             <span class="slider-demo-info-header">Ferrari Enzo</span>
@@ -63,7 +63,7 @@
                     </div>
                     <div id="slider-demo-content-3" style="display: none">
                         <div class="slider-demo-content-image-border">
-                            <img src="../../../images/lamborgini.jpg" alt="Lamborgini" />
+                            <img src="https://www.jqwidgets.com/vue/images/lamborgini.jpg" alt="Lamborgini" />
                         </div>
                         <div class="slider-demo-content-info">
                             <span class="slider-demo-info-header">Lamborghini Gallardo</span>
@@ -239,7 +239,7 @@
     }
 
     .slider-demo-header {
-        background-image: url(../../../images/slider-demo-header-background.png);
+        background-image: url(https://www.jqwidgets.com/vue/images/slider-demo-header-background.png);
         width: 665px;
         height: 76px;
     }

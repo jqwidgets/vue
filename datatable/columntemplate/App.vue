@@ -24,7 +24,7 @@
                         // rowData - rendered row's object.
                         cellsRenderer: (row, column, value, rowData) => {
                             let image = '<div style="margin: 5px; margin-bottom: 3px;">';
-                            let imgurl = '../../../images/' + rowData.firstname.toLowerCase() + '.png';
+                            let imgurl = 'https://www.jqwidgets.com/vue/images/' + rowData.firstname.toLowerCase() + '.png';
                             let img = '<img width="60" height="60" style="display: block;" src="' + imgurl + '"/>';
                             image += img;
                             image += '</div>';

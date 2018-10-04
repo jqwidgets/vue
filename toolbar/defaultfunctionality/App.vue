@@ -64,7 +64,7 @@
                     case 7:
                         const button = document.createElement('div');
                         const img = document.createElement('img');
-                        img.src = '../../../images/administrator.png'
+                        img.src = 'https://www.jqwidgets.com/vue/images/administrator.png'
                         img.title = 'Custom tool';
                         button.appendChild(img);
                         tool[0].appendChild(button);

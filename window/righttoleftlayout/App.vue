@@ -14,7 +14,7 @@
             </div>
             <div>
                 <div style="direction: rtl;">
-                    <img src="../../../images/building_big.jpg" alt="" class="big-image" />
+                    <img src="https://www.jqwidgets.com/vue/images/building_big.jpg" alt="" class="big-image" />
                     <div>
                         <h3 style="text-align: right; direction: rtl;">30 St Mary Axe</h3>
                         <p class="important-text">

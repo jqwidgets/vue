@@ -5,7 +5,7 @@
             <li style="margin-left: 30px;">
                 <div style="height: 20px; margin-top: 5px;">
                     <div style="float: left;">
-                        <img width="16" height="16" src="../../../images/catalogicon.png" />
+                        <img width="16" height="16" src="https://www.jqwidgets.com/vue/images/catalogicon.png" />
                     </div>
                     <div style="margin-left: 4px; vertical-align: middle; text-align: center; float: left;">
                         US Indexes
@@ -15,7 +15,7 @@
             <li>
                 <div style="height: 20px; margin-top: 5px;">
                     <div style="float: left;">
-                        <img width="16" height="16" src="../../../images/pieicon.png" />
+                        <img width="16" height="16" src="https://www.jqwidgets.com/vue/images/pieicon.png" />
                     </div>
                     <div style="margin-left: 4px; vertical-align: middle; text-align: center; float: left;">
                         NASDAQ compared to S&P 500

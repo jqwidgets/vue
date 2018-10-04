@@ -20,7 +20,7 @@
                     {
                         text: 'Image', datafield: 'pic', width: 115,
                         cellsrenderer: (row, column, value) => {
-                            return '<img src="../../../images/t-shirts/' + value + '"/>';
+                            return '<img src="https://www.jqwidgets.com/vue/images/t-shirts/' + value + '"/>';
                         }
                     },
                     { text: 'Title', datafield: 'label', width: 250 },
@@ -90,7 +90,7 @@
         },
         methods: {
             scrollfeedback: function (row) {
-                return '<table style="height: 150px;"><tr><td><img src="../../../images/t-shirts/' + row.pic + '"/></td></tr><tr><td>' + row.label + '</td></tr></table>';
+                return '<table style="height: 150px;"><tr><td><img src="https://www.jqwidgets.com/vue/images/t-shirts/' + row.pic + '"/></td></tr><tr><td>' + row.label + '</td></tr></table>';
             }
         }
     }

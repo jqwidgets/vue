@@ -55,7 +55,7 @@
         methods: {
             renderer: function (index, label, value) {
                 let datarecord = this.shirtFileNames[index];
-                let imgurl = '../../../images/t-shirts/' + datarecord.toLowerCase() + '.png';
+                let imgurl = 'https://www.jqwidgets.com/vue/images/t-shirts/' + datarecord.toLowerCase() + '.png';
                 let img = '<img height="70" width="70" src="' + imgurl + '"/>';
                 let table = '<table style="min-width: 130px;"><tr><td style="width: 80px;">' + img + '</td><td>' + label + '</td></tr></table>';
 

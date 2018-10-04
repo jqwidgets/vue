@@ -19,7 +19,7 @@
         <br />
         <div>Layout Types:</div>
         <div @click="clickOnLayout($event)">
-            <img title="click to apply a new layout" alt="layout types" src="../../../images/LayoutTypes.png" />
+            <img title="click to apply a new layout" alt="layout types" src="https://www.jqwidgets.com/vue/images/LayoutTypes.png" />
         </div>
         <br />
         <div>Spiral:</div>

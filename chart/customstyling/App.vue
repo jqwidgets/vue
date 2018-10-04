@@ -5,7 +5,7 @@
               :showLegend="true" :enableAnimation="true" :padding="padding"
               :titlePadding="titlePadding" :source="dataAdapter" :xAxis="xAxis"
               :valueAxis="valueAxis" :seriesGroups="seriesGroups" :colorScheme="'scheme04'"
-              :backgroundImage="'../images/chart_background.jpg'">
+              :backgroundImage="'https://www.jqwidgets.com/vue/images/chart_background.jpg'">
     </JqxChart>
 </template>
 

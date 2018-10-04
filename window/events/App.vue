@@ -19,7 +19,7 @@
                    :cancelButton="'.cancel'"
                    :resizable="false">
             <div>
-                <img width="14" height="14" src="../../../images/help.png" alt="" />
+                <img width="14" height="14" src="https://www.jqwidgets.com/vue/images/help.png" alt="" />
                 Modal Window
             </div>
             <div>

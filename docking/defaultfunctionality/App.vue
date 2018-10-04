@@ -10,7 +10,7 @@
                     </JqxCalendar>
                     <h3 style="text-align: center; color: #787878;">Sunny</h3>
                     <div style="float: left; margin-left: 30px; text-align: center;">
-                        <img src="../../../images/sun-icon.png" alt="Sunny" />
+                        <img src="https://www.jqwidgets.com/vue/images/sun-icon.png" alt="Sunny" />
                     </div>
                     <div style="text-align: left; margin-left: 5px; margin-top: 10px; font-size: 10px; float: right; margin-right: 20px;">
                         Mo: 23 &deg;C<br />
@@ -32,7 +32,7 @@
                         </ul>
                         <div>
                             <div style="padding: 3px; margin: 10px; width: 150px; height: 84px; float: left;">
-                                <img src="../../../images/news_ie6.jpg" alt="IE6" title="IE6" />
+                                <img src="https://www.jqwidgets.com/vue/images/news_ie6.jpg" alt="IE6" title="IE6" />
                             </div>
                             <span style="font-size: 11px;">
                                 Microsoft is set to get a little more pushy ensuring
@@ -42,7 +42,7 @@
                         </div>
                         <div>
                             <div style="padding: 3px; margin: 10px; width: 144px; height: 81px; float: left;">
-                                <img src="../../../images/local.jpg" alt="Tennis" title="Tennis" />
+                                <img src="https://www.jqwidgets.com/vue/images/local.jpg" alt="Tennis" title="Tennis" />
                             </div>
                             <span style="font-size: 11px;">
                                 The High Court has dismissed a challenge to laws that
@@ -52,7 +52,7 @@
                         </div>
                         <div>
                             <div style="padding: 3px; margin: 10px; width: 130px; height: 73px; float: left;">
-                                <img src="../../../images/tennis.jpg" alt="Tennis" title="Tennis" />
+                                <img src="https://www.jqwidgets.com/vue/images/tennis.jpg" alt="Tennis" title="Tennis" />
                             </div>
                             <span style="font-size: 11px;">
                                 British number one Elena Baltacha says Judy Murray is
@@ -72,7 +72,7 @@
                     <JqxPanel :width="400" :height="180">
                         <div style="padding-right: 20px;">
                             <div style="padding: 3px; width: 150px; height: 110px; float: left; margin: 10px;">
-                                <img src="../../../images/leo.jpg" alt="Leo" title="Leo" />
+                                <img src="https://www.jqwidgets.com/vue/images/leo.jpg" alt="Leo" title="Leo" />
                             </div>
                             <h3 style="text-align: center; color: #787878;">Leo</h3>
                             <span style="font-size: 11px">

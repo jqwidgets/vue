@@ -71,7 +71,7 @@
                             </tr>
                             <tr>
                                 <td class="image">
-                                    <img src="../../../images/tv.png" />
+                                    <img src="https://www.jqwidgets.com/vue/images/tv.png" />
                                 </td>
                             </tr>
                             <tr>
@@ -146,7 +146,7 @@
                             </tr>
                             <tr>
                                 <td class="image">
-                                    <img src="../../../images/Samsung-Galaxy-S4.png" />
+                                    <img src="https://www.jqwidgets.com/vue/images/Samsung-Galaxy-S4.png" />
                                 </td>
                             </tr>
                             <tr>
@@ -236,7 +236,7 @@
                             </tr>
                             <tr>
                                 <td class="image">
-                                    <img src="../../../images/camera.png" />
+                                    <img src="https://www.jqwidgets.com/vue/images/camera.png" />
                                 </td>
                             </tr>
                             <tr>
@@ -341,7 +341,7 @@
                             </tr>
                             <tr>
                                 <td class="image">
-                                    <img src="../../../images/l-25.jpg" style="width: 140px; height: 105px;" />
+                                    <img src="https://www.jqwidgets.com/vue/images/l-25.jpg" style="width: 140px; height: 105px;" />
                                 </td>
                             </tr>
                             <tr>

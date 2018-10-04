@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="img-container">
-            <img src="../../../images/mailIcon.png">
+            <img src="https://www.jqwidgets.com/vue/images/mailIcon.png">
             <span>Inbox</span>
         </div>
 
@@ -26,7 +26,7 @@
                             <td style="text-align: center;">
                                 No new mail under <em>Promotions</em>.<br />
                                 <button id="refreshButton" title="Refresh">
-                                    <img src="../../../images/refresh.png" />
+                                    <img src="https://www.jqwidgets.com/vue/images/refresh.png" />
                                 </button>
                             </td>
                         </tr>
