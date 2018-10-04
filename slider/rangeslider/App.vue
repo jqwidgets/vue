@@ -245,6 +245,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .demo-laptop-catalog-table {
         table-layout: fixed;
         border-collapse: separate;
@@ -321,5 +322,5 @@
     .resetButton {
         margin-top: 35px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

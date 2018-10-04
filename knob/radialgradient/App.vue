@@ -53,6 +53,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .jqx-numberinput {
         left: 120px;
         top: 185px;
@@ -64,5 +65,5 @@
         .jqx-numberinput > input {
             font-size: 45px !important;
         }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

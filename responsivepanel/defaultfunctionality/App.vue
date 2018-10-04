@@ -172,6 +172,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .jqx-responsive-panel, .jqx-panel {
         float: left;
     }
@@ -185,5 +186,5 @@
         margin-right: 5px;
         line-height: 25px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

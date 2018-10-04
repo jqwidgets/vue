@@ -30,6 +30,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .jqx-slider {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -42,5 +43,5 @@
         margin-left: 20px;
         float: left;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

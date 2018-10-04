@@ -75,6 +75,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     body, html {
         width: 100%;
         height: 100%;
@@ -87,5 +88,5 @@
     .jqx-layout-group-auto-hide-content-vertical {
         width: 200px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

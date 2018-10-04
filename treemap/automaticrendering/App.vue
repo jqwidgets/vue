@@ -97,8 +97,9 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .jqx-treemap-legend {
         background: rgba(0, 0, 0, 0.4);
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

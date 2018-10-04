@@ -76,6 +76,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .gaugeValue {
         background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #f3f3f3));
         background-image: -webkit-linear-gradient(#fafafa, #f3f3f3);
@@ -97,5 +98,5 @@
         font-size: 17px;
         width: 70px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

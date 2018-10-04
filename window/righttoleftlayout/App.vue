@@ -64,6 +64,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .big-image {
         float: left;
         margin-right: 15px;
@@ -88,5 +89,5 @@
         font-style: italic;
         text-align: right;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

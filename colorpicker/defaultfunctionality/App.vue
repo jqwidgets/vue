@@ -71,6 +71,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .photo {
         width: 500px;
         height: 350px;
@@ -85,5 +86,5 @@
         -webkit-border-radius: 10px;
         border-radius: 10px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

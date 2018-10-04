@@ -124,6 +124,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     html, body {
         width: 100vw;
         height: 100vh;
@@ -162,5 +163,5 @@
         font-size: 11px;
         font-style: italic;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

@@ -61,6 +61,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     #kanbanBox1 {
         width: 400px;
         height: 400px;
@@ -90,5 +91,5 @@
         margin: 2px;
         background-color: #5dc3f0;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

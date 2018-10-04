@@ -59,6 +59,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .jqx-input {
         width: 110px;
         height: 70px;
@@ -81,5 +82,5 @@
         border: none !important;
         box-shadow: none !important;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

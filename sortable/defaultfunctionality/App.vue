@@ -34,6 +34,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .jqx-sortable {
         margin: 2px;
         padding: 5px;
@@ -54,5 +55,5 @@
     .jqx-sortable div:hover {
         border: 1px solid #356AA0;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

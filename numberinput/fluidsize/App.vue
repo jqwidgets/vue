@@ -15,6 +15,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     html, body {
         width: 100vw;
         height: 100vh;
@@ -23,5 +24,5 @@
         margin: 0;
         overflow: hidden;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

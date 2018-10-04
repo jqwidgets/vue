@@ -483,6 +483,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .button {
         margin: 2px;
         margin-right: 0;
@@ -858,5 +859,5 @@
         .icon.text_underline {
             background-position: -1200px 0;
         }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

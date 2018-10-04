@@ -200,7 +200,8 @@
                             '<head>\n' +
                             '<meta charset="utf-8" />\n' +
                             '<title>jQWidgets Scheduler</title>\n' +
-                            '<style>\n' +
+                            '<style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';\n' +
                             '.printTable {\n' +
                             'border-color: #aaa;\n' +
                             '}\n' +
@@ -212,7 +213,7 @@
                             'border: 1px solid #DDD;\n' +
                             'vertical-align: top;\n' +
                             '}\n' +
-                            '  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+                            '  
 </style>' +
                             '</head>\n' +
                             '<body>\n' + appointmentContent + '\n</body>\n</html>';

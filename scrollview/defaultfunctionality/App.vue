@@ -41,6 +41,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .photo {
         width: 600px;
         height: 450px;
@@ -53,5 +54,5 @@
         display: inline-block;
         margin-right: 10px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

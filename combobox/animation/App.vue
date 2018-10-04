@@ -64,6 +64,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     #selectionlog {
         float: left;
         font-size: 13px;
@@ -79,5 +80,5 @@
         margin-top: 20px;
         margin-left: 100px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

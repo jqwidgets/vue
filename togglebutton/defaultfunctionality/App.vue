@@ -31,6 +31,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .container {
         margin-left: 25px;
     }
@@ -41,5 +42,5 @@
     .jqx-button:last-of-type {
         margin-left: 20px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

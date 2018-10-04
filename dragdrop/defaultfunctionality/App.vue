@@ -229,6 +229,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .draggable-demo-cart {
         border: 2px dashed #aaa;
         padding: 5px;
@@ -322,5 +323,5 @@
         margin-top: 7px;
         padding: 7px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

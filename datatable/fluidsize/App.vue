@@ -40,6 +40,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     html, body {
         padding: 3px;
         box-sizing: border-box;
@@ -48,5 +49,5 @@
         width: 100%;
         height: 100%;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

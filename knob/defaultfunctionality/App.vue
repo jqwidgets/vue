@@ -90,6 +90,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     #container {
         position: relative;
     }
@@ -111,5 +112,5 @@
         font-size: 20px !important;
         color: grey !important;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

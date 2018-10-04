@@ -133,6 +133,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .redLabel {
         fill: #FF0000;
         color: #FF0000;
@@ -146,5 +147,5 @@
         font-size: 11px;
         font-family: Verdana;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

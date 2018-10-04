@@ -42,6 +42,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     #container {
         text-align: center;
     }
@@ -53,5 +54,5 @@
         left: 50%;
         transform: translateX(-50%);
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

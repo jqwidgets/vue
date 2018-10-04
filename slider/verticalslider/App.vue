@@ -207,6 +207,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .slider-demo-navigation-item {
         margin-left: 3px;
         cursor: pointer;
@@ -324,5 +325,5 @@
         text-align: left;
         float: left;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

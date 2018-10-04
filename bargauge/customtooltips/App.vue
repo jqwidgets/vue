@@ -40,6 +40,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .myTooltip {
         padding: 10px;
         font-size: 1.2em;
@@ -47,5 +48,5 @@
         border-width: 3px;
         border-radius: 4px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

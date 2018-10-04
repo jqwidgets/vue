@@ -126,6 +126,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .img-container {
         width: 90%;
         padding: 5px 10px;
@@ -140,5 +141,5 @@
         margin-top: 3px;
         border: none;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

@@ -61,6 +61,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     html, body {
         width: 100vw;
         height: 100vh;
@@ -73,5 +74,5 @@
         height: 100px;
         background: url(https://www.jqwidgets.com/vue/images/imageNature5.jpg) -100px -100px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

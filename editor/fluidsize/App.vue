@@ -27,6 +27,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     body, html {
         width: 100%;
         height: 100%;
@@ -35,5 +36,5 @@
         box-sizing: border-box;
         margin: 0;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

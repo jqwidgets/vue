@@ -23,6 +23,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .jqx-sortable {
         padding: 5px;
         float: left;
@@ -44,5 +45,5 @@
         width: 100px;
         height: 100px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

@@ -280,6 +280,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     a {
         color: inherit;
         text-decoration: none;
@@ -296,5 +297,5 @@
         width: 75%;
         float: left;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

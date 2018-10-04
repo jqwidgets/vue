@@ -879,6 +879,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     html, body {
         width: 100vw;
         height: 100vh;
@@ -901,5 +902,5 @@
         padding: 0px;
         min-height: 57px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

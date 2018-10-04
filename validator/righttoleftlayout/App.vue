@@ -134,6 +134,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .text-input {
         direction: rtl;
     }
@@ -161,5 +162,5 @@
         margin: 0px;
         text-align: right;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

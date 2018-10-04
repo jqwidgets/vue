@@ -135,6 +135,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .jqx-responsive-panel, .jqx-panel {
         float: left;
     }
@@ -149,5 +150,5 @@
         padding: 0;
         margin: 0;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

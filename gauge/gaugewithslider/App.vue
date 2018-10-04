@@ -54,6 +54,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     body, html {
         height: 100%;
     }
@@ -79,5 +80,5 @@
         font-size: 17px;
         width: 70px;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>

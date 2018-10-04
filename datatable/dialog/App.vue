@@ -154,6 +154,7 @@
 </script>
 
 <style>
+  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
     .jqx-button {
         margin: 0;
         padding: 0;
@@ -161,5 +162,5 @@
         align-items: center;
         justify-content: center;
     }
-  @import 'https://www.jqwidgets.com/vue/jqwidgets/styles/jqx.base.css';
+  
 </style>
