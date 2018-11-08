@@ -67,7 +67,7 @@
                             return renderstring;
                         }
                     },
-                    { text: 'Price', datafield: 'price', cellsalign: 'right', cellsformat: 'c2', aggregates: ['sum', 'avg'] }
+                    { text: 'Price', datafield: 'price', cellsalign: 'right', cellsformat: 'c2', aggregates: ['sum', 'avg'], width: 120 }
                 ]
             }
         },

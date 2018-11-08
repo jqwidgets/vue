@@ -56,7 +56,7 @@
   
     .jqx-numberinput {
         left: 120px;
-        top: 185px;
+        top: 175px;
         position: absolute;
         background: transparent !important;
         border: none !important;

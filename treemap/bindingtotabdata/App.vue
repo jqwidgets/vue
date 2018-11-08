@@ -3,7 +3,7 @@
         <div>
             <h3>U.S. Historical Home Prices (1950-2011)</h3>
         </div>
-        <JqxTreeMap :theme="'material'" 
+        <JqxTreeMap
             :width="850" 
             :height="500"
             :displayMember="'Year'"
@@ -23,11 +23,8 @@
     export default {
         components: {
             JqxTreeMap
-        },
-        
+        },     
         beforeCreate: function () {
-            console.log('beforeCreate')
-
              let source =
              {
                   datatype: "tab",
@@ -68,8 +65,7 @@
                     element.jqxTooltip({
                         content: content,
                         position: 'mouse',
-                        autoHideDelay: 6000,
-                        theme: theme
+                        autoHideDelay: 6000
                     });
                 }
             };

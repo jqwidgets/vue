@@ -27,7 +27,7 @@
         },
         data: function () {
             return {
-                getWidth: '90%',
+                getWidth: '800',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'First Name', datafield: 'firstname', width: 120 },

@@ -25,14 +25,14 @@
                                     { name: 'continentCode' },
                                     { name: 'adminName1' }
                                 ],
-                            url: 'http://api.geonames.org/searchJSON',
+                            url: 'https://secure.geonames.org/searchJSON',
                             data:
-                                {
-                                    featureClass: 'P',
-                                    style: 'full',
-                                    maxRows: 12,
-                                    username: 'jqwidgets'
-                                }
+                            {
+                                featureClass: 'P',
+                                style: 'full',
+                                maxRows: 12,
+                                username: 'jqwidgets'
+                            }
                         },
                         {
                             autoBind: true,
@@ -59,6 +59,7 @@
 </script>
 
 <style>
-  
-  
+    .jqx-widget {
+        margin-top: 15px;
+    }
 </style>

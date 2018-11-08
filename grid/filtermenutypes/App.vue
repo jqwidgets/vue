@@ -1,5 +1,5 @@
 ﻿<template>
-    <div style="font-size: 13px; font-family: Verdana; float: left">
+    <div style="font-size: 13px; font-family: Verdana; float: left; width: 100%">
 
         <JqxGrid :theme="'material'" ref="myGrid" @filter="myGridOnFilter($event)"
                  :width="getWidth" :source="dataAdapter" :columns="columns" :sortable="true"
@@ -62,7 +62,8 @@
                     { name: 'lastname', type: 'string' },
                     { name: 'productname', type: 'string' },
                     { name: 'date', type: 'date' },
-                    { name: 'quantity', type: 'number' }
+                    { name: 'quantity', type: 'number' },
+                    { name: 'price', type: 'number' }
                 ],
                 datatype: 'array'
             };

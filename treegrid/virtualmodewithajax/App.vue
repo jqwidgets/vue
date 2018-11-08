@@ -52,7 +52,7 @@
                     },
                 id: 'EmployeeID',
                 root: 'value',
-                url: 'http://services.odata.org/V3/Northwind/Northwind.svc/Employees?$format=json&$callback=?'
+                url: 'https://services.odata.org/V3/Northwind/Northwind.svc/Employees?$format=json&$callback=?'
             };
         },
         methods: {

@@ -30,7 +30,7 @@
         },
         data: function () {
             return {
-                restricter: { left: 8, top: 8, width: 247, height: 247 }
+                restricter: { left: -21, top: 8, width: 217, height: 247 }
             }
         },
         mounted: function () {

@@ -69,7 +69,7 @@
 
                             let options = {
                                 width: '100%', height: 30, source: this.getSourceAdapter('productname'),
-                                popupZIndex: 999999, placeHolder: 'Enter Product: ', displayMember: 'productname'
+                                popupZIndex: 999999, displayMember: 'productname'
                             };
 
                             this.myDropDownList = jqwidgets.createInstance('#myDropDownList', 'jqxDropDownList', options);
@@ -97,7 +97,7 @@
 
                             let options = {
                                 width: '100%', height: 30, value: null,
-                                popupZIndex: 999999, placeHolder: 'Enter Date: '
+                                popupZIndex: 999999
                             };
 
                             this.myDateTimeInput = jqwidgets.createInstance('#myDateTimeInput', 'jqxDateTimeInput', options);

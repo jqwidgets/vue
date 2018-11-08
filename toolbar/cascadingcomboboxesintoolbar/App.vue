@@ -1,7 +1,7 @@
 <template>
-    <JqxToolbar 
-        :width="getWidth" :height="35"
-        :tools="tools" :initTools="initTools">
+    <JqxToolbar :theme="'material'"
+                :width="getWidth" :height="60"
+                :tools="tools" :initTools="initTools">
     </JqxToolbar>
 </template>
 
@@ -82,6 +82,7 @@
 </script>
 
 <style>
-  
-   
+    .jqx-toolbar {
+        padding: 1em;
+    }
 </style>

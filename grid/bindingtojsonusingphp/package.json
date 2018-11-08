@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "jqwidgets-scripts": "~6.1.0",
-    "vue": "^2.5.16"
-  },
-  "main": "main.js"
-}

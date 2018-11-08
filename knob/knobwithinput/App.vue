@@ -7,7 +7,8 @@
                  :dial="dial" :startAngle="270" :endAngle="630">
         </JqxKnob>
 
-        <JqxInput :theme="'material'" ref="myInput" @change="myInputOnChange()" :value="30"></JqxInput>
+        <input ref="myInput" @change="myInputOnChange()" value="30">
+
     </div>
 </template>
 <script>
@@ -46,41 +47,30 @@
             }
         },
         methods: {
-            myKnobOnChange: function(event) {
+            myKnobOnChange: function (event) {
                 if (event.target.nodeName === 'INPUT')
                     return;
-                this.$refs.myInput.val(event.args.value);
+                this.$refs.myInput.value = event.args.value;
             },
             myInputOnChange: function () {
-                this.$refs.myKnob.val(this.$refs.myInput.val());
+                this.$refs.myKnob.val(this.$refs.myInput.value);
             }
         }
     }
 </script>
 
 <style>
-  
-    .jqx-input {
+    input {
         width: 110px;
         height: 70px;
-        position: absolute;
-        vertical-align: middle;
-        border: 0px;
         font-weight: bold;
-        font-variant: normal;
-        font-stretch: normal;
-        font-size: 48px !important;
-        font-family: Arial !important;
+        font-size: 48px;
         text-align: center;
-        color: #00a644 !important;
-        padding: 0px !important;
-        background: none !important;
-        margin-top: -35px !important;
-        margin-left: -55px !important;
-        left: 210px;
-        top: 230px;
-        border: none !important;
-        box-shadow: none !important;
+        color: #00a644;
+        border: none;
+        outline: none;
+        position: relative;
+        left: 145px;
+        top: -230px;
     }
-  
 </style>

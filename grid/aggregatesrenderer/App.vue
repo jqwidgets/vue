@@ -53,7 +53,7 @@
                         }
                     },
                     {
-                        text: 'Price', datafield: 'price', cellsalign: 'right', cellsformat: 'c2', aggregates: ['sum', 'avg'],
+                        text: 'Price', datafield: 'price', cellsalign: 'right', cellsformat: 'c2', aggregates: ['sum', 'avg'], width: 120,
                         aggregatesrenderer: (aggregates, column, element, summaryData) => {
                             let renderstring = '<div class="jqx-widget-content jqx-widget-content" style="float: left; width: 100%; height: 100%;">';
                             for (let obj in aggregates) {

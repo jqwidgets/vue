@@ -1,5 +1,5 @@
 ﻿<template>
-    <div style="font-size: 13px; font-family: Verdana; float: left">
+    <div style="font-size: 13px; font-family: Verdana; float: left; width: 100%;">
         <h3>Customers</h3>
 
         <JqxGrid :theme="'material'" ref="customersGrid" @rowselect="customersGridOnRowSelect($event)"

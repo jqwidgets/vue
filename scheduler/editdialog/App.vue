@@ -16,7 +16,7 @@
         },
         data: function () {
             return {
-				getWidth: '90%',
+                getWidth: '90%',
                 printButton: null,
                 date: new jqx.date(2016, 11, 23),
                 appointmentDataFields: 
@@ -200,8 +200,7 @@
                             '<head>\n' +
                             '<meta charset="utf-8" />\n' +
                             '<title>jQWidgets Scheduler</title>\n' +
-                            '<style>
-  \n' +
+                            '<style>\n' +
                             '.printTable {\n' +
                             'border-color: #aaa;\n' +
                             '}\n' +
@@ -213,8 +212,7 @@
                             'border: 1px solid #DDD;\n' +
                             'vertical-align: top;\n' +
                             '}\n' +
-                            '  
-</style>' +
+                            '/style>' +
                             '</head>\n' +
                             '<body>\n' + appointmentContent + '\n</body>\n</html>';
                     try {

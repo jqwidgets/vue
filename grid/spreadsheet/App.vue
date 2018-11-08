@@ -34,8 +34,8 @@
                 return '<div style="text-align: center; margin-top: 5px;">' + (1 + value) + '</div>';
             };
 
-            generateData = () => {
-                for(let i = 0; i < 26; i++) {
+            (_ => {
+                for (let i = 0; i < 26; i++) {
                     let text = String.fromCharCode(65 + i);
                     if (i == 0) {
                         let cssclass = 'jqx-widget-header';
@@ -44,8 +44,7 @@
                     datafields[datafields.length] = { name: text };
                     this.columns[this.columns.length] = { text: text, datafield: text, width: 60, align: 'center' };
                 }
-            };
-            generateData();
+            })();
 
             this.source = {
                 unboundmode: true,

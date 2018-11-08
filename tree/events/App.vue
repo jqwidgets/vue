@@ -17,10 +17,12 @@
 
 <script>
     import JqxTree from 'jqwidgets-scripts/jqwidgets-vue/vue_jqxtree.vue';
+    import JqxPanel from 'jqwidgets-scripts/jqwidgets-vue/vue_jqxpanel.vue';
 
     export default {
         components: {
-            JqxTree
+            JqxTree,
+            JqxPanel
         },
         data: function () {
             return {

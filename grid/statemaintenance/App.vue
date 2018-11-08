@@ -1,5 +1,5 @@
 ﻿<template>
-    <div style="font-size: 13px; font-family: Verdana; float: left">
+    <div style="font-size: 13px; font-family: Verdana; float: left; width: 100%;">
 
         <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns"

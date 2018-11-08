@@ -91,7 +91,7 @@
         box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
         padding: 10px;
         position: absolute;
-        top: 290px;
+        top: 250px;
         left: 140px;
         font-family: Sans-Serif;
         text-align: center;

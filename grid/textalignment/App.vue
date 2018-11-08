@@ -1,5 +1,5 @@
 ﻿<template>
-    <div style="font-size: 13px; font-family: Verdana; float: left">
+    <div style="font-size: 13px; font-family: Verdana; float: left; width: 100%;">
 
         <JqxGrid :theme="'material'" ref="myGrid"
                  :width="getWidth" :source="dataAdapter" :columns="columns" :selectionmode="'multiplecellsadvanced'">
@@ -39,7 +39,7 @@
                     { text: 'Product', datafield: 'productname', width: 180, cellsalign: 'center', align: 'center' },
                     { text: 'Quantity', datafield: 'quantity', width: 80, cellsalign: 'center', align: 'center' },
                     { text: 'Unit Price', datafield: 'price', width: 90, cellsalign: 'center', align: 'center', cellsformat: 'c2' },
-                    { text: 'Total', datafield: 'total', cellsalign: 'center', align: 'center', cellsformat: 'c2' }
+                    { text: 'Total', datafield: 'total', width: 90, cellsalign: 'center', align: 'center', cellsformat: 'c2' }
                 ]
             }
         },

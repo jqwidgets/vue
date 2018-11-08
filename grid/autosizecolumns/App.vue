@@ -25,13 +25,13 @@
         },
         data: function () {
             return {
-                getWidth: '90%',
+                getWidth: '800',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
-                    { text: 'Ship Name', datafield: 'ShipName', width: 50 },
-                    { text: 'Shipped Date', datafield: 'ShippedDate', width: 30, cellsformat: 'D' },
-                    { text: 'Freight', datafield: 'Freight', width: 30, cellsformat: 'F2', cellsalign: 'right' },
-                    { text: 'Ship Address', datafield: 'ShipAddress', width: 50 },
+                    { text: 'Ship Name', datafield: 'ShipName', width: 180 },
+                    { text: 'Shipped Date', datafield: 'ShippedDate', width: 180, cellsformat: 'D' },
+                    { text: 'Freight', datafield: 'Freight', width: 60, cellsformat: 'F2', cellsalign: 'right' },
+                    { text: 'Ship Address', datafield: 'ShipAddress', width: 150 },
                     { text: 'Ship City', datafield: 'ShipCity', width: 100 },
                     { text: 'Ship Country', datafield: 'ShipCountry' }
                 ]

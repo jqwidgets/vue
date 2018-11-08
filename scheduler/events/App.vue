@@ -25,7 +25,7 @@
         },
         data: function () {
             return {
-				getWidth: '90%',
+                getWidth: '90%',
                 date: new jqx.date(2016, 11, 23),
                 appointmentDataFields: 
                 {
@@ -73,11 +73,11 @@
             },
             mySchedulerOnAppointmentAdd: function (event) {
                 const appointment = event.args.appointment;
-                this.$refs.myLog.innerHTML = 'appointmentDelete is raised';
+                this.$refs.myLog.innerHTML = 'appointmentAdd is raised';
             },
             mySchedulerOnAppointmentDelete: function (event) {
                 const appointment = event.args.appointment;
-                this.$refs.myLog.innerHTML = 'appointmentAdd is raised';
+                this.$refs.myLog.innerHTML = 'appointmentDelete is raised';
             },
             mySchedulerOnAppointmentDoubleClick: function (event) {
                 const appointment = event.args.appointment;

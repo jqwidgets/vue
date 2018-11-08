@@ -32,6 +32,7 @@
 </script>
 
 <style>
-  
-   
+    .jqx-widget {
+        margin-top: 30px;
+    }
 </style>

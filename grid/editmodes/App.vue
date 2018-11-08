@@ -53,14 +53,14 @@
         },
         data: function () {
             return {
-                getWidth: '90%',
+                getWidth: '530',
                 dataAdapter: new jqx.dataAdapter(this.source),
                 columns: [
                     { text: 'First Name', columntype: 'textbox', datafield: 'firstname', width: 90 },
                     { text: 'Last Name', datafield: 'lastname', width: 90 },
-                    { text: 'Product', datafield: 'productname' },
+                    { text: 'Product', datafield: 'productname', width: 190 },
                     { text: 'Quantity', datafield: 'quantity', width: 70, cellsalign: 'right' },
-                    { text: 'Available', datafield: 'available', columntype: 'checkbox', width: 67 }
+                    { text: 'Available', datafield: 'available', columntype: 'checkbox' }
                 ]
             }
         },

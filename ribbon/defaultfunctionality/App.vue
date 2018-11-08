@@ -1,33 +1,33 @@
 <template>
     <div>
-        <JqxRibbon :theme="'material'" ref="myRibbon" class="ribbon"
+        <JqxRibbon ref="myRibbon" class="ribbon"
                    :width="getWidth" :height="131" :animationType="'none'"
                    :selectionMode="'click'" :position="'top'" :mode="'default'"
                    :theme="'demoTheme'" :selectedIndex="1">
             <ul>
                 <li id="fileItem">
-                    <JqxDropDownButton :theme="'material'" class='fileItemButton' ref="fileItemButton"
+                    <JqxDropDownButton class='fileItemButton' ref="fileItemButton"
                                        :width="50" :height="26" :arrowSize="0"
                                        :dropDownWidth="120" :theme="'demoTheme'">
                         <div style="height:110px;">
                             <ul style="list-style-type: none; margin:0px; padding: 3px;">
                                 <li>
-                                    <JqxButton :theme="'material'" class='button' :theme="'demoTheme'">
+                                    <JqxButton class='button' :theme="'demoTheme'">
                                         <div class="icon SaveImage"></div> Save
                                     </JqxButton>
                                 </li>
                                 <li>
-                                    <JqxButton :theme="'material'" class='button' :theme="'demoTheme'">
+                                    <JqxButton class='button' :theme="'demoTheme'">
                                         <div class="icon SaveSelectionImage"></div> Save As
                                     </JqxButton>
                                 </li>
                                 <li>
-                                    <JqxButton :theme="'material'" class='button' :theme="'demoTheme'">
+                                    <JqxButton class='button' :theme="'demoTheme'">
                                         <div class="icon folder"></div> Open
                                     </JqxButton>
                                 </li>
                                 <li>
-                                    <JqxButton :theme="'material'" class='button' :theme="'demoTheme'">
+                                    <JqxButton class='button' :theme="'demoTheme'">
                                         <div class="icon close"></div> Close
                                     </JqxButton>
                                 </li>
@@ -46,11 +46,11 @@
                         <tr>
                             <td rowspan="3" style="text-align: center; height: 70px; font-size: 10px">
                                 <div id="paste" style="width: 50px;">
-                                    <JqxButton :theme="'material'" ref="pasteButton" class="pasteButton" @click='onPasteButtonClick($event)' @mousedown='onMouseDownPasteButton($event)'
+                                    <JqxButton ref="pasteButton" class="pasteButton" @click='onPasteButtonClick($event)' @mousedown='onMouseDownPasteButton($event)'
                                                :width="35" :height="56" :theme="'demoTheme'">
                                         <span class="icon page_paste" style="zoom: 1.5"></span><span class="pasteText">Paste</span>
                                     </JqxButton>
-                                    <JqxDropDownList :theme="'material'" @select='onPasteDropDownSelect($event)' class="pasteDropDown"
+                                    <JqxDropDownList @select='onPasteDropDownSelect($event)' class="pasteDropDown"
                                                      :width="22" :height="10" :autoDropDownHeight="true" :animationType="'none'"
                                                      :theme="'demoTheme'" :selectedIndex="0" :source="pasteData" :dropDownWidth="110"
                                                      :renderer="pasteRenderer" :selectionRenderer="pasteRelectionRenderer">
@@ -58,8 +58,8 @@
                                 </div>
                             </td>
                             <td class="firstrow" rowspan="1">
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Cut (Ctrl + X)'">
-                                    <JqxButton :theme="'material'" class='cutButton' ref="cutButton" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Cut (Ctrl + X)'">
+                                    <JqxButton class='cutButton' ref="cutButton" :theme="'demoTheme'">
                                         <div class="icon cut_red"></div>
                                         <span class="cutText">Cut</span>
                                     </JqxButton>
@@ -68,8 +68,8 @@
                         </tr>
                         <tr>
                             <td class="secondrow">
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Copy (Ctrl + C)'">
-                                    <JqxButton :theme="'material'" class='copyButton' ref="copyButton" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Copy (Ctrl + C)'">
+                                    <JqxButton class='copyButton' ref="copyButton" :theme="'demoTheme'">
                                         <div class="icon page_copy"></div>
                                         <span class="copyText">Copy</span>
                                     </JqxButton>
@@ -78,8 +78,8 @@
                         </tr>
                         <tr>
                             <td class="thirdrow">
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Format Painter'">
-                                    <JqxButton :theme="'material'" class='formatPainter' ref="formatPainter" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Format Painter'">
+                                    <JqxButton class='formatPainter' ref="formatPainter" :theme="'demoTheme'">
                                         <div class="icon FormatPainterImage"></div>
                                         <span class="formatPainter">Format Painter</span>
                                     </JqxButton>
@@ -97,49 +97,49 @@
                     <table class="buttonHolderTable" style="float: left;">
                         <tr>
                             <td colspan="4">
-                                <JqxDropDownList :theme="'material'" :width="120" :height="21" :autoDropDownHeight="true"
+                                <JqxDropDownList :width="120" :height="21" :autoDropDownHeight="true"
                                                  :theme="'demoTheme'" :selectedIndex="1" :source="fontListSource">
                                 </JqxDropDownList>
                             </td>
                             <td>
-                                <JqxDropDownList :theme="'material'" style="margin-left: 7px;"
+                                <JqxDropDownList style="margin-left: 7px;"
                                                  :width="70" :height="21" :autoDropDownHeight="true" :renderer="fontSizeListRenderer"
                                                  :theme="'demoTheme'" :selectedIndex="2" :source="fontSizeListSource">
                                 </JqxDropDownList>
                             </td>
                             <td>
-                                <JqxButton :theme="'material'" :theme="'demoTheme'"><div class="icon fontsizeincrease16"></div></JqxButton>
+                                <JqxButton :theme="'demoTheme'"><div class="icon fontsizeincrease16"></div></JqxButton>
                             </td>
                             <td>
-                                <JqxButton :theme="'material'" :theme="'demoTheme'"><div class="icon fontsizedecrease16"></div></JqxButton>
+                                <JqxButton :theme="'demoTheme'"><div class="icon fontsizedecrease16"></div></JqxButton>
                             </td>
                             <td>
-                                <JqxButton :theme="'material'" :theme="'demoTheme'"><div class="icon ClearFormattingImage"></div></JqxButton>
+                                <JqxButton :theme="'demoTheme'"><div class="icon ClearFormattingImage"></div></JqxButton>
                             </td>
                             <td>
-                                <JqxDropDownList :theme="'material'" :width="50" :selectionRenderer="changeCaseListSelectionRenderer" :autoDropDownHeight="true"
+                                <JqxDropDownList :width="50" :selectionRenderer="changeCaseListSelectionRenderer" :autoDropDownHeight="true"
                                                  :theme="'demoTheme'" :selectedIndex="0" :source="changeCaseListSource" :dropDownWidth="150">
                                 </JqxDropDownList>
                             </td>
                         </tr>
                         <tr class="secondrow">
                             <td colspan="8">
-                                <JqxDropDownButton :theme="'material'" ref="fontColorButton"
+                                <JqxDropDownButton ref="fontColorButton"
                                                    :width="123" :height="21"
                                                    :dropDownWidth="180" :theme="'demoTheme'">
                                     <div style="padding: 3px;">
-                                        <JqxColorPicker :theme="'material'" @colorchange='onFontColorPicker($event)'
+                                        <JqxColorPicker @colorchange='onFontColorPicker($event)'
                                                         :width="180" :height="180"
                                                         :color="'FF0000'" :colorMode="'hue'">
                                         </JqxColorPicker>
                                     </div>
                                 </JqxDropDownButton>
                                 <div class="separator"></div>
-                                <JqxDropDownButton :theme="'material'" ref="highlightColorButton"
+                                <JqxDropDownButton ref="highlightColorButton"
                                                    :width="130" :height="21"
                                                    :dropDownWidth="180" :theme="'demoTheme'">
                                     <div style="padding: 3px;">
-                                        <JqxColorPicker :theme="'material'" @colorchange='onHighlightColorPicker($event)'
+                                        <JqxColorPicker @colorchange='onHighlightColorPicker($event)'
                                                         :width="180" :height="180"
                                                         :color="'FF0000'" :colorMode="'hue'">
                                         </JqxColorPicker>
@@ -149,34 +149,34 @@
                         </tr>
                         <tr class="thirdrow">
                             <td colspan="8" style="padding: 0;">
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Superscript'" :height="20">
-                                    <JqxToggleButton :theme="'material'" ref="superScript" @click='onSuperScriptClick()' :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Superscript'" :height="20">
+                                    <JqxToggleButton ref="superScript" @click='onSuperScriptClick()' :theme="'demoTheme'">
                                         <div class="icon text_superscript"></div>
                                     </JqxToggleButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Subscript'" :height="20">
-                                    <JqxToggleButton :theme="'material'" ref="subScript" @click='onSubScriptClick()' :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Subscript'" :height="20">
+                                    <JqxToggleButton ref="subScript" @click='onSubScriptClick()' :theme="'demoTheme'">
                                         <div class="icon text_subscript"></div>
                                     </JqxToggleButton>
                                 </JqxTooltip>
                                 <div class="separator" style="top: 3px;"></div>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Bold (Ctrl + B)'" :height="20">
-                                    <JqxToggleButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Bold (Ctrl + B)'" :height="20">
+                                    <JqxToggleButton :theme="'demoTheme'">
                                         <div class="icon text_bold"></div>
                                     </JqxToggleButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Italic (Ctrl + I)'" :height="20">
-                                    <JqxToggleButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Italic (Ctrl + I)'" :height="20">
+                                    <JqxToggleButton :theme="'demoTheme'">
                                         <div class="icon text_italic"></div>
                                     </JqxToggleButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Underline (Ctrl + U)'" :height="20">
-                                    <JqxToggleButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Underline (Ctrl + U)'" :height="20">
+                                    <JqxToggleButton :theme="'demoTheme'">
                                         <div class="icon text_underline"></div>
                                     </JqxToggleButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Strikethrough'" :height="20">
-                                    <JqxToggleButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Strikethrough'" :height="20">
+                                    <JqxToggleButton :theme="'demoTheme'">
                                         <div class="icon text_strikethrough"></div>
                                     </JqxToggleButton>
                                 </JqxTooltip>
@@ -193,37 +193,37 @@
                     <table class="buttonHolderTable" style="float: left;">
                         <tr class="firstrow">
                             <td colspan="8">
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Bulleted List'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Bulleted List'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon text_list_bullets"></div>
                                     </JqxButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Numbered List'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Numbered List'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon text_list_numbers"></div>
                                     </JqxButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Decrease Indent'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Decrease Indent'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon text_indent"></div>
                                     </JqxButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Increase Indent'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Increase Indent'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon text_indent_remove"></div>
                                     </JqxButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Sort Direction'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Sort Direction'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon SortHS"></div>
                                     </JqxButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Fill Style'" style="vertical-align: middle;">
-                                    <JqxDropDownButton :theme="'material'" ref="bucketColorButton"
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Fill Style'" style="vertical-align: middle;">
+                                    <JqxDropDownButton ref="bucketColorButton"
                                                        :width="42" :height="20"
                                                        :dropDownWidth="180" :theme="'demoTheme'">
                                         <div style="padding: 3px;">
-                                            <JqxColorPicker :theme="'material'" @colorchange='onBucketColorPicker($event)'
+                                            <JqxColorPicker @colorchange='onBucketColorPicker($event)'
                                                             :width="180" :height="180"
                                                             :color="'000000'" :colorMode="'hue'">
                                             </JqxColorPicker>
@@ -234,34 +234,34 @@
                         </tr>
                         <tr class="secondrow">
                             <td colspan="8">
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Align Text Left (Ctrl + L)'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Align Text Left (Ctrl + L)'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon text_align_left"></div>
                                     </JqxButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Center (Ctrl + E)'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Center (Ctrl + E)'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon text_align_center"></div>
                                     </JqxButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Align Text Right (Ctrl + R)'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Align Text Right (Ctrl + R)'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon text_align_right"></div>
                                     </JqxButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Justify (Ctrl + J)'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Justify (Ctrl + J)'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon text_align_justify"></div>
                                     </JqxButton>
                                 </JqxTooltip>
                                 <div class="separator" style="top:5px; height: 15px;"></div>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Line and Paragraph Spacing'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Line and Paragraph Spacing'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon text_linespacing"></div>
                                     </JqxButton>
                                 </JqxTooltip>
-                                <JqxTooltip :theme="'material'" :position="'mouse'" :theme="'demoTheme'" :content="'Show/Hide special characters'">
-                                    <JqxButton :theme="'material'" :theme="'demoTheme'">
+                                <JqxTooltip :position="'mouse'" :theme="'demoTheme'" :content="'Show/Hide special characters'">
+                                    <JqxButton :theme="'demoTheme'">
                                         <div class="icon ShowParagraphMarksImage"></div>
                                     </JqxButton>
                                 </JqxTooltip>
@@ -280,19 +280,19 @@
                     <table class="buttonHolderTable" style="height: 100%;">
                         <tr>
                             <td class="bigTd">
-                                <JqxButton :theme="'material'" class='button left' :theme="'demoTheme'" :width="36" :height="36">
+                                <JqxButton class='button left' :theme="'demoTheme'" :width="36" :height="36">
                                     <img class="img" src="https://www.jqwidgets.com/vue/images/help-26.png" />
                                 </JqxButton>
                                 Help
                             </td>
                             <td class="bigTd">
-                                <JqxButton :theme="'material'" class='button left' :theme="'demoTheme'" :width="36" :height="36">
+                                <JqxButton class='button left' :theme="'demoTheme'" :width="36" :height="36">
                                     <img class="img" src="https://www.jqwidgets.com/vue/images/about-26.png" />
                                 </JqxButton>
                                 About
                             </td>
                             <td class="bigTd">
-                                <JqxButton :theme="'material'" class="button left" :theme="'demoTheme'" :width="36" :height="36">
+                                <JqxButton class="button left" :theme="'demoTheme'" :width="36" :height="36">
                                     <img class="img" src="https://www.jqwidgets.com/vue/images/downloading_updates-26.png" />
                                 </JqxButton>
                                 Update
@@ -302,7 +302,7 @@
                 </div>
             </div>
         </JqxRibbon>
-        <JqxGrid :theme="'material'" class="grid" :width="850" :source="gridData.source" :theme="'demoTheme'" :editable="true"
+        <JqxGrid class="grid" :width="850" :source="gridData.source" :theme="'demoTheme'" :editable="true"
                  :columnsresize="true" :selectionmode='"multiplecellsadvanced"' :columns="gridData.columns">
         </JqxGrid>
     </div>

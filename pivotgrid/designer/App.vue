@@ -122,7 +122,7 @@
                             }
                         },
                         pivotValuesOnRows: false,
-                        rows: [{ dataField: 'firstname', text: 'First Name' }, { dataField: 'lastname' }],
+                        rows: [{ dataField: 'firstname', text: 'First Name' }, { dataField: 'lastname', text: 'Last Name' }],
                         columns: [{ dataField: 'productname', align: 'left' }],
                         filters: [
                             {

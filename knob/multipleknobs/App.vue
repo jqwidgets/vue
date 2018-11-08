@@ -174,7 +174,7 @@
 <style>
   
     #myKnobTwo {
-        top: 75px !important;
+        top: 60px !important;
     }
 
     .inputField1 {

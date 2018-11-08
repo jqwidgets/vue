@@ -89,10 +89,6 @@
                 // called when the DatatreeGrid is loaded.
             },
             renderToolbar: function (toolBar) {
-                let toTheme = (className) => {
-                    if (theme == "") return className;
-                    return className + " " + className + "-" + theme;
-                };
                 let container = document.createElement('div');
                 container.style.cssText = 'overflow: hidden; position: relative; height: 100%; width: 100%;';
 
@@ -109,11 +105,11 @@
 
                 toolBar[0].appendChild(container);
 
-                let addButton = createButton(toTheme('jqx-icon-plus'));
-                let editButton = createButton(toTheme('jqx-icon-edit'));
-                let deleteButton = createButton(toTheme('jqx-icon-delete'));
-                let updateButton = createButton(toTheme('jqx-icon-save'));
-                let cancelButton = createButton(toTheme('jqx-icon-cancel'));
+                let addButton = createButton('jqx-icon-plus');
+                let editButton = createButton('jqx-icon-edit');
+                let deleteButton = createButton('jqx-icon-delete');
+                let updateButton = createButton('jqx-icon-save');
+                let cancelButton = createButton('jqx-icon-cancel');
                 container.appendChild(addButton);
                 container.appendChild(editButton);
                 container.appendChild(deleteButton);
