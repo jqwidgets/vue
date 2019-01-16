@@ -2,7 +2,7 @@
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20over%2060%20feature-complete%20VUE%20Components%20based%20on%20jQWidgets%20&url=https://www.jqwidgets.com/&via=jqwidgets&hashtags=bootstrap,design,templates,vue,developers,webcomponents,vuejs,controls,material)
 [![Price](https://img.shields.io/badge/price-COMMERCIAL-0098f7.svg)](https://jqwidgets.com/license/)
-[![npm](https://img.shields.io/npm/v/froala-design-blocks.svg?colorB=brightgreen)](https://www.npmjs.com/package/jqwidgets-scripts)
+[![npm](https://img.shields.io/npm/v/jqwidgets-scripts.svg?colorB=brightgreen)](https://www.npmjs.com/package/jqwidgets-scripts)
 [![](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=www.jqwidgets.com)](https://www.jqwidgets.com)
 
 
