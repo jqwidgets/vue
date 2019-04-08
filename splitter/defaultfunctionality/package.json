@@ -1,8 +1,8 @@
 {
   "dependencies": {
   	"axios": "0.18.0",
-    "jqwidgets-scripts": "~6.1.0",
-    "vue": "^2.5.16"
+    "jqwidgets-scripts": "^7.1.0",
+    "vue": "^2.6.10"
   },
   "main": "main.js"
 }
